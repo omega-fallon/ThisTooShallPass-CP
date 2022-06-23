@@ -1,0 +1,75 @@
+{
+	"Changes": [
+		{
+			"LogName": "SamHouse Events - Sam/Jodi/Kent dead",
+			"Target": "Data/Events/SamHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Sam, Jodi, Kent": true,
+			},
+			
+			"Entries": {
+				"95/e 93/k 94/t 1800 1950/i 136/y 2": null,
+			}
+		},
+		
+		{
+			"LogName": "SamHouse Events - Sam/Jodi dead",
+			"Target": "Data/Events/SamHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Sam, Jodi": true,
+			},
+			
+			"Entries": {
+				"94/e 93/k 95/t 1800 1950/i 136/y 1": null,
+			}
+		},
+		
+		{
+			"LogName": "SamHouse Events - Sam/Sebastian dead",
+			"Target": "Data/Events/SamHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Sam, Sebastian": true,
+			},
+			
+			"Entries": {
+				"44/f Sam 500/p Sam": null,
+			}
+		},
+		
+		{
+			"LogName": "SamHouse Events - Jodi/Kent dead",
+			"Target": "Data/Events/SamHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Jodi, Kent": true,
+			},
+			
+			"Entries": {
+				"100/f Kent 750/p Kent/p Jodi": null,
+			}
+		},
+		
+		{
+			"LogName": "SamHouse Events - Sam dead",
+			"Target": "Data/Events/SamHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+			
+			"Entries": {
+				"46/f Sam 1000/p Sam": null,
+				"stayPut": null,
+				"rejectSam": null,
+			}
+		},
+	]
+}

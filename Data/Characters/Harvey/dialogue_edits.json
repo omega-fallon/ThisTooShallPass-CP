@@ -1,0 +1,12 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Harvey",
+			
+			"Entries": {
+				"give_pendant": "!!...$7#$b#I a..admit.. I feel like I have a sense of vertigo right now...$7#$b#You make me feel as if I could fly, @.$4#$b#I should let {{LewisSubF}} know about our wedding.  It will take about three days to put together.$4",
+			}
+		},
+	]
+}

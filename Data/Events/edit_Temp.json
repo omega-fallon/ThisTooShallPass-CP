@@ -1,0 +1,53 @@
+{
+	"Changes": [
+		{
+			"LogName": "Temp Events - Haley dead",
+			"Target": "Data/Events/Temp",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Haley": true,
+			},
+			
+			"Entries": {
+				"decorate": null,
+				"leave": null,
+			}
+		},
+		
+		{
+			"LogName": "Temp Events - Elliott dead",
+			"Target": "Data/Events/Temp",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			},
+			
+			"Entries": {
+				"tooBold": null,
+				"poppy": null,
+				"heavy": null,
+				"techno": null,
+				"honkytonk": null,
+			}
+		},
+		
+		{
+			"LogName": "Temp Events - Sam/Sebastian/Abigail dead",
+			"Target": "Data/Events/Temp",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Sam, Sebastian, Abigail": true,
+			},
+			
+			"Entries": {
+				"poppy": null,
+				"heavy": null,
+				"techno": null,
+				"honkytonk": null,
+			}
+		},
+	]
+}

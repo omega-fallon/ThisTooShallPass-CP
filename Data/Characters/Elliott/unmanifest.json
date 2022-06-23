@@ -1,0 +1,112 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Elliott, Portraits/Elliott",
+			"FromFile": "Assets/error_spritesheet.png",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Elliott, Characters/Dialogue/MarriageDialogueElliott",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Elliott",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Elliott": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Elliott": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "ERROR"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Elliott": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Elliott": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"ElliottHouse.2": "A work desk. It's covered in notes and crumpled papers. The handwriting is too detached to parse.",
+				"ElliottHouse.4": "An attempt to grow a bonsai tree. It seems to be growing very, very slowly.",
+				"ElliottHouse.6": "An attempt to grow a bonsai tree. It seems to be growing very, very slowly.",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11088": "Seaside Cabin",
+				"MapPage.cs.11168": "Seaside Cabin",
+				
+				"TitleMenu.cs.11726": "The last sentence:",
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach, Maps/Beach-Jellies, Maps/Beach-Luau, Maps/Beach-NightMarket",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 49, "Y": 10 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 3 9 ElliottHouse 600 2600"
+                    }
+                }
+            ],
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"elliottBoat": null,
+				"elliottLetter1": null,
+				"elliottLetter2": null,
+				"elliottLetter3": null,
+				"elliottLetter4": null,
+				"elliottLetter5": null,
+				"elliottLetter6": null,
+				"elliottReading": null,
+			}
+		},
+	]
+}

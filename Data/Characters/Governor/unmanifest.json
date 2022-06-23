@@ -1,0 +1,21 @@
+{
+	"Changes": [		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/MovieTheater_TileSheet, Maps/MovieTheaterJoja_TileSheet, Maps/MovieTheaterJoja_TileSheet_international",
+			"FromFile": "Assets/unmanifest.png",
+			"ToArea": { "X": 208, "Y": 224, "Width": 16, "Height": 32 },
+			"PatchMode": "Replace",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"MovieTheater_Governor": "{{i18n:Omori.TTSP}}",
+				"MovieTheater_Governor2": "{{i18n:Omori.TTSP}}",
+			},
+		},
+	]
+}

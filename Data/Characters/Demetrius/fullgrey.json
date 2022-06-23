@@ -1,0 +1,27 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Demetrius",
+			"FromFile": "Assets/Demetrius/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Demetrius",
+			"FromFile": "Assets/Demetrius/Sprites/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Demetrius_beach",
+			"FromFile": "Assets/Demetrius/Portraits/FullGrey_beach.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Demetrius_beach",
+			"FromFile": "Assets/Demetrius/Sprites/FullGrey_beach.png",
+		},
+	]
+}

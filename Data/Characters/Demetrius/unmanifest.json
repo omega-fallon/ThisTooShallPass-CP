@@ -1,0 +1,82 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Demetrius, Portraits/Demetrius",
+			"FromFile": "Assets/error_spritesheet.png",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Demetrius",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Demetrius",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Demetrius": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Demetrius": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "ERROR"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Demetrius": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Demetrius": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"Demetrius": null,
+				"DemetriusCooking": null,
+				"DemetriusReward": null,
+				"summer_20_1": null,
+				"summer_28": null,
+				"summer_6_2": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			
+			"Entries": {
+				"Demetrius": null,
+				"Demetrius2": null,
+			}
+		}
+	]
+}

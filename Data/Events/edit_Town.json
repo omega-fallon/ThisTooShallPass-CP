@@ -1,0 +1,216 @@
+{
+	"Changes": [
+		{
+			"LogName": "Town Events - Abigail/Pierre dead",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Abigail, Pierre": true,
+			},
+			
+			"Entries": {
+				"4/f Abigail 1500/t 2100 2400/w sunny": null,
+			}
+		},
+		
+		{
+			"LogName": "Town Events - Shane/Clint/Emily dead",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Shane, Clint, Emily": true,
+			},
+			
+			"Entries": {
+				"831125/f Shane 1750/f Clint 500/f Emily 500/t 1000 1600/w sunny": null,
+			}
+		},
+		
+		{
+			"LogName": "Town Events - Alex dead",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Alex": true,
+			},
+			
+			"Entries": {
+				"2481135/f Alex 1000/t 900 1600": null,
+				"didntHear": null,
+			}
+		},
+		
+		{
+			"LogName": "Town Events - Penny/George dead",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Penny, George": true,
+			},
+			
+			"Entries": {
+				"34/f Penny 500/t 900 1400/w sunny": null,
+			}
+		},
+		
+		{
+			"LogName": "Town Events - Sam dead",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+			
+			"Entries": {
+				"45/f Sam 1500/t 1200 1600/w sunny": null,
+				"233104/f Sam 2500/t 2000 2400/w sunny/n samMessage": null,
+			}
+		},
+		
+		{
+			"LogName": "Town Events - Alex dead",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Alex": true,
+			},
+			
+			"Entries": {
+				"3917589/n gaveAlexMoney/O Alex/d Mon/d Tue/d Wed/d Thu/d Fri/d Sat": null,
+			}
+		},
+		
+		{
+			"LogName": "Town Events - Haley dead",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Haley": true,
+			},
+			
+			"Entries": {
+				"6184643/f Haley 3500/O Haley/t 800 1500/w sunny": null,
+				"6184644/e 8675611/O Haley/A haleyCakewalk2/t 600 1500/w sunny/i 220": null,
+			}
+		},
+		
+		{
+			"LogName": "Town Events - Shane dead",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Shane": true,
+			},
+			
+			"Entries": {
+				"3917584/f Shane 3500/O Shane/d Fri/t 800 1700": null,
+				"3917585/e 3917584/O Shane/A shaneSaloon1": null,
+				"3917586/e 3917585/O Shane/A shaneSaloon2": null,
+			}
+		},
+		
+		{
+			"LogName": "Town Events - Emily dead",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"Entries": {
+				"463391/f Emily 1000/e 471942/w sunny/z winter/t 600 1700": null,
+			}
+		},
+		
+		{
+			"LogName": "Town Events - Lewis/Marnie dead",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Lewis, Marnie": true,
+			},
+			
+			"Entries": {
+				"639373/f Lewis 1500/f Marnie 1500/t 1900 2300/w sunny": null,
+			}
+		},
+		
+		{
+			"LogName": "Town Events - Clint/Emily dead",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Clint, Emily": true,
+			},
+			
+			"Entries": {
+				"101/f Clint 1500/e 97/k 2123243/k 2123343/o Emily/t 900 1830/a 0 90": null,
+			}
+		},
+		
+		{
+			"LogName": "Town Events - Linus/George dead",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Linus, George": true,
+			},
+			
+			"Entries": {
+				"502969/w sunny/f Linus 50/j 7/t 2000 2400": null,
+			}
+		},
+		
+		{
+			"LogName": "Town Events - Wizard sub Lewis",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"WizardSubLewis": true,
+			},
+			
+			"Entries": {
+				"611439/j 4/t 800 1300/w sunny/a 0 54/H": "springtown/62 93/farmer 100 100/addMailReceived ccDoorUnlock/addQuest 26",
+			}
+		},
+		
+		{
+			"LogName": "Town Events - Wizard sub Lewis & Robin dead",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"WizardSubLewis": true,
+				"Dead |contains=Robin": true,
+			},
+			
+			"Entries": {
+				"15389722/j 57": "springtown/62 93/farmer 54 94 1 Robin 64 93 3/skippable/move farmer 6 0 1 true/animate Robin false true 100 24 25 26 27 27 27 27 27 27 27 27/pause 200/playSound crafting/pause 1200/playSound crafting/pause 1200/playSound crafting/pause 1200/playSound crafting/pause 500/stopAnimation Robin/speak Robin \"Ah, hello there, @. You showed up at the perfect time.$h\"/pause 500/emote farmer 8/move farmer 1 0 0 true/faceDirection Robin 0/pause 200/speak Robin \"It's our new 'Special Orders' board./pause 400/faceDirection Robin 0/speak Robin \"Now, let me explain...\"/showFrame Robin 20/speak Robin \"You see... with %farm Farm back in business, the local economy has really been picking up.#$b#As a result, some of the local townsfolk have been asking me for a way to source local ingredients for their businesses or personal projects.\"/pause 200/showFrame Robin 8/faceDirection Robin 0/speak Robin \"So, Robin and I came up with the idea of a new 'Special Orders' board, where people can post bigger jobs than would make sense for the old billboard outside the general store.\"/faceDirection farmer 0/pause 500/faceDirection Robin 3/move Robin 0 1 3/speak Robin \"Yeah... for example, I plan on requesting some hardwood for a bed I want to make.$h#$b#I won't put you on the spot, but if you want to help me out you can just accept the job from this board.#$b#Who knows, maybe if the bed turns out well I'll start selling them in my shop!$h\"/faceDirection farmer 1/quickQuestion #I look forward to helping!#Heh... I dunno... we'll see...(break)faceDirection Robin 3\\speak Robin \"I thought so! I wouldn't expect anything less from you, @.\"\\emote Robin 20\\speak Robin \"So, can we say that you're... --On Board--?$4\"\\pause 400\\showFrame Robin 27\\shake Robin 200\\pause 400\\textAboveHead Robin \"*groan*\"\\animate Robin false true 150 32 33\\pause 1200\\showFrame Robin 0\\faceDirection Robin 3\\speak Robin \"Well, I'm sure you're busy, so we won't keep you away from your work any longer.#$b#As always, I appreciate your willingness to contribute!$h#$b#Take care, @.\"(break)faceDirection Robin 3\\emote Robin 28\\speak Robin \"Huh... I wouldn't expect such a tepid response from you, @. I'm disappointed.$s\"\\pause 400\\speak Robin \"It's fine... there's no pressure to help out.$5#$b#Maybe I can get someone else to help. Krobus could use something to do outside of the sewer.\"\\playMusic none\\pause 500\\speak Robin \"Hmmph... Well, I'm done here.$u#$b#...Wouldn't want to waste any more of @'s precious 'me' time.$u\"\\faceDirection Robin 1(break)/pause 2000/end"
+			}
+		},
+		
+		// The House
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_Town_611173.json",
+			
+			"When": {
+				"HasSeenEvent |contains=611173": false,
+			}
+		},
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Alex",
+			"FromFile": "Assets/Alex/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Alex",
+			"FromFile": "Assets/Alex/Sprites/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Alex_beach",
+			"FromFile": "Assets/Alex/Portraits/FullGrey_beach.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Alex_beach",
+			"FromFile": "Assets/Alex/Sprites/FullGrey_beach.png",
+		},
+	]
+}

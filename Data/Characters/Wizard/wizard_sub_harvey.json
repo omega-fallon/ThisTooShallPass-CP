@@ -1,0 +1,99 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Harvey",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+		},
+		
+		{
+			"LogName": "Make Harvey invisible",
+			"Action": "EditData",
+			"Target": "Data/Events/Hospital, Data/Events/Farmhouse, Data/Events/Farm, Data/Events/IslandFarmhouse, Data/Events/IslandFarm",
+			
+			"Entries": {
+				"12491112": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/end invisible Harvey",
+			},
+		},
+		
+		{
+			"LogName": "Add manifest",
+			"Action": "EditMap",
+			"Target": "Maps/Hospital",
+			"FromFile": "Assets/Wizard/Sprites/Manifest.tmx",
+			"ToArea": {"X": 6, "Y": 14, "Width": 1, "Height": 2},
+			"PatchMode": "Overlay",
+		},
+		
+		{
+            "LogName": "Manifest Map Sprite Offset",
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			
+			"When": {
+				"HasMod |contains=Yagisan.NPCMapLocationsForNPCs": true,
+			},
+			
+            "Entries": {
+                "Harvey": {
+                    "MarkerCropOffset": 0
+                }
+            }
+        },
+		
+		{
+            "LogName": "Relayering countertop",
+			"Action": "EditMap",
+            "Target": "Maps/Hospital",
+            "MapTiles": [
+                {
+                    "Position": { "X": 6, "Y": 15 },
+                    "Layer": "Front1",
+					"SetTileSheet": "1",
+                    "SetIndex": "972"
+                }
+            ]
+        },
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Harvey": {
+					"10": "Hospital 6 5",
+					"11": "Magnus"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+
+			"Entries": {
+				"Event.cs.1068": "I was charged {0}g for the hospital visit. ",
+				"Event.cs.1070": "I have no money, but Magnus saved my life regardless. ",
+				
+				"MapPage.cs.11076": "The Clinic",	
+				"MapPage.cs.11077": "Open 24/7",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"passedOut3_Billed": "@,^Someone dropped you off at the clinic last night. You were passed out from exhaustion.^You must take better care of yourself and go to bed at a reasonable hour.^I've billed you {0}g to cover your medical expenses.^^-Magnus[#]From Magnus, at the Clinic",
+				"passedOut3_NotBilled": "@,^Someone dropped you off at the clinic last night. You were passed out from exhaustion.^You must take better care of yourself and go to bed at a reasonable hour.^Although you had no money, I provided your medical care free of charge.^^-Magnus[#]Magnus' Free Medical Service",
+			}
+		},
+	]
+}

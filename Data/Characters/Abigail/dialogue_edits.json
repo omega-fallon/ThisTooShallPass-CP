@@ -1,0 +1,134 @@
+{
+	"Changes": [
+		{
+			"LogName": "Abigail — Pierre dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			},
+			
+			"Entries": {
+				"summer_Fri": "I kind of wish I had a cat. For a while, I wasn't able to because my Dad was allergic, but... I guess that's not a problem anymore.$s",
+			}
+		},
+		
+		{
+			"LogName": "Abigail — Pierre dead, Caroline alive",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+				"Dead |contains=Caroline": false,
+			},
+			
+			"Entries": {
+				"fall_Tue4": "I may fight with my Mom a lot, but I know she's just looking out for me. She's doing what she thinks is best.$s#$b#I dunno why I'm saying this to you. Don't tell anyone.$8",
+				"Tue2": "...*sigh*...$s#$e#I know my Mom means well, but sometimes she just cannot understand my point of view. Wasn't she ever young?",
+				"Thu": "#$1 Abigail1#Mom's making dinner tonight... it's better than Dad's was, at least.$s#$e#I don't feel like doing anything today...$u",
+			}
+		},
+		
+		{
+			"LogName": "Abigail — Pierre alive, Caroline dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			
+			"When": {
+				"Dead |contains=Pierre": false,
+				"Dead |contains=Caroline": true,
+			},
+			
+			"Entries": {
+				"fall_Tue4": "I may fight with my Dad a lot, but I know he's just looking out for me. He's doing what she thinks is best.$s#$b#I dunno why I'm saying this to you. Don't tell anyone.$8",
+				"Tue2": "...*sigh*...$s#$e#I know my Dad means well, but sometimes he just cannot understand my point of view. Wasn't he ever young?",
+				"Thu": "#$1 Abigail1#Dad's making dinner tonight... I wish Mom was still alive, so I wouldn't have to eat it.$s#$e#I don't feel like doing anything today...$u",
+			}
+		},
+		
+		{
+			"LogName": "Abigail — Pierre dead, Caroline dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+				"Dead |contains=Caroline": true,
+			},
+			
+			"Entries": {
+				"fall_Tue4": "I used to fight with my parents a lot... I regret not apologizing to them sooner.$s#$b#I dunno why I'm saying this to you. Don't tell anyone.$8",
+				"Tue2": "...*sigh*...$s#$e#Sorry. I'm just... thinking about my parents. I'm going through a lot right now, and usually they'd be here for me, but... not anymore.$s",
+				"Thu": "#$1 Abigail1#I have to make myself dinner every night... it always ends up awful.$s#$e#I don't feel like doing anything today...$u",
+			}
+		},
+		
+		{
+			"LogName": "Abigail — Marnie sub Lewis",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			
+			"Entries": {
+				"give_pendant": "!!$7#$b#...$2#$b#I never thought I would go this far with anyone...$2#$b#@... I would be happy and proud to be your wife.$4#$b#I guess I better go tell {{LewisSubF}}.$1#$b#I know you're busy so I'll handle the wedding, should take three days or so.$1",
+			}
+		},
+		
+		{
+			"LogName": "Abigail — Wizard sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Abigail",
+			
+			"When": {
+				"WizardSubHarvey": true,
+			},
+			
+			"Entries": {
+				"spring_4.002": "How much longer do you need, Mag? I'm hungry.$s",
+			}
+		},
+		
+		{
+			"LogName": "Abigail — Caroline dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Abigail",
+			
+			"When": {
+				"Dead |contains=Caroline": true,
+			},
+			
+			"Entries": {
+				"marriage_Fri.000": "Hey, @? I'm just reminiscing, thinking about my mom.",
+			}
+		},
+		
+		{
+			"LogName": "Abigail — Pierre dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Abigail",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			},
+			
+			"Entries": {
+				"marriage_Mon.000": "Things seem to be okay without me around.",
+			}
+		},
+		
+		{
+			"LogName": "Abigail — either parent dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueAbigail",
+			
+			"When": {
+				"Dead |contains=Caroline, Pierre": true,
+			},
+			
+			"Entries": {
+				"Neutral_6": "I wonder how the old shop is doing? I should probably go visit sometime.",
+			}
+		}
+	]
+}

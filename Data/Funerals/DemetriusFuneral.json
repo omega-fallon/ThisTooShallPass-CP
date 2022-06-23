@@ -1,0 +1,14 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/{{season}}{{day}}",
+			
+			"Entries": {
+				"Robin": "...So this is it, huh? This is how it all ends. Lost one husband, then another... what's left for me?$s#$e#I can hardly stand to be here. Please, leave me be...$s.",
+				"Maru": "Dad... he left so much work unfinished.$s#$b#I guess... I'll have to finish it for him. It's the least I could do.$s",
+				"Sebastian": "...$s#$b#This is... about the most uncomfortable I've ever felt in my entire life.$s#$b#Just... how do I even feel, man? What am I supposed to *say*? Am I supposed to lie and say I liked him? Would that be more disrespectful than being honest?$s#$b#...I don't know. I just don't know.$s",
+			}
+		}
+	]
+}

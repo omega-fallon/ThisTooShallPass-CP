@@ -1,0 +1,17 @@
+{
+	"Changes": [
+		{
+			"LogName": "Backwoods Events - Abigail dead",
+			"Target": "Data/Events/Backwoods",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			},
+			
+			"Entries": {
+				 "6963327/f Abigail 3500/O Abigail/t 610 1700": null,
+			}
+		},
+	]
+}

@@ -1,0 +1,1233 @@
+{
+	"Changes": [
+	
+		// Removal of NPCs from the map //
+		// The way that NPCs are spawned in is within the .tmx file itself, so we have to edit that. Thankfully, we don't have to make a hundred .tmx files with single changes. //
+		
+		// Abigail
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 24, "Y": 76 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Abigail",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			},
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Abigail",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Abigail": {
+					"11": "Magnus"
+				}
+			},
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			},
+			
+			"Entries": {
+				"Abigail": "...?",
+			}
+		},
+		
+		// Alex
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Alex": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 36, "Y": 76 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 28, "Y": 69 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Caroline
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"query: {{Dead |contains=Caroline}} OR {{CarolineSubPierre}}": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 37, "Y": 59 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Caroline": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 24, "Y": 63 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Clint
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Clint": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 28, "Y": 58 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 28, "Y": 60 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Demetrius
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 35, "Y": 59 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 23, "Y": 61 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				
+				// Robin facing
+				
+				{
+					"Position": { "X": 36, "Y": 59 },
+					"Layer": "Set-Up",
+					"SetTilesheet": "characters",
+					"SetIndex": 102,
+				},
+			]
+		},
+		
+		// Elliott
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 24, "Y": 68 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 26, "Y": 62 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Emily
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 27, "Y": 65 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 27, "Y": 62 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Evelyn
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 35, "Y": 70 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 31, "Y": 61 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// George
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=George": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 34, "Y": 70 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 31, "Y": 62 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Gus
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 28, "Y": 60 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 28, "Y": 58 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Haley
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Haley": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 35, "Y": 76 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 20, "Y": 62 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Harvey
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 35, "Y": 63 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 22, "Y": 61 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Jas
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Jas": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 18, "Y": 64 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Jas",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+			
+			"When": {
+				"Dead |contains=Jas": true,
+			},
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Jas",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+			
+			"When": {
+				"Dead |contains=Jas": true,
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Jas": {
+					"11": "Magnus"
+				}
+			},
+			
+			"When": {
+				"Dead |contains=Jas": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"When": {
+				"Dead |contains=Jas": true,
+			},
+			
+			"Entries": {
+				"Jas": "...?",
+			}
+		},
+		
+		// Jodi
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 28, "Y": 65 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 29, "Y": 62 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				
+				// Kent facing
+				
+				{
+					"Position": { "X": 42, "Y": 58 },
+					"Layer": "Set-Up",
+					"SetTilesheet": "characters",
+					"SetIndex": 62,
+				},
+			]
+		},
+		
+		// Kent
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Kent": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 42, "Y": 58 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 30, "Y": 62 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Leah
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Leah": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 25, "Y": 67 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 31, "Y": 59 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Leo
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Leo": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 18, "Y": 66 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/ParrotBoy",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+			
+			"When": {
+				"Dead |contains=Leo": true,
+			},
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/ParrotBoy",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+			
+			"When": {
+				"Dead |contains=Leo": true,
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Leo": {
+					"11": "Magnus"
+				}
+			},
+			
+			"When": {
+				"Dead |contains=Leo": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"When": {
+				"Dead |contains=Leo": true,
+			},
+			
+			"Entries": {
+				"Leo": "...?",
+			}
+		},
+		
+		// Lewis CANNOT be removed, as he is far too integral to all festivals' function. Instead we let Lewis spawn but have him take on the appearance and name of Magnus.
+		
+		// Linus
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Linus": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 29, "Y": 55 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 29, "Y": 55 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Marlon
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Marlon, MarlonFay": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 41, "Y": 57 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 35, "Y": 62 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Marnie
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Marnie, Lewis": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 30, "Y": 67 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 33, "Y": 62 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Maru
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 21, "Y": 62 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Maru",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			},
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Maru",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Maru": {
+					"11": "Magnus"
+				}
+			},
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			},
+			
+			"Entries": {
+				"Maru": "...?",
+			}
+		},
+		
+		// Pam
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 31, "Y": 59 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 25, "Y": 58 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Penny
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Penny": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 20, "Y": 62 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 22, "Y": 67 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Pierre
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 23, "Y": 64 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"CarolineSubPierre": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 22, "Y": 54 },
+					"Layer": "Set-Up",
+					"SetTilesheet": "characters",
+					"SetIndex": 6,
+				},
+			]
+		},
+		
+		// Robin
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 36, "Y": 59 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 36, "Y": 59 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Sam
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 23, "Y": 77 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Sam",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Sam",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Sam": {
+					"11": "Magnus"
+				}
+			},
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+			
+			"Entries": {
+				"Sam": "...?",
+			}
+		},
+		
+		// Sebastian
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Sebastian": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 25, "Y": 77 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 21, "Y": 68 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Shane
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Shane": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 23, "Y": 56 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 23, "Y": 71 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Vincent
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Vincent": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 20, "Y": 66 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Vincent",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+			
+			"When": {
+				"Dead |contains=Vincent": true,
+			},
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Vincent",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+			
+			"When": {
+				"Dead |contains=Vincent": true,
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Vincent": {
+					"11": "Magnus"
+				}
+			},
+			
+			"When": {
+				"Dead |contains=Vincent": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"When": {
+				"Dead |contains=Vincent": true,
+			},
+			
+			"Entries": {
+				"Vincent": "...?",
+			}
+		},
+		
+		// Willy
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 41, "Y": 72 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 38, "Y": 69 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Wizard
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-EggFestival",
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+				"Dead |contains=Marnie": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 1, "Y": 1 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 108, "Y": 50 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Dialogue edits //
+		
+		// Competitors are manifests
+		
+		{
+			"LogName": "Egg Festival - Competitors are manifests - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"When": {
+				"Dead |contains=Abigail, Maru, Jas, Sam, Leo, Vincent": true,
+			},
+			
+			"Entries": {
+				"Jas": "I dunno if it's really fair that Magnus is competing in his own game... but I guess that's better than not having any competitors, right?#$b#Whoever I'm facing off against, I'll still try my best. Battling Abigail so many times has taught me that!$h",
+				"Vincent": "I guess it might still be fun facing off against Magnus'... ghost things.#$b#They're definitely cool-looking, I'll give him that.$h",
+			}
+		},
+		
+		// Vincent
+		
+		{
+			"LogName": "Egg Festival - Vincent dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"When": {
+				"Dead |contains=Vincent": true,
+			},
+			
+			"Entries": {
+				"Jas": "C'mon, @, let's get all the eggs together! If Vincent can't be here, he'd at least want me to win.$h",
+			}
+		},
+		
+		// Maru
+		
+		{
+			"LogName": "Egg Festival - Maru dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			},
+			
+			"Entries": {
+				"Penny_spouse": "I'm trying to convince myself to try a deviled egg, but I'm just not sure I can stomach it...",
+			}
+		},
+		
+		// Penny
+		
+		{
+			"LogName": "Egg Festival - Penny dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"When": {
+				"Dead |contains=Penny": true,
+			},
+			
+			"Entries": {
+				"Maru_spouse": "I'm just relaxing over here. Have you had your fill of eggs?",
+			}
+		},
+		
+		// Lewis substitutions //
+
+		// Marnie dialogue
+		
+		{
+			"LogName": "Egg Festival - Marnie Substitutes",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"When": {
+				"MarnieSubLewis": true,
+			},
+			
+			"Entries": {
+				"Sebastian": "We used to do a rotten egg toss...#$b#Lewis put an end to that pretty quick... and Marnie doesn't seem like she'd want that, either.",
+			},
+			
+			"Fields": {
+				"afterEggHunt": {
+					"19": "speak Lewis \"Ooh, that's a lot of eggs! Good job!$h#$b#You all would be a lot of help at the farm... *giggle*$h\"",
+					"22": "speak Lewis \"And now, the winner of this year's egg hunt...\"",
+					"31": "speak Lewis \"Here's your prize! Enjoy.\"",
+					"35": "speak Lewis \"Well, that's it for this year's Egg Festival. Thanks for coming, everyone!\"",
+				},
+				
+				"AbbyWin": {
+					"6": "speak Lewis \"Here's your prize, Abigail. Enjoy!\"",
+					"13": "speak Lewis \"Well, that's it for this year's Egg Festival. Thanks for coming, everyone!\"",
+				},
+				
+				"mainEvent": {
+					"17": "speak Lewis \"And now, it's time for the main event... the Annual Spring Egg Hunt!$h\"",
+					"22": "speak Lewis \"Hehe... calm down now, you all. You're going to need that energy!\"",
+					"35": "speak Lewis \"Alright... is everyone ready?\"",
+					"40": "speak Lewis \"Let the egg hunt begin!$h\"",
+				}
+			}
+		},
+		
+		{
+			"LogName": "Egg Festival - Marnie Substitutes - Manifest wins",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"When": {
+				"MarnieSubLewis": true,
+				"Dead |contains=Abigail": true,
+			},
+			
+			"Fields": {
+				"AbbyWin": {
+					"6": "speak Lewis \"Umm... well, I don't know if you'd actually want this, Magnus, but you did win, so... here you go!\"",
+				},
+			},
+		}
+		
+		// Wizard dialogue
+		
+		{
+			"LogName": "Egg Festival - Wizard Substitutes",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"When": {
+				"WizardSubLewis": true,
+			},
+			
+			"Entries": {
+				"Sebastian": "We used to do a rotten egg toss...#$b#Lewis put an end to that pretty quick... but maybe Magnus would be okay with it.",
+				"Lewis": "Greetings, @. Please, enjoy the festival. I did my best to make it just as it always was in Lewis' time.",
+			},
+			
+			"Fields": {
+				"afterEggHunt": {
+					"19": "speak Lewis \"Mmm... an impressive haul!$h#$b#You all have quite the eyes for hidden objects. I wonder if perhaps there's some magic in you after all?$h\"",
+					"22": "speak Lewis \"And with that, I announce the winner of this year's egg hunt...\"",
+					"31": "speak Lewis \"Your prize, @. Use it well.\"",
+					"35": "speak Lewis \"That concludes this year's Egg Festival. Thank you all very much for coming.\"",
+				},
+				
+				"AbbyWin": {
+					"6": "speak Lewis \"Your prize, Abigail. Use it well.\"",
+					"13": "speak Lewis \"That concludes this year's Egg Festival. Thank you all very much for coming.\"",
+				},
+				
+				"mainEvent": {
+					"17": "speak Lewis \"And now, let us commence the main event... the Annual Spring Egg Hunt!$h\"",
+					"22": "speak Lewis \"Calm yourselves, friends. You're going to need that energy.\"",
+					"35": "speak Lewis \"Alright... is everyone ready?\"",
+					"40": "speak Lewis \"Commence!$h\"",
+				}
+			}
+		},
+		
+		{
+			"LogName": "Egg Festival - Wizard Substitutes - Manifest wins",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"When": {
+				"WizardSubLewis": true,
+				"Dead |contains=Abigail": true,
+			},
+			
+			"Fields": {
+				"AbbyWin": {
+					"6": "speak Lewis \"I... suppose it is a bit odd to give one of my manifests a prize, but nevertheless, enjoy your prize... me.\"",
+				},
+			},
+		}
+	]
+}

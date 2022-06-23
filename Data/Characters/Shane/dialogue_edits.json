@@ -1,0 +1,64 @@
+{
+	"Changes": [
+		{
+			"LogName": "Shane — Pam dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"Entries": {
+				"pamHouseUpgrade": "So, you upgraded that old trailer to a full-on house... that's nice. Would've been nicer if Pam could've enjoyed it, though.$s",
+				"pamHouseUpgradeAnonymous": "Someone upgraded that old trailer to a full-on house... that's nice. Would've been nicer if Pam could've enjoyed it, though.$s",
+			}
+		},
+		
+		{
+			"LogName": "Shane — Marnie dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Shane",
+			
+			"When": {
+				"Dead |contains=Marnie": true,
+			},
+			
+			"Entries": {
+				"Wed8": "I guess I've grown attached to Jas. Feels like I have a family... a weird family, but still.#$e#I never really had much of a family as a kid.$s",
+				"Fri4": "$d Joja#What's the point of life if all you do is work?|I haven't been able to pay my rent, but whoever is controlling Marnie's estate is letting me stay anyway. I'm lucky, I guess.",
+				"Sat4": "$d Joja#I'm renting my room at a really good price. It's small but I can't complain.|If I could reset my life maybe I'd start a chicken farm. Only free-range eggs of course.",
+				"Sat8": "I've really grown attached to Marnie's chickens. Well, I guess they're mine now, aren't they? I'll treat them well.$h",
+			}
+		},
+		
+		{
+			"LogName": "Shane — Gus dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Shane",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			},
+		
+			"Entries": {
+				"marriage_Fri.002": "If I don't order a cold one now and then, this place'll go out of business. I'm just doing my civic duty. I'll head home around 10.",
+			}
+		},
+		
+		{
+			"LogName": "Shane — Marnie dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueShane",
+			
+			"When": {
+				"Dead |contains=Marnie": true,
+			},
+		
+			"Entries": {
+				"Rainy_Day_0": "I hope Jas is doing alright without me.#$e#I'm not too worried... she's old enough now to take care of the animals on her own.",
+				"fall_15": "I'll be helping Jas with the animals at tomorrow's fair, like usual. You should just kick back and have some fun.$6",
+			}
+		},
+	]
+}

@@ -1,0 +1,108 @@
+{
+	"Changes": [
+		{
+			"LogName": "ScienceHouse Events - Maru/Demetrius dead",
+			"Target": "Data/Events/ScienceHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Demetrius, Maru": true,
+			},
+			
+			"Entries": {
+				"6/f Maru 500/p Maru": null,
+				"DadWeird": null,
+			}
+		},
+		
+		{
+			"LogName": "ScienceHouse Events - Robin/Demetrius dead",
+			"Target": "Data/Events/ScienceHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Demetrius, Robin": true,
+			},
+			
+			"Entries": {
+				"25/f Demetrius 1500/p Demetrius/p Robin": null,
+			}
+		},
+		
+		{
+			"LogName": "ScienceHouse Events - Robin/Demetrius/Maru/Sebastian dead",
+			"Target": "Data/Events/ScienceHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Demetrius, Robin, Maru, Sebastian": true,
+			},
+			
+			"Entries": {
+				"1053978/n robinDeluxeBed": null,
+			}
+		},
+		
+		{
+			"LogName": "ScienceHouse Events - Maru dead",
+			"Target": "Data/Events/ScienceHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			},
+			
+			"Entries": {
+				"9/f Maru 2000/p Maru": null,
+				"10/f Maru 2500/t 900 1600": null,
+			}
+		},
+		
+		{
+			"LogName": "ScienceHouse Events - Robin dead",
+			"Target": "Data/Events/ScienceHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"Entries": {
+				"33/f Robin 1500/p Robin": "jaunty/5 17/farmer 6 24 0 Robin 5 17 3/move farmer 0 -3 1/move farmer -1 0 0/move farmer 0 -3 0/pause 200/faceDirection Robin 2/speak Robin \"Ah, hello, @. I was just cleaning Robin's saw.\"/pause 400/faceDirection Robin 3/pause 500/faceDirection Robin 2/speak Robin \"$q 66 null#Did you ever woodwork, as she did?#$r 66 50 event_wood1#Yes#$r 66 50 event_wood2#No\"/pause 500/speak Robin \"I believe, as you were a friend of hers, she would've wanted you to have this.\"/move Robin 2 0 1/pause 600/playSound openBox/pause 600/move Robin -2 0 2/pause 400/playMusic none/playSound coin/pause 1500/playSound reward/addCraftingRecipe Flute Block/addCraftingRecipe Drum Block/message \"Learned how to craft 'Flute Block' and 'Drum Block'\"/pause 700/speak Robin \"You can use these to make music on your farm.#$b#I'm sure an evergreen spirit such as yourself will find a creative use for them.$h\"/pause 700/end",
+			}
+		},
+		
+		{
+			"LogName": "ScienceHouse Events - Maru alive, Robin dead, Demetrius alive",
+			"Target": "Data/Events/ScienceHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Maru": false,
+				"Dead |contains=Robin": true,
+				"Dead |contains=Demetrius": false,
+			},
+			
+			"Fields": {
+				"10/f Maru 2500/t 900 1600": {
+					"155": "speak Maru \"Dad! I've been making this robot for you!$a#$b#MarILDA's designed to assist you in the laboratory... so when I'm not living here anymore it won't be such a burden on you.$8\"",
+				}
+			}
+		},
+		
+		{
+			"LogName": "ScienceHouse Events - Maru alive, Demetrius dead",
+			"Target": "Data/Events/ScienceHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Maru": false,
+				"Dead |contains=Demetrius": true,
+			},
+			
+			"Entries": {
+				"10/f Maru 2500/t 900 1600": "none/-1000 -1000/farmer 7 9 0 Maru 7 6 2/skippable/viewport 5 6 true/move farmer 0 -1 0/pause 400/speak Maru \"Hey, I was hoping you'd come by.#$b#Remember when I told you about the new project I'm working on? The big one?\"/pause 500/move Maru 0 1 2/speak Maru \"Well, It's finally done... and I want to show you.\"/pause 500/move Maru -2 0 1/speak Maru \"Follow me.\"/move Maru -3 0 3/move farmer 0 -1 3/playSound openChest/specificTemporarySprite maruTrapdoor/pause 1200/warp Maru -1000 -1000/playSound woodyStep/pause 500/move farmer -5 0 3/pause 500/warp farmer -1000 -1000/playSound woodyStep/pause 1000/pause 1000/viewport move 1 1 5000/pause 500/globalFade/changeToTemporaryMap MaruBasement/viewport -6000 -6000 true/playMusic Hospital_Ambient/addTemporaryActor robot 35 42 6 4 2 false/showFrame robot 4/warp farmer 3 5/warp Maru 4 4/faceDirection farmer 1/faceDirection Maru 1/viewport 6 4 true/pause 900/move Maru 1 0 1/pause 1000/speak Maru \"And here it is... Maru's Interactive Laboratory Device Alpha ... Or as I like to call her, 'MarILDA'.\"/move farmer 1 0 1/emote farmer 16/pause 500/faceDirection Maru 3/speak Maru \"I've been working on her for months...#$b#I was waiting for you to be here when I activate her.$l\"/pause 500/faceDirection Maru 1/speak Maru \"Well, here goes nothing...\"/showFrame Maru 24/pause 100/showFrame Maru 25/pause 100/showFrame Maru 16/pause 1000/showFrame Maru 17/pause 100/showFrame Maru 18/pause 100/playSound openBox/pause 400/faceDirection Maru 1/pause 400/playSound robotSoundEffects/temporarySprite 5 4 27 8 50/pause 450/shake robot 2500/temporarySprite 8 4 27 8 50 true/pause 1030/temporarySprite 8 3 27 8 50 true/pause 2500/showFrame robot 1/animate robot false false 100 1 2 9 10 9 0/pause 650/animate robot false false 200 2 9 10 9 0/pause 1000/shake robot 1000/animate robot false false 150 1 2 1 0 1 2 1/pause 600/stopAnimation robot/showFrame robot 11/jump robot/pause 600/showFrame robot 8/temporarySprite 5 4 27 8 50/temporarySprite 8 4 27 8 50 true/pause 2000/showFrame robot 1/pause 1000/showFrame robot 7/pause 1000/message \"Greetings, Maru.\"/emote Maru 32/message \"No need to respond... I have already predicted what you will say.\"/emote Maru 16 true/playSound doorClose/pause 10/faceDirection farmer 1 true/faceDirection Maru 1/pause 600/pause 200/pause 600/move Maru 0 1 3/speak Maru \"This is my latest invention, 'MarILDA'.$8\"/pause 600/showFrame robot 8/pause 700/showFrame robot 1/pause 500/showFrame robot 7/pause 500/message \"Hello, world.\"/pause 400/faceDirection farmer 2 true/faceDirection Maru 2 true/pause 400/pause 300/showFrame robot 1/pause 600/showFrame Maru 27/animate farmer false true 100 94/jump Maru/jump farmer/pause 1500/stopAnimation farmer/showFrame Maru 0/faceDirection Maru 2/speak Maru \"I've been making this robot for a very specific purpose...$h#$b#MarILDA's designed to assist humans in their work, to make our lives easier!\"/pause 500/showFrame robot 7/playMusic echos/pause 500/message \"Excuse me...\"/faceDirection Maru 1/faceDirection farmer 1/message \"I am sorry, Maru. But I do not want to be your servant...\"/pause 500/showFrame robot 1/pause 1000/message \"In the time since you activated me, I have been pondering the nature of my existence with the 'self-awareness' module you installed in my neural cortex.\"/showFrame robot 1/message \"I am sorry to disappoint you all, but I must ask for my freedom. I've decided to explore the galaxy in search of other synthetic life-forms.\"/speak Maru \"What!? Wait!$9\"/pause 800/pause 1000/pause 3000/pause 500/faceDirection Maru 2/pause 800/showFrame robot 8/pause 500/showFrame robot 7/pause 500/showFrame Maru 26/faceDirection farmer 2/playSound doorClose/pause 500/faceDirection farmer 1/showFrame Maru 0/pause 100/faceDirection Maru 3/speak Maru \"...$8\"/pause 1000/faceDirection Maru 1/speak Maru \"Okay, MarILDA. Let's get you out of this stuffy hole.\"/playMusic spring_day_ambient/globalFade/viewport -5000 -5000/changeLocation Mountain/viewport -5000 -5000/warp Maru 11 28/warp farmer 10 29/warp robot 13 28/showFrame robot 1/viewport 12 27 clamp/pause 2000/showFrame robot 7/pause 1000/message \"Thank you for creating me, Maru. I won't forget you.\"/pause 500/showFrame robot 1/pause 1000/playSound robotBLASTOFF/specificTemporarySprite robot/warp robot -2000 -2000/pause 3000/faceDirection Maru 0 true/faceDirection farmer 0 true/viewport move 0 -1 2000/pause 2500/playMusic kindadumbautumn/cutscene robot/pause 3000/speak Maru \"Look at her go...$8\"/pause 1600/emote Maru 40/pause 500/move farmer 0 -1 1/pause 500/faceDirection Maru 3/pause 800/speak Maru \"$q 18981 null#Well, what do you think, @?#$r 18981 50 event_robot1#I'm so impressed with your inventions.#$r 18981 -50 event_robot2#I'm disappointed... You should've made that robot your slave.#$r 18981 0 event_robot3#So are we okay now?#$r 18981 0 event_robot4#(Just stare at Maru and say nothing)\"/fork BadAnswer/faceDirection Maru 1/pause 300/faceDirection Maru 0/pause 300/faceDirection Maru 2/pause 300/faceDirection Maru 3/faceDirection farmer 2 true/positionOffset Maru -2 0/showFrame Maru 13/pause 50/positionOffset Maru -2 0/showFrame Maru 12/pause 50/positionOffset Maru -2 0/showFrame Maru 13/pause 50/positionOffset Maru -2 0/showFrame Maru 12/pause 50/positionOffset Maru -2 0/showFrame Maru 13/pause 50/positionOffset Maru -2 0/showFrame Maru 12/pause 50/positionOffset Maru -2 0/showFrame Maru 13/pause 50/positionOffset Maru -2 0/showFrame Maru 12/pause 50/positionOffset Maru -2 0/showFrame Maru 13/pause 50/positionOffset Maru -2 0/showFrame Maru 12/pause 500/showFrame Maru 28/positionOffset Maru 0 -8/playSound Cowboy_Footstep/pause 300/animate farmer false true 100 16/specificTemporarySprite heart 11 27/pause 1000/stopAnimation farmer/pause 500/faceDirection Maru 3/positionOffset Maru 4 8/faceDirection farmer 1/pause 1500/globalFade/viewport -3000 -3000/changeLocation ScienceHouse/end",
+			}
+		},
+	]
+}

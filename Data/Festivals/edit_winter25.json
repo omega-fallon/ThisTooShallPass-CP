@@ -1,0 +1,687 @@
+{
+	"Changes": [
+	
+		// Removal of NPCs from the map //
+		// The way that NPCs are spawned in is within the .tmx file itself, so we have to edit that. Thankfully, we don't have to make a hundred .tmx files with single changes. //
+		
+		// Abigail
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 64 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Alex
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Alex": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 35, "Y": 72 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Caroline
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"query: {{Dead |contains=Caroline}} OR {{CarolineSubPierre}}": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 22, "Y": 65 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Clint
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Clint": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 22, "Y": 70 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Demetrius
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 37, "Y": 64 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Elliott
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 23, "Y": 73 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Emily
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 29, "Y": 72 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Evelyn
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 34, "Y": 73 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// George
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=George": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 33, "Y": 73 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Gus
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 24, "Y": 72 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Haley
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Haley": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 30, "Y": 72 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Harvey
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 70 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Jas
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Jas": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 28, "Y": 51 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Jodi
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 33, "Y": 69 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Kent
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Kent": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 37, "Y": 69 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Leah
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Leah": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 25, "Y": 73 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Leo
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Leo": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 46, "Y": 58 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Lewis
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 23, "Y": 50 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Linus
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Linus": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 45, "Y": 57 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Marlon
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Marlon, MarlonFay": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 37, "Y": 56 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Marnie
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Marnie, Lewis": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 23, "Y": 49 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Maru
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 33, "Y": 63 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Pam
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 30, "Y": 56 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Penny
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Penny": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 31, "Y": 56 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Pierre
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"CarolineSubPierre": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 18, "Y": 60 },
+					"Layer": "Set-Up",
+					"SetTilesheet": "characters",
+					"SetIndex": 6,
+				},
+			]
+		},
+		
+		// Robin
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 35, "Y": 62 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Sam
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 34, "Y": 67 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Sebastian
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Sebastian": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 36, "Y": 62 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Shane
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Shane": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 22, "Y": 68 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Vincent
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Vincent": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 35, "Y": 67 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Willy
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 36, "Y": 57 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Wizard
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Christmas",
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+				"Dead |contains=Marnie": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 56, "Y": 52 },
+					"Layer": "Set-Up",
+					"SetTileSheet": "characters",
+					"SetIndex": 122,
+				},
+			]
+		},
+		
+		// Dialogue edits //
+		
+		// Pierre
+		
+		{
+			"LogName": "Feast of the Winter Star - Pierre dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			},
+			
+			"Entries": {
+				"Pierre": "Care to sample the merchandise? It only comes around once a year... but that isn't such a long time, is it?",
+			}
+		},
+		
+		// Gus
+		
+		{
+			"LogName": "Feast of the Winter Star - Gus dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			},
+			
+			"Entries": {
+				"Leah": "I went over to Magnus' little hideout by the bridge. He looked like he was praying, muttering something about a 'last one.' *yawn*$u#$e#I think he had too much cinnamon nog.",
+			}
+		},
+		
+		// Demetrius, Robin
+		
+		{
+			"LogName": "Feast of the Winter Star - Demetrius dead, Robin dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+				"Dead |contains=Robin": true,
+			},
+			
+			"Entries": {
+				"Sebastian_spouse": "Hey, @. As much as this festival brings back some bad memories, I promised my Mom that after she passed I'd always go, every year...",
+				"Sebastian": "...Hmm? Oh, yeah, I just... have to be here. Don't want to be. It's, umm... complicated.",
+			}
+		},
+		
+		// Wizard present
+		
+		{
+			"LogName": "Feast of the Winter Star - Wizard present - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			
+			"When": {
+				"WizardPresent": true,
+			},
+			
+			"Entries": {
+				"Shane": "I've never been much of a believer in spirits and magic and all that, but with Magnus here, I basically have to, now.",
+				"Wizard": "*muttering under his breath* Drmgvi Hgzi, l Svzevmob Trug-Trevi, R kizb gl gsvv, xlmgrmfv gl tizxv gsrh ezoovb drgs blfi hkovmwli.$7#$b#Rg rh nb hlovnm wfgb gl pvvk gsrh gldm zorev fmgro gsv evib dvmw.$7#$b#...#$b#Oh! Farmer @, I didn't see you there.$h#$b#I do apologize if that incantation befuddled or caused any harm to you. It was a... a prayer, of sorts.#$b#I realize I may not look the religious type, but when you know some of the spirits personally, you become religious out of necessity.",
+			}
+		},
+	]
+}

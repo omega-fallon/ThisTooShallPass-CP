@@ -1,0 +1,113 @@
+{
+	"Changes": [
+		{
+			"LogName": "Vincent becomes dateable",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {		
+				"Vincent": {
+					"5": "datable",
+				}
+			}
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Maps/JasSpouseRoom",
+			"FromFile": "Assets/Vincent/VincentSpouseRoom.tmx",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpouseRooms",
+			"Entries": {
+				"Jas": "VincentSpouseRoom/0"
+			}
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Maps/JasSpousePatio",
+			"FromFile": "Assets/Vincent/VincentSpousePatio.tmx"
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpousePatios",
+			"Entries": {
+				"Jas": "VincentSpousePatio/0",
+			}
+		},
+		
+		{
+			"LogName": "Vincent load marriage dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueVincent",
+			"FromFile": "Data/blank.json",
+		},
+		
+		{
+			"LogName": "Vincent marriage dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueVincent",
+			
+			"Entries": {
+				"Good_9": "Oh, I'm not bored... I'm just enjoying what we have here.#$e#It's a simple life, but I like it. Nice and gritty, like digging through the dirt to find worms and snails.$h",
+				"Neutral_8": "No matter how much I clean, the house keeps getting dirty again.#$e#I guess farms can be kind of dirty. That's not such a bad thing.",
+				"Rainy_Day_0": "It's raining outside, dear. Make sure you don't catch a cold like I always did!",
+				"Rainy_Day_3": "What's on your agenda today, dear?#$e#I'd love to go outside in this weather, but I probably shouldn't... I'll just do some things around the house.#$e#Maybe I'll make something hot for dinner.",
+				"TwoKids_1": "We have to make sure and give %kid1 a lot of attention now that we have %kid2. We don't want any jealousy between them. Trust me, I know how that goes.",
+			}
+		},
+		
+		{
+			"LogName": "Vincent romance dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			
+			"Entries": {
+				"danceRejection": "Eheh... no thanks, I'd rather go solo. This flower queen can't get dragged down.",
+				"divorced": "You know, everyone always said I was kind of stupid, but I'm smart enough to know not to give you the time of day.$a",
+				"dumped_Guys": "...Can't you see I'm busy reading?$a#$e#What? I'm not carrying a book? Oh, I guess you *can* pay attention.$a",
+				"secondChance_Guys": "...I guess we all have our airheaded moments. If you're sorry, then I'll let it go.$s",
+				
+				"give_flowersA": "Oh! Wait, you really want to do that?#$b#Uhh... jeez, that's kind of weird, but... we're pretty close, and we're both adults, so why not?$h",
+				"give_flowersB": "Wow! Okay, I was *not* expecting *that*.#$b#We... I'm not really sure how to respond. I mean, I want to date you, but...$s#$b#Wait, hang on, why the heck can't I just date you? Let's do it!$h",
+				"give_pendant": "...!$u#$b#@, this... I'm speechless, I...#$b#You're sure? You're really, really sure? Then... I'd love to! I'll get everything set up as soon as I can!$l",
+				"refusal_botherA": "@, I said no...$s",
+				"refusal_botherB": "Please stop...$s",
+				"refusal_knownA": "Oh!#$b#Umm... I'm sorry, I don't think that's a good idea.$3",
+				"refusal_knownB": "...You're nice, farmer, but this is too much.$3",
+				"refusal_no_heartsA": "...What are you playing at?$3",
+				"refusal_no_heartsB": "We don't even know each other!$3",
+				"rejectNPCA": "I'm... sorry, I'm just not interested.$s",
+				"rejectNPCB": "...Maybe we could get to know each other better?$s",
+				"reject_four_heartA": "...!$8#$b#Oh... my heart is pounding...$4#$b#...I'm... not ready. I'm sorry.$s",
+				"reject_four_heartB": "Oh... I...$s#$b#I think we should just be friends.$s",
+				"reject_two_heartA": "...I think that's a bit too much too fast, don't you?$s",
+				"reject_two_heartB": "Maybe we can get to know each other better...",
+				"stardrop_gift": "Hey babe, I just wanted to say... I really love you.$4#$b#I thought that this stardrop would be a nice way to show my affection and gratitude.$1#$b#Thank you. For everything.$l",
+			}
+		},
+		
+		{
+			"LogName": "Vincent romance dialogue - dating or engaged",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			
+			"When": {
+				"Relationship:Vincent": "Engaged, Married",
+			},
+			
+			"Entries": {
+				"give_flowersA": "Heh... jeez, you really know how to make a guy blush, don't you?$h",
+				"give_flowersB": "...They're so beautiful. You know what else is beautiful?$h#$b#A big bacon cheeseburger.#$b#Oh, you're pretty good too, heheh.$l",
+				"engageA": "Heheh... babe, I already said yes!$h",
+				"engageB": "Soon enough I'll have a whole collection of these things.$h",
+				"marriedA": "Heheh... babe, I already said yes!$h",
+				"marriedB": "Soon enough I'll have a whole collection of these things.$h",
+			}
+		}
+	]
+}

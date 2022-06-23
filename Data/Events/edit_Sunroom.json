@@ -1,0 +1,17 @@
+{
+	"Changes": [
+		{
+			"LogName": "Sunroom Events - Caroline dead",
+			"Target": "Data/Events/Sunroom",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Caroline": true,
+			},
+			
+			"Entries": {
+				"719926/t 900 1700/w sunny": null,
+			}
+		},
+	]
+}

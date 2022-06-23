@@ -1,0 +1,572 @@
+{
+	"Changes": [
+	
+		// Abigail
+		
+		{
+			"LogName": "Unmanifest Abigail",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Abigail/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			}
+		},
+		
+		// Alex
+		
+		{
+			"LogName": "Unmanifest Alex",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Alex/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Alex": true,
+			}
+		},
+		
+		// Birdie
+		
+		{
+			"LogName": "Unmanifest Birdie",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Birdie/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Birdie": true,
+			}
+		},
+		
+		// Blondie
+		
+		{
+			"LogName": "Unmanifest Blondie",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Blondie/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Blondie": true,
+			}
+		},
+		
+		// Caroline
+		
+		{
+			"LogName": "Unmanifest Caroline",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Caroline/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Caroline": true,
+			}
+		},
+		
+		// Claire
+		
+		{
+			"LogName": "Unmanifest Claire",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Claire/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Claire": true,
+			}
+		},
+		
+		// Clint
+		
+		{
+			"LogName": "Unmanifest Clint",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Clint/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Clint": true,
+			}
+		},
+		
+		// Demetrius
+		
+		{
+			"LogName": "Unmanifest Demetrius",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Demetrius/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+			}
+		},
+		
+		// Desert Trader
+		
+		{
+			"LogName": "Unmanifest Desert Trader",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Desert Trader/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=DesertTrader": true,
+			}
+		},
+		
+		// Elliott
+		
+		{
+			"LogName": "Unmanifest Elliott",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Elliott/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			}
+		},
+		
+		// Emily
+		
+		{
+			"LogName": "Unmanifest Emily",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Emily/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			}
+		},
+		
+		// Evelyn
+		
+		{
+			"LogName": "Unmanifest Evelyn",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Evelyn/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+			}
+		},
+		
+		// George
+		
+		{
+			"LogName": "Unmanifest George",
+			"Action": "Include",
+			"FromFile": "Data/Characters/George/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=George": true,
+			}
+		},
+		
+		// Gil
+		
+		{
+			"LogName": "Unmanifest Gil",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Gil/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Gil": true,
+			}
+		},
+		
+		// Governor
+		
+		{
+			"LogName": "Unmanifest Governor",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Governor/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Governor": true,
+			}
+		},
+		
+		// Gunther
+		
+		{
+			"LogName": "Unmanifest Gunther",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Gunther/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Gunther, GuntherSilva": true,
+			}
+		},
+		
+		// Gus
+		
+		{
+			"LogName": "Unmanifest Gus",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Gus/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			}
+		},
+		
+		// Haley
+		
+		{
+			"LogName": "Unmanifest Haley",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Haley/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Haley": true,
+			}
+		},
+		
+		// Harvey
+		
+		{
+			"LogName": "Unmanifest Harvey",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Harvey/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			}
+		},
+		
+		// Jas
+		
+		{
+			"LogName": "Unmanifest Jas",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Jas/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Jas": true,
+			}
+		},
+		
+		// Jodi
+		
+		{
+			"LogName": "Unmanifest Jodi",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Jodi/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+			}
+		},
+		
+		// Kent
+		
+		{
+			"LogName": "Unmanifest Kent",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Kent/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Kent": true,
+			}
+		},
+		
+		// Leah
+		
+		{
+			"LogName": "Unmanifest Leah",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Leah/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Leah": true,
+			}
+		},
+		
+		// Leo
+		
+		{
+			"LogName": "Unmanifest Leo",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Leo/unmanifest.json",
+			
+			"When": {
+				"HasFlag: anyPlayer|contains=willyBoatFixed": true,
+				"Dead |contains=Leo": true,
+			}
+		},
+		
+		// Lewis
+		
+		{
+			"LogName": "Unmanifest Lewis",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Lewis/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+			}
+		},
+		
+		// Linus
+		
+		{
+			"LogName": "Unmanifest Linus",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Linus/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Linus": true,
+			}
+		},
+		
+		// Lupini
+		
+		{
+			"LogName": "Unmanifest Lupini",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Lupini/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Lupini": true,
+			}
+		},
+		
+		// Marlon
+		
+		{
+			"LogName": "Unmanifest Marlon",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Marlon/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Marlon, MarlonFay": true,
+			}
+		},
+		
+		// Marnie
+		
+		{
+			"LogName": "Unmanifest Marnie",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Marnie/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Marnie": true,
+			}
+		},
+		
+		// Maru
+		
+		{
+			"LogName": "Unmanifest Maru",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Maru/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			}
+		},
+		
+		// Morris
+		
+		{
+			"LogName": "Unmanifest Morris",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Morris/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Morris, MorrisTod": true,
+			}
+		},
+		
+		// Pam
+		
+		{
+			"LogName": "Unmanifest Pam",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Pam/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			}
+		},
+		
+		// Parents
+		
+		{
+			"LogName": "Unmanifest parents",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Parents/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Parents": true,
+			}
+		},
+		
+		// Penny
+		
+		{
+			"LogName": "Unmanifest Penny",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Penny/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Penny": true,
+			}
+		},
+		
+		// Photographer
+		
+		{
+			"LogName": "Unmanifest Photographer",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Photographer/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Photographer": true,
+			}
+		},
+		
+		// Pierre
+		
+		{
+			"LogName": "Unmanifest Pierre",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Pierre/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			}
+		},
+		
+		// Robin
+		
+		{
+			"LogName": "Unmanifest Robin",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Robin/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			}
+		},
+		
+		// Sam
+		
+		{
+			"LogName": "Unmanifest Sam",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Sam/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			}
+		},
+		
+		// Sandy
+		
+		{
+			"LogName": "Unmanifest Sandy",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Sandy/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Sandy": true,
+			}
+		},
+		
+		// Sebastian
+		
+		{
+			"LogName": "Unmanifest Sebastian",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Sebastian/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Sebastian": true,
+			}
+		},
+		
+		// Shane
+		
+		{
+			"LogName": "Unmanifest Shane",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Shane/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Shane": true,
+			}
+		},
+		
+		// Snail
+		
+		{
+			"LogName": "Unmanifest Professor Snail/Safari Guy",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Snail/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Snail": true,
+			}
+		},
+		
+		// Submarine Captain
+		
+		{
+			"LogName": "Unmanifest Submarine Captain",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Submarine Captain/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=SubmarineCaptain": true,
+			}
+		},
+		
+		// Vincent
+		
+		{
+			"LogName": "Unmanifest Vincent",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Vincent/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Vincent": true,
+			}
+		},
+		
+		// Weatherman ginger
+		
+		{
+			"LogName": "Unmanifest Weatherman ginger",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Weatherman Ginger/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=WeathermanGinger": true,
+			}
+		},
+		
+		// Willy
+		
+		{
+			"LogName": "Unmanifest Willy",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Willy/unmanifest.json",
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			}
+		},
+		
+		// Misc
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"When": {
+				"Dead |contains=Robin, Clint": true
+			},
+		
+			"Entries": {
+				"spring_1_2": "Notice:^^The price of raw materials at the woodworks and blacksmithery has increased.[#]Raw Material Price Notice",
+			}
+		},
+	]
+}

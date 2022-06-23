@@ -1,0 +1,47 @@
+{
+	"Changes": [
+		{
+			"LogName": "George — Evelyn dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/George",
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+			},
+			
+			"Entries": {
+				"Tue10": "You know, I shouldn't get too depressed about my legs.#$e#I should just be happy that I'm alive. That's what Evelyn would've wanted.$h",
+			}
+		},
+		
+		{
+			"LogName": "George — Maru sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/George",
+			
+			"When": {
+				"MaruSubHarvey": true,
+			},
+			
+			"Entries": {
+				"23.001": "*grumble*... Good for nothing nurse... *grumble*",
+				"23.002": "Well, how much longer do I have, miss?",
+			}
+		},
+		
+		{
+			"LogName": "George — Wizard sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/George",
+			
+			"When": {
+				"WizardSubHarvey": true,
+			},
+			
+			"Entries": {
+				"23.001": "*grumble*... Good for nothing magic man... *grumble*",
+				"23.002": "Well, how much longer do I have, Oz?",
+			}
+		},
+	]
+}

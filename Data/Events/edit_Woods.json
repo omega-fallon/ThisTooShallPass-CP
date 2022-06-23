@@ -1,0 +1,17 @@
+{
+	"Changes": [
+		{
+			"LogName": "Woods Events - Pam dead",
+			"Target": "Data/Events/Woods",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"Entries": {
+				"2123343/e 2111294/t 2200 2540/w sunny/F/D Emily": null,
+			}
+		},
+	]
+}

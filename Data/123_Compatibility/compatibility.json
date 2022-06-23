@@ -1,0 +1,59 @@
+{
+	"Changes": [
+		// Make sure to alphabetize these!! //
+		
+		// Canon-Friendly
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/123_Compatibility/canon_friendly.json",
+			
+			"When": {
+				"HasMod |contains=gizzymo.canonfriendlyexpansion": true,
+				"AllDead": false,
+				"AnyoneFuneral": false,
+			}
+		},
+		
+		// Immersive festival
+		
+		// Unfortunately, the way that this works out is that the dialogue changes in unmanifesting the festivals overrides this mod. This is bad because it means that if the conditions for those changes are met, that character will always have the same dialogue no matter what, breaking the point of this mod.
+		// The order we want is: base game, basic TTSP, Immersive Festival, TTSP Immersive festival compatibility.
+		// unfortunately, there's no known way for me to have a mod load before another mod, only the other way around
+		// furthermore having one part of TTSP load after another, and have a whole other mod load inbetween, is also impossible, unless I divide the code into multiple mods
+		// But then I can't use the Dead tokens, so there's no point
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/123_Compatibility/immersive_festival.json",
+			
+			"When": {
+				"HasMod |contains=tangeriney.FestivalDialogue": true,
+				"AllDead": false,
+				"AnyoneFuneral": false,
+			}
+		},
+		
+		// Phone easter egg
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/123_Compatibility/phone_easter_egg.json",
+			
+			"When": {
+				"HasMod |contains=OmegaFallon.PhoneCP": true,
+			}
+		},
+		
+		// Please Remember My Birthday
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/123_Compatibility/please_remember_my_birthday.json",
+			
+			"When": {
+				"HasMod |contains=nraittanna.RememberMyBirthday": true,
+			}
+		},
+	]
+}

@@ -1,0 +1,48 @@
+{
+	"Changes": [
+		{
+			"LogName": "Penny — Pam dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Penny",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"Entries": {
+				"Mon8": "I'm eager to move out. It's really grim, living in my Mom's old house.#$e#It has some good memories in it... but I can't stay here forever... you know?$s",
+				"Sat2": "$d Joja#Things changed a lot after the JojaMart went up. It's been really bad for Pierre's shop. Mom always loved JojaMart, though. The prices are cheap, so she could afford a lot more there than she ever could at Pierre's.|Mom would be really mad to find out that JojaMart closed down. She'd have to cut down on her Joja Cola.",
+				"fall_Thu6": "Mom never took very good care of herself...$u#$e#Could I have done more?$u",
+			}
+		},
+		
+		{
+			"LogName": "Penny — Maru dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Penny",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			},
+			
+			"Entries": {
+				"marriage_Mon.002": "I wonder if... wait, what was I about to say? I can't remember.$s",
+			}
+		},
+		
+		{
+			"LogName": "Penny — Pam dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialoguePenny",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"Entries": {
+				"Rainy_Night_1": "Ah... in weather like this, mom would usually be at the saloon.$s#$b#Shame she never kicked that habit... oh well.$s",
+				"Indoor_Night_3": "My old place is probably really lonely without me or mom there...$s#$e#Does it... make sense to say that a house can be lonely? Or maybe... hungry...$s",
+			}
+		}
+	]
+}

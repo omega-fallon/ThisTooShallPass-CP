@@ -1,0 +1,94 @@
+{
+	"Changes": [
+		{
+			"LogName": "Jodi — Kent dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jodi",
+			
+			"When": {
+				"Dead |contains=Kent": true,
+			},
+			
+			"Entries": {
+				"reject_864": "What's this? It looks like one of Kent's buddies from the war. I'm... not sure who you should give it to, now.",
+				"Mon2": "$d kent#Yesterday I visited Yoba's Altar to pray in memory of my husband.|Yesterday I visited Yoba's Altar to ask for my husband's safe return.#$e#I'm trying to stay positive, but it's hard sometimes.$s",
+				"winter_Wed4_2": "Kent... he never fully recovered. There was more I could've done, I know it...$s",
+				"winter_Thu8": "We kind of rushed into our marriage, with Kent being a soldier and all... I hardly got a taste of youth and freedom, and now it's too late to ever go back.$s#$e#I can't believe I'm saying this to you...$s",
+			}
+		},
+		
+		{
+			"LogName": "Jodi — Harvey dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Jodi",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+		
+			"Entries": {
+				"spring_11.003": "Vincent was very brave at the clinic today. I'm proud of him.",
+				"spring_11.000": "Vincent hates going to the clinic more than anything, but he'll just have to deal with it."
+			}
+		},
+		
+		{
+			"LogName": "Jodi — Maru sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Jodi",
+			
+			"When": {
+				"MaruSubHarvey": true,
+			},
+		
+			"Entries": {
+				"spring_11.002": "Nurse Maru? I'm worried about Vincent's height. Isn't he a little short for his age?",
+			}
+		},
+		
+		{
+			"LogName": "Jodi — Wizard sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Jodi",
+			
+			"When": {
+				"WizardSubHarvey": true,
+			},
+		
+			"Entries": {
+				"spring_11.002": "Magnus? I'm worried about Vincent's height. Isn't he a little short for his age?",
+			}
+		},
+		
+		{
+			"LogName": "Jodi — Vincent teen",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Jodi",
+			
+			"When": {
+				"query: {{VincentAge}} >= 13": true,
+			},
+			
+			"Entries": {
+				"spring_11.003": "Vincent's a lot better with going to the clinic, nowadays. I guess he's matured a bit.",
+				"spring_11.001": "...Oh wow, you didn't even react when he put the needle in your arm.",
+				"spring_11.002": "So, Vincent's doing alright? Good, good...",
+				"spring_11.000": "Taking Vincent to the clinic is more of an inconvenience than an ordeal, now.#$b#I guess having a teenage son isn't all that bad.$h"
+			}
+		},
+		
+		{
+			"LogName": "Jodi no longer accompanies Vincent on his hospital visit",
+			"Action": "EditData",
+			"Target": "Characters/Schedules/Jodi",
+			
+			"When": {
+				"query: {{VincentAge}} >= 18": true,
+			},
+			
+			"Entries": {
+				"spring_11": null,
+			}
+		}
+	]
+}

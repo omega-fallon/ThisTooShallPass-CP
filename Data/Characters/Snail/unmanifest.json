@@ -1,0 +1,66 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/SafariGuy",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/SafariGuy",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"Entries": {
+				"ProfessorSnail_Hint_828": "Snail's research suggests that a species of frog once lived on this island. They would've inhabited a dark, damp area, with lots of vegetation...",
+				"ProfessorSnail_Hint_827": "Long ago, a rare species of cave-bat made their home here. Snail's documents suggest they were adapted to tolerate intense heat. I can think of only one place that could refer to...",
+				"ProfessorSnail_Hint_826": "Hmm... these notes describe snake spines being abundant in the western region of the island.",
+				"ProfessorSnail_Hint_825": "Surely by now you are familiar with artifact spots? Those wiggly... wormy things, in the ground. Try hoeing them.",
+				"ProfessorSnail_Hint_824": "Before Snail got stuck in that cave, he was exploring the gully nearby. His notes describe the stones there as being full of fossils. I'd recommend breaking them open to look for bones.",
+				"ProfessorSnail_Hint_822": "Given this environment's abundance of curios, I'd imagine panning in the river would yield good results.",
+				"ProfessorSnail_Hint_821": "There are many species of fish native only to this island. From what's written here, many of the fish enjoy nibbling on ancient bones...",
+				"ProfessorSnail_Hint_820": "Golden coconuts are a mysterious thing... not even I fully understand them. It would be wise to look inside any you find.",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			"Entries": {
+				"IslandNorth_CaveHelp_0": "Such a shame...",
+				"IslandNorth_CaveHelp_1": "There was no time.",
+				"IslandNorth_CaveHelp_2": "I'll dispose of it cleanly...",
+				"IslandNorth_CaveHelp_3": "Not enough food in here...",
+				"IslandNorth_CaveTool_0": "There's no point.",
+				"IslandNorth_CaveTool_1": "Why bother...?",
+				"IslandNorth_CaveTool_2": "They keep dying...",
+				"IslandNorth_CaveTool_3": "Can I take much more?",
+				
+				"IslandNorth_Event_SafariManAppear": "tropical_island_day_ambient/-1000 -100/farmer 20 48 1/skippable/pause 1000/viewport 21 47 true/pause 1000/playSound thudStep/addTemporaryActor SafariGuy 16 32 22 45 2 true ???/move SafariGuy 0 3 3/pause 1000/changeName SafariGuy Magnus/speak SafariGuy \"...Well. This is most unfortunate. I'm sorry, @, but...$s\"/pause 500/speak SafariGuy \"...He... starved to death before you could reach him.$s\"/pause 500/faceDirection SafariGuy 3/pause 500/speak SafariGuy \"It is a shame... but as with all villagers, I have come to take their place.#$b#Professor Snail was his name. He was particularly interested in this island; he researched it quite thoroughly.\"/pause 400/faceDirection SafariGuy 2/pause 250/faceDirection SafariGuy 3/speak SafariGuy \"His research was left unfinished...#$b#But, I believe together we might do what he could not. It is the honorable thing to do, is it not?$h\"/pause 200/advancedMove SafariGuy true 1 0 0 4/pause 250/end position 20 48",
+				
+				"IslandFieldOffice_Welcome_0": "Greetings.",
+				"IslandFieldOffice_Welcome_1": "A visitor...",
+				"IslandFieldOffice_Welcome_2": "Oh, it's you.",
+				"IslandFieldOffice_Welcome_3": "Welcome.",
+				
+				"IslandFieldOffice_Survey_PurpleFlower_Wrong": "Mmm... no, that isn't what's written here at all.",
+				"IslandFieldOffice_Survey_PurpleFlower_Correct": "Very good! We have furthered his research.$h",
+				"IslandFieldOffice_Survey_Failed": "Mmm... no, that's not what it says here...",
+				
+				"IslandFieldOffice_Intro_Event": "fieldofficeTentMusic/-1000 -1000/farmer 4 10 0/skippable/addTemporaryActor SafariGuy 16 32 5 4 0 true Magnus/viewport 4 6 true/move farmer 0 -2 0/pause 1000/faceDirection SafariGuy 1 true/pause 50/faceDirection SafariGuy 2 true/pause 500/speak SafariGuy \"Ah, yes... come in.\"/move farmer 2 0 0/move farmer 0 -4 3/faceDirection SafariGuy 1/pause 500/speak SafariGuy \"Welcome to the field office.\"/faceDirection SafariGuy 2/faceDirection farmer 2/pause 500/speak SafariGuy \"As you can see... Snail left it quite empty.$s#$b#It appears that being stuck in a cave was not just the death of him, but also his work.$s\"/pause 50/faceDirection SafariGuy 1/pause 100/speak SafariGuy \"But, surely we can bring it back to its former honor.$h\"/faceDirection farmer 3/emote farmer 8/speak SafariGuy \"Snail was particularly interested in bones...#$b#Ancient bones, in particular... and this island is full of them.#$b#So if you ever encounter any bones, fossils, or mummified specimens on this island, bring them to this desk, understand? There's good rewards lying around here.$h\"/pause 200/faceDirection SafariGuy 1/end",
+				
+				"FieldOfficeFinale": "distantBanjo/-1000 -1000/farmer 4 8 0/addCraftingRecipe Ostrich Incubator/addMailReceived fieldOfficeFinale/skippable/addTemporaryActor SafariGuy 16 32 3 8 0 true Magnus/pause 1000/viewport 4 6 true/pause 4000/speak SafariGuy \"My... look at that!$h\"/faceDirection SafariGuy 1/speak SafariGuy \"The collection lives once again, all thanks to you, @.\"/emote farmer 32/speak SafariGuy \"You've truly honored this man. Please, take this.$h\"/faceDirection farmer 3/pause 700/playSound reward/message \"Learned how to craft 'Ostrich Incubator'\"/pause 400/speak SafariGuy \"This device will allow you to raise ostriches in your barns. Just place the incubator in a barn, place an ostrich egg inside, and wait...\"/faceDirection SafariGuy 0/speak SafariGuy \"Getting your hands on an ostrich egg is a difficult task, though... I'll leave that up to you.\"/pause 400/faceDirection farmer 0/pause 500/speak SafariGuy \"Well... now the real work begins.#$b#I'll be studying these bones for quite some time.\"/faceDirection SafariGuy 1/faceDirection farmer 3/speak SafariGuy \"Farewell, @.\"/pause 600/end",
+				
+				"FieldOfficeDonated_0": "Mmm... a fascinating piece of natural history. Thank you, evergreen one.",
+				"FieldOfficeDonated_1": "Oh my... that's quite the old specimen... let me get a closer look...$h",
+				"FieldOfficeDonated_2": "Quite the pristine sample! Snail would be proud.$h",
+				"FieldOfficeDonated_3": "To think... generations have come and gone while this little bone lay hidden beneath the soil, only now uncovered...",
+				"FieldOfficeDonated_Reward": "Ah, you've completed another set.$h#$b#There's something for you behind the counter. Enjoy.",
+			}
+		},
+	]
+}

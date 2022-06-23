@@ -1,0 +1,152 @@
+{
+	"Changes": [
+		{
+			"LogName": "Gus — Emily dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"Entries": {
+				"Wed": "I don't know what I'm going to do without Emily... it's a lot of work in here for one person.$s#$e#I think I might have to clean all these dishes by myself...$s",
+			}
+		},
+		
+		{
+			"LogName": "Gus — Emily dead, Clint alive",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+				"Dead |contains=Clint": false,
+			},
+			
+			"Entries": {
+				"Thu6": "Clint comes into the saloon almost every night and sits at the same table by himself.#$e#He looks really sad, honestly. Like he's looking for someone who isn't there. Hmmm.#$e#Maybe that's why he comes in so often. Oh well, that means more business for me.",
+			}
+		},
+		
+		{
+			"LogName": "Gus — Emily dead, Clint dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+				"Dead |contains=Clint": true,
+			},
+			
+			"Entries": {
+				"Thu6": "I miss when Clint would come here. He wouldn't talk to anyone; he'd just sulk and look at Emily, but still... I do miss him.$s",
+			}
+		},
+		
+		{
+			"LogName": "Gus — Pam dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"Entries": {
+				"pamHouseUpgrade": "Hey. I heard what you did with that old trailer! That was really really nice of you!$h#$e#It's a shame Pam couldn't enjoy it, but I don't think that makes it a waste...",
+				"pamHouseUpgradeAnonymous": "It's a shame Pam didn't get to enjoy her new house... but I don't think that makes it a waste. It'll do some good for someone. A good deed is a good deed, after all.",
+				"Thu8": "Pam used to come into the saloon almost every night and drink way too much beer.#$e#Ah well, I shouldn't pass judgement on the dead.",
+			}
+		},
+		
+		{
+			"LogName": "Gus — Pam dead, Clint alive",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+				"Dead |contains=Clint": false,
+			},
+			
+			"Entries": {
+				"Thu": "Clint comes into the saloon almost every night.#$e#I'd probably go out of business if he stopped coming.$h#$e#So make sure you don't drive him away!",
+			}
+		},
+		
+		{
+			"LogName": "Gus — Pam alive, Clint dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			
+			"When": {
+				"Dead |contains=Pam": false,
+				"Dead |contains=Clint": true,
+			},
+			
+			"Entries": {
+				"Thu": "Pam comes into the saloon almost every night.#$e#I'd probably go out of business if she stopped coming.$h#$e#So make sure you don't drive her away!",
+			}
+		},
+		
+		{
+			"LogName": "Gus — Pam dead, Clint dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gus",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+				"Dead |contains=Clint": true,
+			},
+			
+			"Entries": {
+				"Thu": "I've lost my best customers...$s#$e#Do you ever worry about running out of money, @?$s#$e#Sometimes I just want to run away from this town.$s",
+			}
+		},
+		
+		{
+			"LogName": "Gus — Maru sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Gus",
+			
+			"When": {
+				"MaruSubHarvey": true,
+			},
+			
+			"Entries": {
+				"fall_4.000": "Getting a checkup makes me nervous... What if I only have a few years left? I'm not at peace with the world yet!",
+				"fall_4.001": "It's my liver, isn't it, nurse? I can see it on your face. *Sigh*... I really need to cut back on that sweet, delicious Stardew Valley wine.$s",
+			}
+		},
+		
+		{
+			"LogName": "Gus — Wizard sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Gus",
+			
+			"When": {
+				"WizardSubHarvey": true,
+			},
+			
+			"Entries": {
+				"fall_4.000": "Coming here makes me nervous... What if I only have a few years left? I'm not at peace with the world yet!",
+				"fall_4.001": "It's my liver, isn't it, Magnus? I can see it on your magenta, spectral face. *Sigh*... I really need to cut back on that sweet, delicious Stardew Valley wine.$s",
+			}
+		},
+		
+		{
+			"LogName": "Gus — Pierre dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Gus",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			},
+		
+			"Entries": {
+				"Mon.000": "I'm getting some supplies for the saloon. The General Store's always got the good stuff.$h",
+			}
+		}
+	]
+}

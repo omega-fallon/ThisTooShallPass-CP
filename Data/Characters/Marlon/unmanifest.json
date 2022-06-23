@@ -1,0 +1,158 @@
+{
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Portraits/Marlon",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Marlon",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Marlon",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Marlon",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Marlon": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Marlon": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "Magnus"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Marlon": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Marlon": true
+			}
+		},
+		
+		{
+            "LogName": "Manifest Map Sprite Offset",
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			
+			"When": {
+				"HasMod |contains=Yagisan.NPCMapLocationsForNPCs": true,
+			},
+			
+            "Entries": {
+                "Marlon": {
+                    "MarkerCropOffset": 0
+                }
+            }
+        },
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/MovieTheater_TileSheet, Maps/MovieTheaterJoja_TileSheet, Maps/MovieTheaterJoja_TileSheet_international",
+			"FromFile": "Assets/unmanifest.png",
+			"ToArea": { "X": 0, "Y": 192, "Width": 16, "Height": 32 },
+			"PatchMode": "Replace",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/SpeechBubbles",
+			
+			"Entries": {
+				"AdventureGuild_Marlon_Greeting_Male": "You've returned.",
+				"AdventureGuild_Marlon_Greeting_Female": "You've returned.",
+				"AdventureGuild_Marlon_Greeting1": "Do you require a weapon?",
+				"AdventureGuild_Marlon_Greeting2": "Greetings.",
+				"AdventureGuild_Marlon_Greeting3": "A visitor...",
+				"AdventureGuild_Marlon_Greeting4": "Good evening.",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Entries": {
+				"Phone_Marlon_Open": "Yes, this is Magnus... you've lost something in the mines? Very well. I can summon it back... for a price.",
+				"Phone_Marlon_AlreadyRecovering": "Hello. Yes, my sprites are searching the mines as we speak. No cause for alarm. *click*",
+				"Phone_Marlon_NoDeathItems": "I don't seem to have any indication that you've lost anything. If you ever do need my services, I'll still be here. *click*"
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"MovieTheater_Marlon": "{{i18n:Omori.TTSP}}",
+				"MovieTheater_Marlon2": "{{i18n:Omori.TTSP}}",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"ShopMenu.cs.11521": "The caves can be dangerous. Don't go losing an eye like Marlon.",
+				
+				"ItemRecovery_Description": "Lost some items? A shame. I may recover one of them, for a fee. Choose wisely.",
+				"ItemRecovery_Engaged": "Very well, I'll see if I can find your lost {0} tonight. I'll drop it off in your mailbox tomorrow morning.",
+				"ItemRecovery_Engaged_Stack": "Very well, I'll see if I can find your lost {0} tonight. I'll drop them off in your mailbox tomorrow morning.",
+				
+				"MapPage.cs.11100": "Open 24/7",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			
+			"Entries": {
+				"AdventureGuild_Greeting": "Yes?",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"MarlonRecovery": "@,^Found your lost item.^^In the future, do take care.^   -M. Rasmodius%item itemRecovery %%[#]Magnus Found Your Item",
+				"guildQuest": "I see you've been exploring the old mine. You've got the adventurer's spirit, that much I can tell.^If you can slay 10 slimes, you'll have earned your place in my adventurer's guild. ^Be careful.    -Marlon %item quest 15 true %%[#]Quest To Slay Slimes",
+				"passedOut4": "@, ^^While scanning the Valley last night I found your collapsed body via one of my manifests. I have returned you to your home. Take care.^^     -M. Rasmodius[#]Note From Magnus",
+			}
+		},
+	]
+}

@@ -1,0 +1,47 @@
+{
+	"Ordinal1.TTSP": "st",
+	"Ordinal2.TTSP": "nd",
+	"Ordinal3.TTSP": "rd",
+	"OrdinalGen.TTSP": "th",
+	
+	"ButNobodyCame.TTSP": "%Nobody's there.",
+	"Omori.TTSP": "There is nothing here.",
+	
+	"Birdie.TTSP": "What do you require, evergreen one?",
+	
+	"WizardComeBack.TTSP": "...What are you doing in there? Come back over and we may speak.",
+	"WizardComeUpstairs.TTSP": "...What are you doing down there? Come upstairs and we may speak.",
+	"WizardRightHere.TTSP": "...I'm over here, @.",
+	
+	"WizardAdventure.TTSP": "Yes, this is Magnus. At the adventure guild. Have you lost something?#$b#Other than your innocence.$s",
+	"WizardAnimalShop.TTSP": "Magnus of the ranch speaking. Plenty of happy, healthy animals for sale.",
+	"WizardBlacksmith.TTSP": "This is Magnus at the blacksmithery, speaking. What do you wish for?",
+	"WizardSaloon.TTSP": "Magnus of the saloon speaking. Come over and partake if you so wish.",
+	"WizardSeedShop.TTSP": "Magnus of the general store, speaking. We're got plenty of stock sitting here.",
+	"WizardWoodwork.TTSP": "Yes, this is the house of carpentry. What is it you desire?",
+	
+	"JasRightHere.TTSP": "@, I'm right here!$h#$b#Gosh, you old people really don't know how to work a phone, huh?$u",
+	"JasAnimalShop.TTSP": "Hello? Jas speaking! Need any animals?",
+	
+	"CarolineRightHere.TTSP": "@, I'm right here. What're you playing at?$s",
+	"CarolineSeedShop.TTSP": "Hmm? Yes, this is the general store. We're currently open.",
+	"CarolineComeBack.TTSP": "Hey! Get out of my room and come talk to my face!$a",
+	
+	// Grieving
+	
+	"BirthdayGiftGrieving.TTSP": "Oh... for my birthday? I... completely forgot.",
+	"BirthdayGiftGrieving2.TTSP": "Oh! For my birthday? ...I completely forgot.",
+	"BirthdayGiftGrieving3.TTSP": "For my birthday? ...I completely forgot.",
+	"GrievingDefault.TTSP": "...Oh. @, I...$s#$b#...$s#$b#...I'm sorry, @. I don't feel like talking.",
+	"GrievingGiftLike.TTSP": "...Thank you.$s",
+	"GrievingGiftLove.TTSP": "...Thank you, @... that's nice of you.$h",
+	"GrievingMovie.TTSP": "Oh... thank you for trying to cheer me up, but I'm in no mood to go. Please, enjoy yourself without me.$s",
+	"GrievingWhatAreYouDoing.TTSP": "What are you doing, @?$s",
+	"GrievingWhy.TTSP": "Why would you do that...?$s",
+	"GrievingWorse.TTSP": "Now I feel even worse than before...$s",
+	"PoliteBirthdayGiftGrieving.TTSP": "Oh! For my birthday? Goodness... I completely forgot.",
+	"PoliteBirthdayGiftGrieving2.TTSP": "For my birthday? Goodness... I completely forgot.",
+	"PoliteBrighten.TTSP": "Oh... thank you, dear. That brightens things up a little for me.",
+	"PoliteGrievingDefault.TTSP": "...Oh. @, I...$s#$b#...$s#$b#...I'm sorry, dear. I don't feel like talking.",
+	"PoliteGrievingGiftLove.TTSP": "...Thank you very much, dear.$h",
+}

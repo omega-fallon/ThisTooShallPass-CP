@@ -1,0 +1,46 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/temporary_sprites_1",
+			"FromFile": "Assets/Desert Trader/Sprites/Erased_1.png",
+			"ToArea": { "X": 0, "Y": 614, "Width": 180, "Height": 26 },
+			"PatchMode": "Replace",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/temporary_sprites_1",
+			"FromFile": "Assets/Desert Trader/Sprites/Erased_2.png",
+			"ToArea": { "X": 354, "Y": 168, "Width": 64, "Height": 32 },
+			"PatchMode": "Replace",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/night_market_tilesheet_objects",
+			"FromFile": "Assets/Desert Trader/Sprites/Erased_3.png",
+			"ToArea": { "X": 224, "Y": 176, "Width": 16, "Height": 32 },
+			"PatchMode": "Replace",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/night_market_tilesheet_objects",
+			"FromFile": "Assets/Desert Trader/Sprites/Erased_4.png",
+			"ToArea": { "X": 176, "Y": 288, "Width": 80, "Height": 16 },
+			"PatchMode": "Replace",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			
+			"Entries": {
+				"BeachNightMarket_GiftGiverClosed": "The night market shall commence at 5PM... see you there, evergreen one.",
+				"BeachNightMarket_GiftGiverQuestion": "Greetings, @. Would you care for a cup of coffee?",
+				"BeachNightMarket_GiftGiverEnjoy": "Quite the lovely smell, isn't it?",
+			},
+		},
+	]
+}

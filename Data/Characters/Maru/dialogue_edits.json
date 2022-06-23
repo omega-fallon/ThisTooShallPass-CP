@@ -1,0 +1,245 @@
+{
+	"Changes": [
+		{
+			"LogName": "Maru — Demetrius dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+			},
+			
+			"Entries": {
+				"Sat": "I had a lot of fun helping Demetrius out in the laboratory... hopefully I can do some fun experiments on my own, now.",
+				"summer_Sun": "I bet you're growing some interesting crops right now.#$b#Dad once told me that a lot of exotic plants grow in the valley this time of year.",
+				 "winter_Thu": "Hey! What's up?#$e#It's a good time to explore the caves.#$e#I would go, but I'm a too busy.",
+			}
+		},
+		
+		{
+			"LogName": "Maru — Robin dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"Entries": {
+				 "Tue": "My mother was the town carpenter... now Magnus is filling in for her. That's so... weird, isn't it?",
+			}
+		},
+		
+		{
+			"LogName": "Maru — Demetrius dead, Robin alive",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+				"Dead |contains=Robin": false,
+			},
+			
+			"Entries": {
+				"Fri4": "My mother is a carpenter and my dad was a scientist. I guess it makes sense that I'm into building gadgets.",
+			}
+		},
+		
+		{
+			"LogName": "Maru — Demetrius alive, Robin dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			
+			"When": {
+				"Dead |contains=Demetrius": false,
+				"Dead |contains=Robin": true,
+			},
+			
+			"Entries": {
+				"Fri4": "My mother was a carpenter and my dad is a scientist. I guess it makes sense that I'm into building gadgets.",
+			}
+		},
+		
+		{
+			"LogName": "Maru — Demetrius dead, Robin dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+				"Dead |contains=Robin": true,
+			},
+			
+			"Entries": {
+				"Fri4": "My mother was a carpenter and my dad was a scientist. I guess it makes sense that I'm into building gadgets.",
+			}
+		},
+		
+		{
+			"LogName": "Maru — Harvey dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Maru",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+			
+			"Entries": {
+				"Wed": "On Tuesdays and Thursdays I work at the clinic.#$b#I need to be there in case the medical equipment goes haywire.$h#$e#Being a farmer must be pretty easy, huh?",
+			}
+		},
+		
+		{
+			"LogName": "Maru — Penny dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Maru",
+			
+			"When": {
+				"Dead |contains=Penny": true,
+			},
+		
+			"Entries": {
+				"marriage_Mon.002": "I hope things go well for... oh! @, dear, I didn't see you there.#$b#I was just talking to myself.",
+			}
+		},
+		
+		{
+			"LogName": "Maru — Harvey dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Maru",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+		
+			"Entries": {
+				"marriageJob.000": "I'm at work, honey! Don't let anyone see.",
+			}
+		},
+		
+		{
+			"LogName": "Maru — Demetrius dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Maru",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+			},
+		
+			"Entries": {
+				"marriage_Mon.001": "I'm making good progress on my next experiment.",
+			}
+		},
+		
+		{
+			"LogName": "Maru — Robin dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Maru",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+		
+			"Entries": {
+				"marriage_Mon.000": "...These readings don't make sense. I swear, I'm picking up her voice...$s#$b#Huh? Oh, @! Sorry, I'm just... finding some odd irregularities in my signals.",
+			}
+		},
+		
+		{
+			"LogName": "Maru — Demetrius dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueMaru",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+			},
+		
+			"Entries": {
+				"Rainy_Night_2": "Dad tracked the weather patterns for the last twenty years.#$e#We're still processing the data, but the results have revealed some abnormal trends.",
+				"winter_5": "Winter's a little depressing, since there's less opportunity for field research.#$b#I guess that just means I have to look harder!$h",
+			}
+		},
+		
+		{
+			"LogName": "Maru — Robin dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueMaru",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+		
+			"Entries": {
+				"Indoor_Night_4": "I'm really starting to love this old house. It's so cozy at night.#$e#You've done a great job improving the place.$h",
+			}
+		},
+		
+		{
+			"LogName": "Maru — Demetrius dead, Robin alive",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueMaru",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+				"Dead |contains=Robin": false
+			},
+		
+			"Entries": {
+				"funReturn_Maru": "Mom's doing just fine. Her routine is still the same, even with me and Dad gone. How was your day?",
+				"funLeave_Maru": "I think I'll visit my mom today. I haven't seen her in a while.",
+			}
+		},
+		
+		{
+			"LogName": "Maru — Demetrius alive, Robin dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueMaru",
+			
+			"When": {
+				"Dead |contains=Demetrius": false,
+				"Dead |contains=Robin": true
+			},
+		
+			"Entries": {
+				"funReturn_Maru": "Dad's doing just fine. His routine is still the same, even with me and Mom gone. How was your day?",
+				"funLeave_Maru": "I think I'll visit my dad today. I haven't seen him in a while.",
+			}
+		},
+		
+		{
+			"LogName": "Maru — Demetrius dead, Robin dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueMaru",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+				"Dead |contains=Robin": true
+			},
+		
+			"Entries": {
+				"funReturn_Maru": "Mom's old lumberworks are doing just fine without her. I'm glad Magnus is doing a good job.#$b#How was your day?",
+				"funLeave_Maru": "I think I'll stop by my old house today. I'm feeling... sedimental. *wink*$h",
+			}
+		},
+		
+		{
+			"LogName": "Events strings",
+			"Action": "EditData",
+			"Target": "Strings/Events",
+			"Entries": {
+				"Maru_comet5": "It makes me glad to live on this beautiful world with you.",
+				"Maru_comet3": "Here for one fleeting moment, then just as suddenly gone...",
+				"Maru_comet1": "Dad would've loved this.",
+			}
+		},
+		
+		{
+			"LogName": "Speech bubbles",
+			"Action": "EditData",
+			"Target": "Strings/Events",
+			"Entries": {
+				"Hospital_Maru_Greeting5": "Here to see me?"
+			}
+		},
+	]
+}

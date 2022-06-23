@@ -1,0 +1,89 @@
+{
+	"Changes": [
+		{
+			"LogName": "IslandSouth Events - Willy dead",
+			"Target": "Data/Events/IslandSouth",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			},
+			
+			"Fields": {
+				"6497428/e 6497423/f Leo 1500/w sunny/t 600 1800/Hl leoMoved": {
+					"91": "speak Willy \"Yes, that's correct... Linus lives on the mainland with the rest of the villagers.#$b#After hearing your story... I wanted to help. So, I talked to Linus, and we've made a plan.$h\"",
+					"95": "speak Willy \"Go on... tell him.\"",
+					"105": "speak Willy \"I can take you back for a visit any time you wish.$h#$b#The point is.... you can't live here forever...#$b#You know, there are other people your age back home, too. I'm sure they'd be pleased to meet you...\"",
+				}
+			}
+		},
+		
+		{
+			"LogName": "IslandSouth Events - Willy dead, Linus dead",
+			"Target": "Data/Events/IslandSouth",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Willy": true,
+				"Dead |contains=Linus": true,
+			},
+			
+			"Fields": {
+				"6497428/e 6497423/f Leo 1500/w sunny/t 600 1800/Hl leoMoved": {
+					"91": "speak Willy \"After hearing your story... I wanted to help. So, I've made a plan.$h\"",
+					"95": "speak Willy \"There is... something I wish to offer...\"",
+				}
+			}
+		},
+	
+		{
+			"LogName": "IslandSouth Events - Linus dead",
+			"Target": "Data/Events/IslandSouth",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Linus": true,
+			},
+			
+			"Fields": {
+				"6497428/e 6497423/f Leo 1500/w sunny/t 600 1800/Hl leoMoved": {
+					"15": "warp Linus 100 100",
+					"25": "textAboveHead Willy \"Wait!\"",
+					"89": "speak Willy \"I... can't just sit here and watch this happen!$s\"",
+					"101": "speak Willy \"Leo...#$b#I'd like you to come back with us, to Stardew Valley.#$b#It's a beautiful place... not as warm as here, but still full of life...#$b#I know the lay of the land, and many things about the waters, the trees, the animals, and more...#$b#You see... despite my magical appearance, I'm in tune with nature as well. You might say we're 'birds of a feather'.$h#$b#So, that's why I want to ask... Leo... will you come back with us?\"",
+					"114": "quickQuestion #I think it's a great idea.#I think he should stay here.#It's up to Leo...(break)pause 400\\emote Willy 32\\pause 500(break)pause 100\\emote Willy 28(break)faceDirection farmer 1\\pause 400",
+				}
+			}
+		},
+		
+		{
+			"LogName": "IslandSouth Events - Leo teen",
+			"Target": "Data/Events/IslandSouth",
+			"Action": "EditData",
+			
+			"When": {
+				"query: {{LeoAge}} >= 13": true,
+			},
+			
+			"Fields": {
+				"6497428/e 6497423/f Leo 1500/w sunny/t 600 1800/Hl leoMoved": {
+					"108": "speak Leo \"F... friends? Could they be friends?$u\"",
+				}
+			}
+		},
+	
+		{
+			"LogName": "IslandSouth Events - Leo dead",
+			"Target": "Data/Events/IslandSouth",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Leo": true,
+			},
+			
+			"Entries": {
+				"6497428/e 6497423/f Leo 1500/w sunny/t 600 1800/Hl leoMoved": null,
+			}
+		},
+	]
+}

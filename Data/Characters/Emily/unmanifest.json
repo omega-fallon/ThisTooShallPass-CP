@@ -1,0 +1,97 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Emily, Portraits/Emily",
+			"FromFile": "Assets/error_spritesheet.png",
+		},
+	
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Emily, Characters/Dialogue/MarriageDialogueEmily",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Emily",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Emily": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Emily": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "ERROR"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Emily": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Emily": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"HaleyHouse.8": "It's a computer. Nobody remembers the password anymore.",
+			}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/EmilyDreamscapeTiles",
+			"FromFile": "Assets/Emily/Dreamscaperers.png",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"Emily": null,
+				"EmilyCamping": null,
+				"EmilyClothingTherapy": null,
+				"EmilyCooking": null,
+				"EmilyDoneCamping": null,
+				"emilyStones": null,
+				"spring_6_2": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			
+			"Entries": {
+				"Emily": null,
+			}
+		}
+	]
+}

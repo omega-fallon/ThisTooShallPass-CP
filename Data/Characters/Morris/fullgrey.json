@@ -1,0 +1,26 @@
+{
+	"Changes": [
+		// Normal
+	
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Morris",
+			"FromFile": "Assets/Morris/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Morris",
+			"FromFile": "Assets/Morris/Sprites/FullGrey.png",
+		},
+		
+		// Misc
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Assets/Morris/Sprites/FullGrey_Cursors.png",
+			"PatchMode": "Overlay",
+		},
+	]
+}

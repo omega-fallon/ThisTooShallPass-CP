@@ -1,0 +1,72 @@
+{
+	"Changes": [
+		{
+			"LogName": "Emily — Haley dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Emily",
+			
+			"When": {
+				"Dead |contains=Haley": true,
+			},
+			
+			"Entries": {
+				"Mon": "Haley and I were sisters... it was strange, given how different we were, but I still really loved her.",
+				"Mon6": "It's lonely without Haley around. Even if she didn't contribute around the house much, it was at least nice seeing her face.$s",
+				"Wed6": "Now that Haley's gone I've had a much easier time keeping things in order. It's weird... I miss having to clean up her messes.",
+				"summer_Mon": "Haley was always a picky eater... it made cooking for her hard, but I miss doing it.",
+				"summer_Mon_inlaw_Haley": "Haley was always a picky eater... it made cooking for her hard, but I miss doing it.",
+				"winter_Sun6": "My sister and I would always fight a lot... but I miss her so much.$s#$e#She was a wonderful person...$s#$e#Anyways... is there anything you want to talk about?",
+				"winter_Sun6_inlaw_Haley": "My sister and I would always fight a lot... but I miss her so much.$s#$e#She was a wonderful person...$s#$e#Anyways... is there anything you want to talk about?",
+				"winter_Wed": "It was such a hassle keeping this house clean when Haley was living here. Not so much anymore...$s#$e#I guess I just have to deal with it.$s#$e#Your farmhouse seems nice and cozy, at least.$h",
+			}
+		},
+		
+		{
+			"LogName": "Emily — Sandy Dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Emily",
+			
+			"When": {
+				"Dead |contains=Sandy": true,
+			},
+		
+			"Entries": {
+				"Sandy_Birthday_Greeting": null,
+				"Sandy_Birthday_Hangout": null,
+				"Sandy_Birthday_Lake": null,
+				"Sandy_Birthday_Bones": null,
+				"Sandy_Birthday_Camel": null,
+				"Sandy_Birthday_Bye": null,
+			}
+		},
+		
+		{
+			"LogName": "Emily — Harvey Dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Emily",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+			
+			"Entries": {
+				"winter_11.000": "Most of us visit the hospital for a yearly check-up.",
+				"winter_11.001": "Umm... if it's not too much trouble, I'd like to go with the 'natural remedy', if possible.",
+			}
+		},
+		
+		{
+			"LogName": "Emily — Gus Dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Emily",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			},
+			
+			"Entries": {
+				"marriage_Mon.002": "Unlike Gus, Magnus seems to have everything well-organized here!$h",
+			}
+		},
+	]
+}

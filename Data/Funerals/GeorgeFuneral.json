@@ -1,0 +1,19 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/{{season}}{{day}}",
+			
+			"Entries": {
+				"Alex": "I had a feeling it would be this year. Whenever it ended up being, it wouldn't be a surprise... Gramps was old, and not very healthy...$s#$b#...But knowing it's coming doesn't make it any less heartbreaking.$s#$b#He was a tough, difficult guy, but if you got to know him you'd know he was a good person deep down.",
+				"Evelyn": "Oh... my dearest George... I knew this day would come soon, but no amount of anticipation would've made me ready for it...$s#$b#Goodness, I can't... I'm sorry, dear, but please... leave me be...$s",
+				"George": "BITCH IM DEAD. WHAT THE FUCK AM I DOING HERE. AYO OMEGAFALLON, YA DONE GOOFED IT UP. THE MOD AUTHOR BROKE THE GAME.$h",
+				"Harvey": "*sigh* Being a doctor is difficult for a lot of reasons, but if I had to say what's the worst, it's the feeling of powerlessness.$s#$b#When you know one of your patients will die, probably soon, and there's simply nothing in your power you can do to change that.$s#$b#It feels awful. My job is to heal people, and sometimes I just... can't do that.$s#$b#Well... I suppose nobody's going to blame me for this one. Nature took its course...#$b#I just hope he's at peace.",
+				"Jodi": "For some reason, Kent was insistent on coming here... we don't know the Mullners that well, but he wanted to pay his respects regardless.#$b#I guess he's right. We're all here together in the same town... we should all be in attendance.",
+				"Kent": "I never knew George too well, but... seems to me he was a guy who needed to open up more.#$b#Not insulting him, no. But, when someone dies, I try to learn from their mistakes.#$b#It's something I picked up from going to so many funerals for my brothers in arms... you've gotta find some takeaway, else you'll go numb.$s#$b#So, for me... I'll try to let my guard down a bit while I'm around people. That's the lesson I'll learn from this.",
+				"Pam": "I never knew the guy well, but my mama taught me better than to skip your neighbor's funeral.#$b#Just like him, my mama was a bit traditional. I guess sometimes that isn't a bad thing... the dead *do* deserve honor.",
+				"Penny": "Mr. Mullner was a brash guy, but he tended to apologize for his actions a lot, right afterwards. Maybe it was a compulsive thing...$s#$b#He always meant well. Just because he has a bit unfriendly doesn't mean he doesn't deserve an honorable funeral.",
+			}
+		}
+	]
+}

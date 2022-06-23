@@ -1,0 +1,27 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Sam",
+			"FromFile": "Assets/Sam/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Sam",
+			"FromFile": "Assets/Sam/Sprites/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Sam_beach",
+			"FromFile": "Assets/Sam/Portraits/FullGrey_beach.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Sam_beach",
+			"FromFile": "Assets/Sam/Sprites/FullGrey_beach.png",
+		},
+	]
+}

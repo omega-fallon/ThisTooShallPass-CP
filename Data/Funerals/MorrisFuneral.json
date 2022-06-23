@@ -1,0 +1,217 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/{{season}}{{day}}",
+			
+			"Entries": {
+				"Abigail": "Jeez... this is the happiest I think I've ever seen my mom and dad.$s",
+				"Caroline": "Hello, @. Do you like my flower arrangement?#$b#Black dahlias and yellow carnations look lovely together, don't they?$h",
+				"Demetrius": "Every now and then I'll do genetic testing on Joja products, but the results are always... chilling, to say the least.#$b#If there's one thing we can all agree on... *their* tomatoes are *not* fruit.$s",
+				"Emily": "Everyone here is happy he died... I never liked him either, but this isn't how a funeral is meant to be!$s#$b#I guess maybe I'm a bit *too* reverent...$s",
+				"Gus": "The food here is horrible. All Joja branded...$s#$b#That man worshiped that company like it was a deity. Well... I hope he's happy with his life decisions, because there isn't a single person here who isn't ecstatic that he's gone.$a",
+				"Lewis": "Ah... hello, @. This funeral is a bit odd; Morris insisted on Joja taking over the procedure instead of me or any of the townsfolk.#$b#So, uhh... yes, that's why everything is Joja-branded and stark blue.$s#$b#Listen, I don't like any of this either, but please, for the sake of honor, let's keep our insults to ourselves at least until he gets buried.",
+				"Linus": "...I... find myself at a bit of a loss, honestly.$s#$b#It's difficult. I know I should be mourning, but I feel almost nothing.",
+				"Marnie": "JojaMart has the worst produce I've ever had... one time I bought some eggs from them because I needed them for a recipe, but my chickens weren't producing.$2#$b#They came out of the shells flowing like tree sap.$3",
+				"Pam": "Damn... does this mean that JojaMart isn't gonna be around anymore?$s#$b#Oh, and, umm... I guess it's sad that he died, also.",
+				"Pierre": "Wow, somebody actually showed up. What a shocker!$h#$b#Hmm? Why am *I* here, you ask?$4#$b#Lunch was provided, of course!$h",
+				"Robin": "These decorations are so gaudy... I never liked the guy, but if he asked me to do the setup, I would've. Shame he never liked anyone other than Joja...$s#$b#I guess you really can't help people who don't want to be helped.",
+				"Sam": "Huh. Well, guess I'm out of a job, now.#$b#Yeah, that's my only real takeaway from this.$s",
+				"Sebastian": "Shame he isn't getting cremated. I would've loved to watch him burn.#$b#...#$b#What? You're looking at me like I said something disagreeable.",
+				"Shane": "Morris! Oh, no, this is terrible!$10#$b#Who's gonna sign my paycheck?$10",
+			}
+		},
+		
+		// Placing attendees
+		
+		{
+			"LogName": "Places Abigail",
+			"Action": "EditMap",
+			"Target": "Maps/Graveyard-MorrisFuneral",
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 1, "Y": 1 },
+					"Layer": "Set-Up",
+					"SetTileSheet": "characters",
+					"SetIndex": 2,
+				},
+			],
+			
+			"When": {
+				"Dead |contains=Abigail": false,
+			}
+		},
+		
+		{
+			"LogName": "Places Caroline",
+			"Action": "EditMap",
+			"Target": "Maps/Graveyard-MorrisFuneral",
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 2, "Y": 2 },
+					"Layer": "Set-Up",
+					"SetTileSheet": "characters",
+					"SetIndex": 6,
+				},
+			],
+			
+			"When": {
+				"Dead |contains=Caroline": false,
+			}
+		},
+		
+		{
+			"LogName": "Places Emily",
+			"Action": "EditMap",
+			"Target": "Maps/Graveyard-MorrisFuneral",
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 3, "Y": 3 },
+					"Layer": "Set-Up",
+					"SetTileSheet": "characters",
+					"SetIndex": 26,
+				},
+			],
+			
+			"When": {
+				"Dead |contains=Emily": false,
+			}
+		},
+		
+		{
+			"LogName": "Places Linus",
+			"Action": "EditMap",
+			"Target": "Maps/Graveyard-MorrisFuneral",
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 4, "Y": 4 },
+					"Layer": "Set-Up",
+					"SetTileSheet": "characters",
+					"SetIndex": 74,
+				},
+			],
+			
+			"When": {
+				"Dead |contains=Linus": false,
+			}
+		},
+		
+		{
+			"LogName": "Places Marnie",
+			"Action": "EditMap",
+			"Target": "Maps/Graveyard-MorrisFuneral",
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 5, "Y": 5 },
+					"Layer": "Set-Up",
+					"SetTileSheet": "characters",
+					"SetIndex": 82,
+				},
+			],
+			
+			"When": {
+				"Dead |contains=Marnie": false,
+			}
+		},
+		
+		{
+			"LogName": "Places Pierre",
+			"Action": "EditMap",
+			"Target": "Maps/Graveyard-MorrisFuneral",
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 6, "Y": 6 },
+					"Layer": "Set-Up",
+					"SetTileSheet": "characters",
+					"SetIndex": 98,
+				},
+			],
+			
+			"When": {
+				"Dead |contains=Pierre": false,
+			}
+		},
+		
+		{
+			"LogName": "Places Sam",
+			"Action": "EditMap",
+			"Target": "Maps/Graveyard-MorrisFuneral",
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 7, "Y": 7 },
+					"Layer": "Set-Up",
+					"SetTileSheet": "characters",
+					"SetIndex": 106,
+				},
+			],
+			
+			"When": {
+				"Dead |contains=Sam": false,
+			}
+		},
+		
+		{
+			"LogName": "Places Sebastian",
+			"Action": "EditMap",
+			"Target": "Maps/Graveyard-MorrisFuneral",
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 8, "Y": 8 },
+					"Layer": "Set-Up",
+					"SetTileSheet": "characters",
+					"SetIndex": 110,
+				},
+			],
+			
+			"When": {
+				"Dead |contains=Sebastian": false,
+			}
+		},
+		
+		{
+			"LogName": "Places Shane",
+			"Action": "EditMap",
+			"Target": "Maps/Graveyard-MorrisFuneral",
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 9, "Y": 9 },
+					"Layer": "Set-Up",
+					"SetTileSheet": "characters",
+					"SetIndex": 114,
+				},
+			],
+			
+			"When": {
+				"Dead |contains=Shane": false,
+			}
+		},
+		
+		{
+			"LogName": "Places Gus",
+			"Action": "EditMap",
+			"Target": "Maps/Graveyard-MorrisFuneral",
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 10, "Y": 10 },
+					"Layer": "Set-Up",
+					"SetTileSheet": "characters",
+					"SetIndex": 38,
+				},
+			],
+			
+			"When": {
+				"Dead |contains=Gus": false,
+			}
+		},
+	]
+}

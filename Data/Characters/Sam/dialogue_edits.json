@@ -1,0 +1,76 @@
+{
+	"Changes": [
+		{
+			"LogName": "Sam — Harvey dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Sam",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+		
+			"Entries": {
+				"fall_11.000": "I gotta go get a checkup today... Great.$7",
+				"fall_11.002": "I just got out of the clinic. Completely healthy and vigorous, just as I expected.$h",
+				"fall_11.001": "I'm fine, really. No need to probe.",
+			}
+		},
+		
+		{
+			"LogName": "Sam — Vincent adult",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Sam",
+			
+			"When": {
+				"query: {{VincentAge}} >= 18": true,
+			},
+		
+			"Entries": {
+				"marriage_Mon.001": "Vincent keeps calling me, asking if we can hang out. I think that's his way of saying he misses me.$h",
+			}
+		},
+		
+		{
+			"LogName": "Sam — Jodi dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Sam",
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+			},
+		
+			"Entries": {
+				"marriage_Fri.000": "Don't tell, but I really just came over for a free lunch.$h",
+				"marriage_Mon.000": "Vincent seems okay. A little *too* energetic, maybe. Otherwise good.",
+			}
+		},
+		
+		{
+			"LogName": "Sam — Abigail or Sebastian dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSam",
+			
+			"When": {
+				"Dead |contains=Abigail, Sebastian": true,
+			},
+		
+			"Entries": {
+				"Rainy_Day_1": "Hey, you ever think about who else in town would be good as a couple?#$e#Heh... now that I'm married I'm trying to get everyone else married too.",
+			}
+		},
+		
+		{
+			"LogName": "Sam — Sebastian dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSam",
+			
+			"When": {
+				"Dead |contains=Sebastian": true,
+			},
+		
+			"Entries": {
+				"spring_12": "Are you excited for tomorrow's festival?",
+			}
+		},
+	]
+}

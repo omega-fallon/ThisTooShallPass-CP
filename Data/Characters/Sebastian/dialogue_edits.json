@@ -1,0 +1,106 @@
+{
+	"Changes": [
+		{
+			"LogName": "Sebastian — Demetrius dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+			},
+			
+			"Entries": {
+				"fall_Tue6": "...You know... as much as I hated him, I kind of miss Demetrius and his weird bossy attitude.$s",
+				"winter_Sun": "A while back, I built a snowgoon, but Demetrius made me get rid of it.#$e#I was really mad at the time. He always said he wanted to connect with me, and then he went and did stuff like that.$a",
+				"winter_Sun6": "A while back, I built a snowgoon, but Demetrius made me get rid of it... but he let Maru's cute little snowman go unharmed...$a#$e#He always did pick favorites.$a",
+			}
+		},
+		
+		{
+			"LogName": "Sebastian — Robin dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Sebastian",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"Entries": {
+				"winter_Tue6": "When Mom threw away my old comic collection a while back, I wanted to scream at her... but something stopped me.#$e#I'm... glad I didn't yell at her.$s",
+			}
+		},
+		
+		{
+			"LogName": "Sebastian — Maru sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Sebastian",
+			
+			"When": {
+				"MaruSubHarvey": true,
+			},
+		
+			"Entries": {
+				"summer_4.000": "Dammit... I almost forgot. I have to go to the clinic today.#$b#Well... at least it'll be Maru instead of that old guy.",
+			}
+		},
+		
+		{
+			"LogName": "Sebastian — Wizard sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Sebastian",
+			
+			"When": {
+				"WizardSubHarvey": true,
+			},
+		
+			"Entries": {
+				"summer_4.000": "Dammit... I almost forgot. I have to go to the clinic today.",
+			}
+		},
+		
+		{
+			"LogName": "Sebastian — Sam dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Sebastian",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+		
+			"Entries": {
+				"Fri.000": "Should I go easy on this game? ...nah.$h",
+				"marriage_Fri.001": "My skills haven't declined... I'm still the best around.$h",
+				"marriage_Fri.000": "I'm going out to have some fun. I'll be home later.",
+			}
+		},
+		
+		{
+			"LogName": "Sebastian — Robin dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Sebastian",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+		
+			"Entries": {
+				"marriage_Mon.001": "For some reason, when I walked in here, I got a smile on my face right away.$7",
+			}
+		},
+		
+		{
+			"LogName": "Sebastian — Sam dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueSebastian",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+		
+			"Entries": {
+				"spring_12": "Are you excited for tomorrow's festival?",
+				"fall_15": "The Stardew Valley Fair is a little crowded for my tastes... but I'll just hang out by myself. It'll be good to enjoy the atmosphere with some quiet time.#$e#You should play some carnival games, though! Don't worry about me.$7",
+			}
+		},
+	]
+}

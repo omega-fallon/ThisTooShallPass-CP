@@ -1,0 +1,103 @@
+{
+	"Changes": [
+		{
+			"LogName": "Robin — Demetrius dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+			},
+			
+			"Entries": {
+				"Sun": "It's kind of quiet here without Demetrius almost blowing up the house up with his science experiments.#$e#I'm not even sure what he was working on. I think it had something to do with plants.",
+				"Sun2": "#$1 RobinDem#One time, Demetrius almost set the house on fire with one of his science experiments. One of his beakers exploded and sent a fireball into the rafters. Thank Yoba I used fire-resistant lacquer when I built the place.$u#$e#Sorry if it smells weird in here, @. Funnily enough, something's burning...",
+			}
+		},
+		
+		{
+			"LogName": "Robin — Evelyn dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+			},
+			
+			"Entries": {
+				"reject_866": "Hmm... when I think of flowers, I think of Evelyn. Maybe you should leave it by her grave.",
+			}
+		},
+		
+		{
+			"LogName": "Robin — Pam dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"Entries": {
+				"pamHouseUpgrade": "Our little plan worked out well, don't you think? Penny seems really happy.",
+				"pamHouseUpgradeAnonymous": "Our little plan worked out well, don't you think? Penny seems really happy.",
+			}
+		},
+		
+		{
+			"LogName": "Robin — Lewis dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+			},
+			
+			"Entries": {
+				"cc_Begin": "Hey! I heard that you looked around the Community Center... It'd be great if you could fix that place up. It used to be a really nice building!",
+			}
+		},
+		
+		{
+			"LogName": "Robin — Harvey dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Robin",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+		
+			"Entries": {
+				"summer_18.001": "Nothing bad to report. I feel as healthy as ever.",
+			}
+		},
+		
+		{
+			"LogName": "Robin - character dialogue changes",
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+			},
+			
+			"Entries": {
+				"Phone_Robin_Open_Rare": "Hello? Oh, hi @! *BANG*... Um, one sec... (Muffled Voice: Yoba, why does that door keep flying open on its own?)... Sorry! Yes, I'm open until 5pm today. See you later! *click* ",
+			}
+		},
+		
+		{
+			"LogName": "Locations",
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"Entries": {
+				"ScienceHouse_Carpenter_CommunityUpgrade1": "...Huh? You want to upgrade the old trailer? That's a really sweet gesture!^I'll just need 950 wood and 500,000g...",
+			}
+		},
+	]
+}

@@ -1,0 +1,73 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Sebastian, Portraits/Sebastian",
+			"FromFile": "Assets/error_spritesheet.png",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Sebastian, Characters/Dialogue/MarriageDialogueSebastian",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Sebastian",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Sebastian": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Sebastian": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "ERROR"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Sebastian": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Sebastian": true
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/SebastianRoom",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 1, "Y": 3 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door"
+                    }
+                }
+            ],
+		},
+	]
+}

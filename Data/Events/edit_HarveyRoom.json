@@ -1,0 +1,17 @@
+{
+	"Changes": [
+		{
+			"LogName": "HarveyRoom Events - Harvey dead",
+			"Target": "Data/Events/HarveyRoom",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+			
+			"Entries": {
+				"normal": null,
+			}
+		},
+	]
+}

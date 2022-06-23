@@ -1,0 +1,348 @@
+{
+	"Changes": [
+		// Robin dead
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "AdventureGuild, AnimalShop, Blacksmith, Saloon, SeedShop, Sunroom, MermaidHouse",
+				"Dead |contains=Robin": true,
+			},
+			
+			"Entries": {
+				"Phone_Robin_Open": "{{i18n:WizardWoodwork.TTSP}}",
+				"Phone_Robin_Open_Rare": "{{i18n:WizardWoodwork.TTSP}}",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "ScienceHouse",
+				"Dead |contains=Robin": true,
+			},
+			
+			"Entries": {
+				"Phone_Robin_Open": "{{i18n:WizardRightHere.TTSP}}",
+				"Phone_Robin_Open_Rare": "{{i18n:WizardRightHere.TTSP}}",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "SebastianRoom",
+				"Dead |contains=Robin": true,
+			},
+			
+			"Entries": {
+				"Phone_Robin_Open": "{{i18n:WizardComeUpstairs.TTSP}}",
+				"Phone_Robin_Open_Rare": "{{i18n:WizardComeUpstairs.TTSP}}",
+			}
+		},
+		
+		// Clint dead
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "AdventureGuild, AnimalShop, Saloon, ScienceHouse, SebastianRoom, Sunroom, SeedShop, MermaidHouse",
+				"Dead |contains=Clint": true,
+			},
+			
+			"Entries": {
+				"Phone_Clint_Open": "{{i18n:WizardBlacksmith.TTSP}}",
+				"Phone_Clint_Open_Rare": "{{i18n:WizardBlacksmith.TTSP}}",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "Blacksmith",
+				"Dead |contains=Clint": true,
+			},
+			
+			"Entries": {
+				"Phone_Clint_Open": "{{i18n:WizardRightHere.TTSP}}",
+				"Phone_Clint_Open_Rare": "{{i18n:WizardRightHere.TTSP}}",
+			}
+		},
+		
+		// Gus dead
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "AdventureGuild, AnimalShop, Blacksmith, ScienceHouse, SebastianRoom, Sunroom, SeedShop, MermaidHouse",
+				"Dead |contains=Gus": true,
+			},
+			
+			"Entries": {
+				"Phone_Gus_Open": "{{i18n:WizardSaloon.TTSP}}",
+				"Phone_Gus_Open_Rare": "{{i18n:WizardSaloon.TTSP}}",
+				"Phone_Gus_Open_NoDishOfTheDay": "{{i18n:WizardSaloon.TTSP}}",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "Saloon",
+				"Dead |contains=Gus": true,
+			},
+			
+			"Entries": {
+				"Phone_Gus_Open": "{{i18n:WizardRightHere.TTSP}}",
+				"Phone_Gus_Open_Rare": "{{i18n:WizardRightHere.TTSP}}",
+				"Phone_Gus_Open_NoDishOfTheDay": "{{i18n:WizardRightHere.TTSP}}",
+			}
+		},
+		
+		// Marnie //
+		// Jas sub marnie
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "AdventureGuild, Saloon, Blacksmith, ScienceHouse, SebastianRoom, Sunroom, SeedShop, MermaidHouse",
+				"JasSubMarnie": true,
+			},
+			
+			"Entries": {
+				"Phone_Marnie_Open": "{{i18n:JasAnimalShop.Phone}}",
+				"Phone_Marnie_Open_Rare": "{{i18n:JasAnimalShop.Phone}}",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "AnimalShop",
+				"JasSubMarnie": true,
+			},
+			
+			"Entries": {
+				"Phone_Marnie_Open": "{{i18n:JasRightHere.TTSP}}",
+				"Phone_Marnie_Open_Rare": "{{i18n:JasRightHere.TTSP}}",
+			}
+		},
+		
+		// Wizard sub marnie
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "AdventureGuild, Saloon, Blacksmith, ScienceHouse, SebastianRoom, Sunroom, SeedShop, MermaidHouse",
+				"WizardSubMarnie": true,
+			},
+			
+			"Entries": {
+				"Phone_Marnie_Open": "{{i18n:WizardAnimalShop.Phone}}",
+				"Phone_Marnie_Open_Rare": "{{i18n:WizardAnimalShop.Phone}}",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "AnimalShop",
+				"WizardSubMarnie": true,
+			},
+			
+			"Entries": {
+				"Phone_Marnie_Open": "{{i18n:WizardRightHere.TTSP}}",
+				"Phone_Marnie_Open_Rare": "{{i18n:WizardRightHere.TTSP}}",
+			}
+		},
+		
+		// Marlon //
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "AnimalShop, Saloon, Blacksmith, ScienceHouse, SebastianRoom, Sunroom, SeedShop, MermaidHouse",
+				"Dead |contains=Marlon, MarlonFay": true,
+			},
+			
+			"Entries": {
+				"Phone_Marlon_AlreadyRecovering": "{{i18n:WizardAdventure.Phone}}",
+				"Phone_Marlon_NoDeathItems": "{{i18n:WizardAdventure.Phone}}",
+				"Phone_Marlon_Open": "{{i18n:WizardAdventure.Phone}}",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "AdventureGuild",
+				"Dead |contains=Marlon, MarlonFay": true,
+			},
+			
+			"Entries": {
+				"Phone_Marlon_AlreadyRecovering": "{{i18n:WizardRightHere.Phone}}",
+				"Phone_Marlon_NoDeathItems": "{{i18n:WizardRightHere.Phone}}",
+				"Phone_Marlon_Open": "{{i18n:WizardRightHere.Phone}}",
+			}
+		},
+		
+		// Pierre //
+		// Caroline sub Pierre
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "AnimalShop, Saloon, Blacksmith, ScienceHouse, SebastianRoom, AdventureGuild, MermaidHouse",
+				"CarolineSubPierre": true,
+			},
+			
+			"Entries": {
+				"Phone_Pierre_Open": "{{i18n:CarolineSeedShop.Phone}}",
+				"Phone_Pierre_Open_Rare": "{{i18n:CarolineSeedShop.Phone}}",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "SeedShop",
+				"CarolineSubPierre": true,
+			},
+			
+			"Entries": {
+				"Phone_Pierre_Open": "{{i18n:CarolineRightHere.Phone}}",
+				"Phone_Pierre_Open_Rare": "{{i18n:CarolineRightHere.Phone}}",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "Sunroom",
+				"CarolineSubPierre": true,
+			},
+			
+			"Entries": {
+				"Phone_Pierre_Open": "{{i18n:CarolineComeBack.Phone}}",
+				"Phone_Pierre_Open_Rare": "{{i18n:CarolineComeBack.Phone}}",
+			}
+		},
+		
+		// Wizard sub Pierre
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "AnimalShop, Saloon, Blacksmith, ScienceHouse, SebastianRoom, AdventureGuild, MermaidHouse",
+				"WizardSubPierre": true,
+			},
+			
+			"Entries": {
+				"Phone_Pierre_Open": "{{i18n:WizardSeedShop.Phone}}",
+				"Phone_Pierre_Open_Rare": "{{i18n:WizardSeedShop.Phone}}",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "SeedShop",
+				"WizardSubPierre": true,
+			},
+			
+			"Entries": {
+				"Phone_Pierre_Open": "{{i18n:WizardRightHere.Phone}}",
+				"Phone_Pierre_Open_Rare": "{{i18n:WizardRightHere.Phone}}",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "Sunroom",
+				"WizardSubPierre": true,
+			},
+			
+			"Entries": {
+				"Phone_Pierre_Open": "{{i18n:WizardComeBack.Phone}}",
+				"Phone_Pierre_Open_Rare": "{{i18n:WizardComeBack.Phone}}",
+			}
+		},
+	]
+}

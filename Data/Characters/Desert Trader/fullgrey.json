@@ -1,0 +1,17 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/temporary_sprites_1",
+			"FromFile": "Assets/Desert Trader/Sprites/FullGrey.png",
+			"PatchMode": "Overlay",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/night_market_tilesheet_objects",
+			"FromFile": "Assets/Desert Trader/Sprites/FullGrey_mapsfolder.png",
+			"PatchMode": "Overlay",
+		},
+	]
+}

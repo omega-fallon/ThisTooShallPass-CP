@@ -1,0 +1,104 @@
+{
+  "Name": "This Too Shall Pass [CP]",
+  "Author": "Omega Fallon",
+  "Version": "1.0.0",
+  "Description": "Unfreezes time within Stardew Valley.",
+  "UniqueID": "OmegaFallon.ThisTooShallPassCP",
+  "MinimumApiVersion": "3.0.0",
+  "ContentPackFor": {
+    "UniqueID": "Pathoschild.ContentPatcher"
+  },
+  
+  "Dependencies": [
+		{
+			"UniqueId": "OmegaFallon.CompatibilityCP",
+			"IsRequired": false,
+		},
+		
+		{
+			"UniqueId": "nraittanna.RememberMyBirthday",
+			"IsRequired": false,
+		},
+		
+		{
+			"UniqueId": "mothbeanie.GiftsRedone",
+			"IsRequired": false,
+		},
+		
+		{
+			"UniqueId": "Lemurkat.UniqueGiftReactions",
+			"IsRequired": false,
+		},
+		
+		{
+			"UniqueId": "aedenthorn.Dreamscape",
+			"IsRequired": false,
+		},
+		
+		{
+			"UniqueId": "misscoriel.courtship",
+			"IsRequired": false,
+		},
+		
+		{
+			"UniqueId": "gizzymo.canonfriendlyexpansion",
+			"IsRequired": false,
+		},
+		
+		{
+			"UniqueId": "tangeriney.FestivalDialogue",
+			"IsRequired": false,
+		},
+		
+		{
+			"UniqueId": "Yagisan.NPCMapLocationsForNPCs",
+			"IsRequired": false,
+		},
+		{
+			"UniqueId": "OmegaFallon.PhoneCP",
+			"IsRequired": false,
+		},
+		
+		// Required
+		
+		{
+			"UniqueId": "OmegaFallon.ThisTooShallPassCS",
+			"IsRequired": true,
+		},
+		
+		{
+			"UniqueId": "Esca.CustomNPCExclusions",
+			"IsRequired": true,
+		},
+		
+		{
+			"UniqueId": "SuperAardvark.AntiSocial",
+			"IsRequired": true,
+		},
+		
+		{
+			"UniqueID": "aedenthorn.CustomFixedDialogue",
+			"IsRequired": true
+		},
+		
+		{
+			"UniqueID": "spacechase0.ContentCode",
+			"IsRequired": true
+		},
+		
+		{
+			"UniqueID": "Vertigon.StatsAsTokens",
+			"IsRequired": true
+		},
+		
+		{
+			"UniqueID": "misscoriel.eventrepeater",
+			"IsRequired": true,
+		},
+		
+		{
+			"UniqueID": "aedenthorn.ExtraMapLayers",
+			"IsRequired": true,
+		},
+	]
+}

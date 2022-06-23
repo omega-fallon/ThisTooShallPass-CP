@@ -1,0 +1,46 @@
+{
+	"Changes": [
+		{
+			"LogName": "Marlon — Gil dead",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"When": {
+				"Dead |contains=Gil": true,
+			},
+			
+			"Entries": {
+				"MovieTheater_Marlon": "It was a nice movie. I think Gil would've liked it.",
+				"MovieTheater_Marlon2": "That was an interesting one... what'd you think, Gil?#$b#...Oh.#$b#...Heh, he's out cold, like always!#$b#...Ah, yeah, that one was dark.",
+			}
+		},
+		
+		{
+			"LogName": "Marlon — Gil dead",
+			"Action": "EditData",
+			"Target": "Strings/SpeechBubbles",
+			
+			"When": {
+				"Dead |contains=Gil": true,
+			},
+			
+			"Entries": {
+				 "AdventureGuild_Marlon_Greeting3": "Welcome aboard, visitor.",
+			}
+		},
+		
+		{
+			"LogName": "Misc — Gil dead",
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			
+			"When": {
+				"Dead |contains=Gil": true,
+			},
+			
+			"Entries": {
+				"AdventureGuild_KillList_Footer": "\n  -See Gil's shrine to claim your rewards.",
+			}
+		},
+	]
+}

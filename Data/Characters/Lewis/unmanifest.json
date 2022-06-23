@@ -1,0 +1,168 @@
+{
+	"Changes": [
+		
+		// General
+	
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Lewis, Portraits/Lewis",
+			"FromFile": "Assets/error_spritesheet.png",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Lewis",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Lewis": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Lewis": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "ERROR"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Lewis": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Lewis": true
+			}
+		},
+		
+		{
+			"LogName": "Lewis call",
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Entries": {
+				"Phone_Ring_Lewis": "{{i18n:ButNobodyCame.TTSP}}",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"ManorHouse.1": "The oven is pretty dirty. In the burn marks, you can almost see... no, it's just your imagination.",
+				"ManorHouse.2": "A fancy tea set. The cups are cracked at their bases.",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			
+			"Entries": {
+				"Town_PickupTruck": "It's just the back of an old pickup truck...",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"Event.cs.1597": "Wow, I got a low score. I guess {{LewisSubF}} isn't much of a fish {{LewisAff}}. Oh well...$s",
+				"Event.cs.1584": "Your grange display has been judged. Return to {{LewisSubF}} for the result!",
+				"MultiplayerUtility.cs.12488": "Your grange display has been judged. Return to {{LewisSubF}} for the result!",
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/ManorHouse",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 16, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door"
+                    }
+                }
+            ],
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"Lewis": null,
+				"LewisCooking": null,
+				"MSB_Lewis": null,
+				"summer_21_2": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"When": {
+				"Dead |contains=Caroline": false,
+			},
+			
+			"Entries": {
+				"carolineSO": "Hi @,^^{{LewisSubS}} told me that you've been shipping a lot of ingredients from the island! It's great to have access to new produce... it really opens a whole new world of culinary possibilities!^I'm including a gift for you... some blueprints you might find useful.^^-Caroline%item craftingRecipe Solar_Panel %%[#]Caroline's Tropical Ingredients",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			
+			"Entries": {
+				"Lewis": null,
+			}
+		},
+		
+		// If Lewis dies, someone has to substitute for him. Unfortunately, the game logic makes it such that Lewis is the only person who can instigate these things. The solution is simple: we retexture and rename Lewis to the NPC of our choosing. //
+		
+		// Marnie replaces
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Characters/Marnie/marnie_sub_lewis.json",
+		
+			"When": {
+				"MarnieSubLewis": true,
+			},
+		},
+		
+		// Wizard replaces
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Characters/Wizard/wizard_sub_lewis.json",
+		
+			"When": {
+				"WizardSubLewis": true,
+			},
+		}
+	]
+}

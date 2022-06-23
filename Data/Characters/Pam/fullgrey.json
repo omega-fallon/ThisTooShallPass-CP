@@ -1,0 +1,27 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Pam",
+			"FromFile": "Assets/Pam/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Pam",
+			"FromFile": "Assets/Pam/Sprites/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Pam_beach",
+			"FromFile": "Assets/Pam/Portraits/FullGrey_beach.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Pam_beach",
+			"FromFile": "Assets/Pam/Sprites/FullGrey_beach.png",
+		},
+	]
+}

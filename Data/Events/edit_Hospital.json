@@ -1,0 +1,33 @@
+{
+	"Changes": [
+		{
+			"LogName": "Hospital Events - Harvey/Maru dead",
+			"Target": "Data/Events/Hospital",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Harvey, Maru": true,
+			},
+			
+			"Entries": {
+				"7/f Maru 1000/p Maru": null,
+				"toldTruth": null,
+			}
+		},
+		
+		{
+			"LogName": "Hospital Events - Harvey dead",
+			"Target": "Data/Events/Hospital",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+			
+			"Entries": {
+				"57/f Harvey 1000/p Harvey": null,
+				"571102/f Harvey 2000": null,
+			}
+		},
+	]
+}

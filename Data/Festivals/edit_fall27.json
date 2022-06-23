@@ -1,0 +1,719 @@
+{
+	"Changes": [
+	
+		// Removal of NPCs from the map //
+		// The way that NPCs are spawned in is within the .tmx file itself, so we have to edit that. Thankfully, we don't have to make a hundred .tmx files with single changes. //
+		
+		// Abigail
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 23, "Y": 26 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Alex
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Alex": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 35, "Y": 19 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Caroline
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Caroline, Pierre": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 30, "Y": 66 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Clint
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Clint": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 36, "Y": 62 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Demetrius
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 36, "Y": 66 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Elliott
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 36, "Y": 71 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Emily
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 23, "Y": 66 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Evelyn
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 1, "Y": 1 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// George
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=George": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 1, "Y": 1 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Gus
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 35, "Y": 69 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Haley
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Haley": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 23, "Y": 48 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Harvey
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 14, "Y": 30 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Jas
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Jas": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 17, "Y": 52 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Jodi
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 31, "Y": 67 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Kent
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Kent": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 29, "Y": 67 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Leah
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Leah": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 28, "Y": 65 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Leo
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Leo": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 38, "Y": 22 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Lewis
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 28, "Y": 71 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Linus
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Linus": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 27, "Y": 1 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Marlon
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Marlon, MarlonFay": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 28, "Y": 57 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Marnie
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Marnie": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 17, "Y": 51 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Maru
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 21, "Y": 30 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Pam
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 31, "Y": 70 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Penny
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Penny": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 38, "Y": 15 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Pierre
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"CarolineSubPierre": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 48 },
+					"Layer": "Set-Up",
+					"SetTilesheet": "characters",
+					"SetIndex": 6,
+				},
+			]
+		},
+		
+		// Robin
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 36, "Y": 65 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Sam
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 15, "Y": 10 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Sebastian
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Sebastian": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 28, "Y": 60 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Shane
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Shane": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 31, "Y": 62 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Vincent
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"query: {{Dead |contains=Vincent}} OR {{JasVince13}}": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 25, "Y": 73 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"JasVince13": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 16, "Y": 52 },
+					"Layer": "Set-Up",
+					"SetTileSheet": "characters",
+					"SetIndex": 117,
+				},
+			]
+		},
+		
+		// Willy
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 1, "Y": 1 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Wizard
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"WizardPresent": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 1 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"WizardPresent": true,
+				"Dead |contains=Marlon, MarlonFay": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 28, "Y": 57 },
+					"Layer": "Set-Up",
+					"SetTilesheet": "characters",
+					"SetIndex": 122,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Halloween",
+			
+			"When": {
+				"WizardPresent": true,
+				"Dead |contains=Marlon, MarlonFay": false,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 27, "Y": 56 },
+					"Layer": "Set-Up",
+					"SetTilesheet": "characters",
+					"SetIndex": 122,
+				},
+			]
+		},
+		
+		// Dialogue edits //
+		
+		{
+			"LogName": "Spirit's Eve - Pierre dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			},
+			
+			"Entries": {
+				"Pierre": "...Yes? Apologies, I'd much prefer to speak in person."
+			}
+		},
+		
+		// Vincent
+		
+		{
+			"LogName": "Spirit's Eve - Vincent not a baby - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			
+			"When": {
+				"query: {{VincentAge}} >= 13": true,
+				"query: {{VincentAge}} >= 18": false,
+			},
+			
+			"Entries": {
+				"Jodi": "Vincent has grown up so fast... this year I'm letting Vincent go into the maze.#$b#Accompanied by Jas, of course. Just in case he gets too scared and needs someone there.",
+			}
+		},
+		
+		{
+			"LogName": "Spirit's Eve - Vincent adult - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			
+			"When": {
+				"query: {{VincentAge}} >= 18": true,
+			},
+			
+			"Entries": {
+				"Jodi": "Vincent's has his heart set on going into that maze. He's {{VincentAge}} now, so who am I to stop him?",
+			}
+		},
+	]
+}

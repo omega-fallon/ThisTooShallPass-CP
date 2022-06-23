@@ -1,0 +1,67 @@
+{
+	"Changes": [
+		{
+			"LogName": "Evelyn — George dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+			
+			"When": {
+				"Dead |contains=George": true,
+			},
+			
+			"Entries": {
+				"reject_867": "Oh, I'm sure George would've been interested in that. Perhaps Magnus would take it instead?",
+				"Tue": "I'm hoping to find some leeks on my walk today. I want to make a nice soup to remember George by.$h",
+				"Fri": "George always spent the whole day in front of that darned television set.#$e#I wish he would've gone outside more. There's so much he never got to see.$s",
+				"Tue6": "It's nice of you to take the time to visit me.#$e#Without young people around, I'd age much faster.$h",
+				"summer_Tue": "The summer was always George's favorite month... I think it may be mine, too. The warm weather softens you up, doesn't it?#$e#It's important to savor the weather before it passes.",
+				"fall_Tue": "I've been putting raisins in Alex's oatmeal... I like to keep him nice and healthy so he do his very best at gridball.",
+				"winter_Sat8": "@, have I told you that I've have lived in my old house for {{query: 30 + {{EYear}}}} years?#$e#I hope you stay here for a while.$h"
+			}
+		},
+
+		{
+			"LogName": "Evelyn — Emily dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"Entries": {
+				"reject_866": "That's a very pretty rose, dear. It makes me think of Emily. Perhaps Magnus could have an honorable use for it?",
+			}
+		},
+		
+		{
+			"LogName": "Evelyn — Harvey dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Evelyn",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+			
+			"Entries": {
+				"2.000": "When you get to be my age you have to come here more often."
+			}
+		},
+		
+		{
+			"LogName": "Evelyn — George dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Evelyn",
+			
+			"When": {
+				"Dead |contains=George": true,
+			},
+			
+			"Entries": {
+				"winter_17.000": "This is one of the newer traditions in Pelican Town... but I've taken to it rather quickly.",
+				"23.000": "Is everything quite alright?",
+				"23.001": "Could you just check right here? Pardon me, I worry a too much.",
+			}
+		},
+	]
+}

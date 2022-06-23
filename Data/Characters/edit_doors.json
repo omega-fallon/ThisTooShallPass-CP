@@ -1,0 +1,545 @@
+{
+	"Changes": [
+		// Pierre and Caroline
+		{
+			"Action": "EditMap",
+			"Target": "Maps/SeedShop",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 20, "Y": 11 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door Pierre"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Caroline": true,
+				"Dead |contains=Pierre": false,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/SeedShop",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 20, "Y": 11 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door Caroline"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Caroline": false,
+				"Dead |contains=Pierre": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/SeedShop",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 20, "Y": 11 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Caroline": true,
+				"Dead |contains=Pierre": true,
+			}
+		},
+		
+		// Evelyn and George
+		{
+			"Action": "EditMap",
+			"Target": "Maps/JoshHouse",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 5, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door George"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+				"Dead |contains=George": false,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/JoshHouse",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 5, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door Evelyn"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Evelyn": false,
+				"Dead |contains=George": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/JoshHouse",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 5, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+				"Dead |contains=George": true,
+			}
+		},
+		
+		// Jodi and Kent
+		{
+			"Action": "EditMap",
+			"Target": "Maps/SamHouse",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 17, "Y": 6 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door Kent"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+				"Dead |contains=Kent": false,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/SamHouse",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 17, "Y": 6 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door Jodi"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Jodi": false,
+				"Dead |contains=Kent": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/SamHouse",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 17, "Y": 6 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+				"Dead |contains=Kent": true,
+			}
+		},
+		
+		// Demetrius and Robin
+		{
+			"Action": "EditMap",
+			"Target": "Maps/ScienceHouse",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 13, "Y": 10 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door Robin"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+				"Dead |contains=Robin": false,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/ScienceHouse",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 13, "Y": 10 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door Demetrius"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Demetrius": false,
+				"Dead |contains=Robin": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/ScienceHouse",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 13, "Y": 10 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+				"Dead |contains=Robin": true,
+			}
+		},
+		
+		// Exterior doors (sans Leah and Elliott)
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 10, "Y": 85 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 4 23 SamHouse 600 2600"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Sam": true,
+				"Dead |contains=Vincent": true,
+				"Dead |contains=Jodi": true,
+				"Dead |contains=Kent": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 20, "Y": 88 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 2 24 HaleyHouse 600 2600"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Emily": true,
+				"Dead |contains=Haley": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 58, "Y": 85 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 4 11 ManorHouse 600 2600"
+                    }
+                },
+				
+			    {
+                    "Position": { "X": 59, "Y": 85 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 5 11 ManorHouse 600 2600"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 72, "Y": 68 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 12 9 Trailer 600 2600"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Pam": true,
+				"Dead |contains=Penny": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 57, "Y": 63 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 9 24 JoshHouse 600 2600"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+				"Dead |contains=George": true,
+				"Dead |contains=Alex": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 45, "Y": 70 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 14 24 Saloon 600 2600"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 43, "Y": 56 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 6 29 SeedShop 600 2600"
+                    }
+                },
+				
+				{
+                    "Position": { "X": 44, "Y": 56 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 6 29 SeedShop 600 2600"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+				"Dead |contains=Caroline": true,
+				"Dead |contains=Abigail": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 36, "Y": 55 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 10 19 Hospital 600 2600"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 94, "Y": 81 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 5 19 Blacksmith 600 2600"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Clint": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 101, "Y": 89 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 3 14 ArchaeologyHouse 600 2600"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Gunther, GuntherSilva": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach, Maps/Beach-Jellies, Maps/Beach-Luau, Maps/Beach-NightMarket",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 30, "Y": 33 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 5 9 FishShop 600 2600"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Mountains",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 12, "Y": 25 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 6 24 ScienceHouse 600 2600"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+				"Dead |contains=Robin": true,
+				"Dead |contains=Sebastian": true,
+				"Dead |contains=Maru": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Mountains",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 76, "Y": 8 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 6 19 AdventureGuild 600 2600"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Marlon, MarlonFay": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 90, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 13 19 AnimalShop 600 2600"
+                    }
+                }
+            ],
+			
+			"When": {
+				"Dead |contains=Marnie": true,
+				"Dead |contains=Shane": true,
+				"Dead |contains=Jas": true,
+			}
+		},
+	]
+}

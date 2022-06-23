@@ -1,0 +1,727 @@
+{
+	"Changes": [
+	
+		// Removal of NPCs from the map //
+		// The way that NPCs are spawned in is within the .tmx file itself, so we have to edit that. Thankfully, we don't have to make a hundred .tmx files with single changes. //
+		
+		// Abigail
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 12, "Y": 39 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Alex
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Alex": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 22, "Y": 24 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Caroline
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"query: {{Dead |contains=Caroline}} OR {{CarolineSubPierre}}": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 8, "Y": 6 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Clint
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Clint": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 42, "Y": 36 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Demetrius
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 76, "Y": 25 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+				"HasMod |contains=OmegaFallon.CompatibilityCP": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 46, "Y": 24 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Elliott
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 44, "Y": 35 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Emily
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 38, "Y": 36 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Evelyn
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 54, "Y": 23 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// George
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=George": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 55, "Y": 23 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Gus
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 9, "Y": 16 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Haley
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Haley": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 20, "Y": 24 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Harvey
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 66, "Y": 25 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+				"HasMod |contains=OmegaFallon.CompatibilityCP": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 40, "Y": 24 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Jas
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Jas": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 24, "Y": 32 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Jodi
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 32, "Y": 36 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Kent
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Kent": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 31, "Y": 36 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Leah
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Leah": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 85, "Y": 40 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Leah": true,
+				"HasMod |contains=OmegaFallon.CompatibilityCP": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 15, "Y": 16 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Leo
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Leo": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 54, "Y": 9 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Lewis CANNOT be removed, as he is far too integral to all festivals' function. Instead we let Lewis spawn but have him take on the appearance and name of Marnie or Magnus.
+		
+		// Linus
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Linus": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 56, "Y": 7 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Marnie
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Marnie, Lewis": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 24, "Y": 22 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Maru
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 73, "Y": 25 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+				"HasMod |contains=OmegaFallon.CompatibilityCP": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 43, "Y": 24 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Pam
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 8, "Y": 14 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Penny
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Penny": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 11, "Y": 21 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Pierre
+		
+		{
+			"LogName": "Caroline runs the shop",
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"CarolineSubPierre": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 10, "Y": 5 },
+					"Layer": "Set-Up",
+					"SetTilesheet": "characters",
+					"SetIndex": 6,
+				},
+			]
+		},
+		
+		// Robin
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 75, "Y": 25 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+				"HasMod |contains=OmegaFallon.CompatibilityCP": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 45, "Y": 24 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Sam
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 14, "Y": 37 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Sebastian
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Sebastian": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 10, "Y": 37 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Shane
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Shane": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 24, "Y": 30 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Vincent
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Vincent": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 11, "Y": 24 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Willy
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 27, "Y": 34 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Wizard
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Jellies",
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+				"Dead |contains=Marnie": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 86, "Y": 3 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Dialogue edits //
+		
+		// Gus
+		
+		{
+			"LogName": "Dance of the Moonlight Jellies - Gus dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			},
+			
+			"Entries": {
+				"Pam": "I'm a little disappointed there's no buffet tonight. Robin shared a bit of a granola bar with me, though, so I guess I'm doing alright.",
+			}
+		},
+		
+		// Sebastian
+		
+		{
+			"LogName": "Dance of the Moonlight Jellies - Sebastian dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			
+			"When": {
+				"Dead |contains=Sebastian": true,
+			},
+			
+			"Entries": {
+				"Sam": "I wonder if they're poisonous?#$e#Maybe I shouldn't jump in the water after all...$h",
+			}
+		},
+		
+		// Lewis substitutions //
+
+		// Marnie dialogue
+		
+		// Wizard dialogue
+		
+		{
+			"LogName": "Dance of the Moonlight Jellies - Wizard Substitute dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+				"Dead |contains=Marnie": true,
+			},
+			
+			"Entries": {
+				"Lewis": "Good evening, @. A beautiful night, is it not? The Lunaloos are close... I can sense them in the distance.#$b#Once the candle-boat is launched, they'll come up to the docks and display their majesty.",
+			}
+		},
+	]
+}

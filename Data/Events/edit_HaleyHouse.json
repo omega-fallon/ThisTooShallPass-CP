@@ -1,0 +1,49 @@
+{
+	"Changes": [
+		{
+			"LogName": "HaleyHouse Events - either sister dead",
+			"Target": "Data/Events/HaleyHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Haley, Emily": true,
+			},
+			
+			"Entries": {
+				"11/f Haley 500/p Haley/p Emily": null,
+				"haleyWontDoIt": null,
+			}
+		},
+		
+		{
+			"LogName": "HaleyHouse Events - Haley dead",
+			"Target": "Data/Events/HaleyHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Haley": true,
+			},
+			
+			"Entries": {
+				"12/f Haley 1000/p Haley": null,
+				"15/f Haley 2500/p Haley": null,
+			}
+		},
+		
+		{
+			"LogName": "HaleyHouse Events - Emily dead",
+			"Target": "Data/Events/HaleyHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"Entries": {
+				"917409/e 463391/f Emily 1500/p Emily": null,
+				"471942/f Emily 500/p Emily": null,
+				"150938/n emilyStones": null,
+			}
+		},
+	]
+}

@@ -1,0 +1,27 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Emily",
+			"FromFile": "Assets/Emily/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Emily",
+			"FromFile": "Assets/Emily/Sprites/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Emily_beach",
+			"FromFile": "Assets/Emily/Portraits/FullGrey_beach.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Emily_beach",
+			"FromFile": "Assets/Emily/Sprites/FullGrey_beach.png",
+		},
+	]
+}

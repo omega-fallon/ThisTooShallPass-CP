@@ -1,0 +1,24 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Morris",
+			"FromFile": "Assets/Morris/Portraits/Greying.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Morris",
+			"FromFile": "Assets/Morris/Sprites/Greying.png",
+		},
+		
+		// Misc
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Assets/Morris/Sprites/Greying_Cursors.png",
+			"PatchMode": "Overlay",
+		},
+	]
+}

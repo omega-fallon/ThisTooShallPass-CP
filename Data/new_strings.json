@@ -1,0 +1,144 @@
+{
+	"Changes": [		
+		{
+			"LogName": "Strings from maps",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"TTSP.ManifestInteract": "The manifest does not react to your presence.",
+				
+				"Farmhouse.JasHay": "A decorative hay bale, for memory's sake.",
+				"Farmhouse.JasTrinket": "An antique clock and a little golden trinket box. You're still not quite sure what this is or why it means so much to her.",
+				
+				"Farmhouse.LeoPerch": "No bird is ever going to land in here, but that isn't really the point of it.",
+				"Farmhouse.LeoHut": "Seems like Leo enjoys getting cozy in here from time to time.",
+				
+				"Farmhouse.VinceBox": "Vincent's old toybox. It seems nowadays he just uses it for miscellaneous storage.#Lying at the bottom, though, there remains an old, dirty jump-rope, pieces of splintered wood, and... hair?#This box could use a good cleaning.",
+				"Farmhouse.VinceTrash": "Vincent's aim could use some work.",
+				"Farmhouse.VinceConsole": "An old video game console. Seldom used, but thoroughly enjoyed.",
+				"Farmhouse.VinceGlobe": "A nice globe, though it's been marked all over with red dots, presumably as locations to visit.",
+			}
+		},
+		
+		{
+			"LogName": "Jas' book changes",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"When": {
+				"Season": "spring",
+				"query: ({{Year}} % 2) = 0": true,
+			},
+			
+			"Entries": {
+				"Farmhouse.JasBook": "An unfinished book. The cover reads 'Mouse of Greaves', with the back cover describing it as a story about a rodent knight fighting against evil humans. It's quite hefty.",
+			}
+		},
+		
+		{
+			"LogName": "Jas' book changes",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"When": {
+				"Season": "spring",
+				"query: ({{Year}} % 2) = 1": true,
+			},
+			
+			"Entries": {
+				"Farmhouse.JasBook": "An unfinished book. The cover reads 'Then-There Nun', with the back cover describing it as a story about a time-traveling, teleporting nun's attempts to save the life of a man named 'Jesus Christ'. Apparently, this one went through several name changes.",
+			}
+		},
+		
+		{
+			"LogName": "Jas' book changes",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"When": {
+				"Season": "summer",
+				"query: ({{Year}} % 2) = 0": true,
+			},
+			
+			"Entries": {
+				"Farmhouse.JasBook": "An unfinished book. The cover reads 'The Fame of This Rook is Sacred', with the back cover describing it as a story about an anthropomorphic chess piece becoming a religious icon. For some reason, the back cover is printed backwards.",
+			}
+		},
+		
+		{
+			"LogName": "Jas' book changes",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"When": {
+				"Season": "summer",
+				"query: ({{Year}} % 2) = 1": true,
+			},
+			
+			"Entries": {
+				"Farmhouse.JasBook": "An unfinished book. The cover reads 'An Emory of Mirth', with the back cover describing it as a story about a man named Arson Emory spreading cheer (and destruction) through all the lands. For some reason, there's no author listed.",
+			}
+		},
+		
+		{
+			"LogName": "Jas' book changes",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"When": {
+				"Season": "fall",
+				"query: ({{Year}} % 2) = 0": true,
+			},
+			
+			"Entries": {
+				"Farmhouse.JasBook": "An unfinished book. The cover reads 'Late Expirations', with the back cover describing it as a story about a man who discovers a way to prevent food from ever spoiling... and then sells the technology at a premium. It's a bit wordy.",
+			}
+		},
+		
+		{
+			"LogName": "Jas' book changes",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"When": {
+				"Season": "fall",
+				"query: ({{Year}} % 2) = 1": true,
+			},
+			
+			"Entries": {
+				"Farmhouse.JasBook": "An unfinished book. The cover reads 'Tyrannosaurus Rex', with the back cover describing it as a story about a fearsome dinosaur king cursed by prophecy to one day kill his father and... oh, oh no. No need to read that.",
+			}
+		},
+		
+		{
+			"LogName": "Jas' book changes",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"When": {
+				"Season": "winter",
+				"query: ({{Year}} % 2) = 0": true,
+			},
+			
+			"Entries": {
+				"Farmhouse.JasBook": "An unfinished book. The cover reads 'Doves, Rice, and Ken', with the back cover describing it as a story about a man named Ken Clarkson attempting to bring his doves and his rice across a river, but he cannot bring both at the same time or else the doves will eat the rice.",
+			}
+		},
+		
+		{
+			"LogName": "Jas' book changes",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"When": {
+				"Season": "winter",
+				"query: ({{Year}} % 2) = 1": true,
+			},
+			
+			"Entries": {
+				"Farmhouse.JasBook": "An unfinished book... oh! It's '%book'!",
+			}
+		},
+	]
+}

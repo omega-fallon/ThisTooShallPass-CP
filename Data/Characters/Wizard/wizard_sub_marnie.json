@@ -1,0 +1,160 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Marnie",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Marnie",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+		},
+		
+		{
+			"LogName": "Make Marnie invisible",
+			"Action": "EditData",
+			"Target": "Data/Events/AnimalShop, Data/Events/Farmhouse, Data/Events/Farm, Data/Events/IslandFarmhouse, Data/Events/IslandFarm",
+			
+			"Entries": {
+				"12491122": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/end invisible Marnie",
+			},
+		},
+		
+		{
+			"LogName": "Add manifest",
+			"Action": "EditMap",
+			"Target": "Maps/AnimalShop",
+			"FromFile": "Assets/Wizard/Sprites/Manifest.tmx",
+			"ToArea": {"X": 12, "Y": 13, "Width": 1, "Height": 2},
+			"PatchMode": "Overlay",
+		},
+		
+		{
+            "LogName": "Relayering countertop",
+			"Action": "EditMap",
+            "Target": "Maps/AnimalShop",
+            "MapTiles": [
+                {
+                    "Position": { "X": 12, "Y": 14 },
+                    "Layer": "Front1",
+					"SetTileSheet": "1",
+                    "SetIndex": "919"
+                }
+            ]
+        },
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Marnie": {
+					"10": "AnimalShop 12 14",
+					"11": "Magnus"
+				}
+			}
+		},
+		
+		{
+            "LogName": "Manifest Map Sprite Offset",
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			
+			"When": {
+				"HasMod |contains=Yagisan.NPCMapLocationsForNPCs": true,
+			},
+			
+            "Entries": {
+                "Marnie": {
+                    "MarkerCropOffset": 0
+                }
+            }
+        },
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "Assets/Marnie/Marnie_manifest_grange.png",
+			
+			"ToArea": {"X": 416, "Y": 55, "Width": 48, "Height": 57}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/SpeechBubbles",
+			
+			"Entries": {
+				"AnimalShop_Marnie_Greeting1": "Greetings.",
+				"AnimalShop_Marnie_Greeting2": "Good day.",
+				"AnimalShop_Marnie_CloseFriends": "Hello, {0}",
+				"AnimalShop_Marnie_NotCloseFriends": "Shall I bring out the supplies?",
+				"AnimalShop_Marnie_Raining": "Wipe your feet.",
+				"AnimalShop_Marnie_NotRaining": "Pleasant weather, for once.",
+				"AnimalShop_Marnie_Greeting3": "Has {1} Farm been prospering?",
+				"AnimalShop_Marnie_RareGreeting": "Yob...? Oh...",
+			},
+		},
+		
+		{
+			"LogName": "Marnie call",
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Entries": {
+				"Phone_Marnie_Open": "Greetings. Yes, the ranch is open 24 hours a day. I'll be there. *click*",
+				"Phone_Marnie_Open_Rare": "...Bothersome little things. One of the goats got out. Oh well. *click* $4",
+				"Phone_Marnie_Closed": "You've reached the inbox of the ranch. We are open 24 hours a day. Visit any time, if you wish. *beep*",
+				"Phone_Marnie_ClosedDay": "Hello, you've reached the inbox of the ranch. The shop is closed today.",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			
+			"Entries": {
+				"AnimalShop_Marnie_Absent": "Closed for the day.\n\n-Magnus",
+				"AnimalShop_MoneyBox": "Apologies. Something has gone wrong with my manifest.\n\n-Magnus",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"Town-Fair.4": "Tourist: Wow. I've never seen a magenta, spectral cheese wheel before. Very impressive.",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {		
+				"PurchaseAnimalsMenu.cs.11311": "Very well. I'll send {0} to his new home right away.",
+				"PurchaseAnimalsMenu.cs.11314": "Very well. I'll send {0} to her new home right away.",
+				
+				"ShopMenu.cs.11508": "...Why did I think... when the door opened, you looked like Yob... nevermind.",
+				
+				"MapPage.cs.11069": "Open 24/7",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"Duck": "Greetings @,^You've proven your ability to raise chickens. As such, ducks have been added to the ranch's stock.       ^   -M. Rasmodius[#]Ducks For Sale",
+				"Goats": "Greetings @,^Goats are now available for purchase at the animal shop. Keep up the good work.       ^   -M. Rasmodius[#]Goats For Sale",
+				"Pigs": "Greetings @,^You've come a long way since you first arrived. As a result, pigs are now available at the ranch. These pigs are trained at finding gourmet truffles.       ^   -M. Rasmodius[#]Pigs For Sale",
+				"Rabbits": "Greetings @,^Rabbits are now available at the animal shop. They will provide you with wool ...and more.       ^   -M. Rasmodius[#]Rabbits For Sale",
+				"Sheep": "Greetings @,^You have proven your ability to raise cows. As such, sheep are now available at the ranch.       ^   -M. Rasmodius[#]Sheep For Sale",
+				"marnieAutoGrabber": "Greetings @,^The ranch has a new item in stock... It's called the \"Auto-Grabber\".^^It can milk your cows and goats, shear your sheep, gather eggs, and pluck your wooly rabbits... all on its own.^^It's considered a 'luxury item', so it will cost 25,000g.^^    -M. Rasmodius[#]Auto-Grabber Notice",
+			}
+		},
+	]
+}

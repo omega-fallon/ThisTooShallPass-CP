@@ -1,0 +1,19 @@
+{
+	"Changes": [		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors2",
+			"FromFile": "Assets/Weatherman Ginger/Sprites/Erased.png",
+			"ToArea": { "X": 148, "Y": 62, "Width": 42, "Height": 28 },
+			"PatchMode": "Replace",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Assets/Weatherman Ginger/Sprites/Erased_2.png",
+			"ToArea": { "X": 413, "Y": 305, "Width": 126, "Height": 28 },
+			"PatchMode": "Replace",
+		},
+	]
+}

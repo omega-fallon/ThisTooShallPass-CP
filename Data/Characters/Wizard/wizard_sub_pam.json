@@ -1,0 +1,78 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Pam",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Pam",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest_bus.png",
+			"ToArea": {"X": 384, "Y": 1311, "Width": 15, "Height": 19},
+		},
+		
+		{
+			"LogName": "Make Pam invisible",
+			"Action": "EditData",
+			"Target": "Data/Events/BusStop, Data/Events/Farmhouse, Data/Events/Farm, Data/Events/IslandFarmhouse, Data/Events/IslandFarm",
+			
+			"Entries": {
+				"12491124": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/end invisible Pam",
+			},
+		},
+		
+		{
+			"LogName": "Add manifest",
+			"Action": "EditMap",
+			"Target": "Maps/BusStop",
+			"FromFile": "Assets/Wizard/Sprites/Manifest-Standalone.tmx",
+			"ToArea": {"X": 11, "Y": 9, "Width": 1, "Height": 2},
+			"PatchMode": "Overlay",
+		},
+		
+		{
+            "LogName": "Manifest Map Sprite Offset",
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			
+			"When": {
+				"HasMod |contains=Yagisan.NPCMapLocationsForNPCs": true,
+			},
+			
+            "Entries": {
+                "Pam": {
+                    "MarkerCropOffset": 0
+                }
+            }
+        },
+
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Willy": {
+					"10": "BusStop 11 10",
+					"11": "Magnus"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Schedules/Pam",
+			
+			"Entries": {
+				"bus": "600 BusStop 11 10",
+			}
+		},
+	]
+}

@@ -1,0 +1,149 @@
+{
+	"Changes": [
+		{
+			"LogName": "Grieving dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Robin",
+			
+			"Entries": {
+				"DemetriusFuneral": "{{i18n:GrievingDefault.TTSP}}",
+				"DemetriusGrieving": "...It's so quiet...$s",
+				
+				"ExtraDialogue_LostItemQuest_DefaultThankYou": "Oh... thank you, @. That brightens things up a little for me.",
+				"ExtraDialogue_Town_DumpsterDiveComment_Child": "{{i18n:GrievingWhatAreYouDoing.TTSP}}",
+				"ExtraDialogue_Town_DumpsterDiveComment_Teen": "{{i18n:GrievingWhatAreYouDoing.TTSP}}",
+				"ExtraDialogue_Town_DumpsterDiveComment_Adult": "{{i18n:GrievingWhatAreYouDoing.TTSP}}",
+				
+				"NPC.cs.4274": "{{i18n:BirthdayGiftGrieving2.TTSP}}$h",
+				"NPC.cs.4275": "{{i18n:BirthdayGiftGrieving2.TTSP}}$h",
+				"NPC.cs.4276": "{{i18n:BirthdayGiftGrieving2.TTSP}}$h",
+				"NPC.cs.4277": "{{i18n:BirthdayGiftGrieving2.TTSP}}$h",
+				"NPC.cs.4279": "{{i18n:BirthdayGiftGrieving.TTSP}}$s/{{i18n:BirthdayGiftGrieving.TTSP}}$s",
+				"NPC.cs.4280": "{{i18n:BirthdayGiftGrieving3.TTSP}}$n",
+				"NPC.cs.4281": "{{i18n:BirthdayGiftGrieving2.TTSP}}$h/{{i18n:BirthdayGiftGrieving2.TTSP}}$h",
+				
+				"NPC.cs.4293": "{{i18n:GrievingWhy.TTSP}}",
+				"NPC.cs.4294": "{{i18n:GrievingWorse.TTSP}}",
+				
+				"Characters_MovieInvite_InvitedBySomeoneElse": "{{i18n:GrievingMovie.TTSP}}",
+				"Characters_MovieInvite_AlreadySeen": "{{i18n:GrievingMovie.TTSP}}",
+				"Characters_MovieInvite_Invited": "{{i18n:GrievingMovie.TTSP}}",
+				"Characters_MovieInvite_Invited_Rude": "{{i18n:GrievingMovie.TTSP}}",
+				"Characters_MovieInvite_Invited_Child": "{{i18n:GrievingMovie.TTSP}}",
+				"Characters_MovieInvite_Reject_Child": "{{i18n:GrievingMovie.TTSP}}",
+				"Characters_MovieInvite_Reject": "{{i18n:GrievingMovie.TTSP}}",
+			}
+		},
+		
+		{
+			"LogName": "Gifts received",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Fields": {
+				"Robin": {
+					"0": "{{i18n:GrievingGiftLove.TTSP}}",
+					"2": "{{i18n:GrievingGiftLike.TTSP}}",
+					"4": "...$s",
+					"6": "...$s",
+					"8": "...$s",
+				},
+			}
+		},
+		
+		{
+			"LogName": "Exclusions while grieving",
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Robin": "WinterStar ItemDelivery IslandVisit ShopDialog MovieInvite"
+			}
+		},
+		
+		{
+			"LogName": "Characters strings",
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			"Entries": {
+				"MovieInvite_CantInvite_Robin": "{{i18n:GrievingMovie.TTSP}}",
+			}
+		},
+		
+		{
+			"LogName": "Characters strings",
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Entries": {
+				"Phone_Robin_Workout": "Hey, it's Robin. I'll, umm... I'm at aerobics class. Need to clear my head. Goodbye. *beep*",
+				"Phone_Robin_Working_OneDay": "Hey, it's Robin. I'll be out of the house until tomorrow finishing up a project. I'll be fine. I lo... nevermind. *beep*",
+				"Phone_Robin_Working": "Hey, it's Robin. I'll be busy for the next few days working on a project. Nothing to worry about de... nevermind. *beep*",
+				"Phone_Robin_Festival": "Hey, it's Robin. I'm taking the day off today. It'll be okay. *beep*",
+				"Phone_Robin_Open": "...Yes, we're open. *click* $s",
+				"Phone_Robin_Open_Rare": "Hello? Oh, hey... @. *BANG*... What...? (Muffled Voice: The door, it just... swung open on its own.)... Sorry. We're open until 5pm today. *click* $s",
+				"Phone_Robin_Closed": "Hey, it's Robin. My business hours are from 9AM to 5PM. We can't be late. *beep*",
+			}
+		},
+		
+		{
+			"LogName": "Locations",
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			
+			"Entries": {
+				"ScienceHouse_CarpenterMenu": "...Yes?",
+				"ScienceHouse_RobinAbsent": "Closed for the day... I'm clearing my head.\n\n-Robin",
+				"ScienceHouse_MoneyBox": "Gone for today. We're working on the honor system.^     -Robin",
+				
+				"ScienceHouse_Carpenter_CommunityUpgrade1": "...Huh? You want to build Pam a house? That's... really nice of you.^I'll need 950 wood and 500,000g...",
+				"ScienceHouse_Carpenter_CommunityUpgrade2": "...Huh? You'd like me to add a few shortcuts around the valley? I guess I could do that.^I'll need 300,000g...",
+			}
+		},
+		
+		{
+			"LogName": "Locations",
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"Entries": {
+				"ScienceHouse_Carpenter_CommunityUpgrade1": "...Huh? You want to upgrade the old trailer? That's... really nice of you.^I'll just need 950 wood and 500,000g...",
+			}
+		},
+		
+		{
+			"LogName": "Speech bubbles",
+			"Action": "EditData",
+			"Target": "Strings/SpeechBubbles",
+			
+			"Entries": {
+				"ScienceHouse_Robin_Raining1": "Horrible day out...",
+				"ScienceHouse_Robin_Raining2": "...You're soaked.",
+				"ScienceHouse_Robin_NotRaining1": "Hey...",
+				"ScienceHouse_Robin_NotRaining2": "Welcome back...",
+				"ScienceHouse_Robin_Snowing": "At least we having heating...",
+				"ScienceHouse_Robin_NotSnowing": "Hello...",
+				"ScienceHouse_Robin_CloseFriends": "Oh, it's {0}.",
+				"ScienceHouse_Robin_NotCloseFriends": "Need something...?",
+				"ScienceHouse_Robin_Greeting": "Welcome...",
+				"ScienceHouse_Robin_RareGreeting": "Deme...? Oh...",
+			}
+		},
+		
+		{
+			"LogName": "StringsFromCSFiles",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"ResourceCollectionQuest.cs.13674": "Robin, here. I need {0} pieces of {1} for a project. They need to be fresh... so please gather them today. Thanks.",
+				"ResourceCollectionQuest.cs.13677": "Oh, you got the {0} I asked for... ",
+				"ResourceCollectionQuest.cs.13681": "Thanks, @.$n",
+				"ResourceCollectionQuest.cs.13682": "Thanks for helping me... I just have to keep on moving, I guess.$n",
+				"ResourceCollectionQuest.cs.13683": "I appreciate it.$n",
+			}
+		},
+	]
+}

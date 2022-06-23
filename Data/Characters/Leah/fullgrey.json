@@ -1,0 +1,39 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Leah",
+			"FromFile": "Assets/Leah/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Leah",
+			"FromFile": "Assets/Leah/Sprites/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Leah_beach",
+			"FromFile": "Assets/Leah/Portraits/FullGrey_beach.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Leah_beach",
+			"FromFile": "Assets/Leah/Sprites/FullGrey_beach.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/LeahExFemale",
+			"FromFile": "Assets/Leah/Sprites/FullGrey_ExFemale.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/LeahExMale",
+			"FromFile": "Assets/Leah/Sprites/FullGrey_ExMale.png",
+		},
+	]
+}

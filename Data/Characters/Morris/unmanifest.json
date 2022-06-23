@@ -1,0 +1,38 @@
+{
+	"Changes": [
+		{
+			"LogName": "Erases Morris (thank God)",
+			"Action": "EditMap",
+			"Target": "Maps/JojaMart",
+						
+			"When": {
+				"Dead |contains=Morris, MorrisTod": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 21, "Y": 23 },
+					"Layer": "Front",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 21, "Y": 24 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+			]
+		},
+	
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"passedOut1_Billed_Female": null,
+				"passedOut1_Billed_Male": null,
+				"passedOut1_NotBilled_Female": null,
+				"passedOut1_NotBilled_Male": null,
+			}
+		},
+	]
+}

@@ -1,0 +1,96 @@
+{
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Portraits/Birdie",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Birdie",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Birdie",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest_fishing_sprites_left.png",
+			"ToArea": { "X": 0, "Y": 128, "Width": 64, "Height": 32 },
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/NPCNames",
+			"Entries": {
+				"Birdie": "Magnus"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Birdie": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Birdie": true
+			}
+		},
+		
+		{
+            "LogName": "Manifest Map Sprite Offset",
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			
+			"When": {
+				"HasMod |contains=Yagisan.NPCMapLocationsForNPCs": true,
+			},
+			
+            "Entries": {
+                "Birdie": {
+                    "MarkerCropOffset": 0
+                }
+            }
+        },
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"Entries": {
+				"Birdie0": "{{i18n:Birdie.TTSP}}",
+				"Birdie1": "{{i18n:Birdie.TTSP}}",
+				"Birdie2": "{{i18n:Birdie.TTSP}}",
+				"Birdie3": "{{i18n:Birdie.TTSP}}",
+				"Birdie4": "{{i18n:Birdie.TTSP}}",
+				"Birdie5": "{{i18n:Birdie.TTSP}}",
+				"Birdie6": "{{i18n:Birdie.TTSP}}",
+				"Birdie12": "{{i18n:Birdie.TTSP}}",
+				"Birdie15": "{{i18n:Birdie.TTSP}}",
+				"Birdie17": "{{i18n:Birdie.TTSP}}",
+				"Birdie19": "{{i18n:Birdie.TTSP}}",
+				"Birdie22": "{{i18n:Birdie.TTSP}}",
+				"Birdie23": "{{i18n:Birdie.TTSP}}",
+				"Birdie28": "{{i18n:Birdie.TTSP}}",
+				"Birdie_NoGift": "No need. Give it to me in person, if you truly wish to.",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			"Entries": {
+				"IslandSecret_Event_BirdieIntro": "tropical_island_day_ambient/-1000 -1000/farmer 20 58 3/skippable/addTemporaryActor Birdie 32 32 17 58 3 true ???/animate Birdie false true 1000 8 9/pause 1000/viewport 18 58 clamp true/pause 1000/emote Birdie 8/pause 1000/changeName Birdie Magnus/speak Birdie \"Oh... you've arrived too late.$s\"/pause 400/move farmer -1 0 3/pause 300/speak Birdie \"She's... dead. This is... most unsatisfactory, isn't it?$s\"/pause 1000/speak Birdie \"*sigh* I... suppose the only thing to do is the same as what we always do.\"/pause 500/textAboveHead Birdie \"Come here...\"/pause 500/playFramesAhead 3/stopAnimation Birdie/extendSourceRect Birdie reset/warp Birdie 18 58/viewport move 1 0 2000/move Birdie 0 -1 2/move Birdie 2 0 1/move farmer 1 0 1/pause 500/speak Birdie \"A man's remains lie here. Her husband's. She guarded them, and now, so shall I.$s\"/emote Birdie 28/speak Birdie \"*sigh*...$s#$b#I've grown tired of this.$s#$b#...So much tragedy in this world...\"/faceDirection farmer 2 true/playSound batScreech/animate farmer false true 100 94/jump farmer/pause 1500/stopAnimation farmer/faceDirection farmer 0/faceDirection Birdie 2/speak Birdie \"Her soul... it is angry. But perhaps... a keepsake of her lover would put her to rest.$s\"/pause 400/textAboveHead Birdie \"Wait here...\"/move Birdie -1 0 0/move Birdie 0 -1 3/warp Birdie -100 -100/playSound doorClose/faceDirection farmer 0/faceDirection Birdie 2/pause 1000/playSound Ship/pause 1000/playSound Ship/playSound crafting/pause 1000/playSound doorClose/warp Birdie 20 56/move Birdie 0 1 2/speak Birdie \"Take this. It's an old photograph that she had. One of her few possessions.#$b#It's all I can offer... but I believe it will aid you.#$b#If you find who it belongs to, please give it to them. And if they have passed... bring it to me, I suppose.\"/pause 500/unskippable/playSound coin/awardFestivalPrize memento true/pause 10/addQuest 130/pause 1700/end",
+				
+				"IslandSecret_Event_BirdieFinished": "tropical_island_day_ambient/-1000 -1000/farmer 20 58 3/removeQuest 130/skippable/addTemporaryActor Birdie 32 32 17 58 3 true ???/animate Birdie false true 1000 8 9/pause 1000/viewport 18 58 clamp true/pause 2300/playMusic none/animate farmer true true 100 35/addObject 19 58 870/playSound sandyStep/pause 800/stopAnimation farmer/playFramesAhead 3/stopAnimation Birdie/extendSourceRect Birdie reset/warp Birdie 18 58/move Birdie 0 -1 2/move Birdie 1 0 2/pause 500/jump Birdie/pause 500/playMusic desolate/speak Birdie \"It's his...$s\"/emote Birdie 20/pause 1200/playSound coin/removeObject 19 58/showFrame Birdie 20/pause 2500/speak Birdie \"It still... has his energy, after all this time.#$b#...she'll be delighted...!$h\"/pause 300/faceDirection farmer 2 true/playSound croak/animate farmer false false 350 104 105 104 105 104 105/pause 1000/faceDirection farmer 3/speak Birdie \"Perhaps... there is still hope. Honor after death. Respect. All of those things we strive for.#$b#I do my best. I can only pray it is enough.\"/pause 500/stopAnimation Birdie/move Birdie 0 1 3/playMusic tropical_island_day_ambient/faceDirection Birdie 1/quickQuestion #It's an honorable thing to do.#She's gone. Why bother?(break)speak Birdie \"You have great wisdom, evergreen one.#$b#And you've brought her soul great peace... this locket will comfort her beyond the grave.$h\"(break)emote Birdie 28\\speak Birdie \"Is that how you feel...$s#$b#I cannot imagine such a worldview. Perhaps you know more than I do, and that has driven you to hopelessness.$s#$b#...That is a terrifying thought to me.\"/pause 1000/speak Birdie \"Whatever it may be... I wish for this to be a fair exchange.\"/pause 500/speak Birdie \"Yes... her old knowledge. Something I'm familiar with, too...\"/pause 1000/playSound reward/addCraftingRecipe Fairy Dust/message \"Learned to craft 'Fairy Dust'.\"/pause 1000/fork gotBirdieReward Strings\\\\Locations:alreadyGotNuts true/speak Birdie \"You may have these, too...\"/awardFestivalPrize birdieReward true/pause 1000/speak Birdie \"You are a good person for going this far for the deceased.#$b#Yoba shines brightly within you.$h\"/emote Birdie 20/emote farmer 32/pause 1000/end",
+				
+				"alreadyGotNuts": "pause 50/pause 50/pause 1000/speak Birdie \"You are a good person for going this far for the deceased.#$b#Yoba shines brightly within you.$h\"/emote Birdie 20/emote farmer 32/pause 1000/end",
+			}
+		},
+	]
+}

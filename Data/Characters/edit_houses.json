@@ -1,0 +1,937 @@
+{
+	"Changes": [
+		// Robin, Demetrius, Sebastian & Maru
+		
+		{
+			"LogName": "0000",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11095": "Home of Robin, Demetrius, Sebastian, & Maru",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": false,
+				"Dead |contains=Demetrius": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sebastian') OR {{Dead |contains=Sebastian}}": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Maru') OR {{Dead |contains=Maru}}": false,
+			}
+		},
+		
+		{
+			"LogName": "0001",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11095": "Home of Robin, Demetrius, & Sebastian",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": false,
+				"Dead |contains=Demetrius": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sebastian') OR {{Dead |contains=Sebastian}}": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Maru') OR {{Dead |contains=Maru}}": true,
+			}
+		},
+		
+		{
+			"LogName": "0010",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11095": "Home of Robin, Demetrius, & Maru",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": false,
+				"Dead |contains=Demetrius": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sebastian') OR {{Dead |contains=Sebastian}}": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Maru') OR {{Dead |contains=Maru}}": false,
+			}
+		},
+		
+		{
+			"LogName": "0011",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11095": "Home of Robin & Demetrius",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": false,
+				"Dead |contains=Demetrius": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sebastian') OR {{Dead |contains=Sebastian}}": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Maru') OR {{Dead |contains=Maru}}": true,
+			}
+		},
+		
+		{
+			"LogName": "0100",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11095": "Home of Robin, Sebastian, & Maru",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": false,
+				"Dead |contains=Demetrius": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sebastian') OR {{Dead |contains=Sebastian}}": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Maru') OR {{Dead |contains=Maru}}": false,
+			}
+		},
+		
+		{
+			"LogName": "0101",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11095": "Home of Robin & Sebastian",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": false,
+				"Dead |contains=Demetrius": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sebastian') OR {{Dead |contains=Sebastian}}": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Maru') OR {{Dead |contains=Maru}}": true,
+			}
+		},
+		
+		{
+			"LogName": "0110",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11095": "Home of Robin & Maru",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": false,
+				"Dead |contains=Demetrius": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sebastian') OR {{Dead |contains=Sebastian}}": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Maru') OR {{Dead |contains=Maru}}": false,
+			}
+		},
+		
+		{
+			"LogName": "0111",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11095": "Home of Robin",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": false,
+				"Dead |contains=Demetrius": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sebastian') OR {{Dead |contains=Sebastian}}": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Maru') OR {{Dead |contains=Maru}}": true,
+			}
+		},
+		
+		{
+			"LogName": "1000",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11095": "Home of Demetrius, Sebastian, & Maru",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": true,
+				"Dead |contains=Demetrius": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sebastian') OR {{Dead |contains=Sebastian}}": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Maru') OR {{Dead |contains=Maru}}": false,
+			}
+		},
+		
+		{
+			"LogName": "1001",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11095": "Home of Demetrius & Sebastian",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": true,
+				"Dead |contains=Demetrius": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sebastian') OR {{Dead |contains=Sebastian}}": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Maru') OR {{Dead |contains=Maru}}": true,
+			}
+		},
+		
+		{
+			"LogName": "1010",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11095": "Home of Demetrius & Maru",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": true,
+				"Dead |contains=Demetrius": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sebastian') OR {{Dead |contains=Sebastian}}": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Maru') OR {{Dead |contains=Maru}}": false,
+			}
+		},
+		
+		{
+			"LogName": "1011",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11095": "Home of Demetrius",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": true,
+				"Dead |contains=Demetrius": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sebastian') OR {{Dead |contains=Sebastian}}": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Maru') OR {{Dead |contains=Maru}}": true,
+			}
+		},
+		
+		{
+			"LogName": "1100",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11095": "Home of Sebastian, & Maru",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": true,
+				"Dead |contains=Demetrius": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sebastian') OR {{Dead |contains=Sebastian}}": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Maru') OR {{Dead |contains=Maru}}": false,
+			}
+		},
+		
+		{
+			"LogName": "1101",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11095": "Home of Sebastian",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": true,
+				"Dead |contains=Demetrius": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sebastian') OR {{Dead |contains=Sebastian}}": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Maru') OR {{Dead |contains=Maru}}": true,
+			}
+		},
+		
+		{
+			"LogName": "1110",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11095": "Home of Maru",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": true,
+				"Dead |contains=Demetrius": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sebastian') OR {{Dead |contains=Sebastian}}": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Maru') OR {{Dead |contains=Maru}}": false,
+			}
+		},
+		
+		{
+			"LogName": "1111",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11095": "Hungry.",
+				"MapPage.cs.11096": "Open 24/7",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": true,
+				"Dead |contains=Demetrius": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sebastian') OR {{Dead |contains=Sebastian}}": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Maru') OR {{Dead |contains=Maru}}": true,
+			}
+		},
+		
+		// George, Evelyn & Alex
+		
+		{
+			"LogName": "000",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11093": "Home of George, Evelyn, & Alex",
+			},
+			
+			"When": {
+				"Dead |contains=George": false,
+				"Dead |contains=Evelyn": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Alex') OR {{Dead |contains=Alex}}": false,
+			}
+		},
+		
+		{
+			"LogName": "001",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11093": "Home of George & Evelyn",
+			},
+			
+			"When": {
+				"Dead |contains=George": false,
+				"Dead |contains=Evelyn": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Alex') OR {{Dead |contains=Alex}}": true,
+			}
+		},
+		
+		{
+			"LogName": "010",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11093": "Home of George & Alex",
+			},
+			
+			"When": {
+				"Dead |contains=George": false,
+				"Dead |contains=Evelyn": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Alex') OR {{Dead |contains=Alex}}": false,
+			}
+		},
+		
+		{
+			"LogName": "011",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11093": "Home of George",
+			},
+			
+			"When": {
+				"Dead |contains=George": false,
+				"Dead |contains=Evelyn": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Alex') OR {{Dead |contains=Alex}}": true,
+			}
+		},
+		
+		{
+			"LogName": "100",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11093": "Home of Evelyn & Alex",
+			},
+			
+			"When": {
+				"Dead |contains=George": true,
+				"Dead |contains=Evelyn": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Alex') OR {{Dead |contains=Alex}}": false,
+			}
+		},
+		
+		{
+			"LogName": "101",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11093": "Home of Evelyn",
+			},
+			
+			"When": {
+				"Dead |contains=George": true,
+				"Dead |contains=Evelyn": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Alex') OR {{Dead |contains=Alex}}": true,
+			}
+		},
+		
+		{
+			"LogName": "110",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11093": "Home of Alex",
+			},
+			
+			"When": {
+				"Dead |contains=George": true,
+				"Dead |contains=Evelyn": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Alex') OR {{Dead |contains=Alex}}": false,
+			}
+		},
+		
+		{
+			"LogName": "111",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11093": "Hungry.",
+			},
+			
+			"When": {
+				"Dead |contains=George": true,
+				"Dead |contains=Evelyn": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Alex') OR {{Dead |contains=Alex}}": true,
+			}
+		},
+		
+		// Trailer
+		
+		{
+			"LogName": "00",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.PamHouseHomeOf": "Home of Pam & Penny",
+			},
+			
+			"When": {
+				"Dead |contains=Pam": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Penny') OR {{Dead |contains=Penny}}": false,
+			}
+		},
+		
+		{
+			"LogName": "01",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.PamHouseHomeOf": "Home of Pam",
+			},
+			
+			"When": {
+				"Dead |contains=Pam": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Penny') OR {{Dead |contains=Penny}}": true,
+			}
+		},
+		
+		{
+			"LogName": "10",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.PamHouseHomeOf": "Home of Penny",
+			},
+			
+			"When": {
+				"Dead |contains=Pam": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Penny') OR {{Dead |contains=Penny}}": false,
+			}
+		},
+		
+		{
+			"LogName": "11",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.PamHouseHomeOf": "Hungry.",
+			},
+			
+			"When": {
+				"Dead |contains=Pam": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Penny') OR {{Dead |contains=Penny}}": true,
+			}
+		},
+		
+		// Pierre, Caroline, & Abigail
+		
+		{
+			"LogName": "000",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11079": "Home of Pierre, Caroline, & Abigail",
+			},
+			
+			"When": {
+				"Dead |contains=Pierre": false,
+				"Dead |contains=Caroline": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Abigail') OR {{Dead |contains=Abigail}}": false,
+			}
+		},
+		
+		{
+			"LogName": "001",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11079": "Home of Pierre & Caroline",
+			},
+			
+			"When": {
+				"Dead |contains=Pierre": false,
+				"Dead |contains=Caroline": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Abigail') OR {{Dead |contains=Abigail}}": true,
+			}
+		},
+		
+		{
+			"LogName": "010",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11079": "Home of Pierre & Abigail",
+			},
+			
+			"When": {
+				"Dead |contains=Pierre": false,
+				"Dead |contains=Caroline": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Abigail') OR {{Dead |contains=Abigail}}": false,
+			}
+		},
+		
+		{
+			"LogName": "011",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11079": "Home of Pierre",
+			},
+			
+			"When": {
+				"Dead |contains=Pierre": false,
+				"Dead |contains=Caroline": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Abigail') OR {{Dead |contains=Abigail}}": true,
+			}
+		},
+		
+		{
+			"LogName": "100",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11079": "Home of Caroline & Abigail",
+			},
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+				"Dead |contains=Caroline": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Abigail') OR {{Dead |contains=Abigail}}": false,
+			}
+		},
+		
+		{
+			"LogName": "101",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11079": "Home of Caroline",
+			},
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+				"Dead |contains=Caroline": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Abigail') OR {{Dead |contains=Abigail}}": true,
+			}
+		},
+		
+		{
+			"LogName": "110",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11079": "Home of Abigail",
+			},
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+				"Dead |contains=Caroline": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Abigail') OR {{Dead |contains=Abigail}}": false,
+			}
+		},
+		
+		{
+			"LogName": "111",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11079": "Hungry.",
+				"MapPage.cs.11080": "Open 24/7",
+			},
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+				"Dead |contains=Caroline": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Abigail') OR {{Dead |contains=Abigail}}": true,
+			}
+		},
+		
+		// Haley and Emily
+		
+		{
+			"LogName": "00",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11074": "Home of Haley & Emily",
+			},
+			
+			"When": {
+				"query: ('{{Spouse: anyPlayer}}' = 'Haley') OR {{Dead |contains=Haley}}": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Emily') OR {{Dead |contains=Emily}}": false,
+			}
+		},
+		
+		{
+			"LogName": "01",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11074": "Home of Haley",
+			},
+			
+			"When": {
+				"query: ('{{Spouse: anyPlayer}}' = 'Haley') OR {{Dead |contains=Haley}}": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Emily') OR {{Dead |contains=Emily}}": true,
+			}
+		},
+		
+		{
+			"LogName": "10",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11074": "Home of Emily",
+			},
+			
+			"When": {
+				"query: ('{{Spouse: anyPlayer}}' = 'Haley') OR {{Dead |contains=Haley}}": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Emily') OR {{Dead |contains=Emily}}": false,
+			}
+		},
+		
+		{
+			"LogName": "11",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11074": "Hungry.",
+			},
+			
+			"When": {
+				"query: ('{{Spouse: anyPlayer}}' = 'Haley') OR {{Dead |contains=Haley}}": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Emily') OR {{Dead |contains=Emily}}": true,
+			}
+		},
+		
+		// Jodi, Kent, Sam & Vincent
+		
+		{
+			"LogName": "0000",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11072": "Home of Jodi, Kent, Sam, & Vincent",
+			},
+			
+			"When": {
+				"Dead |contains=Jodi": false,
+				"Dead |contains=Kent": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sam') OR {{Dead |contains=Sam}}": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Vincent') OR {{Dead |contains=Vincent}}": false,
+			}
+		},
+		
+		{
+			"LogName": "0001",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11072": "Home of Jodi, Kent, & Sam",
+			},
+			
+			"When": {
+				"Dead |contains=Jodi": false,
+				"Dead |contains=Kent": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sam') OR {{Dead |contains=Sam}}": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Vincent') OR {{Dead |contains=Vincent}}": true,
+			}
+		},
+		
+		{
+			"LogName": "0010",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11072": "Home of Jodi, Kent, & Vincent",
+			},
+			
+			"When": {
+				"Dead |contains=Jodi": false,
+				"Dead |contains=Kent": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sam') OR {{Dead |contains=Sam}}": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Vincent') OR {{Dead |contains=Vincent}}": false,
+			}
+		},
+		
+		{
+			"LogName": "0011",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11072": "Home of Jodi & Kent",
+			},
+			
+			"When": {
+				"Dead |contains=Jodi": false,
+				"Dead |contains=Kent": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sam') OR {{Dead |contains=Sam}}": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Vincent') OR {{Dead |contains=Vincent}}": true,
+			}
+		},
+		
+		{
+			"LogName": "0100",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11072": "Home of Jodi, Sam, & Vincent",
+			},
+			
+			"When": {
+				"Dead |contains=Jodi": false,
+				"Dead |contains=Kent": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sam') OR {{Dead |contains=Sam}}": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Vincent') OR {{Dead |contains=Vincent}}": false,
+			}
+		},
+		
+		{
+			"LogName": "0101",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11072": "Home of Jodi & Sam",
+			},
+			
+			"When": {
+				"Dead |contains=Jodi": false,
+				"Dead |contains=Kent": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sam') OR {{Dead |contains=Sam}}": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Vincent') OR {{Dead |contains=Vincent}}": true,
+			}
+		},
+		
+		{
+			"LogName": "0110",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11072": "Home of Jodi & Vincent",
+			},
+			
+			"When": {
+				"Dead |contains=Jodi": false,
+				"Dead |contains=Kent": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sam') OR {{Dead |contains=Sam}}": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Vincent') OR {{Dead |contains=Vincent}}": false,
+			}
+		},
+		
+		{
+			"LogName": "0111",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11072": "Home of Jodi",
+			},
+			
+			"When": {
+				"Dead |contains=Jodi": false,
+				"Dead |contains=Kent": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sam') OR {{Dead |contains=Sam}}": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Vincent') OR {{Dead |contains=Vincent}}": true,
+			}
+		},
+		
+		{
+			"LogName": "1000",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11072": "Home of Kent, Sam, & Vincent",
+			},
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+				"Dead |contains=Kent": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sam') OR {{Dead |contains=Sam}}": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Vincent') OR {{Dead |contains=Vincent}}": false,
+			}
+		},
+		
+		{
+			"LogName": "1001",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11072": "Home of Kent & Sam",
+			},
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+				"Dead |contains=Kent": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sam') OR {{Dead |contains=Sam}}": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Vincent') OR {{Dead |contains=Vincent}}": true,
+			}
+		},
+		
+		{
+			"LogName": "1010",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11072": "Home of Kent & Vincent",
+			},
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+				"Dead |contains=Kent": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sam') OR {{Dead |contains=Sam}}": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Vincent') OR {{Dead |contains=Vincent}}": false,
+			}
+		},
+		
+		{
+			"LogName": "1011",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11072": "Home of Kent",
+			},
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+				"Dead |contains=Kent": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sam') OR {{Dead |contains=Sam}}": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Vincent') OR {{Dead |contains=Vincent}}": true,
+			}
+		},
+		
+		{
+			"LogName": "1100",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11072": "Home of Sam, & Vincent",
+			},
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+				"Dead |contains=Kent": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sam') OR {{Dead |contains=Sam}}": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Vincent') OR {{Dead |contains=Vincent}}": false,
+			}
+		},
+		
+		{
+			"LogName": "1101",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11072": "Home of Sam",
+			},
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+				"Dead |contains=Kent": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sam') OR {{Dead |contains=Sam}}": false,
+				"query: ('{{Spouse: anyPlayer}}' = 'Vincent') OR {{Dead |contains=Vincent}}": true,
+			}
+		},
+		
+		{
+			"LogName": "1110",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11072": "Home of Vincent",
+			},
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+				"Dead |contains=Kent": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sam') OR {{Dead |contains=Sam}}": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Vincent') OR {{Dead |contains=Vincent}}": false,
+			}
+		},
+		
+		{
+			"LogName": "1111",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11072": "Hungry.",
+			},
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+				"Dead |contains=Kent": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Sam') OR {{Dead |contains=Sam}}": true,
+				"query: ('{{Spouse: anyPlayer}}' = 'Vincent') OR {{Dead |contains=Vincent}}": true,
+			}
+		},
+	]
+}

@@ -1,0 +1,61 @@
+{
+	"Changes": [
+		{
+			"LogName": "Clint — Emily dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Clint",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"Entries": {
+				"Sat": "Sometimes I wonder why I stay here...$s",
+			}
+		},
+		
+		{
+			"LogName": "Clint — Harvey Dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Clint",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+			
+			"Entries": {
+				"winter_15.000": "I have a checkup tomorrow... Maybe the mermaid show will calm my nerves? But what if they think I'm ogling... *gulp*",
+				"winter_16.000": "I have a checkup today, so if you need to buy anything you'd better hurry."
+			}
+		},
+		
+		{
+			"LogName": "Clint — Maru sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Clint",
+			
+			"When": {
+				"MaruSubHarvey": true,
+			},
+			
+			"Entries": {
+				"winter_16.002": "How do my lungs sound? Sometimes they make a rattling sound when I exhale.",
+				"winter_16.001": "I'm seeing Maru about my lungs... breathing in all that coal dust can't be good.",
+			}
+		},
+		{
+			"LogName": "Clint — Wizard sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Clint",
+			
+			"When": {
+				"WizardSubHarvey": true,
+			},
+			
+			"Entries": {
+				"winter_16.002": "How do my lungs sound, Mag? Sometimes they make a rattling sound when I exhale.",
+				"winter_16.001": "I'm seeing Magnus about my lungs... breathing in all that coal dust can't be good.",
+			}
+		},
+	]
+}

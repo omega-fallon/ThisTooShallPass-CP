@@ -1,0 +1,17 @@
+{
+	"Changes": [	
+		{
+			"LogName": "IslandHut Events - Leo dead",
+			"Target": "Data/Events/IslandHut",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Leo": true,
+			},
+			
+			"Entries": {
+				"1039573/N 10/Hl addedParrotBoy": null,
+			}
+		},
+	]
+}

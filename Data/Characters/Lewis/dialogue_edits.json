@@ -1,0 +1,59 @@
+{
+	"Changes": [
+		{
+			"LogName": "Lewis — Maru sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Lewis",
+			
+			"When": {
+				"MaruSubHarvey": true,
+			},
+		
+			"Entries": {
+				"fall_9.000": "Erm... Nurse Maru? This is completely confidential, right?",
+			}
+		},
+		
+		{
+			"LogName": "Lewis — Wizard sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Lewis",
+			
+			"When": {
+				"WizardSubHarvey": true,
+			},
+		
+			"Entries": {
+				"fall_9.000": "Erm... Magnus? This is completely confidential, right?",
+			}
+		},
+		
+		{
+			"LogName": "Lewis — Clint dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Lewis",
+			
+			"When": {
+				"Dead |contains=Clint": true,
+			},
+		
+			"Entries": {
+				"6.000": "I'm here to collect business tax.",
+			}
+		},
+		
+		{
+			"LogName": "Lewis — Marnie dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Lewis",
+			
+			"When": {
+				"Dead |contains=Marnie": true,
+			},
+		
+			"Entries": {
+				"3.000": "I'm just here to make sure all of the ranch's business needs are met.",
+			}
+		},
+	]
+}

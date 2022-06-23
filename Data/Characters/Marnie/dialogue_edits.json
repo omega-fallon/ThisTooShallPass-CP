@@ -1,0 +1,61 @@
+{
+	"Changes": [
+		{
+			"LogName": "Marnie — Maru sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Marnie",
+			
+			"When": {
+				"MaruSubHarvey": true,
+			},
+		
+			"Entries": {
+				"fall_18.000": "Erm... Nurse Maru? This is completely confidential, right?",
+				"winter_18.002": "Erm... Nurse Maru? When you give her the shots, can we have two lollipops?",
+			}
+		},
+		
+		{
+			"LogName": "Marnie — Wizard sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Marnie",
+			
+			"When": {
+				"WizardSubHarvey": true,
+			},
+		
+			"Entries": {
+				"fall_18.000": "Erm... Magnus? This is completely confidential, right?",
+				"winter_18.002": "Erm... Magnus? When you give her the shots, can we have two lollipops?",
+			}
+		},
+	
+		{
+			"LogName": "Marnie — Jas teen",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Marnie",
+			
+			"When": {
+				"query: {{JasAge}} >= 13": true,
+			},
+		
+			"Entries": {
+				"winter_18.000": "I think Jas actually likes going to the clinic. Strange...",
+			}
+		},
+		
+		{
+			"LogName": "Marnie no longer takes Jas to the clinic",
+			"Action": "EditData",
+			"Target": "Characters/Schedules/Marnie",
+			
+			"When": {
+				"query: {{JasAge}} >= 18": true,
+			},
+		
+			"Entries": {
+				"winter_18": null,
+			}
+		},
+	]
+}

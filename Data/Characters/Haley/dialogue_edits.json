@@ -1,0 +1,78 @@
+{
+	"Changes": [
+		{
+			"LogName": "Haley — Emily dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"Entries": {
+				"Resort_Towel_3": "This swimsuit was a gift from a friend of Emily's... she shipped it to me from all the way out from Zuzu City.#$e#I'll be sure to cherish it.$h",
+				"summer_Sun": "I miss when Emily would cook dinner... even though she'd always cook weird stuff.$s",
+				"summer_Sun6": "#$1 HaleySister#Me and my sister would talk a lot... now it's just quiet.$s#$e#As much as I used to think so, Emily wasn't that weird. We had a lot more in common than I'd ever had admitted.$s#$e#I guess I should've told her that before...$s",
+			}
+		},
+		
+		{
+			"LogName": "Haley — Alex dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Haley",
+			
+			"When": {
+				"Dead |contains=Alex": true,
+			},
+			
+			"Entries": {
+				"Event_room1": "Him? No!#$b#...Well, I guess I used to like Alex. Too late for that, now...$s",
+				"summer_Fri": "I wonder how Alex is doing... wherever he is...#$e#Huh? I didn't notice you standing there.",
+				"winter_Sun": "...I think I'll go visit Alex's grave today.$s",
+				"winter_Sun6": "...I think I'll go visit Alex's grave today. Don't worry, it's just... he's an old friend.$s",
+			}
+		},
+		
+		{
+			"LogName": "Haley — Harvey dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Haley",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+		
+			"Entries": {
+				"winter_9.001": "Well... my nose has been a little runny, but otherwise I'm doing fine!",
+			}
+		},
+		
+		{
+			"LogName": "Haley — Emily dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Haley",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+		
+			"Entries": {
+				"marriage_Mon.000": "Hi, honey! I'm mostly just here to reminisce.",
+			}
+		},
+		
+		{
+			"LogName": "Haley — Emily Dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueHaley",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"Entries": {
+				"Rainy_Night_2": "I hope Emily is doing okay in... whatever mystical voodoo afterlife she's in right now.$s#$b#I should pay my respects to her again soon.$7",
+			}
+		},
+	]
+}

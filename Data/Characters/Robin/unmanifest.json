@@ -1,0 +1,286 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Robin",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Robin",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Robin",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest_construction.png",
+			"ToArea": {"X": 0, "Y": 160, "Width": 64, "Height": 64},
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_construction_cursors.png",
+			"PatchMode": "Overlay",
+		},
+		
+		{
+			"LogName": "Make Robin invisible",
+			"Action": "EditData",
+			"Target": "Data/Events/ScienceHouse, Data/Events/Farmhouse, Data/Events/Farm, Data/Events/IslandFarmhouse, Data/Events/IslandFarm",
+			
+			"Entries": {
+				"12491127": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/end invisible Robin",
+			},
+		},
+		
+		{
+			"LogName": "Add manifest",
+			"Action": "EditMap",
+			"Target": "Maps/ScienceHouse",
+			"FromFile": "Assets/Wizard/Sprites/Manifest.tmx",
+			"ToArea": {"X": 8, "Y": 17, "Width": 1, "Height": 2},
+			"PatchMode": "Overlay",
+		},
+		
+		{
+            "LogName": "Relayering countertop",
+			"Action": "EditMap",
+            "Target": "Maps/ScienceHouse",
+            "MapTiles": [
+                {
+                    "Position": { "X": 8, "Y": 18 },
+                    "Layer": "Front1",
+					"SetTileSheet": "1",
+                    "SetIndex": "919"
+                }
+            ]
+        },
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Robin",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Robin",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Robin": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Robin": {
+					"10": "ScienceHouse 8 18",
+					"11": "Magnus"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Robin": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Robin": true
+			}
+		},
+		
+		{
+            "LogName": "Manifest Map Sprite Offset",
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			
+			"When": {
+				"HasMod |contains=Yagisan.NPCMapLocationsForNPCs": true,
+			},
+			
+            "Entries": {
+                "Robin": {
+                    "MarkerCropOffset": 0
+                }
+            }
+        },
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/SpeechBubbles",
+			
+			"Entries": {
+				"ScienceHouse_Robin_Raining1": "The Valley is crying...",
+				"ScienceHouse_Robin_Raining2": "Wipe your feet, please.",
+				"ScienceHouse_Robin_NotRaining1": "Enjoying nature, {0}?",
+				"ScienceHouse_Robin_NotRaining2": "Greetings.",
+				"ScienceHouse_Robin_Snowing": "This hallowed place will warm you up.",
+				"ScienceHouse_Robin_NotSnowing": "Welcome back.",
+				"ScienceHouse_Robin_CloseFriends": "Hello, {0}.",
+				"ScienceHouse_Robin_NotCloseFriends": "Shall I construct an edifice for you?",
+				"ScienceHouse_Robin_Greeting": "Oh, it's you. Hello.",
+				"ScienceHouse_Robin_RareGreeting": "Yob...? Oh...",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Entries": {
+				"Phone_Robin_Workout": "Greetings. Yes, unfortunately, the lumberworks are closed. *beep*",
+				"Phone_Robin_Working_OneDay": "Hello. I cannot take your call currently; I am out constructing a building. I will be available tomorrow. *beep*",
+				"Phone_Robin_Working": "Hello. I cannot take your call currently; I am out constructing a building. I will be available in a few days. *beep*",
+				"Phone_Robin_Festival": "Hello, this is Magnus. As today is a festival day, the lumberworks are closed. *beep*",
+				"Phone_Robin_Open": "Hello. The lumberworks are open 24 hours a day. *click*",
+				"Phone_Robin_Open_Rare": "Hello. The lumberworks are open 24 hours a day. *click*",
+				"Phone_Robin_Closed": "Hello, this is Magnus. The lumberworks are open 24 hours a day. Come by any time if you need something. *beep*",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			
+			"Entries": {
+				"ScienceHouse_CarpenterMenu": "What may I do for you?",
+				"ScienceHouse_RobinAbsent": "Apologies. Something has gone wrong with my manifest.\n\n-Magnus",
+				
+				"ScienceHouse_Carpenter_UpgradeHouse1": "I am able to increase the size of your house and add a kitchen. It will cost 10,000g and you'll also need to provide me with 450 pieces of wood. Is this agreeable?",
+				"ScienceHouse_Carpenter_UpgradeHouse2": "I am able to increase the size of your house and add a nursery. It will cost 50,000g and you'll also need to provide me with 150 pieces of hardwood. Is this agreeable?",
+				"ScienceHouse_Carpenter_UpgradeHouse3": "I am able to add a cellar to your house. The cellar can be used to age certain products, like wine and cheese. It will cost 100,000g. Is this agreeable?",
+				"ScienceHouse_Carpenter_CommunityUpgrade1": "...Hmm? You wish to build Pam a new house? Splendid.^I will require 950 wood and 500,000g.",
+				"ScienceHouse_Carpenter_NotEnoughWood1": "Apologies, @. You have the money, but I require 450 pieces of wood.",
+				"ScienceHouse_Carpenter_NotEnoughWood2": "Apologies, @. You have the money, but I require 150 pieces of hardwood.",
+				"ScienceHouse_Carpenter_NotEnoughWood3": "Apologies, @. You have the money, but I require 950 pieces of wood.",
+				
+				"ScienceHouse_MoneyBox": "Apologies. Something has gone wrong with my manifest.\n\n-Magnus",
+				
+				"ScienceHouse_Carpenter_CommunityUpgrade2": "...Hmm? You wish for me me to add some... 'shortcuts' around the valley? Very well, that should be simple.^I will require 300,000g.",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			
+			"Entries": {
+				"ScienceHouse_Carpenter_CommunityUpgrade1": "...Hmm? You wish to upgrade the old trailer? Splendid.^I will require 950 wood and 500,000g.",
+			},
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"ShopMenu.cs.11460": "Do you require construction supplies? Perhaps decorations?",
+				"ShopMenu.cs.11461": "We have a rotating selection of magic-made furniture.",
+				"ShopMenu.cs.11462": "Plenty of aesthetically-pleasing furniture for sale.",
+				"ShopMenu.cs.11463": "Have any spare construction materials to sell?",
+				"ShopMenu.cs.11464": "I have {2} {0} that would look quite {1} in your house.",
+				"ShopMenu.cs.11482": "Care to see the daily wallpaper and flooring selection?",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"ScienceHouse.11": "An axe. It's noticeably dull.",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/ObjectInformation",
+			
+			"Fields": {
+				"788": {
+					"5": "A keepsake without an owner. Should be given to someone who can honor it.",
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/UI",
+			
+			"Entries": {
+				"Character_CoopHelpString": "Starting Cabins: Start with 1-3 cabins already in place, allowing your friends to join immediately. Alternatively, you can select \"None\" and build the cabins yourself (via Magnus).^^Cabin Layout: If you decide to start your farm with pre-existing cabins, you can choose between two layout styles: \"Nearby\" places all cabins near the main farmhouse, encouraging a communal farming style. \"Separate\" places the cabins far apart, allowing more room for independence.^^Profit Margin: Adjusts the profit margin (money you earn) on goods you sell. 'Normal' is the original Stardew Valley experience. More experienced and/or larger groups may wish to decrease the margin.",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"Robin": null,
+				"RobinCooking": null,
+				"WoodChipper": null,
+				"incubator": null,
+				"robinKitchenLetter": null,
+				"robinResource": null,
+				"robinWell": null,
+				"spring_11_1": null,
+				"winter_21_1": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			
+			"Entries": {
+				"Robin": null,
+				"Robin2": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			
+			"Entries": {
+				"Farm_RobinWorking_ReadyTomorrow": "Your new {0} will be finished tomorrow. I wonder what you'll do with it...",
+				"Farm_RobinWorking1": "Your new {0} will be ready in {1} days. Worry not; I shall make my presence subtle.",
+				"Farm_RobinWorking2": "Your new {0} will be ready in {1} days. This manifest shall be working tirelessly on it.",
+
+				"Robin_HouseUpgrade_Accepted": "Very good. I shall begin tomorrow. It should be finished in around three days.",
+				"Robin_PamUpgrade_Accepted": "How very generous... I'll start working on the upgrade tomorrow. It should take around three days.",
+				"Mines_PlayerKilled_Robin": "...I found you unconscious in the mines. You were nearly indistinguishable from the rocks.#$b#Be a little more careful next time, farmer.$s",
+
+				"Robin_UpgradeConstruction_Festival": "Very well, I'll begin work on your {1} upgrade the day after tomorrow. I will be too busy to maintain manifests during a festival.",
+				"Robin_UpgradeConstruction": "Very well, I'll begin work on your {1} upgrade tomorrow at dawn.",
+				"Robin_NewConstruction_Festival": "Very well, I'll begin work on your new {0} the day after tomorrow. I will be too busy to maintain manifests during a festival.",
+				"Robin_NewConstruction": "Very well, I'll begin work on your new {0} tomorrow at dawn.",
+				"Robin_Instant": "This {0} is pre-fabricated, so there's no construction time. A bit like magic, isn't it?$h",
+			}
+		}
+	]
+}

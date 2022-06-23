@@ -1,0 +1,94 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Caroline, Portraits/Caroline",
+			"FromFile": "Assets/error_spritesheet.png",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Caroline",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Caroline",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Caroline": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Caroline": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "ERROR"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Caroline": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Caroline": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			"Entries": {
+				"Caroline_Sunroom_Door": "Something's blocking the door...",
+			}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/CarolineGreenhouseTiles, Maps/CarolineGreenhouseTiles_rainy",
+			"FromFile": "Assets/Caroline/Greenhouse.png",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"Caroline": null,
+				"CarolineCooking": null,
+				"CarolineTea": null,
+				"carolineSO": null,
+				"fall_19_1": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			
+			"Entries": {
+				"Caroline": null,
+			}
+		}
+	]
+}

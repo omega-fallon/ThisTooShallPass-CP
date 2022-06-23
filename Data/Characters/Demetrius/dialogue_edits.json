@@ -1,0 +1,77 @@
+{
+	"Changes": [
+		{
+			"LogName": "Demetrius — Robin dead & Pam alive",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+				"Dead |contains=Pam": false,
+			},
+			
+			"Entries": {
+				"pamHouseUpgradeAnonymous": "Magnus won't tell me who got Pam her new house... I guess he isn't Robin, so he doesn't owe me that.$s",
+			}
+		},
+		
+		{
+			"LogName": "Demetrius — Robin & Pam dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+				"Dead |contains=Pam": true,
+			},
+			
+			"Entries": {
+				"pamHouseUpgradeAnonymous": "Magnus won't tell me who upgraded the old trailer... I guess he isn't Robin, so he doesn't owe me that.$s",
+			}
+		},
+		
+		{
+			"LogName": "Demetrius — Robin dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"Entries": {
+				"Fri": "Robin had a hot temper. I always tried to stay on her good side.#$e#Do you think I ended up on it?$s",
+				"Fri4": "Robin had a hot temper. I always tried to stay on her good side.#$e#...I didn't understand that part of her. I tried to use math to understand love... I was such a moron.$s",
+				"winter_Tue": "Talk to Magnus if you want to increase the size of your house.$s",
+			}
+		},
+		
+		{
+			"LogName": "Demetrius — Maru sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Demetrius",
+			
+			"When": {
+				"MaruSubHarvey": true,
+			},
+			
+			"Entries": {
+				"summer_25.001": "Nurse Maru, have you read the latest 'Biology and Medicine'? There's an article I think you'd be interested in."
+			}
+		},
+		
+		{
+			"LogName": "Demetrius — Wizard sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Demetrius",
+			
+			"When": {
+				"WizardSubHarvey": true,
+			},
+			
+			"Entries": {
+				"summer_25.001": "Magnus, do you have any interest in medicine? There's an article in 'Biology and Medicine' I think you'd like."
+			}
+		},
+	]
+}

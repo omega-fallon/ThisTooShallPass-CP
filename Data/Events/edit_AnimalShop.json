@@ -1,0 +1,46 @@
+{
+	"Changes": [
+		{
+			"LogName": "AnimalShop Events - Marnie dead",
+			"Target": "Data/Events/AnimalShop",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Marnie": true,
+			},
+			
+			"Entries": {
+				"92/e 91/i 78/t 900 1700": null,
+			}
+		},
+		
+		{
+			"LogName": "AnimalShop Events - Marnie/Shane/Jas dead",
+			"Target": "Data/Events/AnimalShop",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Marnie, Shane, Jas": true,
+			},
+			
+			"Entries": {
+				"3910674/f Shane 1000": null,
+				"3910974/f Shane 1700/e 3910975/p Shane": null,
+			}
+		},
+		
+		{
+			"LogName": "AnimalShop Events - Shane/Jas dead",
+			"Target": "Data/Events/AnimalShop",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Shane, Jas": true,
+			},
+			
+			"Entries": {
+				"3900074/f Shane 2000/e 2118991/p Shane": null,
+			}
+		},
+	]
+}

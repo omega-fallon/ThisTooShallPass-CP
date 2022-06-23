@@ -1,0 +1,19 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "Assets/Blondie/Sprites/FullGrey_Festival.png",
+			"ToArea": { "X": 272, "Y": 128, "Width": 48, "Height": 32 },
+			"PatchMode": "Replace",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/MovieTheater_TileSheet, Maps/MovieTheaterJoja_TileSheet, Maps/MovieTheaterJoja_TileSheet_international",
+			"FromFile": "Assets/Blondie/Sprites/FullGrey_Theater.png",
+			"ToArea": { "X": 176, "Y": 192, "Width": 32, "Height": 32 },
+			"PatchMode": "Replace",
+		},
+	]
+}

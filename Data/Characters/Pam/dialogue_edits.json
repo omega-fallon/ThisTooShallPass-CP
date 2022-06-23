@@ -1,0 +1,48 @@
+{
+	"Changes": [
+		{
+			"LogName": "Pam — Willy dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			},
+			
+			"Entries": {
+				"Resort": "Heh... I found a piece of his fish jerky on the ride over. Delicious!",
+			}
+		},
+		
+		{
+			"LogName": "Pam — Gus dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pam",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			},
+			
+			"Entries": {
+				"Saloon_Entry": "Ah... Finally./I need a drink./Magnus! Pour me some of that Good News!/Hey, I'm back!/Ooh boy, am I thirsty!/I'm parched!",
+				"Saloon_Tue": "Hey Magnus! Gimme another round! *hic*$h",
+				"Saloon_Fri": "Oi, Magnus! Gimme another pint of your strongest!",
+				"Sun": "It's kinda weird having Magnus fill in for Gus at the Saloon... he's not very talkative.#$e#At least gives me free beer on my birthday, heheh.$h",
+			}
+		},
+		
+		{
+			"LogName": "Pam — Harvey dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Pam",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+		
+			"Entries": {
+				"spring_25.000": "*grumble*... worthless dang clinic... *grumble*$4",
+			}
+		},
+	]
+}

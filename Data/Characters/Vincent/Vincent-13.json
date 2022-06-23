@@ -1,0 +1,327 @@
+{
+	"Changes": [
+		{
+			"LogName": "Vincent 13 dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			
+			"Entries": {
+				"Introduction": "Hmm? A stranger? Well, hey! My name's Vincent.#$b#My momma always told me not to talk to strangers, but you seem okay, heheh.$h",
+				"Resort_Entering": "Awesome! I'd love to drive a boat some day...",
+				"Resort_Leaving": "Let's come back soon!",
+				"Resort_Shore": "Heh... you think there's any sharks here?$h#$e#No, no, I'm convinced. There *is* a shark in here. It's just invisible.",
+				"Resort": "If you look close, you can see little bugs jumping out of the sand.$h",
+				"reject_869": "Oooh! Nice find!#$b#I dunno why, but I kinda feel like someone else should have it. Thanks anyways, though!",
+				"Mon": "Sam is really cool... who wouldn't want to be like him?#$e#He gets all the girls, too. Lucky guy.",
+				"Mon4": "$d kent#I'm glad Dad's back... but he's different than I remember...$s|Dad's not around much... I miss spending time with him.$s",
+				"Tue": "*sigh*... Mom's babying me again.$s",
+				"Tue6": "Hey, you wanna hear a secret, @?$u#$b#I think I'm gonna marry Miss Penny when I grow up.#$e#Just don't tell her, okay?$u",
+				"Wed": "I'd love to go looking for bugs, but mom'll be really mad if I track a bunch of drink into the house.$u#$b#Hopefully she won't be too mad when I do it anyways.",
+				"Thu": "I'm hungry... when's Mom gonna make something to eat?$s",
+				"Thu2": "I dunno why, but farm life seems pretty interesting to me.#$b#Interesting, but also, fun! I'd love to get covered in dirt, and then afterward, I get something to eat!$h",
+				"Fri": "#$c .3#Eugh, it's boiled beet night again...$s#$e#Oh no... Mom's making lentil soup tonight.$s",
+				"Sat_1": "Dad's coming back soon!#$b#I hope he's got some good stories.$u",
+				"Sat": "Miss Penny makes me read a new book every week. That's ridiculous, right?!$s#$b#At least she lets me pick them, sometimes! She won't let me read gorey ones, though. I wish she didn't baby me so much.",
+				"Sat8": "$d kent#Dad seems weird since he came back. I knew he'd be shaken up, but...$s#$b#He's really distant. It... sucks.$s|I wonder if Dad will ever come home...$s",
+				"Sun": "Hey there, @!^Hey there, @.",
+				"Sun10": "Hey, @!#$e#Psst... guess what? I think you're really cool.#$b#Okay, that's all. Bye.$h",
+				
+				"GiftReaction_Dinosaur_Egg": "Is that a real dinosaur egg?! Cool!$h",
+				
+				"rejectNPCA": "I... no, no, you're not supposed to do that...$s",
+				"rejectNPCB": "...Go away.$a",
+				"refusal_no_heartsA": "Aren't you supposed to do that with someone you know? And... someone who isn't a kid?$3",
+				"refusal_no_heartsB": "Married?!$3#$b#Why would I marry an old man like you?$s^Sorry, I've got my eyes on Miss Penny.$s",
+				"engageA": "Are you trying to kidnap me? Mom gave me something to defend myself with.$2",
+				"engageB": "You're horrible...$2",
+				"marriedA": "I don't want it...$2",
+				"marriedB": "I was taught to run away from people like you. I'm not as stupid as I look.$3",
+				
+				"birthdayLoveA": "Ooh!! This is so cool!",
+				"birthdayLoveB": "This is such an awesome birthday present.$1#$b#Thank you so much!$l",
+				"birthdayLikeA": "Yay! I got a birthday present!!$1",
+				"birthdayLikeB": "Thanks a bunch, mister!$h^Thanks a bunch, miss!$h",
+				"birthdayDislikeA": "...What do I do with this?...$3",
+				"birthdayDislikeB": "...$2",
+				"birthdayNeutralA": "...Oh... thanks...$3",
+				"birthdayNeutralB": "What's this?$3",
+			}
+		},
+		
+		{
+			"LogName": "Gifts received",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Fields": {
+				"Vincent": {
+					"0": "Hey, this is great! Thanks.",
+					"2": "Ooh, cool!",
+					"4": "Uhh... I guess I could do something with this.",
+					"6": "Ugh...",
+				},
+			}
+		},
+		
+		{
+			"LogName": "Vincent 13 dialogue - schedule strings",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Vincent",
+			
+			"Entries": {
+				"winter_16.000": "I'm gonna ride that boat! Don't even try to stop me!$h",
+				"spring_11.001": "%Vincent is in deep focus. He has his eyes closed and is taking long, careful breaths.",
+				"spring_11.002": "...That's it? Oh... okay, good!$h",
+				"spring_11.000": "...I have to get my shots today, but I think I'm gonna be able to get through it.#$b#I figure if I just ignore everything around me, I'll forget I'm even in a hospital, so I won't be scared!$h"
+			}
+		},
+		
+		{
+			"LogName": "Vincent correction",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			
+			"Entries": {
+				"Tue6": "Hey, @, you wanna hear an embarrassing secret?$u#$b#Heh... alright, I used to have crush on Miss Penny.#$e#I know, I know, it's stupid. I figured you'd find it funny, though.$u",
+			},
+			
+			"When": {
+				"Spouse": "Penny",
+			}
+		},
+		
+		{
+			"LogName": "Vincent call",
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Entries": {
+				"Phone_Ring_Vincent": "Hello?#$b#Uhh... this is Vincent.$3#$b#...$3#$b#Umm... so, farming hard or hardly farming, right?$h#$b#...$3#$b#Okay I gotta go! *click* $3",
+			},
+		},
+		
+		{
+			"LogName": "Vincent 13 dialogue - Egg Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"Entries": {
+				"Vincent": "When does the egg hunt start?! I'm ready to kick some butt!$h",
+				"Vincent_y2": "I'm gonna get so many eggs this year... mmm, but now I'm hungry for scrambled eggs.",
+				"Penny": "It's a lovely day out, don't you think? I'm sure the egg hunt will be lots of fun for everyone.",
+				"Penny_y2": "Hopefully Vincent will be able to find a good amount of eggs this year...#$b#He's not very good at it, but he has the spirit.",
+			}
+		},
+		
+		{
+			"LogName": "Vincent 13 dialogue - Flower Dance",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			
+			"Entries": {
+				"Vincent": "Who says boys can't be flower queens, huh? I'll be the floweriest queen who ever lived!$h",
+			}
+		},
+		
+		{
+			"LogName": "Vincent 13 dialogue - Luau",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"Entries": {
+				"Vincent": "*yawn* Jas keeps asking why I'm not dancing. Why's she gotta nag me so much?",
+			}
+		},
+		
+		{
+			"LogName": "Vincent 13 dialogue - Dance of the Moonlight Jellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			
+			"Entries": {
+				"Vincent": "Aha! There it is, the rare green jelly!",
+			}
+		},
+		
+		{
+			"LogName": "Vincent 13 dialogue - Stardew Valley Fair",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"Entries": {
+				"Vincent": "Must not climb onto cow... must not ride cow through town hollering like a cowboy... control yourself, Vincent!",
+			}
+		},
+		
+		{
+			"LogName": "Vincent 13 dialogue - Spirit's Eve",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			
+			"Entries": {
+				"Vincent": "I'm only allowed to go in the maze if I take Jas with me... b-but what if I get scared? I don't want her to see that...$s",
+			}
+		},
+		
+		{
+			"LogName": "Vincent 13 dialogue - Ice Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"Entries": {
+				"Vincent": "Mmm... I just saw a *really* big fish, and now I'm hungry.",
+			}
+		},
+		
+		{
+			"LogName": "Vincent 13 dialogue - Feast of the Winter Star",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			
+			"Entries": {
+				"Vincent": "Mmm... Mama says I should be more patient to get my presents.$s#$b#I guess it's not *too* hard to wait... there's plenty of good food!",
+			}
+		},
+		
+		{
+			"LogName": "Vincent 13 dialogue - Movie Reactions",
+			"Action": "EditData",
+			"Target": "Data/MovieReactions",
+			
+			"Entries": {
+				"Vincent": {
+					"NPCName": "Vincent",
+					"Reactions": [
+						{
+							"Tag": "horror",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "documentary",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "classic",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "romance",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "spring_movie_1",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+									"Text": "...Are you sure? The movies where it's just a guy saying stuff usually annoy me...$s"
+								},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+									"Text": "Wait... hang on, nature is really cool!$h"
+								},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+									"Text": "That surprised me! I guess it makes sense... I like going outside and rolling around in the mud.$h"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "*",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_5"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "I'm really excited! Let's get some candy... just don't tell Mom!$h"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "message \"Vincent is having a great time!\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "That was great! Let's go see another movie together sometime!$h"
+								}
+							},
+							"ID": "reaction_6"
+						},
+						{
+							"Tag": "horror",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "...This one looks scary. *gulp*$s#$b#I'll try my best to be brave!$h"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"Vincent is managing to keep it together... barely.\"",
+									"Text": "Ghh... c'mon, I shouldn't be this scared! I'm {{VincentAge}}!$s"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "Mmm... I guess I'm not ready for scary movies yet.$s"
+								}
+							},
+							"ID": "reaction_7"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "Uhh... this movie is for adults, isn't it?$s"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/shake Vincent 250/pause 500/shake Vincent 250/pause 500/emote Vincent 28/message \"Vincent is fidgeting in his seat.\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "Mmm... sorry, @, I didn't really get that one.$s"
+								}
+							},
+							"ID": "reaction_8"
+						}
+					]
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,178 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Pierre",
+			"FromFile": "Assets/Caroline/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Pierre",
+			"FromFile": "Assets/Caroline/Sprites/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Pierre": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "Caroline"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Schedules/Caroline",
+			
+			"Entries": {
+				// Caroline should be at the shop position ~830 and should not leave until 1500, which is 2 hours earlier than Pierre. she's got her own ambitions
+				
+				"rain": "700 SeedShop 4 17 2/1500 SeedShop 21 5 2 Caroline_read/1800 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 Caroline_sleep",
+				
+				"Fri": "700 SeedShop 4 17 2/1500 Sunroom 5 7 1/1700 ArchaeologyHouse 14 4 2 Caroline_read \"Strings\\schedules\\Caroline:Fri.000\"/2000 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 Caroline_sleep",
+				"Wed": "700 SeedShop 4 17 2/1500 Sunroom 5 7 1/1700 Town 23 27 1/1900 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 Caroline_sleep",
+				"Sat": "700 SeedShop 4 17 2/1500 CommunityCenter 26 9 0/1700 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 Caroline_sleep",
+				"Sun": "700 SeedShop 4 17 2/1500 SeedShop 21 5 3 \"Strings\\schedules\\Caroline:Sun.000\"/1700 Town 48 33 2/1830 SeedShop 27 7 1/2100 SeedShop 25 4 1 Caroline_sleep",
+				"spring": "700 SeedShop 4 17 2/1000 Sunroom 5 7 1/1330 Town 23 71 2/1600 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 Caroline_sleep",
+				
+				// Special, should be mostly unchanged
+				
+				"fall_25": "700 SeedShop 4 17 2/1000 SeedShop 27 7 3 \"Strings\\schedules\\Caroline:fall_25.000\"/1200 Hospital 13 14 0 \"Strings\\schedules\\Caroline:fall_25.001\"/1330 Hospital 4 6 1 \"Strings\\schedules\\Caroline:fall_25.002\"/1600 SeedShop 25 18 2 square_9_9/2100 SeedShop 25 4 1 Caroline_sleep",
+				"winter_16": "700 SeedShop 4 17 2/1500 Town 23 71 2/1700 Beach 24 32 3 \"Strings\\schedules\\Caroline:winter_16.000\"/2330 SeedShop 25 4 1 Caroline_sleep",
+				"Tue": "700 SeedShop 4 17 2/1030 SeedShop 22 14 0 \"Strings\\schedules\\Caroline:Tue.000\"/1200 SeedShop 24 17 3/1300 SeedShop 24 21 0 Caroline_exercise/1600 SeedShop 23 15 1 \"Strings\\schedules\\Caroline:Tue.001\"/1810 SeedShop 34 5 0 \"Strings\\schedules\\Caroline:Tue.002\"/2100 SeedShop 25 4 1 Caroline_sleep",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/SpeechBubbles",
+			
+			"Entries": {
+				"SeedShop_Caroline_Winter": "Come warm up in here.",
+				"SeedShop_Caroline_NotWinter": "Welcome back!",
+				"SeedShop_Caroline_Summer": "Summer seeds available!",
+				"SeedShop_Caroline_NotSummer": "Seeds for sale!",
+				"SeedShop_Caroline_Greeting1": "Hello!",
+				"SeedShop_Caroline_Greeting2": "Hey, farmer {0}!",
+				"SeedShop_Caroline_Raining": "It's a good day, isn't it?",
+				"SeedShop_Caroline_NotRaining": "Welcome!",
+				"SeedShop_Caroline_RareGreeting": "Did you remember your wallet?"
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Entries": {
+				"Phone_Ring_Pierre": "{{i18n:ButNobodyCame.TTSP}}",
+				"Phone_Pierre_Open": "Hello, you've reached the General Store! Oh, @! Yes, we're open until 5pm today. Come pay me a visit! *click*",
+				"Phone_Pierre_Open_Rare": "Abigail! Your guinea pig is loose again! Oh dear, I'm going to have to...$3#$b#Oh! Uh... Hello? Thank you for calling. Y... Yes, we're open until 5PM. Goodbye. *click*$4",
+				"Phone_Pierre_Closed": "Thank you for calling the General Store. We're closed at the moment, but our hours are 9AM to 5PM. See you then! *beep*",
+				"Phone_Pierre_Festival": "Thank you for calling the General Store. We're closed today in observance of the festival. *beep*",
+				
+				"PierreStockListDialogue": "Oh, wow! It's Pierre's old stock list! I've been searching everywhere for this thing.$h#$b#Let me see... yup! It's all still here.#$b#With these order codes, we can expand the stock to include seeds from all seasons, year round!#$b#Thanks so much for bringing this back to me, @. Pierre would be absolutely ecstatic right now!$h",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			
+			"Entries": {
+				"SeedShop_MoneyBox": "I'm taking the day off to visit the island. Please place your money in the box. No cheating!^     -Caroline",
+				"SeedShop_GoUpFront": "Uhh... so, @, I don't know how folks do things in the city, but in Pelican Town, we buy things from the *front* of the counter.$s",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {				
+				"ShopMenu.cs.11485": "Quality goods for sale!",
+				"ShopMenu.cs.11488": "Welcome to the general store! ",
+				"GameLocation.cs.8525": "Come back when Caroline's tending the shop.",
+			},
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "Assets/Pierre/Pierre_grange.png",
+			"ToArea": {"X": 368, "Y": 99, "Width": 48, "Height": 13},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"Bouquet": "@,^It seems like you're starting to get close with some of the townspeople. If you want to show someone that you're romantically interested, you've got to give them one of my beautiful flower bouquets. We're selling them now at the General Store, for a very fair price! If you want to start a family someday, this is the first step! ^   -Caroline[#]About Bouquets",
+				"fertilizers": "Dear neighbor,^I hope you are feeling settled in your new home. I am writing to let you know that the General Store is now selling fertilizers! Why don't you swing by and see if you can afford a few dozen boxes or so?  ^   -Caroline[#]Fertilizers",
+				"fertilizers2": "Dear @,^I am now selling higher quality fertilizers, as well as new crop selections! See you soon. ^   -Caroline[#]High Quality Fertilizers",
+				"pierreBackpack": "ADVERTISEMENT:^\"I keep finding interesting things, but my backpack is full!\"^^Does this sound like you? Well, Caroline's got you covered!^^Stop by the General Store today and check out our affordable size 24 backpack!^ See you soon![#]Backpacks From the General Store",
+				"pierreHours": "ADVERTISEMENT:^^The General Store is now open 7 days a week![#]The General Store's Extended Hours",
+			}
+		},
+		
+		// Content Code
+		
+		{
+            "Action": "EditMap",
+            "Target": "Maps/SeedShop",
+						
+            "MapTiles": [
+                {
+                    "Position": { "X": 4, "Y": 18 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "OmegaFallon.ThisTooShallPassCP/CarolineShop",
+                    }
+                },
+				{
+                    "Position": { "X": 5, "Y": 18 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "OmegaFallon.ThisTooShallPassCP/CarolineShop",
+                    }
+                },
+            ]
+        },
+		
+		{
+            "Action": "EditData",
+            "Target": "spacechase0.ContentCode/Action",
+            "Entries": {
+                "OmegaFallon.ThisTooShallPassCP/CarolineShop": "
+					Character Caroline = Game1.getCharacterFromName( `Caroline` );
+					
+					if ( Caroline.currentLocation.Name == `SeedShop` && Caroline.getTileLocation() == new Vector2( 4, 17 ) && Game1.player.getTileY() > Caroline.getTileY())
+					{
+						Game1.activeClickableMenu = new StardewValley.Menus.ShopMenu( (Game1.currentLocation as StardewValley.Locations.SeedShop).shopStock(), 0, `Caroline` );
+					}		
+					else if ( Caroline.currentLocation.Name != `SeedShop` && Game1.IsVisitingIslandToday( `Caroline` ) )
+					{
+						Game1.drawObjectDialogue(Game1.content.LoadString(`Strings\\\\Locations:SeedShop_MoneyBox`));
+						Game1.afterDialogues = delegate
+						{
+							Game1.activeClickableMenu = new StardewValley.Menus.ShopMenu( (Game1.currentLocation as StardewValley.Locations.SeedShop).shopStock() );
+						};
+					}
+					else if ( Caroline.currentLocation.Name == `SeedShop` && Caroline.getTileLocation() == new Vector2( 4, 17 ) && Game1.player.getTileY() <= Caroline.getTileY())
+					{
+						Game1.drawDialogue(Game1.getCharacterFromName(`Caroline`), Game1.parseText(Game1.content.LoadString(`Strings\\\\Locations:SeedShop_GoUpFront`)));
+					}
+					else
+					{
+						Game1.drawObjectDialogue(Game1.content.LoadString(`Strings\\\\StringsFromCSFiles:GameLocation.cs.8525`));
+					}
+                "
+            }
+        }
+	]
+}

@@ -1,0 +1,83 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Shane, Portraits/Shane",
+			"FromFile": "Assets/error_spritesheet.png",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Shane, Characters/Dialogue/MarriageDialogueShane",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Shane",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Shane": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Shane": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "ERROR"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Shane": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Shane": true
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/AnimaShop",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 21, "Y": 13 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door"
+                    }
+                }
+            ],
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"Shane": null,
+				"ShaneCooking": null,
+			}
+		}
+	]
+}

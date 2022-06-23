@@ -1,0 +1,92 @@
+{
+	"Changes": [
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Abigail, Portraits/Abigail",
+			"FromFile": "Assets/error_spritesheet.png",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Abigail, Characters/Dialogue/MarriageDialogueAbigail",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Abigail",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Abigail": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Abigail": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "ERROR"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Abigail": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Abigail": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"BathHouse_WomensLocker.3": "This locker belonged to someone. It smells like a sewer in here.",
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/SeedShop",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 13, "Y": 11 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door"
+                    }
+                }
+            ],
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"abbySpiritBoard": null,
+			}
+		}
+	]
+}

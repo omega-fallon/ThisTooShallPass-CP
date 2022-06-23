@@ -1,0 +1,73 @@
+{
+	"Changes": [
+		{
+			"LogName": "CommunityCenter Events - George dead",
+			"Target": "Data/Events/CommunityCenter",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=George": true,
+			},
+			
+			"Fields": {
+				"Punch": {
+					"1": "move Alex 0 -3 3 true",
+					"8": "move Alex -5 0 3 true",
+					"47": "textAboveHead Alex \"Yeah! Let's go!\"",
+					"85": "textAboveHead Alex \"Get him!\"",
+				}
+			}
+		},
+		
+		{
+			"LogName": "CommunityCenter Events - Robin dead",
+			"Target": "Data/Events/CommunityCenter",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"Fields": {
+				"Punch": {
+					"45": "jump Maru",
+					"46": "showFrame Maru 19",
+				}
+			}
+		},
+		
+		{
+			"LogName": "CommunityCenter Events - Caroline dead",
+			"Target": "Data/Events/CommunityCenter",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Caroline": true,
+			},
+			
+			"Fields": {
+				"Punch": {
+					"38": "jump Abigail",
+					"39": "textAboveHead Abigail \"Dad!\"",
+					"40": "speed Abigail 4",
+					"41": "move Abigail 0 4 1 true",
+					"67": "jump Abigail",
+				}
+			}
+		},
+	
+		{
+			"LogName": "CommunityCenter Events - Morris/Pierre dead",
+			"Target": "Data/Events/CommunityCenter",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Pierre, Morris, MorrisTod": true,
+			},
+			
+			"Entries": {
+				"Punch": null,
+			}
+		},
+	]
+}

@@ -1,0 +1,24 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Gunther",
+			"FromFile": "Assets/Gunther/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Gunther",
+			"FromFile": "Assets/Gunther/Sprites/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/MovieTheater_TileSheet, Maps/MovieTheaterJoja_TileSheet, Maps/MovieTheaterJoja_TileSheet_international",
+			"FromFile": "Assets/Gunther/Sprites/FullGrey.png",
+			"FromArea": { "X": 0, "Y": 0, "Width": 16, "Height": 32 },
+			"ToArea": { "X": 208, "Y": 192, "Width": 16, "Height": 32 },
+			"PatchMode": "Replace",
+		},
+	]
+}

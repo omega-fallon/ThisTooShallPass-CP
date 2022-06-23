@@ -1,0 +1,236 @@
+{
+	"Changes": [
+		// Festivals
+		// According to the documentation, random tokens are "seeded with the game seed + in-game date + input string"
+		// So, that *should* mean they're synced since obviously the first two will be the same, and the input string for both are null... right?
+		
+		{
+            "LogName": "CF - Festival Y2",
+            "Action": "Include",
+            "FromFile": "Data/123_Compatibility/CF_Festivals_Y2.json",
+            "When": {
+                "Year": "2"
+            }
+        },
+        {
+            "LogName": "CF - Festival Y3",
+            "Action": "Include",
+            "FromFile": "Data/123_Compatibility/CF_Festivals_Y3.json",
+            "When": {
+                "Year": "3"
+            }
+        },
+        {
+            "LogName": "CF - Festival Randomized (After Y3)",
+            "Action": "Include",
+            "FromFile": "Data/123_Compatibility/CF_Festivals_Y{{Random:null, 2, 3}}.json",
+            "When": {
+                "HasFile:{{FromFile}}": true,
+                "Year |contains= 1, 2, 3": false
+            }
+        },
+		
+		// Other
+		
+		{
+			"LogName": "Rainy - Sandy dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			
+			"When": {
+				"Dead |contains=Sandy": true,
+			},
+			
+			"Entries": {
+				"Emily": "#$c .5#It never rains in Calico Desert... that's where my late friend Sandy lived. Wish I could've visited her today.$s#If you stand in the rain and listen carefully, the raindrops sound like little whispered conversations.",
+			}
+		},
+		
+		{
+			"LogName": "Rainy - Jodi dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/rainy",
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+			},
+			
+			"Entries": {
+				"Sam": "#$c .5#Rain muffles sound, so I can play my guitar louder without anyone else hearing and complaining about the noise. Hehe.$h#It feels kinda badass to walk through the rain without letting it faze you.",
+			}
+		},
+		
+		{
+			"LogName": "Marriage Dialogue - Jas and Vincent teens",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogue",
+			
+			"When": {
+				"JasVince13": true,
+			},
+			
+			"Entries": {
+				"jobReturn_Penny": "#$c .7#Good evening. My day was fine, thanks! How was yours?$h#The kids were very well-behaved today. Vincent even brought in a book he wanted to read!",
+			}
+		},
+		
+		{
+			"LogName": "Marriage Dialogue - Jas and Vincent adults",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogue",
+			
+			"When": {
+				"JasVince18": true,
+			},
+			
+			"Entries": {
+				"jobReturn_Penny": "#$c .7#Good evening. My day was fine, thanks! How was yours?$h#It was nice helping around the library. I get to organize, and I get to read. What's not to love?$h",
+			}
+		},
+		
+		{
+			"LogName": "Sebastian Billiards - Sam dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Sebastian",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+			
+			"Entries": {
+				"Fri.000": "#$c .5#Should I go easy on this game? ...nah.$h#Watch out! Double shot, incoming.$h",
+				"marriage_Fri.001": "#$c .5#My skills haven't declined... I'm still the best around.$h#Ahh, sweet victory. Some things never get old.$h"
+			}
+		},
+		
+		{
+			"LogName": "Birdie dead",
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			"Entries": {
+				"Birdie0": "{{i18n:Birdie.TTSP}}",
+				"Birdie1": "{{i18n:Birdie.TTSP}}",
+				"Birdie2": "{{i18n:Birdie.TTSP}}",
+				"Birdie3": "{{i18n:Birdie.TTSP}}",
+				"Birdie4": "{{i18n:Birdie.TTSP}}",
+				"Birdie5": "{{i18n:Birdie.TTSP}}",
+				"Birdie6": "{{i18n:Birdie.TTSP}}",
+				"Birdie7": "{{i18n:Birdie.TTSP}}",
+				"Birdie8": "{{i18n:Birdie.TTSP}}",
+				"Birdie9": "{{i18n:Birdie.TTSP}}",
+				"Birdie10": "{{i18n:Birdie.TTSP}}",
+				"Birdie11": "{{i18n:Birdie.TTSP}}",
+				"Birdie12": "{{i18n:Birdie.TTSP}}",
+				"Birdie13": "{{i18n:Birdie.TTSP}}",
+				"Birdie14": "{{i18n:Birdie.TTSP}}",
+				"Birdie15": "{{i18n:Birdie.TTSP}}",
+				"Birdie16": "{{i18n:Birdie.TTSP}}",
+				"Birdie17": "{{i18n:Birdie.TTSP}}",
+				"Birdie18": "{{i18n:Birdie.TTSP}}",
+				"Birdie19": "{{i18n:Birdie.TTSP}}",
+				"Birdie20": "{{i18n:Birdie.TTSP}}",
+				"Birdie22": "{{i18n:Birdie.TTSP}}",
+				"Birdie23": "{{i18n:Birdie.TTSP}}",
+				"Birdie24": "{{i18n:Birdie.TTSP}}",
+				"Birdie25": "{{i18n:Birdie.TTSP}}",
+				"Birdie26": "{{i18n:Birdie.TTSP}}",
+				"Birdie27": "{{i18n:Birdie.TTSP}}",
+				"Birdie28": "{{i18n:Birdie.TTSP}}",
+			},
+			
+			"When": {
+				"Dead |contains=Birdie": true,
+			}
+		}	
+		
+		// Abigail //
+		
+		{
+			"LogName": "Abigail dialogue - Sebastian dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			
+			"When": {
+				"Dead |contains=Sebastian": true,
+			},
+			
+			"Entries": {
+				"Mon4": "I'm getting an urge to visit the lake by Sebastian's place...#$b#...maybe if I get there when it's raining, I'll see his ghost.#$b#Sebastian would totally end up as a ghost, wouldn't he?$h",
+				"Thu2": "Sometimes it gets lonely without Sebastian around. He was pretty much my best friend...$s#$e#I'm sure he'd want me to keep being myself. Maybe I'll go monster-hunting in his honor.$n",
+			}
+		},
+		
+		{
+			"LogName": "Abigail dialogue - Parents dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			
+			"When": {
+				"Dead |contains=Pierre, Caroline": true,
+			},
+			
+			"Entries": {
+				"Mon6": "As I've gotten older, I've figured out a way to give a pretty awesome death glare.#$e#Some people get really scared by it.$h",
+			}
+		},
+		
+		{
+			"LogName": "Abigail dialogue - Pierre dead, Caroline alive",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+				"Dead |contains=Caroline": false,
+			},
+			
+			"Entries": {
+				"Tue4": "God... my mom's still just as out of touch as my dad was. Are everyone's parents like this...?$s#$e#Seems like her idea of a girl being adventurous is to try on a new dress or something.$u",
+			}
+		},
+		
+		{
+			"LogName": "Abigail dialogue - Pierre alive, Caroline dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			
+			"When": {
+				"Dead |contains=Pierre": false,
+				"Dead |contains=Caroline": true,
+			},
+			
+			"Entries": {
+				"Tue4": "God... my dad's still just as out of touch as ever. Is everyone's dad like this...?$s#$e#Seems like his idea of a girl being adventurous is to try on a new dress or something.$u",
+			}
+		},
+		
+		{
+			"LogName": "Abigail dialogue - Pierre dead, Caroline dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+				"Dead |contains=Caroline": true,
+			},
+			
+			"Entries": {
+				"Tue4": "*sigh*... My parents never approved of my lifestyle. So out of touch. I wonder if they're disappointed in me...$s#$e#Their idea of a girl being adventurous was like... trying on a new dress or something. So I doubt they'd approve.$u",
+			}
+		},
+		
+		{
+			"LogName": "Abigail dialogue - Abigail adult",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Abigail",
+			
+			"When": {
+				"query: {{AbigailAge}} >= 29": true,
+			},
+			
+			"Entries": {
+				"Tue8": "One of my online friends seems to get along so great with her parents.$s#$e#Is it normal to feel like I'm perpetually stuck in my early teenage years?$s",
+			}
+		},
+	]
+}

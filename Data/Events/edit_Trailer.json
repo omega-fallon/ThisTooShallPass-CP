@@ -1,0 +1,45 @@
+{
+	"Changes": [
+		{
+			"LogName": "Trailer Events - Pam/Penny dead",
+			"Target": "Data/Events/Trailer",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Pam, Penny": true,
+			},
+			
+			"Entries": {
+				"35/f Penny 1000/p Penny": null,
+			}
+		},
+		
+		{
+			"LogName": "Trailer Events - Penny dead",
+			"Target": "Data/Events/Trailer",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Penny": true,
+			},
+			
+			"Entries": {
+				"36/f Penny 1500/p Penny": null,
+			}
+		},
+		
+		{
+			"LogName": "Trailer Events - Pam dead",
+			"Target": "Data/Events/Trailer",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"Entries": {
+				"963313/n pamPotatoJuice": null,
+			}
+		},
+	]
+}

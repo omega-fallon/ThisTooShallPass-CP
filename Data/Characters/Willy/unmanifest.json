@@ -1,0 +1,204 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Willy",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Willy",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Willy",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest_fishing_sprites_down.png",
+			"ToArea": {"X": 0, "Y": 128, "Width": 64, "Height": 64},
+		},
+		
+		{
+			"LogName": "Make Willy invisible",
+			"Action": "EditData",
+			"Target": "Data/Events/FishShop, Data/Events/Farmhouse, Data/Events/Farm, Data/Events/IslandFarmhouse, Data/Events/IslandFarm",
+			
+			"Entries": {
+				"12491133": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/end invisible Willy",
+			},
+		},
+		
+		{
+			"LogName": "Add manifest",
+			"Action": "EditMap",
+			"Target": "Maps/FishShop",
+			"FromFile": "Assets/Wizard/Sprites/Manifest.tmx",
+			"ToArea": {"X": 5, "Y": 3, "Width": 1, "Height": 2},
+			"PatchMode": "Overlay",
+		},
+		
+		{
+            "LogName": "Relayering countertop",
+			"Action": "EditMap",
+            "Target": "Maps/FishShop",
+            "MapTiles": [
+                {
+                    "Position": { "X": 5, "Y": 4 },
+                    "Layer": "Front1",
+					"SetTileSheet": "untitled tile sheet",
+                    "SetIndex": "1318"
+                }
+            ]
+        },
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Willy",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Willy",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Willy": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Willy": {
+					"10": "FishShop 5 4",
+					"11": "Magnus"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Willy": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Willy": true
+			}
+		},
+		
+		{
+            "LogName": "Manifest Map Sprite Offset",
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			
+			"When": {
+				"HasMod |contains=Yagisan.NPCMapLocationsForNPCs": true,
+			},
+			
+            "Entries": {
+                "Willy": {
+                    "MarkerCropOffset": 0
+                }
+            }
+        },
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "Assets/Willy/Willy_manifest_grange.png",
+			
+			"ToArea": {"X": 464, "Y": 55, "Width": 48, "Height": 57}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			
+			"Entries": {			
+				"BoatTunnel_boatcomplete": "All materials have been found.#The boat will be repaired overnight.",
+				"BoatTunnel_willyText_firstRide": "A fine vessel...",
+				"BoatTunnel_willyText_random0": "The smell is a bit much for most folk.",
+				"BoatTunnel_willyText_random1": "Greetings.",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {			
+				"ShopMenu.cs.11477": "Plenty of fishing supplies left here.",
+				"ShopMenu.cs.11478": "Hold your breath; I've been told the smell here is putrid.",
+				"ShopMenu.cs.11481": "Need any supplies?",
+				
+				"MapPage.cs.11108": "Open 24/7",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"CF_Fish": null,
+				"WillyCooking": null,
+				"WillyTropicalFish": null,
+				"fishing2": null,
+				"fishing6": null,
+				"passedOutIsland": null,
+				"spring_2_1": null,
+				"willyBackRoomInvitation": "@,^^I have unlocked the back room of the fishing shop.^Come by when you have a chance.^There's something I want to show you.^^-M. Rasmodius[#]Magnus' Back Room Invitation",
+				"willyBugWadCutscene": null,
+				"willyHours": "I have excellent news, @.^^Willy's boat is seaworthy once again, thanks to you.^^Stop by the back room whenever you want a ride.^^The shop is now open at 8AM every day, so you can get an early start.^^-M. Rasmodius[#]Willy's Boat",
+				"winter_13_2": null,
+				"winter_2_1": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			
+			"Entries": {
+				"Willy": null,
+				"Willy2": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			
+			"Entries": {
+				"PurchasedItem_1_QualityHigh_Willy": "Hey, {0}.#$b# So I stopped by the fish shop the other day and bought {1} {2}. I've never seen one so fresh! #$b#So I cooked it up for dinner last night, and it filled the house with a {3} smell.. It was a hit!$h#$b#Magnus told me you caught it yourself... I'm impressed!#$e# Anyways...",
+				"PurchasedItem_1_QualityLow_Willy": "Hey, {0}.#$b# So I stopped by the fish shop the other day and bought {1} {2}. Magnus said you caught it yourself! #$b#I cooked it up for dinner last night... and, uh... It filled the house with a {3} odor. I don't even want to know where you found that thing...$s#$e#Anyways...",
+				"PurchasedItem_2_QualityHigh_Willy": "Hi... did you sell {1} {2} to the fish shop the other day? I think I bought it...#$e#It was pretty high-quality stuff. I'm impressed.",
+				"PurchasedItem_2_QualityHigh_Jodi_Willy": "Hi... did you sell {1} {2} to the fish shop the other day? I think I bought it...#$e#It was pretty high-quality stuff. Very firm meat.",
+				"PurchasedItem_2_QualityLow_Willy": "Hi... did you sell {1} {2} to the general store the other day? I think I bought it...#$e#It smelled kind of fishy, but it was alright.",
+				"PurchasedItem_3_QualityLow_Rude_Willy": "I went shopping last night and picked up {1} {2} on a 'chum-bucket' sale for only {3}g.#$e# It was {4}! No wonder Magnus was practically giving that {5} away...",
+				"PurchasedItem_3_QualityHigh_Rude_Willy": "I went shopping last night and picked up {1} {2} on sale for only{3}g.#$e# It was actually pretty {4}.",
+				"PurchasedItem_3_NonRude_Willy": "I went shopping last night and picked up {1} {2} on sale for only {3}g.#$e# I couldn't pass up that great price.",
+				"PurchasedItem_4_Willy": "So I was at the fish shop other day and Magnus showed me {1} {2} you brought in.#$e#I cooked it up for dinner with some lemon and a side of rice pilaf. Pretty good!$h",
+				"PurchasedItem_Pierre_QualityLow_Willy": "Ahoy... you know that {2} you sold me the other day? Well, I sizzled it up in me cabin last night...#$b#T'was the mealiest fish I've ever set me gums on...$s",
+				"PurchasedItem_Pierre_QualityHigh_Willy": "Ahoy! Remember that {2} you brought in the other day? Well, I sizzled it up in me cabin last night...#$b#T'was the finest fish I've had since I was a wee lad!$h",
+				
+				"Island_willy_rescue": "Yes... you appear stable... hmm?#$b#Oh, you're awake. I found you washed up on the shore.$s#$b#Take care, evergreen one. This island can be a most dangerous place.",
+			}
+		}
+	]
+}

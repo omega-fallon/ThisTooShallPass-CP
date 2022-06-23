@@ -1,0 +1,71 @@
+{
+	"Changes": [
+		{
+			"LogName": "SebastianRoom Events - Sebastian dead",
+			"Target": "Data/Events/SebastianRoom",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Sebastian": true,
+			},
+			
+			"Entries": {
+				"2794460/f Sebastian 500/p Sebastian": null,
+				"didntLeave": null,
+				"sebastianRoom": null,
+				"decor": null,
+				"enterRobin": null,
+				"noFriends": null,
+				"27/f Sebastian 1500/p Sebastian": null,
+				"warrior": null,
+				"healer": null,
+				"opening": null,
+				"swungWeapons": null,
+				"ranAway": null,
+				"backEntrance": null,
+				"sewer": null,
+				"podRoom": null,
+				"wizardDoor": null,
+				"Necromancer": null,
+				"healedSam": null,
+				"finalBossWizard": null,
+				"castBeam": null,
+				"chargeAhead": null,
+				"finalBossWarrior": null,
+				"leave": null,
+				"end": null,
+			}
+		},
+		
+		{
+			"LogName": "SebastianRoom Events - Sam dead",
+			"Target": "Data/Events/SebastianRoom",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+			
+			"Entries": {
+				"27/f Sebastian 1500/p Sebastian": null,
+				"warrior": null,
+				"healer": null,
+				"opening": null,
+				"swungWeapons": null,
+				"ranAway": null,
+				"backEntrance": null,
+				"sewer": null,
+				"podRoom": null,
+				"wizardDoor": null,
+				"Necromancer": null,
+				"healedSam": null,
+				"finalBossWizard": null,
+				"castBeam": null,
+				"chargeAhead": null,
+				"finalBossWarrior": null,
+				"leave": null,
+				"end": null,
+			}
+		},
+	]
+}

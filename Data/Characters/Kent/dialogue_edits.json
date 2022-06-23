@@ -1,0 +1,18 @@
+{
+	"Changes": [
+		{
+			"LogName": "Kent — Jodi dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Kent",
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+			},
+			
+			"Entries": {
+				"Resort_Bar": "Usually I'd just get some water, but... I need something stronger, now.",
+				"Sat": "You've really become a part of this community, haven't you? I'm glad to see it.",
+			}
+		},
+	]
+}

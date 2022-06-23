@@ -1,0 +1,27 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Shane",
+			"FromFile": "Assets/Shane/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Shane",
+			"FromFile": "Assets/Shane/Sprites/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Shane_beach",
+			"FromFile": "Assets/Shane/Portraits/FullGrey_beach.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Shane_beach",
+			"FromFile": "Assets/Shane/Sprites/FullGrey_beach.png",
+		},
+	]
+}

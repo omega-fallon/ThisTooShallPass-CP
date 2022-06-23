@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="1" height="2" tilewidth="16" tileheight="16" infinite="0" nextlayerid="13" nextobjectid="16">
+ <properties>
+  <property name="AmbientLight" value="120 140 30"/>
+  <property name="DayTiles" value="Front 7 1 256 Front 7 2 288"/>
+  <property name="Doors" value="4 9 1 120"/>
+  <property name="Light" value="9 10 4 10 10 4"/>
+  <property name="NightTiles" value="Front 7 1 1253 Front 7 2 1285"/>
+  <property name="Warp" value="5 20 Town 94 82"/>
+ </properties>
+ <tileset firstgid="1" name="Wizard_manifest" tilewidth="16" tileheight="16" tilecount="120" columns="4">
+  <image source="Wizard_manifest" width="64" height="480"/>
+ </tileset>
+ <objectgroup id="12" name="Buildings">
+  <object id="14" x="0" y="16" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;TTSP.ManifestInteract&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="10" name="Front" width="1" height="2">
+  <data encoding="csv">
+0,
+5
+</data>
+ </layer>
+ <layer id="11" name="Front1" width="1" height="2">
+  <data encoding="csv">
+1,
+0
+</data>
+ </layer>
+</map>

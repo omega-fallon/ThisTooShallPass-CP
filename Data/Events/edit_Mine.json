@@ -1,0 +1,37 @@
+{
+	"Changes": [
+		{
+			"LogName": "Mine Events - Abigail dead",
+			"Target": "Data/Events/Mine",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			},
+			
+			"Entries": {
+				"901756/f Abigail 2500/t 1700 2400/o Abigail": null,
+			}
+		},
+		
+		{
+			"LogName": "Mine Events - Marlon dead",
+			"Target": "Data/Events/Mine",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Marlon, MarlonFay": true,
+			},
+			
+			"Fields": {
+				"100162/t 600 2600": {
+					"10": "speak Marlon \"Interesting...\"",
+					"19": "speak Marlon \"...This abandoned mineshaft is emanating strong magical energies.#$b#It's been abandoned for decades. Quite nearly as long as the late Marlon oversaw it.\"",
+					"22": "speak Marlon \"There's certainly some valuable materials down there....#$b#But a dark place, undisturbed for so long... I'm afraid ore isn't the only thing you'll find...\"",
+					"26": "speak Marlon \"Mmm... I believe you'll be needing this, evergreen one.\"",
+					"40": "speak Marlon \"By the way, I'm filling in for the adventure guild just nearby.#$b#Prove yourself and I might consider making you a member.\"",
+				}
+			}
+		},
+	]
+}

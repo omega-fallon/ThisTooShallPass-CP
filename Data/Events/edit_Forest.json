@@ -1,0 +1,203 @@
+{
+	"Changes": [
+		{
+			"LogName": "Forest Events - Haley dead",
+			"Target": "Data/Events/Forest",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Haley": true,
+			},
+			
+			"Entries": {
+				"14/f Haley 2000/z winter/t 1000 1600/w sunny": null,
+			}
+		},
+		
+		{
+			"LogName": "Forest Events - Leah dead",
+			"Target": "Data/Events/Forest",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Leah": true,
+			},
+			
+			"Entries": {
+				"52/f Leah 1500/p Leah/z winter": null,
+				"54/f Leah 2500/t 1100 1600/z winter": null,
+				"choseInternet": null,
+				"noPunch": null,
+				"3091462/e 3911124/O Leah/w sunny/t 1130 1400/A leahPaint": null,
+			}
+		},
+		
+		{
+			"LogName": "Forest Events - either 13+",
+			"Target": "Data/Events/Forest",
+			"Action": "EditData",
+			
+			"When": {
+				"JasVince13": true,
+			},
+			
+			"Fields": {
+				"181928/f Penny 2000/t 900 1600": {
+					"14": "speak Penny \"I brought my students here for an outdoor teaching session.#$b#I'm teaching them about nature... life in the country, that kind of thing.#$b#You know all about life in the country, right?$h\"",
+					"22": "speak Penny \"Jas! Vincent! I've got a surprise for you!\"",
+					"37": "speak Penny \"I have a very special guest here to talk to you today... our very own local farmer, @.#$b#He has first-hand experience living in the countryside... so he knows all about the valley's natural resources!^She has first-hand experience living in the countryside... so she knows all about the valley's natural resources!\"",
+				},
+				
+				"choseMinerals": {
+					"14": "speak Penny \"Vincent! That's a horrible thing to say! Mind your manners!$a\"",
+				},
+			},
+		},
+		
+		{
+			"LogName": "Forest Events - Jas 13+",
+			"Target": "Data/Events/Forest",
+			"Action": "EditData",
+			
+			"When": {
+				"query: {{JasAge}} >= 13": true,
+			},
+			
+			"Fields": {
+				"181928/f Penny 2000/t 900 1600": {
+					"39": "speak Penny \"Can either of you give me some examples of natural resources? Points for creativity!\"",
+					"47": "speak Jas \"Let's see... wood and stone are good for building, there's also wild plants and animals for eating... fish count too!$4#$b#The mines have lots of valuable metals, gems, and minerals in them... out in the forest there's hardwood and mushrooms and...$4\"",
+					"49": "speak Penny \"Heh... that's a lot of examples! Good job, Jas.$h\"",
+					"50": "speak Jas \"Hehe... nice.$h\"",
+				},
+				
+				"choseMinerals": {
+					"12": "emote Jas 12",	
+				},
+				
+				"318560/j 10/t 900 1600/d Tue Wed Fri Sat": {
+					"7": "speak Jas \"Eugh... it smells like something died...$s\"",
+				},
+				
+				"3910979/f Vincent 2000/f Jas 2000/t 600 1700/z summer/z fall/z winter/w sunny": {
+					"23": "speak Jas \"They're nice and spicy!$h\"",
+					"25": "emote farmer 32",
+					"61": "speak Jas \"Wait, what do you do with the bugs, Vincent?\"",
+					"67": "emote Jas 12",
+					"68": "textAboveHead Jas \"*groan*\"",
+					"70": "speak Jas \"You're always such a brute...$a\"",
+					"72": "speak Jas \"@, maybe instead you should try putting them somewhere safe. No need to be stupid like Vincy.\"",
+				}
+			},
+		},
+		
+		{
+			"LogName": "Forest Events - Vincent 13+",
+			"Target": "Data/Events/Forest",
+			"Action": "EditData",
+			
+			"When": {
+				"query: {{VincentAge}} >= 13": true,
+			},
+			
+			"Fields": {
+				"181928/f Penny 2000/t 900 1600": {
+					"67": "speak Vincent \"...Are you Miss Penny's boyfriend? Back off...$s^Hey, do you have a boyfriend?$h\"",
+					"68": "speak Penny \"Vincent! You're old enough to know better than to say stuff like that!$a\"",
+				},
+				
+				"choseFarming": {
+					"10": "speak Vincent \"Hey, farmer. Is it true that if you eat a lot of vegetables you get strong?#$b#I wanna be strong enough to lift a whole person like my brother Sam can!$h#$b#He picked Miss Penny clear off the ground last night when they were climbing into a tree.$h\"",
+				},
+				
+				"choseAnimals": {
+					"8": "speak Vincent \"Hey, farmer. Do you ever think about riding one of your cows into town and wrecking the whole place?$h\"",
+				},
+				
+				"choseMinerals": {
+					"8": "speak Vincent \"Hey, farmer. Have you ever seen a goblin? I hear they like to kidnap girls like Jas and eat them.^Hey, farmer. Have you ever seen a goblin? I hear they like to kidnap girls like you and Jas and then eat them!\"",
+				},
+				
+				"318560/j 10/t 900 1600/d Tue Wed Fri Sat": {
+					"21": "speak Vincent \"...$s#$b#Why is it locked? Do they really wanna keep us out that bad, or...$s#$b#Maybe the lock isn't to keep *us* out, but to keep something else in... *shiver*$s\"",
+					"67": "speak Jas \"You're right, there's something moving around in there!$u\"",
+				},
+				
+				"3910979/f Vincent 2000/f Jas 2000/t 600 1700/z summer/z fall/z winter/w sunny": {
+					"13": "speak Vincent \"Oh, hey @!\"",
+					"20": "speak Vincent \"Spring onion... me and Jas come out and pick these for fun!\"",
+					"38": "speak Vincent \"You're really nice for an old man... so I'm going to show you a secret.$h^You're really nice for an old lady... so I'm going to show you a secret.$h\"",
+					"53": "speak Vincent \"...It's full of bugs! So be careful.\"",
+					"64": "speak Vincent \"Ehh... usually I just squash 'em between my fingers.\"",
+				}
+			},
+		},
+		
+		{
+			"LogName": "Forest Events - Gunther dead",
+			"Target": "Data/Events/Forest",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Gunther, GuntherSilva": true,
+			},
+			
+			"Fields": {
+				"318560/j 10/t 900 1600/d Tue Wed Fri Sat": {
+					"25": "speak Jas \"I think the key is at the museum.\"",
+					"28": "speak Vincent \"The museum? Why do you think it'd be there?$u\"",
+					"30": "faceDirection Jas 3/speak Jas \"I saw a big rusty old key fall out of Gunther's pocket one time.#$b#A creepy sewer door like this has just got to be a match for a big rusty old key.$4\"",
+				}
+			}
+		},
+		
+		{
+			"LogName": "Forest Events - Penny dead or kids too old to be schooled",
+			"Target": "Data/Events/Forest",
+			"Action": "EditData",
+			
+			"When": {
+				"query: ({{Dead |contains=Penny}} = true) OR {{JasVince18}}": true,
+			},
+			
+			"Entries": {
+				"181928/f Penny 2000/t 900 1600": null,
+				"choseFarming": null,
+				"choseAnimals": null,
+				"choseMinerals": null,
+				"fieldTripEnd": null,
+				"eventEnd": null,
+			}
+		},
+		
+		{
+			"LogName": "Forest Events - Kids dead",
+			"Target": "Data/Events/Forest",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Jas, Vincent": true,
+			},
+			
+			"Entries": {
+				"318560/j 10/t 900 1600/d Tue Wed Fri Sat": null,
+				"3910979/f Vincent 2000/f Jas 2000/t 600 1700/z summer/z fall/z winter/w sunny": null,
+			}
+		},
+		
+		{
+			"LogName": "Forest Events - Shane dead",
+			"Target": "Data/Events/Forest",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Shane": true,
+			},
+			
+			"Entries": {
+				"611944/f Shane 500/t 2000 2400": null,
+				"3910975/f Shane 1500/e 3910674/t 900 2000/w rainy": null,
+			}
+		},
+	]
+}

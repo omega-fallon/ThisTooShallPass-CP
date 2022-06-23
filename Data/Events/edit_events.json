@@ -1,0 +1,231 @@
+{
+	"Changes": [
+		{
+			"LogName": "Edit AnimalShop",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_AnimalShop.json",
+		},
+		
+		{
+			"LogName": "Edit ArchaeologyHouse",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_ArchaeologyHouse.json",
+		},
+		
+		{
+			"LogName": "Edit Backwoods",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_Backwoods.json",
+		},
+		
+		{
+			"LogName": "Edit BathHouse_Pool",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_BathHouse_Pool.json",
+		},
+		
+		{
+			"LogName": "Edit Beach",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_Beach.json",
+		},
+		
+		{
+			"LogName": "Edit BoatTunnel",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_BoatTunnel.json",
+		},
+		
+		{
+			"LogName": "Edit BusStop",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_BusStop.json",
+		},
+		
+		{
+			"LogName": "Edit CommunityCenter",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_CommunityCenter.json",
+		},
+		
+		{
+			"LogName": "Edit ElliottHouse",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_ElliottHouse.json",
+		},
+		
+		{
+			"LogName": "Edit Farm",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_Farm.json",
+		},
+		
+		{
+			"LogName": "Edit FarmHouse",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_FarmHouse.json",
+		},
+		
+		{
+			"LogName": "Edit FishShop",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_FishShop.json",
+		},
+		
+		{
+			"LogName": "Edit Forest",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_Forest.json",
+		},
+		
+		{
+			"LogName": "Edit HaleyHouse",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_HaleyHouse.json",
+		},
+		
+		{
+			"LogName": "Edit HarveyRoom",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_HarveyRoom.json",
+		},
+		
+		{
+			"LogName": "Edit Hospital",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_Hospital.json",
+		},
+		
+		{
+			"LogName": "Edit IslandHut",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_IslandHut.json",
+		},
+		
+		{
+			"LogName": "Edit IslandNorth",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_IslandNorth.json",
+		},
+		
+		{
+			"LogName": "Edit IslandSouth",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_IslandSouth.json",
+		},
+		
+		{
+			"LogName": "Edit IslandWest",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_IslandWest.json",
+		},
+		
+		{
+			"LogName": "Edit JoshHouse",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_JoshHouse.json",
+		},
+		
+		{
+			"LogName": "Edit LeahHouse",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_LeahHouse.json",
+		},
+		
+		{
+			"LogName": "Edit ManorHouse",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_ManorHouse.json",
+		},
+		
+		{
+			"LogName": "Edit Mine",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_Mine.json",
+		},
+		
+		{
+			"LogName": "Edit Mountain",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_Mountain.json",
+		},
+		
+		{
+			"LogName": "Edit Railroad",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_Railroad.json",
+		},
+		
+		{
+			"LogName": "Edit Saloon",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_Saloon.json",
+		},
+		
+		{
+			"LogName": "Edit SamHouse",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_SamHouse.json",
+		},
+		
+		{
+			"LogName": "Edit SandyHouse",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_SandyHouse.json",
+		},
+		
+		{
+			"LogName": "Edit ScienceHouse",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_ScienceHouse.json",
+		},
+		
+		{
+			"LogName": "Edit SebastianRoom",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_SebastianRoom.json",
+		},
+		
+		{
+			"LogName": "Edit SeedShop",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_SeedShop.json",
+		},
+		
+		{
+			"LogName": "Edit Sunroom",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_Sunroom.json",
+		},
+		
+		{
+			"LogName": "Edit Temp",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_Temp.json",
+		},
+
+		{
+			"LogName": "Edit Town",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_Town.json",
+		},
+		
+		{
+			"LogName": "Edit Trailer",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_Trailer.json",
+		},
+		
+		{
+			"LogName": "Edit Trailer_Big",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_Trailer_Big.json",
+		},
+		
+		{
+			"LogName": "Edit Woods",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_Woods.json",
+		},
+	]
+}

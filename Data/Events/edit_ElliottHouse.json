@@ -1,0 +1,21 @@
+{
+	"Changes": [
+		{
+			"LogName": "ElliottHouse Events - Elliott dead",
+			"Target": "Data/Events/ElliottHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			},
+			
+			"Entries": {
+				 "39/f Elliott 500/p Elliott": null,
+				 "423502/f Elliott 1500/p Elliott": null,
+				 "howLong": null,
+				 "elliottPianoJoin": null,
+				 "extraHelp": null,
+			}
+		},
+	]
+}

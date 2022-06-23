@@ -1,0 +1,1191 @@
+{
+	"Changes": [
+	
+		// Removal of NPCs from the map //
+		// The way that NPCs are spawned in is within the .tmx file itself, so we have to edit that. Thankfully, we don't have to make a hundred .tmx files with single changes. //
+		
+		// Abigail
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 83, "Y": 34 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 67, "Y": 28 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Alex
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Alex": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 85, "Y": 38 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 73, "Y": 27 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Caroline
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Caroline": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 67, "Y": 25 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 68, "Y": 28 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Clint
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Clint": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 91, "Y": 35 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 63, "Y": 34 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Demetrius
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 75, "Y": 50 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 78, "Y": 31 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Elliott
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 65, "Y": 12 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Elliott",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			},
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Elliott",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Elliott": {
+					"11": "Magnus"
+				}
+			},
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			},
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Elliott",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest_fishing_sprites_right.png",
+			"ToArea": {"X": 0, "Y": 320, "Width": 64, "Height": 32},
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"Entries": {
+				"Elliott": "...?",
+			},
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			}
+		},
+		
+		// Emily
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 89, "Y": 35 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 66, "Y": 41 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Evelyn
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 77, "Y": 23 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 79, "Y": 35 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// George
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=George": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 77, "Y": 24 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 78, "Y": 35 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Gus
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 65, "Y": 44 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 72, "Y": 27 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Haley
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Haley": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 84, "Y": 37 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 64, "Y": 37 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Harvey
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 66, "Y": 45 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 68, "Y": 42 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Jas
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Jas": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 87, "Y": 32 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 78, "Y": 37 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Jodi
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 68, "Y": 24 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 65, "Y": 31 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Kent
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Kent": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 70, "Y": 25 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 63, "Y": 32 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Leah
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Leah": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 69, "Y": 14 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 70, "Y": 27 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Leo
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Leo": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 10, "Y": 44 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 80, "Y": 37 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Lewis CANNOT be removed, as he is far too integral to all festivals' function. Instead we let Lewis spawn but have him take on the appearance and name of Magnus.
+		
+		// Linus
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Linus": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 11, "Y": 43 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 11, "Y": 43 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Marlon
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Marlon, MarlonFay": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 1, "Y": 1 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 1, "Y": 1 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Marnie
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Marnie, Lewis": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 61, "Y": 45 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 72, "Y": 42 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Maru
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 83, "Y": 31 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 78, "Y": 32 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Pam
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 96, "Y": 39 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Pam",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Pam",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Pam": {
+					"11": "Magnus"
+				}
+			},
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"Entries": {
+				"Pam": "...?",
+			}
+		},
+		
+		// Penny
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Penny": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 86, "Y": 33 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 75, "Y": 28 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Pierre
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 82, "Y": 35 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 66, "Y": 29 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Robin
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 68, "Y": 19 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 77, "Y": 30 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Sam
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 63, "Y": 32 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 75, "Y": 41 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Sebastian
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Sebastian": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 64, "Y": 31 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 76, "Y": 41 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Shane
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Shane": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 74, "Y": 24 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 77, "Y": 39 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Vincent
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Vincent": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 68, "Y": 35 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 78, "Y": 38 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Willy
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 74, "Y": 50 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			},
+			
+			"Entries": {
+				"Willy": "...?",
+			}
+		},
+		
+		// Wizard
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+				"Dead |contains=Marnie": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 5, "Y": 27 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 5, "Y": 27 },
+					"Layer": "Main-Event",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Dialogue edits //
+		
+		// Emily
+		
+		{
+			"LogName": "Festival of Ice - Pam dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"Entries": {
+				"Penny_spouse": "Are you entering the fishing contest this year, @? Hopefully the others aren't too rough on you.",
+			}
+		},
+		
+		// Map edits (unmanifesting sculptures and snowmen) //
+		
+		// Jas and Vincent's snowman becomes cool
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "Assets/CoolSnowman.png",
+			
+			"When": {
+				"query: ({{VincentAge}} >= 18) AND NOT {{Dead |contains=Vincent}}": true,
+			},
+			
+			"ToArea": {"X": 96, "Y": 400, "Width": 16, "Height": 32}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"When": {
+				"query: ({{VincentAge}} >= 18) AND NOT {{Dead |contains=Vincent}}": true,
+			},
+			
+			"Entries": {
+				"Penny": "Jas and Vincent built this 'cool' snowman. Sometimes it surprises me how well they work together.$h#$b#It's strange, though, I don't know where they got the sunglasses.$s",
+			}
+		},
+		
+		// Unmanifest Jas and Vincent
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Jas": true,
+				"Dead |contains=Vincent": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 87, "Y": 33 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 87, "Y": 32 },
+					"Layer": "Front",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Unmanifest Clint and Emily
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Clint": true,
+				"Dead |contains=Emily": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 90, "Y": 35 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 90, "Y": 34 },
+					"Layer": "Front",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Unmanifest Maru
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 84, "Y": 31 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 84, "Y": 30 },
+					"Layer": "Front",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Unmanifest Abigail and Pierre
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+				"Dead |contains=Pierre": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 82, "Y": 34 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 82, "Y": 33 },
+					"Layer": "Front",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Unmanifest Alex and Haley
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Alex": true,
+				"Dead |contains=Haley": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 85, "Y": 37 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 85, "Y": 36 },
+					"Layer": "Front",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Unmanifest Robin
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 66, "Y": 19 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 67, "Y": 19 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 66, "Y": 18 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 67, "Y": 18 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 66, "Y": 17 },
+					"Layer": "Front",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 67, "Y": 17 },
+					"Layer": "Front",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Unmanifest Leah
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest-IceFestival",
+			
+			"When": {
+				"Dead |contains=Leah": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 67, "Y": 14 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 68, "Y": 14 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 67, "Y": 13 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 68, "Y": 13 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 67, "Y": 12 },
+					"Layer": "Front",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 68, "Y": 12 },
+					"Layer": "Front",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Lewis substitutions //
+
+		// Marnie dialogue
+		
+		{
+			"LogName": "Festival of Ice - Marnie Substitute dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"When": {
+				"MarnieSubLewis": true,
+			},
+			
+			"Fields": {
+				"mainEvent": {
+					"17": "speak Lewis \"Okay, everyone. Let's get fishing!\"",
+					"26": "speak Lewis \"The goal of the competition is simple: catch as many fish as you possibly can in two minutes using these fishing rods.#$b#You'll catch your fish right here in this lake, from these holes in the ice.\"",
+					"28": "speak Lewis \"Is everyone ready?\"",
+				},
+			},
+			
+			"Entries": {
+				"Lewis": "Welcome to the Festival of Ice!#$e#The highlight of today's festival is the ice fishing competition. We've set up this frozen lake and filled it with fish!#$b#Just let me know when you're ready to compete and we can get started right away.",
+			}
+		},
+		
+		// Wizard dialogue
+		
+		{
+			"LogName": "Festival of Ice - Wizard Substitute dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"When": {
+				"WizardSubLewis": true,
+			},
+			
+			"Fields": {
+				"mainEvent": {
+					"17": "speak Lewis \"Everyone... the competition is about to start!\"",
+					"26": "speak Lewis \"The goal is simple: catch as many fish as you possibly can in two minutes using these fishing rods.#$b#Catch you fish from this lake, through these holes in the ice.\"",
+					"28": "speak Lewis \"Are you all prepared?\"",
+				},
+				
+				"afterIceFishing": {
+					"28": "speak Lewis \"Ah... a marvelous haul!$h\"",
+					"32": "speak Lewis \"*gag*... quite the putrid smell, though...$s\"",
+					"47": "speak Lewis \"Your prize, dear farmer. Use it well.\"",
+					"51": "speak Lewis \"That concludes this year's Festival of Ice. Thank you all for attending. #$b#Now, let's end the suffering of these poor creatures...$s\"",
+				},
+				
+				"DickWin": {
+					"6": "speak Lewis \"Your prize, Willy. Use it well.\"",
+					"15": "speak Lewis \"That concludes this year's Festival of Ice. Thank you all for attending. #$b#Now, let's end the suffering of these poor creatures...$s\"",
+				}
+			},
+			
+			"Entries": {
+				"Lewis": "Welcome to the Festival of Ice, farmer.#$e#The highlight of today's festival is the ice fishing competition. I have set up a frozen lake for you all and filled it with fish.#$b#Let me know when you're ready to compete, and we shall begin.",
+			}
+		},
+	]
+}

@@ -1,0 +1,167 @@
+{
+	"Changes": [
+		
+		// Caroline subs (god I hope she does)
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Characters/Caroline/caroline_sub_pierre.json",
+		
+			"When": {
+				"CarolineSubPierre": true,
+			},
+		},
+		
+		// Wizard subs
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Characters/Wizard/wizard_sub_pierre.json",
+		
+			"When": {
+				"WizardSubPierre": true,
+			},
+		},
+		
+		// General
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Pierre",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Pierre",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Pierre": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Pierre": "All",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Pierre": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			
+			"Entries": {
+				"Town_SeedShopSign": "- General Store -\nOpen 7 days a week from 9am-5pm.",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"Town.2": "General Store Open 9:00 AM to 5:00 PM Closed Wednesdays",
+			}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Billboard",
+			"FromFile": "Assets/Pierre/Billboard_SansPierre.png",
+			"ToArea": {"X": 288, "Y": 128, "Width": 50, "Height": 70},
+			
+			"PatchMode": "Overlay",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/spring_town",
+			"FromFile": "Assets/Pierre/pierre_sign_spring.png",
+			"ToArea": {"X": 126, "Y": 277, "Width": 29, "Height": 10}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/summer_town",
+			"FromFile": "Assets/Pierre/pierre_sign_summer.png",
+			"ToArea": {"X": 126, "Y": 277, "Width": 29, "Height": 10}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/fall_town",
+			"FromFile": "Assets/Pierre/pierre_sign_fall.png",
+			"ToArea": {"X": 126, "Y": 277, "Width": 29, "Height": 10}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/winter_town",
+			"FromFile": "Assets/Pierre/pierre_sign_winter.png",
+			"ToArea": {"X": 126, "Y": 277, "Width": 29, "Height": 10}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"Pierre": null,
+				"PierreCooking": null,
+				"MSB_Pierre": null,
+				"spring_21_2": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			
+			"Entries": {
+				"Pierre": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11078": "General Store",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			
+			"Entries": {
+				"PurchasedItem_1_QualityHigh": "Hey, {0}.#$b# So I stopped by the general store the other day and bought {1} {2}. It was the first time I've seen one of those there in a while... #$b#I cooked it up for dinner last night... It filled the house with a {3} smell.. It was a hit!$h#$b#I'm glad the store's stock is starting to expand again.#$e# Anyways...",
+				"PurchasedItem_1_QualityLow": "Hey, {0}.#$b# So I stopped by the general store the other day and bought {1} {2}. It was the first time I've seen one of those there in a while... #$b#I cooked it up for dinner last night... It filled the house with a {3} odor. I don't even want to know where that thing came from.$s#$e# Anyways...",
+				"PurchasedItem_3_QualityLow_Rude": "I went shopping last night and picked up {1} {2} on sale for only {3}g.#$e# It was {4}! No wonder they were selling that {5} for so cheap...",
+				"PurchasedItem_4": "So I was at the store the other day and saw {1} {2} you brought in.#$e#I bought it.$h",
+				"PurchasedItem_5_Cooking": "I bought the tastiest {2} from the general store the other day. #$b#I wonder, though... who cooked it?",
+				"PurchasedItem_5_Foraged": "I bought the tastiest {2} from the general store the other day. Who would've guessed that forage could taste so good?",
+				"PurchasedItem_5_VegetableOrFruit": "I bought the tastiest {2} from the general store the other day. #$b#I can only imagine they must've come from a talented farmer.$h",
+				"PurchasedItem_Elliott": "I saw that there was some fresh {2} in the general store the other day! Marvelous. It smelled just perfect... and firm, too!",
+				"PurchasedItem_Leah": "The other day I bought {1} {2} at the general store. It was perfect on a bed of greens and a dash of my 'special' vinaigrette.",
+			}
+		}
+	]
+}

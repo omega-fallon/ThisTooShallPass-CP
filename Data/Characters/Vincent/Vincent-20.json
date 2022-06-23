@@ -1,0 +1,43 @@
+{
+	"Changes": [
+		{
+			"LogName": "Vincent can have alcohol now",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			
+			"Entries": {
+				"reject_253": null,
+				"reject_303": null,
+				"reject_346": null,
+				"reject_348": null,
+				"reject_395": null,
+				"reject_459": null,
+				"reject_873": null,
+				
+				"GiftResponse_Beer": null,
+				"GiftResponse_Coffee": null,
+				"GiftResponse_Mead": null,
+				"GiftResponse_Pale_Ale": null,
+				"GiftResponse_Piña_Colada": null,
+				"GiftResponse_Triple_Shot_Espresso": null,
+				"GiftResponse_Wine": null,
+				
+				"GiftReactionTag_alcohol_item": null,
+			},
+		},
+		
+		{
+			"LogName": "Vincent likes alcohol now",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			"TextOperations": [
+				{
+					"Operation": "Append",
+					"Target": ["Fields", "Vincent", "3"],
+					"Value": "253 303 346 348 395 459 873",
+					"Delimiter": " "
+				}
+			],
+		},
+	]
+}

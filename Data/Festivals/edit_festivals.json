@@ -1,0 +1,83 @@
+{
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "Data/Festivals/edit_spring13.json",
+			
+			"When": {
+				"Season": "spring",
+				"Day": "13",
+			}
+		},
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Festivals/edit_spring24.json",
+			
+			"When": {
+				"Season": "spring",
+				"Day": "24",
+			}
+		},
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Festivals/edit_summer11.json",
+			
+			"When": {
+				"Season": "summer",
+				"Day": "11",
+			}
+		},
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Festivals/edit_summer28.json",
+			
+			"When": {
+				"Season": "summer",
+				"Day": "28",
+			}
+		},
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Festivals/edit_fall16.json",
+			
+			"When": {
+				"Season": "fall",
+				"Day": "16",
+			}
+		},
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Festivals/edit_fall27.json",
+			
+			"When": {
+				"Season": "fall",
+				"Day": "27",
+			}
+		},
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Festivals/edit_winter8.json",
+			
+			"When": {
+				"Season": "winter",
+				"Day": "8",
+			}
+		},
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Festivals/edit_winter25.json",
+			
+			"When": {
+				"Season": "winter",
+				"Day": "25",
+			}
+		},
+	]
+}

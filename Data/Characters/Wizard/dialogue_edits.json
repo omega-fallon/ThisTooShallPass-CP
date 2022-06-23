@@ -1,0 +1,296 @@
+{
+	"Changes": [
+		{
+			"LogName": "Wizard — Robin dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"Entries": {
+				"accept_788": "Oh? After all this time... very well, I suppose *someone* has to take it in her stead. I shall treat this item with great respect.",
+			}
+		},
+		
+		{
+			"LogName": "Wizard — Lewis dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+			},
+			
+			"Entries": {
+				"accept_789": "...I see. Well, this is an odd memento, but... I'll put it where it belongs.",
+			}
+		},
+		
+		{
+			"LogName": "Wizard — Linus dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			
+			"When": {
+				"Dead |contains=Linus": true,
+			},
+			
+			"Entries": {
+				"accept_790": "My... that's a very comforting smell. Yes, this is most assuredly an honorable item.",
+			}
+		},
+		
+		// Pirate's wife
+		// Giving the memento
+		
+		{
+			"LogName": "Wizard — Give Memento get Salt",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			
+			"When": {
+				"Dead |contains=Kent": true,
+				"Dead |contains=Gus": false,
+			},
+			
+			"Entries": {
+				"accept_864": "A physical memory... pardon my waxing philosophical, but is that not what a photo is? This is quite honorable.#$b#In any case, this is the next item in the sequence. Order is maintained.[865]",
+			}
+		},
+		
+		{
+			"LogName": "Wizard — Give Memento get Rose",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			
+			"When": {
+				"Dead |contains=Kent": true,
+				"Dead |contains=Gus": true,
+				"Dead |contains=Sandy": false,
+			},
+			
+			"Entries": {
+				"accept_864": "A physical memory... pardon my waxing philosophical, but is that not what a photo is? This is quite honorable.#$b#In any case, this is the next item in the sequence. Order is maintained.[866]",
+			}
+		},
+		
+		{
+			"LogName": "Wizard — Give Memento get TV remote",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			
+			"When": {
+				"Dead |contains=Kent": true,
+				"Dead |contains=Gus": true,
+				"Dead |contains=Sandy": true,
+				"Dead |contains=George": false,
+			},
+			
+			"Entries": {
+				"accept_864": "A physical memory... pardon my waxing philosophical, but is that not what a photo is? This is quite honorable.#$b#In any case, this is the next item in the sequence. Order is maintained.[867]",
+			}
+		},
+		
+		{
+			"LogName": "Wizard — Give Memento get Worm",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			
+			"When": {
+				"Dead |contains=Kent": true,
+				"Dead |contains=Gus": true,
+				"Dead |contains=Sandy": true,
+				"Dead |contains=George": true,
+				"Dead |contains=Willy": false,
+			},
+			
+			"Entries": {
+				"accept_864": "A physical memory... pardon my waxing philosophical, but is that not what a photo is? This is quite honorable.#$b#In any case, this is the next item in the sequence. Order is maintained.[869]",
+			}
+		},
+		
+		{
+			"LogName": "Wizard — Give Memento get Locket",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			
+			"When": {
+				"Dead |contains=Kent": true,
+				"Dead |contains=Gus": true,
+				"Dead |contains=Sandy": true,
+				"Dead |contains=George": true,
+				"Dead |contains=Willy": true,
+			},
+			
+			"Entries": {
+				"accept_864": "A physical memory... pardon my waxing philosophical, but is that not what a photo is? This is quite honorable.#$b#In any case, this is the next item in the sequence. Order is maintained.[870]",
+			}
+		},
+		
+		// Give Tomato Salt
+		
+		{
+			"LogName": "Wizard — Give Salt get Rose",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+				"Dead |contains=Sandy": false,
+			},
+			
+			"Entries": {
+				"accept_865": "Hmm... quite delectable. This truly encapsulates his energy. How honorable.#$b#In any case, this is the next item in the sequence. Order is maintained.[866]",
+			}
+		},
+		
+		{
+			"LogName": "Wizard — Give Salt get TV remote",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+				"Dead |contains=Sandy": true,
+				"Dead |contains=George": false,
+			},
+			
+			"Entries": {
+				"accept_865": "Hmm... quite delectable. This truly encapsulates his energy. How honorable.#$b#In any case, this is the next item in the sequence. Order is maintained.[867]",
+			}
+		},
+		
+		{
+			"LogName": "Wizard — Give Salt get Worm",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+				"Dead |contains=Sandy": true,
+				"Dead |contains=George": true,
+				"Dead |contains=Willy": false,
+			},
+			
+			"Entries": {
+				"accept_865": "Hmm... quite delectable. This truly encapsulates his energy. How honorable.#$b#In any case, this is the next item in the sequence. Order is maintained.[869]",
+			}
+		},
+		
+		{
+			"LogName": "Wizard — Give Salt get Locket",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+				"Dead |contains=Sandy": true,
+				"Dead |contains=George": true,
+				"Dead |contains=Willy": true,
+			},
+			
+			"Entries": {
+				"accept_865": "Hmm... quite delectable. This truly encapsulates his energy. How honorable.#$b#In any case, this is the next item in the sequence. Order is maintained.[870]",
+			}
+		},
+		
+		// Give rose
+		
+		{
+			"LogName": "Wizard — Give Rose get TV remote",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			
+			"When": {
+				"Dead |contains=Sandy": true,
+				"Dead |contains=George": false,
+			},
+			
+			"Entries": {
+				"accept_866": "How beautiful. Yes, this will make a lovely centerpiece for a shrine.#$b#In any case, this is the next item in the sequence. Order is maintained.[867]",
+			}
+		},
+		
+		{
+			"LogName": "Wizard — Give Rose get Worm",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			
+			"When": {
+				"Dead |contains=Sandy": true,
+				"Dead |contains=George": true,
+				"Dead |contains=Willy": false,
+			},
+			
+			"Entries": {
+				"accept_866": "How beautiful. Yes, this will make a lovely centerpiece for a shrine.#$b#In any case, this is the next item in the sequence. Order is maintained.[869]",
+			}
+		},
+		
+		{
+			"LogName": "Wizard — Give Rose get Locket",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			
+			"When": {
+				"Dead |contains=Sandy": true,
+				"Dead |contains=George": true,
+				"Dead |contains=Willy": true,
+			},
+			
+			"Entries": {
+				"accept_866": "How beautiful. Yes, this will make a lovely centerpiece for a shrine.#$b#In any case, this is the next item in the sequence. Order is maintained.[870]",
+			}
+		},
+		
+		// Give remote
+		
+		{
+			"LogName": "Wizard — Give Remote get Worm",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			
+			"When": {
+				"Dead |contains=George": true,
+				"Dead |contains=Willy": false,
+			},
+			
+			"Entries": {
+				"accept_867": "Hmm. An odd item, but I suppose it *is* characteristic.#$b#In any case, this is the next item in the sequence. Order is maintained.[869]",
+			}
+		},
+		
+		{
+			"LogName": "Wizard — Give Remote get Locket",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			
+			"When": {
+				"Dead |contains=George": true,
+				"Dead |contains=Willy": true,
+			},
+			
+			"Entries": {
+				"accept_867": "Hmm. An odd item, but I suppose it *is* characteristic.#$b#In any case, this is the next item in the sequence. Order is maintained.[870]",
+			}
+		},
+		
+		// Give worm
+		
+		{
+			"LogName": "Wizard — Give Worm get Locket",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Wizard",
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			},
+			
+			"Entries": {
+				"accept_869": "Mmm... I... suppose this could be useful for... plants? I'm not sure.#$b#In any case, this is the next item in the sequence. Order is maintained.[870]",
+			}
+		},
+	]
+}

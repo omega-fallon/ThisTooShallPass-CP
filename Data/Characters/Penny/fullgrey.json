@@ -1,0 +1,27 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Penny",
+			"FromFile": "Assets/Penny/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Penny",
+			"FromFile": "Assets/Penny/Sprites/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Penny_beach",
+			"FromFile": "Assets/Penny/Portraits/FullGrey_beach.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Penny_beach",
+			"FromFile": "Assets/Penny/Sprites/FullGrey_beach.png",
+		},
+	]
+}

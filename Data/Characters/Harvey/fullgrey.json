@@ -1,0 +1,27 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey",
+			"FromFile": "Assets/Harvey/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Harvey",
+			"FromFile": "Assets/Harvey/Sprites/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Harvey_beach",
+			"FromFile": "Assets/Harvey/Portraits/FullGrey_beach.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Harvey_beach",
+			"FromFile": "Assets/Harvey/Sprites/FullGrey_beach.png",
+		},
+	]
+}

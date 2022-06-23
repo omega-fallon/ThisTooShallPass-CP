@@ -1,0 +1,27 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Clint",
+			"FromFile": "Assets/Clint/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Clint",
+			"FromFile": "Assets/Clint/Sprites/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Clint_beach",
+			"FromFile": "Assets/Clint/Portraits/FullGrey_Beach.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Clint_beach",
+			"FromFile": "Assets/Clint/Sprites/FullGrey_Beach.png",
+		},
+	]
+}

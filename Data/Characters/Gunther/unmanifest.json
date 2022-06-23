@@ -1,0 +1,119 @@
+{
+	"Changes": [
+		{
+			"Action": "Load",
+			"Target": "Portraits/Gunther",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Gunther",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Gunther",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/NPCNames",
+			"Entries": {
+				"Gunther": "Magnus"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Gunther": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Gunther": true
+			}
+		},
+		
+		{
+            "LogName": "Manifest Map Sprite Offset",
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			
+			"When": {
+				"HasMod |contains=Yagisan.NPCMapLocationsForNPCs": true,
+			},
+			
+            "Entries": {
+                "Gunther": {
+                    "MarkerCropOffset": 0
+                }
+            }
+        },
+	
+		{
+			"Action": "EditImage",
+			"Target": "Maps/MovieTheater_TileSheet, Maps/MovieTheaterJoja_TileSheet, Maps/MovieTheaterJoja_TileSheet_international",
+			"FromFile": "Assets/unmanifest.png",
+			"ToArea": { "X": 208, "Y": 192, "Width": 16, "Height": 32 },
+			"PatchMode": "Replace",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"MovieTheater_Gunther": "{{i18n:Omori.TTSP}}",
+				"MovieTheater_Gunther2": "{{i18n:Omori.TTSP}}",
+			},
+		},
+	
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"Object.cs.13078": "Magnus can tell you more about this if you donate it to the museum.",
+				
+				"MapPage.cs.11087": "Open 24/7",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"guntherBones": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			
+			"Entries": {
+				"Gunther": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			
+			"Entries": {
+				"Gunther_MuseumComplete": "The museum is magnificent! So many spiritually significant artifacts in one place...$h",
+				"Gunther_NothingToDonate": "Mmm... no, there's nothing on your person worth consideration. I'm sure you can find something, though. Best of luck.",
+				"Gunther_NoArtifactsFound": "Ah, greetings. Welcome to the Stardew Valley Archaeological Office.#$b#Allow me to explain. The curator prior to my predecessor stole every last item in this place.#$b#He, unfortunately, in his whole career, could not find any replacements.#$b#However, we needn't fret. You, evergreen one, have a talent for finding such things.#$b#So, if you happen to come across any such things... do bring them here. We might yet restore this dismal display.$h",
+			}
+		}
+	]
+}

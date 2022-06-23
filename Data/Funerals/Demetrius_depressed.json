@@ -1,0 +1,72 @@
+{
+	"Changes": [
+		{
+			"LogName": "Grieving dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Demetrius",
+			
+			"Entries": {
+				"RobinFuneral": "{{i18n:GrievingDefault.TTSP}}",
+				"RobinGrieving": "...It's so quiet without her...$s",
+				
+				"ExtraDialogue_LostItemQuest_DefaultThankYou": "Oh... thank you, @. That brightens things up a little for me.",
+				"ExtraDialogue_Town_DumpsterDiveComment_Child": "{{i18n:GrievingWhatAreYouDoing.TTSP}}",
+				"ExtraDialogue_Town_DumpsterDiveComment_Teen": "{{i18n:GrievingWhatAreYouDoing.TTSP}}",
+				"ExtraDialogue_Town_DumpsterDiveComment_Adult": "{{i18n:GrievingWhatAreYouDoing.TTSP}}",
+				
+				"NPC.cs.4274": "{{i18n:BirthdayGiftGrieving2.TTSP}}$h",
+				"NPC.cs.4275": "{{i18n:BirthdayGiftGrieving2.TTSP}}$h",
+				"NPC.cs.4276": "{{i18n:BirthdayGiftGrieving2.TTSP}}$h",
+				"NPC.cs.4277": "{{i18n:BirthdayGiftGrieving2.TTSP}}$h",
+				"NPC.cs.4279": "{{i18n:BirthdayGiftGrieving.TTSP}}$s/{{i18n:BirthdayGiftGrieving.TTSP}}$s",
+				"NPC.cs.4280": "{{i18n:BirthdayGiftGrieving3.TTSP}}$n",
+				"NPC.cs.4281": "{{i18n:BirthdayGiftGrieving2.TTSP}}$h/{{i18n:BirthdayGiftGrieving2.TTSP}}$h",
+				
+				"NPC.cs.4293": "{{i18n:GrievingWhy.TTSP}}",
+				"NPC.cs.4294": "{{i18n:GrievingWorse.TTSP}}",
+				
+				"Characters_MovieInvite_InvitedBySomeoneElse": "{{i18n:GrievingMovie.TTSP}}",
+				"Characters_MovieInvite_AlreadySeen": "{{i18n:GrievingMovie.TTSP}}",
+				"Characters_MovieInvite_Invited": "{{i18n:GrievingMovie.TTSP}}",
+				"Characters_MovieInvite_Invited_Rude": "{{i18n:GrievingMovie.TTSP}}",
+				"Characters_MovieInvite_Invited_Child": "{{i18n:GrievingMovie.TTSP}}",
+				"Characters_MovieInvite_Reject_Child": "{{i18n:GrievingMovie.TTSP}}",
+				"Characters_MovieInvite_Reject": "{{i18n:GrievingMovie.TTSP}}",
+			}
+		},
+		
+		{
+			"LogName": "Gifts received",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Fields": {
+				"Demetrius": {
+					"0": "{{i18n:GrievingGiftLove.TTSP}}",
+					"2": "{{i18n:GrievingGiftLike.TTSP}}",
+					"4": "...$s",
+					"6": "...$s",
+					"8": "...$s",
+				},
+			}
+		},
+		
+		{
+			"LogName": "Exclusions while grieving",
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Demetrius": "WinterStar ItemDelivery IslandVisit ShopDialog MovieInvite"
+			}
+		},
+		
+		{
+			"LogName": "Characters strings",
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			"Entries": {
+				"MovieInvite_CantInvite_Demetrius": "{{i18n:GrievingMovie.TTSP}}",
+			}
+		},
+	]
+}

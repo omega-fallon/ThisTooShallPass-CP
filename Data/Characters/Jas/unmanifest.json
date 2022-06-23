@@ -1,0 +1,91 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Jas, Portraits/Jas",
+			"FromFile": "Assets/error_spritesheet.png",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Jas, Characters/Dialogue/MarriageDialogueJas",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Jas",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Jas": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Jas": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "ERROR"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Jas": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Jas": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"AnimalShop.16": "Nobody's used this in years.",
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/AnimaShop",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 6, "Y": 12 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door"
+                    }
+                }
+            ],
+		},
+		
+		// Secrets
+		
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/SecretNotesImages",
+			"FromFile": "Assets/Jas/Note_erased.png",
+			"PatchMode": "Overlay",
+		},
+	]
+}

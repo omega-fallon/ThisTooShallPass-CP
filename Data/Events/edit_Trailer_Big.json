@@ -1,0 +1,18 @@
+{
+	"Changes": [
+		{
+			"LogName": "Trailer_Big Events - Pam dead",
+			"Target": "Data/Events/Trailer_Big",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"Entries": {
+				"503180/f Pam 2250/A pamHouseUpgrade/A pamHouseUpgradeAnonymous/Hn pamHouseUpgrade": null,
+				"positive": null,
+			}
+		},
+	]
+}

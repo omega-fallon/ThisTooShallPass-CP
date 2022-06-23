@@ -1,0 +1,154 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Sandy",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Sandy",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+		},
+		
+		{
+			"LogName": "Make Sandy invisible",
+			"Action": "EditData",
+			"Target": "Data/Events/SandyHouse, Data/Events/Farmhouse, Data/Events/Farm, Data/Events/IslandFarmhouse, Data/Events/IslandFarm",
+			
+			"Entries": {
+				"12491129": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/end invisible Sandy",
+			},
+		},
+		
+		{
+			"LogName": "Add manifest",
+			"Action": "EditMap",
+			"Target": "Maps/SandyHouse",
+			"FromFile": "Assets/Wizard/Sprites/Manifest.tmx",
+			"ToArea": {"X": 2, "Y": 4, "Width": 1, "Height": 2},
+			"PatchMode": "Overlay",
+		},
+		
+		{
+            "LogName": "Relayering countertop",
+			"Action": "EditMap",
+            "Target": "Maps/SandyHouse",
+            "MapTiles": [
+                {
+                    "Position": { "X": 2, "Y": 5 },
+                    "Layer": "Front1",
+					"SetTileSheet": "untitled tile sheet",
+                    "SetIndex": "1163"
+                }
+            ]
+        },
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Sandy",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Sandy",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Sandy": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Sandy": {
+					"10": "SandyHouse 2 5",
+					"11": "Magnus"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Sandy": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Sandy": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Schedules/Emily",
+			"Entries": {
+				"fall_15": null,
+				"marriage_fall_15": null,
+			}
+		},
+		
+		{
+            "LogName": "Manifest Map Sprite Offset",
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			
+			"When": {
+				"HasMod |contains=Yagisan.NPCMapLocationsForNPCs": true,
+			},
+			
+            "Entries": {
+                "Sandy": {
+                    "MarkerCropOffset": 0
+                }
+            }
+        },
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/SpeechBubbles",
+			
+			"Entries": {
+				"SandyHouse_Sandy_Greeting1": "You're burnt...",
+				"SandyHouse_Sandy_Greeting2": "A visitor...",
+				"SandyHouse_Sandy_Greeting3": "Water is under the table, if you require.",
+				"SandyHouse_Sandy_Greeting4": "Partake in the rare seeds.",
+				"SandyHouse_Sandy_Greeting5": "Buy something if you want...",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"Sandy": null,
+				"SandyCooking": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			
+			"Entries": {
+				 "Sandy_PlayerClubMember": "What happened? You're a club member now? Interesting...",
+			}
+		}
+	]
+}

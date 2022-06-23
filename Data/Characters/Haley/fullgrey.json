@@ -1,0 +1,27 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Haley",
+			"FromFile": "Assets/Haley/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Haley",
+			"FromFile": "Assets/Haley/Sprites/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Haley_beach",
+			"FromFile": "Assets/Haley/Portraits/FullGrey_beach.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Haley_beach",
+			"FromFile": "Assets/Haley/Sprites/FullGrey_beach.png",
+		},
+	]
+}

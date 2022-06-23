@@ -1,0 +1,33 @@
+{
+	"Changes": [
+		{
+			"LogName": "Leah — Maru sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Leah",
+			
+			"When": {
+				"MaruSubHarvey": true,
+			},
+		
+			"Entries": {
+				"spring_16.001": "Do I look healthy, Nurse Maru?",
+				"spring_16.000": "Hi. Here to get a checkup?"
+			}
+		},
+		
+		{
+			"LogName": "Leah — Wizard sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Leah",
+			
+			"When": {
+				"WizardSubHarvey": true,
+			},
+		
+			"Entries": {
+				"spring_16.001": "Do I look healthy, Magnus?",
+				"spring_16.000": "Hi. Here to get a checkup?"
+			}
+		},
+	]
+}

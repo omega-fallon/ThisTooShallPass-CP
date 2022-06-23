@@ -1,0 +1,19 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Maps/night_market_tilesheet_objects",
+			"FromFile": "Assets/Lupini/Sprites/FullGrey.png",
+			"ToArea": { "X": 1056, "Y": 240, "Width": 0, "Height": 0 },
+			"PatchMode": "Replace",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/MovieTheater_TileSheet, Maps/MovieTheaterJoja_TileSheet, Maps/MovieTheaterJoja_TileSheet_international",
+			"FromFile": "Assets/Lupini/Sprites/FullGrey_theater.png",
+			"ToArea": { "X": 176, "Y": 224, "Width": 32, "Height": 32 },
+			"PatchMode": "Replace",
+		},
+	]
+}

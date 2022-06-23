@@ -1,0 +1,286 @@
+{
+	"Changes": [
+		{
+			"LogName": "CF_Festivals Y3 - Egg Festival - JasVince18",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"Entries": {
+				"Maru": "Me and Penny somehow got into a game where we're going back and forth listing egg facts, but we can't say anything that's been said before.#$b#Last turn I talked about salmon roe.$h",
+			},
+			
+			"When": {
+				"JasVince18": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y3 - Egg Festival - JasVince13",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"Entries": {
+				"Jas": "I'll do the egg hunt, but I think I'll just look for the eggs I decorated.#$e#I'm not really great at competing with everyone else... but that's not really the point, is it?",
+				"Vincent": "My family already did an egg hunt in our house this morning.#$e#This one's more fun, though.",
+			},
+			
+			"When": {
+				"JasVince13": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y3 - Egg Festival - Penny dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"Entries": {
+				"Maru": "Eggs come in a lot of shapes and sizes, but they're all fundamentally the same thing.#$b#Sometimes I'll incubate some for my research... the miracle of life is a beautiful thing.",
+			},
+			
+			"When": {
+				"Dead |contains=Penny": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y3 - Egg Festival - George dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"Entries": {
+				"Evelyn": "How many years have you been here now, dear?#$b#Well, I sure am glad you decided to stay. It's important for me to know Pelican Town's got a future.",
+			},
+			
+			"When": {
+				"Dead |contains=George": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y3 - Egg Festival - Gus dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"Entries": {
+				"Pam": "I wonder if maybe I could learn some of Gus' old recipes...#$b#Yeah... catering sounds kinda fun, actually.$h",
+			},
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			}
+		},
+		
+		// Flower Dance
+		
+		{
+			"LogName": "CF_Festivals Y3 - Flower dance - Pierre dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			
+			"Entries": {
+				"Caroline": "Care to buy anything? You should be quick, I don't plan on staying cooped up in here all festival like my husband.",
+			},
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y3 - Flower dance - Emily dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			
+			"Entries": {
+				"Clint": "...I can't take this atmosphere.$s",
+			},
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y3 - Flower dance - Vincent 13",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			
+			"Entries": {
+				"Jodi": "Vincent certainly seems to be enjoying himself, huh?$h",
+			},
+			
+			"When": {
+				"query: {{VincentAge}} >= 13": true,
+			}
+		},
+		
+		// Luau
+		
+		{
+			"LogName": "CF_Festivals Y3 - Luau - Evelyn dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"Entries": {
+				"George": "Hmpf... sun's getting to me a bit.#$b#I suppose an old man like me needs it, though.",
+			},
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y3 - Luau - George dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"Entries": {
+				"Evelyn": "It's a nice, warm day today.#$b#Be sure to wear sunscreen or a hat if you need to! I wouldn't want you getting sunburnt.",
+			},
+			
+			"When": {
+				"Dead |contains=George": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y3 - Luau - Kent alive, Gus dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"Entries": {
+				"Jodi": "Kent and I are sharing these little dumplings. They're beyond delicious.$h#$e#I wish Magnus would share Gus' old recipes more often.",
+			},
+			
+			"When": {
+				"Dead |contains=Kent": false,
+				"Dead |contains=Gus": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y3 - Luau - Kent dead, Gus dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"Entries": {
+				"Jodi": "I'm enjoying these little dumplings. They're beyond delicious.$h#$e#I wish Magnus would share Gus' old recipes more often.",
+			},
+			
+			"When": {
+				"Dead |contains=Kent": true,
+				"Dead |contains=Gus": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y3 - Luau - Kent dead, Gus alive",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"Entries": {
+				"Jodi": "I'm enjoying these little dumplings. They're beyond delicious.$h#$e#I wish Gus would share his recipes more often.",
+			},
+			
+			"When": {
+				"Dead |contains=Kent": true,
+				"Dead |contains=Gus": false,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y3 - Luau - JasVince13",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"Entries": {
+				"Jas": "Hey, farmer @! Wanna dance? Someone has to show Vincy how it's done.$3",
+				"Vincent": "Hey! Check these moves out!",
+			},
+			
+			"When": {
+				"JasVince13": true,
+			}
+		},
+		
+		// Dance of the Moonlight Jellies
+		
+		{
+			"LogName": "CF_Festivals Y3 - Dance of the Moonlight Jellies - Pierre dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			
+			"Entries": {
+				"Caroline": "Having a good night, dear?#$b#For this festival, I like to get myself into a tranquil headspace and reflect on what really matters in life.#$b#So, with that being said, you'd better buy quickly, because I'm not tending this stall for much longer.$h",
+			},
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y3 - Dance of the Moonlight Jellies - George dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			
+			"Entries": {
+				"Evelyn": "Shhh, dear. I think the jellies will be here any minute.",
+			},
+			
+			"When": {
+				"Dead |contains=George": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y3 - Dance of the Moonlight Jellies - JasVince13",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			
+			"Entries": {
+				"Penny": "Jas and Vincent are going to be studying jellyfish for school tomorrow.#$b#I'll try to make it fun for them. They're much more well-behaved, nowadays.",
+				"Jas": "I wonder if this year's jellies are the same as last year's.#$b#If they are, the babies are probably all grown up now.#$b#Is that what it was like for you when you moved here and watched me and Vince grow up?$h",
+				"Vincent": "Not tired... not tired... c'mon, Vincent, you can keep your eyes open.$s#$b#Oh, hey, @. Got any coffee?$h",
+			},
+			
+			"When": {
+				"JasVince13": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y3 - Dance of the Moonlight Jellies - JasVince18",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			
+			"Entries": {
+				"Penny": "I wonder if there's any books in the library about these guys... or at least, jellyfish in general.#$b#Sometimes I miss teaching the kids at the library...$s#$b#I'll just have to wait until the next generation, I guess.$h",
+				"Jas": "When we see the jellies come one year, the ones that come the next year are mostly the same. Some of them grow up, some of them go somewhere else... maybe some of them die.#$b#But I think it's beautiful that they'll always be here, no matter what.",
+				"Vincent": "Jas was waxing philosophical about the jellies earlier...$s#$b#I guess I kind of don't mind listening to her, though.$n",
+			},
+			
+			"When": {
+				"JasVince18": true,
+			}
+		},
+		
+		// Stardew Valley Fair
+		
+		{
+			"LogName": "CF_Festivals Y3 - Stardew Valley Fair - Robin dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"Entries": {
+				"Demetrius": "Mmm... sorry, just staring off into the middle distance.#$b#Ever feel like something's missing, but you can't quite place it?$s",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			}
+		},
+	]
+}

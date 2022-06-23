@@ -1,0 +1,99 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Maru",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Maru",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Maru, Characters/Dialogue/MarriageDialogueMaru",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Maru",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Maru": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Maru": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "ERROR"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Maru": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Maru": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"ScienceHouse.2": "An old computer. The files were regularly backed up to floppy disk.",
+				"ScienceHouse.7": "It's some kind of device. It's completely dilapidated.",
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/ScienceHouse",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 7, "Y": 10 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door"
+                    }
+                }
+            ],
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			
+			"Entries": {
+				"Mines_PlayerKilled_Maru_Spouse": "...I found you unconscious in the mines. Luckily, I keep an eye on this Valley at all times.#$b#Be a little more careful next time, farmer.$s",
+				"Mines_PlayerKilled_Maru_NotSpouse": "...I found you unconscious in the mines. My sprites were gathering minerals and they nearly mistook you for one.#$b#Be a little more careful next time, farmer.$s",
+			}
+		}
+	]
+}

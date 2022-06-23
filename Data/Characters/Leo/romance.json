@@ -1,0 +1,119 @@
+{
+	"Changes": [
+		{
+			"LogName": "Leo becomes dateable",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {		
+				"Leo": {
+					"5": "datable",
+				}
+			}
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Maps/LeoSpouseRoom",
+			"FromFile": "Assets/Leo/LeoSpouseRoom.tmx",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpouseRooms",
+			"Entries": {
+				"Leo": "LeoSpouseRoom/0"
+			}
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Maps/LeoSpousePatio",
+			"FromFile": "Assets/Leo/LeoSpousePatio.tmx"
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpousePatios",
+			"Entries": {
+				"Leo": "LeoSpousePatio/0",
+			}
+		},
+		
+		{
+			"LogName": "Leo load marriage dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueLeo",
+			"FromFile": "Data/blank.json",
+		},
+		
+		{
+			"LogName": "Leo romance dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueLeo",
+			
+			"Entries": {
+				"jo": "mama",
+			}
+		},
+		
+		{
+			"LogName": "Leo romance dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/LeoMainland",
+			
+			"Entries": {
+				"danceRejection": "Mmm... I don't think I'm confident enough to do that. Sorry! I'll cheer you on, though!",
+				"divorced": "...All I ever wanted to do was sing sweet songs for you, and you killed me.$a",
+				"dumped_Guys": "Fly away somewhere else, liar.$a",
+				"secondChance_Guys": "Mmm... I think maybe I've been a bit too hard on you. We all make mistakes, right? If you learn from yours, then... I'm okay with being friends again.$s",
+				
+				"give_flowersA": "Oh! ...Wait, for me? You're... serious?$3#$b#Oh... oh wow, I... I don't even know what to say. I mean, after we've known each other so long...$3#$b#I've never done anything like this in my life, but with you, I'll give it a try!$h",
+				"give_flowersB": "Oh! Those flowers are so beautiful! You...$h#$b#Wait... that's a flower bouquet. That means you want to date me!$3#$b#Jeez, I almost forgot about that tradition you all have.$3#$b#Umm... wow, okay, that's unexpected, but it's a pleasant surprise! I'd be happy to try this 'dating' thing with you.$h",
+				"give_pendant": "...!$3#$b#This pendant... Miss Penny told me it means a... a 'marriage proposal'!$3#$b#I... oh gosh, you... with me?! Absolutely! Of course! I'll go ask Mayor Lewis to get everything set up!",
+				"refusal_botherA": "@, I said no...$s",
+				"refusal_botherB": "Please stop...$s",
+				"refusal_knownA": "Oh!#$b#Ah... I'm sorry, I don't think that's a good idea.$3",
+				"refusal_knownB": "Umm... you're nice, but this is too much.$3",
+				"refusal_no_heartsA": "...Who are you again?$3",
+				"refusal_no_heartsB": "...Do I know you?$3",
+				"rejectNPCA": "Ehh... sorry, but I'm not really... interested.$s",
+				"rejectNPCB": "...Maybe another day? I'm sorry.$s",
+				"reject_four_heartA": "...!$8#$b#Oh... my heart feels like a fluttering bird...$4#$b#...I'm... not ready. I'm sorry.$s",
+				"reject_four_heartB": "Oh... I...$s#$b#I think we should just be friends.$s",
+				"reject_two_heartA": "...That's too fast, isn't it? Miss Penny said you're supposed to give that when you have a deep bond with someone.$s",
+				"reject_two_heartB": "Maybe we can get to know each other better. I'd enjoy that!$h",
+				"stardrop_gift": "My beautiful bird, you've always been so nice to me.$4#$b#I thought that this stardrop would be a nice way to show my affection and gratitude.$1#$b#Thank you. For everything.$l",
+			}
+		},
+		
+		{
+			"LogName": "Leo Responses - dateable, not dating - Mayor Marnie",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/LeoMainland",
+
+			"Entries": {
+				"give_pendant": "...!$3#$b#This pendant... Miss Penny told me it means a... a 'marriage proposal'!$3#$b#I... oh gosh, you... with me?! Absolutely! Of course! I'll go ask {{LewisSubF}} to get everything set up!",
+			}
+		},
+		
+		{
+			"LogName": "Leo romance dialogue - dating or engaged",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leo",
+			
+			"When": {
+				"Relationship:Leo": "Engaged, Married",
+			},
+			
+			"Entries": {
+				"give_flowersA": "Aww... @, you're making me blush!$h",
+				"give_flowersB": "...They're so beautiful. Like the flowers back home.#$b#And, of course, beautiful like you.$l",
+				"engageA": "Do I need to say yes again?$h",
+				"engageB": "I do enjoy collecting seashells.$h",
+				"marriedA": "Do I need to say yes again?$h",
+				"marriedB": "I do enjoy collecting seashells.$h",
+			}
+		}
+	]
+}

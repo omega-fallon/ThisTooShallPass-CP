@@ -1,0 +1,118 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/George, Portraits/George",
+			"FromFile": "Assets/error_spritesheet.png",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/George",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/George",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"George": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"George": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "ERROR"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"George": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"George": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"StrengthGame.cs.11692": "Cadaver",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			"Entries": {
+				"JoshHouse.666": "...Is that? No, it couldn't possibly be. You don't believe it.",
+			}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "Assets/George/TVFix.png",
+			"PatchMode": "Replace",
+			"Update": "OnLocationChange",
+			
+			"ToArea": {"X": 324, "Y": 336, "Width": 57, "Height": 14},
+			
+			"When": {
+				"LocationName": "JoshHouse",
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/JoshHouse",
+			"FromFile": "Assets/George/CursedTV.tmx",
+			"PatchMode": "Overlay",
+			
+			"ToArea": {"X": 15, "Y": 19, "Width": 2, "Height": 2}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"George": null,
+				"GeorgeCooking": null,
+				"georgeGifts": null,
+				"summer_25_1": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			
+			"Entries": {
+				"Evelyn": null,
+			}
+		}
+	]
+}

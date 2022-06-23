@@ -1,0 +1,40 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Elliott",
+			
+			"Entries": {
+				"give_pendant": "So, our journey has led us here.#$b#...$1#$b#I shall miss the sea...$1#$b#Though I feel your farm will have a charm I could love as well.  Starting with you.$4#$b#I shall speak with {{LewisSubF}} about our celebration.  In three days time, our paths will be one.$4",
+			}
+		},
+		
+		{
+			"LogName": "Elliott — Maru sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Elliott",
+			
+			"When": {
+				"MaruSubHarvey": true,
+			},
+			
+			"Entries": {
+				"summer_9.001": "My back has been hurting, nurse... you know, with all the hunching over to write my novel.",
+			}
+		},
+		
+		{
+			"LogName": "Elliott — Wizard sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Elliott",
+			
+			"When": {
+				"WizardSubHarvey": true,
+			},
+			
+			"Entries": {
+				"summer_9.001": "My back has been hurting, Magnus... you know, with all the hunching over to write my novel.",
+			}
+		},
+	]
+}

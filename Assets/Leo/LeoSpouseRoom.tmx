@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="12" nextobjectid="3">
+ <properties>
+  <property name="DayTiles" value="Back 1 0 2 Back 1 1 9"/>
+  <property name="NightTiles" value="Back 1 0 48 Back 1 1 55"/>
+ </properties>
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="p" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths" width="64" height="144"/>
+ </tileset>
+ <tileset firstgid="2213" name="treehouse" tilewidth="16" tileheight="16" tilecount="56" columns="7">
+  <image source="LeoTreeHouse_Tilesheet" width="112" height="128"/>
+ </tileset>
+ <tileset firstgid="2269" name="island" tilewidth="16" tileheight="16" tilecount="2080" columns="32">
+  <image source="island_tilesheet_1" width="512" height="1040"/>
+ </tileset>
+ <tileset firstgid="4349" name="hut" tilewidth="16" tileheight="16" tilecount="288" columns="16">
+  <image source="Island_Hut_tilesheet" width="256" height="288"/>
+ </tileset>
+ <layer id="1" name="Back" width="6" height="9">
+  <data encoding="csv">
+2216,2215,2216,2216,2216,2216,
+2223,2222,2223,2223,2223,2223,
+2223,2223,2223,2223,2223,2223,
+4501,4502,4501,4502,4501,4502,
+4517,4518,4517,4518,4517,4518,
+4533,4534,4533,4534,4533,4534,
+4501,4502,4501,4502,4501,4502,
+4517,4518,4517,4518,4517,4518,
+4533,4534,4533,4534,4533,4534
+</data>
+ </layer>
+ <layer id="10" name="Back1" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,3758100904,0,
+0,0,0,0,2239,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+81,81,81,81,81,81,
+113,113,113,113,113,113,
+0,2982,0,1803,1804,1805,
+0,0,0,1835,1836,1837,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,4342,0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Front" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,1739,1740,1741,
+0,2950,0,1771,1772,1773,
+0,0,0,0,1804,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,4310,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="11" name="AlwaysFront" width="6" height="9">
+  <data encoding="csv">
+2514,2515,2412,2413,2512,2513,
+0,0,0,0,0,2710,
+0,0,0,0,0,2742,
+0,0,0,0,0,2318,
+0,0,0,0,0,2350,
+0,0,0,0,0,2382,
+0,0,0,0,0,2414,
+0,0,0,0,0,2446,
+0,0,0,0,0,2478
+</data>
+ </layer>
+ <layer id="3" name="Paths" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,2184,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,2185,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Buildings" visible="0">
+  <object id="1" name="TileData" x="64" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Farmhouse.LeoHut&quot;"/>
+   </properties>
+  </object>
+  <object id="2" name="TileData" x="16" y="48" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Farmhouse.LeoPerch&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

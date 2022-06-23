@@ -1,0 +1,367 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Jas",
+			"FromFile": "Assets/Jas/Portraits/Teen.png",
+			
+			"When": {
+				"HasFile:{{FromFile}}": true,
+			}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Jas",
+			"FromFile": "Assets/Jas/Sprites/Teen.png",
+			
+			"When": {
+				"HasFile:{{FromFile}}": true,
+			}
+		},
+		
+		{
+			"LogName": "Jas 13 dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+			
+			"Entries": {
+				"Introduction": "...?$u#$b#Hey. My name's Jas. What's yours?$u",
+				"Resort_Entering": "Aww, look at that cute crab!",
+				"Resort_Leaving": "Meh... I got sand in my shoe...$s#$b#But, I still had a really good time.$h",
+				"Resort_Shore": "I'm collecting seashells for a necklace. Let me know if you find any good ones.$h",
+				"reject_869": "Eugh! Gross, gross, gross! Give that to Vincent, not me!$s",
+				"Mon": "Hmm...? Oh, are you looking for Aunt Marnie?$u",
+				"Mon4": "It's nice living on a farm... I hope you enjoy yours, too!$h",
+				"Tue": "*giggle* Sorry, I just remembered a really funny joke Haley told me.",
+				"Tue6": "A doll? No, no, dolls are for babies. This is my Aurella Magi Meguka Magica figurine!",
+				"Wed": "...$u#$e#Sorry... sometimes I don't talk much. I get shy.$u",
+				"Wed2": "Hey there. What'cha up to?$u",
+				"Wed4": "Aunt Marnie won't let me go out after 6 o'clock. That's ridiculous, right?!$s#$e#I'm {{JasAge}}, I'm not a baby anymore!",
+				"Thu": "I shouldn't talk to strangers... but Aunt Marnie and Shane know you, so I guess you're alright.$u",
+				"Thu2": "Miss Penny is teaching me how to write in cursive.$h#$e#She has such pretty handwriting. I guess it makes sense, since she's a pretty lady.",
+				"Fri": "... I don't know you.$u#$e#Wait, do I know you? No, I've seen you around a lot, I have to know you, right?",
+				"Fri2": "Do you like my bow? I think it makes me look really pretty.$h",
+				"Fri4": "I like living on the farm... my favorite is the fresh ice cream from our cows' milk. You can come over and have some, if you want!",
+				"Sat": "You smell like grass. Just like Vincent...$u",
+				"Sat8": "You're really nice, @. You're like a cool uncle!^You're really nice, @. You're like a cool aunt!$h#$e#Most of the older people in this town are real buzzkills, but you're different.",
+				"Sun": "Huh? Do you... need something?$u#$e#Sorry, I get nervous around strangers.$u",
+				"Sun2": "Shane's gone a lot, and Aunt Marnie is busy all the time... but I almost always have Vincent.#$e#I'm thankful I have such a great friend.$h",
+				"Sun10": "Did you know Shane's my godfather? He was a friend of my parents.$s#$e#...I'm... glad I know him.$s",
+				
+				// Courtship
+				
+				"rejectNPCA": "Uhh...$3#$b#I... gotta go.$2",
+				"rejectNPCB": "So, you're some kind of criminal?$4",
+				"refusal_no_heartsA": "Get away from me!$a",
+				"refusal_no_heartsB": "...I'll tell on you!$a",
+				"engageA": "...What?$2",
+				"engageB": "Aunt Marnie told me there are weird people like you out there.$4#$b#She told me I should scream out if you start to scare me.$4",
+				"marriedA": "I'm {{JasAge}}, and you're married. What the heck is wrong with you?$a",
+				"marriedB": "You think I won't call the police? I will.$3",
+				
+				"birthdayLoveA": "Ooh, I love this! Thanks so much!",
+				"birthdayLoveB": "This is such an awesome birthday present. Thank you so much!$1",
+				"birthdayLikeA": "Yay, you remembered!$1",
+				"birthdayLikeB": "Thanks! I really like this.$1",
+				"birthdayDislikeA": "...Oh, thanks...$2",
+				"birthdayDislikeB": "...For my birthday? Thank you very much...$2",
+				"birthdayNeutralA": "...Oh, thank you! Umm... thanks.$3",
+				"birthdayNeutralB": "What's this?$3",
+			}
+		},
+		
+		{
+			"LogName": "Jas 13 dialogue - schedule strings",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Jas",
+			
+			"Entries": {
+				"winter_18.000": "I have to visit the doctor today... it's not fun, but I know it's important!",
+				"winter_15.001": "I wish I was old enough to see the mermaid show...$s#$b#I ask every year, but nobody can tell me why! Am I not allowed to see pretty girls...?$s",
+				"winter_18.001": "Hey, how's this thing work?",
+				"summer.000": "Sometimes Vincent likes to come out here and hunt for snails in the lake.#$b#He's kinda weird, isn't he?$h",
+				"winter_15.000": "Hehe... my jacket's so warm and poofy, I don't even mind the cold!$h",
+				"spring.000": "Someday I wanna go swimming in the ocean... but I think I could settle for that lake over there!$h"
+			}
+		},
+		
+		{
+			"LogName": "Gifts received",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Fields": {
+				"Jas": {
+					"0": "Oh my gosh, thank you so much! This is great!",
+					"2": "Aww, thanks for the present! That's sweet.",
+					"4": "Oh, as a gift? ...Thank you very much.",
+					"6": "Gross...",
+				},
+			}
+		},
+		
+		{
+			"LogName": "Jas 13 dialogue - Egg Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"Entries": {
+				"Jas": "Vincent always gets more eggs than me... but this year I'm gonna beat him!$h",
+				"Jas_y2": "This is gonna be the day that Abby's winning streak ends! I'll show her!$h",
+			}
+		},
+		
+		{
+			"LogName": "Jas 13 dialogue - Flower Dance",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			
+			"Entries": {
+				"Jas": "I can't wait until I'm older so I can be the flower queen!$h#$b#And Vincent can be...! Uhh, there! Also.$u",
+			}
+		},
+		
+		{
+			"LogName": "Jas 13 dialogue - Luau",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"Entries": {
+				"Jas": "Vincent always gets bored when there's dancing at a festival. It's kind of funny how stupid he can be sometimes.$h#$e#C'mon, Vincy... I'm right here.$u",
+			}
+		},
+		
+		{
+			"LogName": "Jas 13 dialogue - Dance of the Moonlight Jellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			
+			"Entries": {
+				"Jas": "Ooh, Vincent, look! That one's got the same dorky red hair as you!$u",
+			}
+		},
+		
+		{
+			"LogName": "Jas 13 dialogue - Stardew Valley Fair",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"Entries": {
+				"Jas": "Agh! A hen bit my finger... Vincent, do you have a bandaid?$u",
+			}
+		},
+		
+		{
+			"LogName": "Jas 13 dialogue - Spirit's Eve",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			
+			"Entries": {
+				"Jas": "Hehe... Aunt Marnie said I could go in the maze if I take Vincent with me.$h#$b#I'll probably have to hold his hand the whole time.$u",
+			}
+		},
+		
+		{
+			"LogName": "Jas 13 dialogue - Ice Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"Entries": {
+				"Jas": "Vincent wanted to make a cool buff snowman, but I wanted to make a cute snow princess. So we decided to make a cool buff cute snow princess!$h#$b#I'm... honestly surprised it worked out!$u",
+			}
+		},
+		
+		{
+			"LogName": "Jas 13 dialogue - Feast of the Winter Star",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			
+			"Entries": {
+				"Jas": "Teehee... I wonder what I got! Hopefully something pretty...$h",
+			}
+		},
+		
+		{
+			"LogName": "Jas 13 dialogue - Movie Reactions",
+			"Action": "EditData",
+			"Target": "Data/MovieReactions",
+			
+			"Entries": {
+				"Jas": {
+					"NPCName": "Jas",
+					"Reactions": [
+						// Vincent is present
+						
+						{
+							"Tag": "romance",
+							"Response": "love",
+							"Whitelist": ["Vincent"],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "Oh... Vincent is here? Umm... yeah, that's okay! Nervous? Who's nervous?$2"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"(Jas is blushing and looking between the screen and the floor.)\"",
+									"Text": "Mmm... that's really sweet! I wonder..."
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "That was nice! Umm... do me a favor and forget this ever happened okay?$h"
+								}
+							},
+							"ID": "reaction_0"
+						},
+						
+						{
+							"Tag": "horror",
+							"Response": "love",
+							"Whitelist": ["Vincent"],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "Oh, hey, Vincent is here! Well, I'm sure I can brave it out, then!$h"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"(Jas and Vincent exchange a glance and keep their cool!)\"",
+									"Text": "There we go... be brave, Jas! Don't embarrass yourself..."
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "That was... a lot more of a trial-by-fire than I was expecting, but hey, I won!$h"
+								}
+							},
+							"ID": "reaction_1"
+						},
+						
+						{
+							"Tag": "*",
+							"Response": "love",
+							"Whitelist": ["Vincent"],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "Oh, hey, Vincent is here! Well, I'm sure this'll be fun no matter what, then!$h"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"(Jas and Vincent are watching intently!)\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "That was really nice. Thanks, @!"
+								}
+							},
+							"ID": "reaction_2"
+						},
+						
+						// Other
+						
+						{
+							"Tag": "horror",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "classic",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "*",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_5"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "Ooh, I'm excited. This is gonna be fun!$h"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"Jas is having a good time.\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "That was really great! Thanks for bringing me!$h"
+								}
+							},
+							"ID": "reaction_6"
+						},
+						
+						{
+							"Tag": "horror",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "Mmm... I'm not sure I'm allowed to see this... but I guess Aunt Marnie doesn't *have* to know.$u"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"Jas is toughing it out, smirking to herself.\"",
+									"Text": "Deep breaths, Jas... you're a big girl!"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "Hehe... that wasn't so bad, actually!"
+								}
+							},
+							"ID": "reaction_7"
+						},
+						
+						{
+							"Tag": "classic",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "Ooh, this is one of those movies for adults, right? I'm sure I'll like it, I'm a big girl!"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"Jas is nodding, deep in focus.\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "That was nice! I think I get why you all like that one.$h"
+								}
+							},
+							"ID": "reaction_8"
+						}
+					]
+				}
+			}
+		}
+	]
+}

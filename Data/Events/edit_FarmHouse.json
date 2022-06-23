@@ -1,0 +1,119 @@
+{
+	"Changes": [
+		{
+			"LogName": "FarmHouse Events - Emily dead",
+			"Target": "Data/Events/FarmHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"Entries": {
+				"3917601/f Emily 3500/O Emily/n emilyFiber/A emilyFiber/t 2000 2400/p Emily": null,
+			}
+		},
+		
+		{
+			"LogName": "FarmHouse Events - Sam dead",
+			"Target": "Data/Events/FarmHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+			
+			"Entries": {
+				"3918600/f Sam 3500/O Sam/t 610 1700/p Sam/L": null,
+				"3918601/e 3918600/O Sam/t 610 1700/A samJob1/p Sam/L": null,
+				"3918602/e 3918601/O Sam/t 610 1700/A samJob2/p Sam/L": null,
+				"3918603/e 3918602/O Sam/t 610 1700/A samJob3/p Sam/L": null,
+			}
+		},
+		
+		{
+			"LogName": "FarmHouse Events - Maru dead",
+			"Target": "Data/Events/FarmHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			},
+			
+			"Entries": {
+				"3917666/f Maru 3500/O Maru/t 610 1700/p Maru/d Sun/z winter": null,
+			}
+		},
+		
+		{
+			"LogName": "FarmHouse Events - Elliott dead",
+			"Target": "Data/Events/FarmHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			},
+			
+			"Entries": {
+				"3912132/e 3912126/O Elliott/A elliottGone/B": null,
+			}
+		},
+		
+		{
+			"LogName": "FarmHouse Events - Harvey dead",
+			"Target": "Data/Events/FarmHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+			
+			"Entries": {
+				"3917626/f Harvey 3500/O Harvey/t 2000 2400/p Harvey/L": null,
+			}
+		},
+		
+		{
+			"LogName": "FarmHouse Events - Penny dead",
+			"Target": "Data/Events/FarmHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Penny": true,
+			},
+			
+			"Entries": {
+				"4325434/f Penny 3500/O Penny/t 1500 1900/p Penny": null,
+				"4324303/e 4325434/O Penny/A pennyRedecorating/l noQuilt/B": null,
+			}
+		},
+		
+		{
+			"LogName": "FarmHouse Events - Haley dead",
+			"Target": "Data/Events/FarmHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Haley": true,
+			},
+			
+			"Entries": {
+				"8675611/e 6184643/O Haley/A haleyCakewalk1/t 620 1700/p Haley": null,
+			}
+		},
+		
+		{
+			"LogName": "FarmHouse Events - Sebastian dead",
+			"Target": "Data/Events/FarmHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Sebastian": true,
+			},
+			
+			"Entries": {
+				"9333220/e 9333219/O Sebastian/A sebastianFrog/t 620 1900": null,
+			}
+		},
+	]
+}

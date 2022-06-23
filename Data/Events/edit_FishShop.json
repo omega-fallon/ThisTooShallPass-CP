@@ -1,0 +1,17 @@
+{
+	"Changes": [
+		{
+			"LogName": "FishShop Events - Willy dead",
+			"Target": "Data/Events/FishShop",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			},
+			
+			"Entries": {
+				"16253595/j 29/X": null,
+			}
+		},
+	]
+}

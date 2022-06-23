@@ -1,0 +1,27 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Robin",
+			"FromFile": "Assets/Robin/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Robin",
+			"FromFile": "Assets/Robin/Sprites/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Robin_beach",
+			"FromFile": "Assets/Robin/Portraits/FullGrey_beach.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Robin_beach",
+			"FromFile": "Assets/Robin/Sprites/FullGrey_beach.png",
+		},
+	]
+}

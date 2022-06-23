@@ -1,0 +1,75 @@
+{
+	"Changes": [
+		{
+			"LogName": "Saloon Events - Elliott/Gus dead",
+			"Target": "Data/Events/Saloon",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Elliott, Gus": true,
+			},
+			
+			"Entries": {
+				"40/f Elliott 1000/p Gus/t 1500 2200": null,
+			}
+		},
+		
+		{
+			"LogName": "Saloon Events - Pam/Gus dead",
+			"Target": "Data/Events/Saloon",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Pam, Gus": true,
+			},
+			
+			"Entries": {
+				"96/f Gus 1000/f Pam 500/p Gus": null,
+			}
+		},
+		
+		{
+			"LogName": "Saloon Events - Clint dead",
+			"Target": "Data/Events/Saloon",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Clint": true,
+			},
+			
+			"Entries": {
+				"97/f Clint 750/t 1900 2300/d Tue Wed Thu Fri Sat Sun": null,
+			}
+		},
+		
+		{
+			"LogName": "Saloon Events - Alex dead",
+			"Target": "Data/Events/Saloon",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Alex": true,
+			},
+			
+			"Entries": {
+				"911526/f Alex 2500/t 1900 2200/n joshMessage": null,
+				"rejectJosh": null,
+				"3917590/n saloonSportsRoom/O Alex": null,
+			}
+		},
+		
+		{
+			"LogName": "Saloon Events - Gus dead",
+			"Target": "Data/Events/Saloon",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			},
+			
+			"Entries": {
+				"3206194/n gusGiantOmelet": null,
+			}
+		},
+	]
+}

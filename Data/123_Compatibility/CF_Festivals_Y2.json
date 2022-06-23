@@ -1,0 +1,659 @@
+{
+	"Changes": [
+		// Egg Festival
+		
+		{
+			"LogName": "CF_Festivals Y2 - Egg Festival - Sam/Sebastian dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"Entries": {
+				"Abigail": "I hope the competition will be a little more fierce this year.#$b#I mean, Magnus is a wizard, so I'm guessing he'll be tough, right?$h",
+			},
+			
+			"When": {
+				"Dead |contains=Sam, Sebastian, Maru, Jas, Vincent": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Egg Festival - Gus dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"Entries": {
+				"Demetrius": "The buffet is pretty spectacular this year. Are any of the eggs in there from your farm?",
+			},
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Egg Festival - Caroline sub Pierre",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"Entries": {
+				"Caroline": "Interested in buying anything?$h",
+			},
+			
+			"When": {
+				"CarolineSubPierre": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Egg Festival - George dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"Entries": {
+				"Evelyn": "It might be a bit gluttonous of me, but some years, when I'm particularly worn-out, it's the free food that motivates me to be here.$h",
+			},
+			
+			"When": {
+				"Dead |contains=George": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Egg Festival - JasVince18",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"Entries": {
+				"Penny": "Me and my old students got together for an art project, for old time's sake. We painted the eggs this year.$h#$b#If you see a purple one, it might be Jas', and one of the yellow ones is Vincent's.",
+				"Willy":"The young ones of this town don't care too much for what I spend most of my time doing. And that's fine.#$b#Helping out with this event helps me connect with them a little, even if indirectly.$h"
+			},
+			
+			"When": {
+				"JasVince18": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Egg Festival - Emily dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"Entries": {
+				"Jodi": "It seems like people really put their heart and soul into this festival.$h#$e#Maybe I should join next time, too.",
+			},
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Egg Festival - Lewis",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"Entries": {
+				"Harvey": "{{LewisSubF}} is letting me help hide a few eggs this year. I've been scouting some good locations.#$e#Oh, you're participating? Well... who knows? Maybe I won't hide them where you think I will!",
+			},
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Egg Festival - Vincent dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"Entries": {
+				"Jas": "Maybe I should just team up with one of Magnus' manifests and we can split the prize?#$e#Hmm... maybe not. That's probably not allowed.",
+			},
+			
+			"When": {
+				"Dead |contains=Vincent": true,
+			}
+		},
+		
+		// Flower Dance
+		
+		{
+			"LogName": "CF_Festivals Y2 - Flower Dance - Pierre dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			
+			"Entries": {
+				"Robin": "A flower feature can really make the aesthetics of your home come together. Have you seen the crafting recipe that the general store has for sale?",
+			},
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Flower Dance - Demetrius dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			
+			"Entries": {
+				"Maru": "I wonder if my anyone's going to be videotaping this?#$b#I guess they can if they want. I'm not too camera-shy.",
+			},
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Flower Dance - George dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			
+			"Entries": {
+				"Evelyn": "Some years it's hard to walk all the way over here... but it's certainly worth it!$h",
+			},
+			
+			"When": {
+				"Dead |contains=George": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Flower Dance - Lewis sub",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			
+			"Entries": {
+				"Pam": "Heh heh. {{LewisSubF}} can't help but keep an open wine bar at this event. It's tradition, after all!$h",
+			},
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Flower Dance - Haley dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			
+			"Entries": {
+				"Emily": "It's good to see everyone happy. I do my best to help make this day special.",
+			},
+			
+			"When": {
+				"Dead |contains=Haley": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Flower Dance - Elliott dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			
+			"Entries": {
+				"Leah": "Hey @. Don't mind me. I was just debating aesthetics again.",
+			},
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Flower Dance - Penny dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			
+			"Entries": {
+				"Jas": "See this dress? It used to be Miss Penny's... she gave it to me! It's so pretty!$h",
+			},
+			
+			"When": {
+				"Dead |contains=Penny": true,
+			}
+		},
+		
+		// Luau
+		
+		{
+			"LogName": "CF_Festivals Y2 - Luau - Lewis sub",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"Entries": {
+				"Governor":"Ah yes, the natural beauty here is lovely, {{LewisSubS}}, but campaigning for Stardew Valley as a tourist destination remains to be decided.#$e#Do tell me about the annual fall fair. Can we expect it to be filled with delicious cuisine?",
+				"Penny":"I have to admit it's a bit fun to watch {{LewisSubF}}'s different facial expressions throughout the day.$h#$e#I hope his conversation with the governor goes well.",
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Luau - Linus dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"Entries": {
+				"Maru": "Mmm, I'm saving room for the roast. Looks like it's just about done.",
+			},
+			
+			"When": {
+				"Dead |contains=Linus": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Luau - Sam dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"Entries": {
+				"Sebastian": "If the soup turns out terrible, I'm sure I'll still end up eating it.#$b#Some days I'm just *that* hungry.$h",
+			},
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Luau - Emily dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"Entries": {
+				"Haley": "*giggle* They look so cute, dancing like that.",
+				"Harvey": "Did you know that sometimes people start dancing, literally can't stop, and then keep going until they get so tired that they pass out?#$b#Granted, that's usually some form of mass hysteria or nocebo, but still, make sure to take breaks and drink a lot of water!$h",
+			},
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Luau - Penny dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"Entries": {
+				"Sam": "The anchovies thing was just one year. I promise I won't put anything gross in the soup.#$b#*psst* You, on the other hand, @...$h",
+			},
+			
+			"When": {
+				"Dead |contains=Penny": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Luau - Leah dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"Entries": {
+				"Elliott": "I didn't forget about the Luau this year!$h#$e#Well, the noise woke me up, anyway. That helped.",
+			},
+			
+			"When": {
+				"Dead |contains=Leah": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Luau - JasVince18",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"Entries": {
+				"Jas": "Maybe some slower music would work better...$h",
+				"Vincent": "Hey! Maybe we should change the music... that'd make it more fun.",
+			},
+			
+			"When": {
+				"JasVince18": true,
+			}
+		},
+		
+		// Dance of the Moonlight Jellies
+		
+		{
+			"LogName": "CF_Festivals Y2 - Dance of the Moonlight Jellies - Pierre dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			
+			"Entries": {
+				"Caroline": "I try my best to keep a balance between the time I spend at the stall and the time I spend celebrating.#$b#Pierre was never good at that...$s#$b#But that's all the more reason for me to be better.$h",
+			},
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Dance of the Moonlight Jellies - Kent dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			
+			"Entries": {
+				"Jodi": "Despite losing some things, I try to remember what I still have.#$b#I can still remember Kent... and that might not always be true as I keep getting older. So I have to hang onto those memories.",
+			},
+			
+			"When": {
+				"Dead |contains=Kent": true,
+			}
+		},
+		
+		// Stardew Valley Fair
+		
+		{
+			"LogName": "CF_Festivals Y2 - Stardew Valley Fair - Leah dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"Entries": {
+				"Robin": "It's nice working on a sculpture like this. Reminds me of Leah.$h",
+			},
+			
+			"When": {
+				"Dead |contains=Leah": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Stardew Valley Fair - Pierre dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"Entries": {
+				"Caroline": "The grange display always meant a lot to Pierre, but I try not to let it stress me out.#$b#At the end of the day, whatever happens, we're still the general store no matter what.$h",
+			},
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Stardew Valley Fair - George dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"Entries": {
+				"Evelyn": "Harvey told me I need to watch my cholesterol... such a shame.$s#$b#...#$b#...#$b#I suppose... just one couldn't hurt.$h",
+			},
+			
+			"When": {
+				"Dead |contains=George": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Stardew Valley Fair - Marlon dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"Entries": {
+				"Clint": "I know you're familiar with my work on your own tools, but if you want a little more reassurance, take a close look at these.$h#$e#Magnus sells my weapons at the adventurer's guild, in case I haven't told you.",
+			},
+			
+			"When": {
+				"Dead |contains=Marlon, MarlonFay": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Stardew Valley Fair - Haley dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"Entries": {
+				"Emily": "It's cute how invested people get in the fortune teller. I think I can claim credit for that one.#$e#Well, we can all use a little something to look forward to.",
+			},
+			
+			"When": {
+				"Dead |contains=Haley": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Stardew Valley Fair - Robin dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"Entries": {
+				"Leah": "Hanging out at this display really brings back good memories of Robin.$h#$e#Sometimes I miss being her student...$s",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Stardew Valley Fair - Marnie sub",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"Entries": {
+				"Shane": "{{MarnieSub}} put me in charge of the petting zoo. Go ahead. Give 'em a pet.#$e#Hey, if you wanna take one home, you know the system: ask {{MarnieSub}}.",
+			},
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Stardew Valley Fair - Sam dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"Entries": {
+				"Vincent": "Dang, every year I wanna ride them!#$e#I could probably just... hop right over...#$e#Ugh... no, no, I can't.",
+			},
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			}
+		},
+		
+		// Spirit's Eve
+		
+		{
+			"LogName": "CF_Festivals Y2 - Spirit's Eve - Marlon dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			
+			"Entries": {
+				"Clint":"I'm reasonably aware... if it's Magnus who's brought these monsters, they're probably the real deal.",
+			},
+			
+			"When": {
+				"Dead |contains=Marlon, MarlonFay": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Spirit's Eve - JasVince13",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			
+			"Entries": {
+				"Jodi": "I think the only reason Vincent's always been so insistent on going into the maze is because Sam makes it look so easy...$s#$b#I don't know if he knows what he's getting into, but... this year, I decided he's old enough to go accompanied. He'll be taking Jas with him.$n",
+				"Jas": "Vincy, you know that monsters aren't real, right? Come on, let's get moving.",
+				"Vincent": "Mmm... give me a minute, Jas. I need to 'meditate' like Emily told me to...",
+			},
+			
+			"When": {
+				"JasVince13": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Spirit's Eve - JasVince18",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			
+			"Entries": {
+				"Jodi": "Vincent sure does love that maze... I think he might be even better at navigating it than Sam, now.$h",
+				"Jas": "...Wait, do it with blindfolds on? Vince, are you crazy?$h",
+				"Vincent": "What if we went in blind? Like, *literally* blind...$h",
+			},
+			
+			"When": {
+				"JasVince18": true,
+			}
+		},
+		
+		// Festival of Ice
+		
+		{
+			"LogName": "CF_Festivals Y2 - Festival of Ice - Sebastian dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"Entries": {
+				"Maru": "Sebastian always made some pretty cool snowmen... maybe I could try imitating his style?$h",
+			},
+			
+			"When": {
+				"Dead |contains=Sebastian": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Festival of Ice - Gus dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"Entries": {
+				"Shane": "Two words: Pizza. Festival. Seriously, that needs to happen this year.#$e#It'd be so easy, too. We'd just order a crap-ton of pizzas from the saloon and pass 'em around.",
+			},
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Festival of Ice - Clint/Emily dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"Entries": {
+				"Clint": "This snowman is kind of... awful. It'd be nice if I could get some help.$s",
+				"Emily": "Jeez, maybe I could fix this guy up... might be a bit difficult...$s",
+			},
+			
+			"When": {
+				"Dead |contains=Clint, Emily": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Festival of Ice - Willy dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"Entries": {
+				"Elliott": "Willy taught me some fishing tricks a while back. I wonder if he'll be watching me to see if I remembered? Wherever he is, now...#$e#Don't want to let him down.",
+			},
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Festival of Ice - JasVince18",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"Entries": {
+				"Jas": "Vincent's a big help with building snowmen. He always puts in his... unique touches.",
+				"Vincent": "Agh! Jeez, look at that, @! Cracks, all over the ice...$u#$b#Maybe I stomped a bit too hard, heheh.$h"
+			},
+			
+			"When": {
+				"JasVince18": true,
+			}
+		},
+		
+		// Feast of the Winter Star
+		
+		{
+			"LogName": "CF_Festivals Y2 - Feast of the Winter Star - Caroline not present",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			
+			"Entries": {
+				"Abigail": "The snow is so pretty, isn't it? I'm really glad it snows as much as it does here.$h#$b#Hey, speaking of which, wanna hear a little secret?#$b#One time, a few years ago, I caught my mom making snow angels out here, smiling and laughing like a schoolgirl.$h#$b#Don't tell anyone, okay?",
+			},
+			
+			"When": {
+				"query: ({{Dead |contains=Caroline}} = true) OR {{CarolineSubPierre}}": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Feast of the Winter Star - Robin dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			
+			"Entries": {
+				"Maru": "Mmm... glad I got the table with the green stuff on it.$h",
+			},
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Feast of the Winter Star - Pierre dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			
+			"Entries": {
+				"Caroline": "Mmm... huh? Yes, @? Anything you... need?$h#$b#Sorry, I'm two drinks deep right now. What can I say? I love this holiday.$h#$b#...#$b#Hey, has anyone ever told you that you look really handsome?$h^Hey, has anyone ever told you that you look really pretty?$l", // this is going against canon but I do not care, I love caroline
+			},
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Feast of the Winter Star - Kent dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			
+			"Entries": {
+				"Jodi": "Here, @. Why don't you eat the rest of what's on my plate? I'm positively stuffed!$h",
+				"Sam": "I'm thankful that everyone can get together today.#$b#As much as some of the people in this town are a bit lame, I like having a sense of community, y'know?$h",
+			},
+			
+			"When": {
+				"Dead |contains=Kent": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Feast of the Winter Star - Gus dead",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			
+			"Entries": {
+				"Leah": "Joining my table for a little while? Here. Have some nog.$h",
+			},
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			}
+		},
+		
+		{
+			"LogName": "CF_Festivals Y2 - Feast of the Winter Star - JasVince13",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			
+			"Entries": {
+				"Jas": "I got here early and started eating... is that rude?#$b#Mmm... I'm sure nobody noticed.$h",
+				"Vincent": "I'm really excited! This is my favorite holiday, no contest!$h",
+			},
+			
+			"When": {
+				"JasVince13": true,
+			}
+		},
+	]
+}

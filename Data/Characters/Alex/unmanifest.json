@@ -1,0 +1,95 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Alex, Portraits/Alex",
+			"FromFile": "Assets/error_spritesheet.png",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Alex, Characters/Dialogue/MarriageDialogueAlex",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Alex",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Alex": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Alex": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "ERROR"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Alex": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Alex": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"BathHouse_MensLocker.4": "An old locker... it seems to be empty, save for a single loose photograph of a starving man.",
+				
+				"JoshHouse.7": "You peek into the drawer. There's clothes, hair gel, and a box of gridball trading cards. They're all dusty.",
+				"JoshHouse.8": "You peek into the drawer. There's clothes, hair gel, and a box of gridball trading cards.  They're all dusty.",
+				"JoshHouse.9": "It's a gridball helmet. It looks dull.",
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/JoshHouse",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 10, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door"
+                    }
+                }
+            ],
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"joshMessage": null,
+			}
+		},
+	]
+}

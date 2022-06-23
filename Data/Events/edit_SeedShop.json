@@ -1,0 +1,105 @@
+{
+	"Changes": [
+		{
+			"LogName": "SeedShop Events - Abigail dead",
+			"Target": "Data/Events/SeedShop",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			},
+			
+			"Entries": {
+				"1/f Abigail 500/p Abigail/d Sat": null,
+				"beatGame": null,
+				"3/f Abigail 2000/p Abigail/t 2000 2200/n abbySpiritBoard": null,
+			}
+		},
+		
+		{
+			"LogName": "SeedShop Events - Caroline or Abigail dead",
+			"Target": "Data/Events/SeedShop",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Abigail, Caroline": true,
+			},
+			
+			"Entries": {
+				"17/f Caroline 1500/p Caroline/p Abigail": null,
+			}
+		},
+		
+		{
+			"LogName": "SeedShop Events - Pierre dead",
+			"Target": "Data/Events/SeedShop",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			},
+			
+			"Entries": {
+				"16/f Pierre 1500/p Pierre": null,
+				"963113/n pierreQualityCrops": null,
+			}
+		},
+		
+		{
+			"LogName": "SeedShop Events - Harvey dead",
+			"Target": "Data/Events/SeedShop",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+			
+			"Entries": {
+				"58/f Harvey 1500/t 1100 1500": null,
+			}
+		},
+		
+		// 3102768. These edits involve OnLocationChange, so it's good practice to make them not trigger when the cutscene has already been watched. Anything to mitigate lag, yknow.
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_SeedShop_3102768.json",
+			
+			"When": {
+				"HasSeenEvent |contains=3102768": false,
+				"Dead |contains=Morris, MorrisTod": false,
+			}
+		},
+		
+		{
+			"LogName": "SeedShop Events - 3102768 null",
+			"Target": "Data/Events/SeedShop",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+				"Dead |contains=Marnie": true,
+				"Dead |contains=Jodi": true,
+				"Dead |contains=Demetrius": true,
+			},
+			
+			"Entries": {
+				"3102768/j 15/H": null,
+			}
+		},
+		
+		{
+			"LogName": "SeedShop Events - 3102768 null",
+			"Target": "Data/Events/SeedShop",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Morris, MorrisTod": true,
+			},
+			
+			"Entries": {
+				"3102768/j 15/H": null,
+			}
+		},
+	]
+}

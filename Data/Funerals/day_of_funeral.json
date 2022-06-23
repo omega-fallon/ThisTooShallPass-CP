@@ -1,0 +1,193 @@
+{
+	"Changes": [
+		{
+			"LogName": "Loading in funeral map base",
+			"Action": "Load",
+			"Target": "Maps/Graveyard-{{WhoseFuneralToday}}Funeral",
+			"FromFile": "Assets/Funerals/Graveyard.tmx",
+		},
+		
+		{
+			"LogName": "Overlaying NPC-specific funeral map",
+			"Action": "EditMap",
+			"Target": "Maps/Graveyard-{{WhoseFuneralToday}}Funeral",
+			"FromFile": "Assets/Funerals/Graveyard-{{WhoseFuneralToday}}Funeral.tmx",
+			"PatchMode": "Overlay",
+			
+			"When": {
+				"HasFile:{{FromFile}}": true
+			}
+		},
+		
+		{
+			"LogName": "Adding funeral 'festival' to FestivalDates",
+			"Action": "EditData",
+			"Target": "Data/Festivals/FestivalDates",
+			
+			"Entries": {
+				"{{Season}}{{Day}}": "{{WhoseFuneralToday}}'s Funeral",
+			},
+		},
+		
+		{
+			"LogName": "Adding funeral 'festival' to FestivalDates ('s removed)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/FestivalDates",
+			
+			"Entries": {
+				"{{Season}}{{Day}}": "{{WhoseFuneralToday}}' Funeral",
+			},
+			
+			"When": {
+				"WhoseFuneralToday": "Gus, Demetrius, Jas, Lewis, Linus, Morris",
+			}
+		},
+		
+		{
+			"LogName": "Loading in funeral file, blank",
+			"Action": "Load",
+			"Target": "Data/Festivals/{{season}}{{day}}",
+			"FromFile": "Data/blank.json",
+		},
+		
+		{
+			"LogName": "Adding universal data",
+			"Action": "EditData",
+			"Target": "Data/Festivals/{{season}}{{day}}",
+			
+			"Entries": {
+				"name": "{{WhoseFuneralToday}}'s Funeral",
+				"conditions": "Custom_TTSP_Graveyard/900 1400",
+				"set-up": "none/-1000 -1000/farmer 32 32 1/changeToTemporaryMap Graveyard-{{WhoseFuneralToday}}Funeral/loadActors Set-Up/playerControl iceFestival",
+				"Lewis": "Ah... hello, @. I'm very glad you've decided to attend.#$b#We're just about ready to begin the ceremony. I'll wait for everyone to take their seat.",
+				"Wizard": "'Tis a solemn day, to lose yet another. It is unfortunate, but... there is only so much magic can do.",
+			},
+		},
+		
+		{
+			"LogName": "Adding universal data ('s removal)",
+			"Action": "EditData",
+			"Target": "Data/Festivals/{{season}}{{day}}",
+			
+			"Entries": {
+				"name": "{{WhoseFuneralToday}}' Funeral",
+			},
+			
+			"When": {
+				"WhoseFuneralToday": "Gus, Demetrius, Jas, Lewis, Linus, Morris",
+			}
+		},
+		
+		{
+			"LogName": "NPC-specific funeral 'festival' data",
+			"Action": "Include",
+			"FromFile": "Data/Funerals/{{WhoseFuneralToday}}Funeral.json",
+			
+			"When": {
+				"HasFile:{{FromFile}}": true,
+				"HasValue:{{WhoseFuneralToday}}": true
+			}
+		},
+		
+		{
+			"LogName": "Strings changes for sensibility",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"Game1.cs.2640": "{0} has begun ",
+				"Game1.cs.2973": "A funeral is being set up. Come back later.",
+				"Event.cs.1758": "Leave {0}? Once you do, you will never get another opportunity to pay your respects.",
+			},
+		},
+		
+		{
+			"LogName": "Phone dialogue",
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Entries": {
+				"MovieInvite_Festival": "...Not on as somber a day as this.",
+				"MovieTheater_ClosedFestival": "The doors are sealed tight.",
+				"Phone_Robin_Festival": "*...It's cold.*",
+				"Phone_Clint_Festival": "*...It's cold.*",
+				"Phone_Gus_Festival": "*...It's cold.*",
+				"Phone_Pierre_Festival": "*...It's cold.*",
+			},
+		},
+		
+		// hud icon
+		
+		{
+			"LogName": "Changes the hud icon to be less festive #0",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Assets/Funerals/funeral_icon.png",
+			
+			"ToArea": {"X": 317, "Y": 421, "Width": 12, "Height": 8 },
+		},
+		
+		{
+			"LogName": "Changes the hud icon to be less festive #1",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Assets/Funerals/funeral_icon.png",
+			
+			"ToArea": {"X": 329, "Y": 421, "Width": 12, "Height": 8 },
+		},
+		
+		{
+			"LogName": "Changes the hud icon to be less festive #2",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Assets/Funerals/funeral_icon.png",
+			
+			"ToArea": {"X": 341, "Y": 421, "Width": 12, "Height": 8 },
+		},
+		
+		{
+			"LogName": "Changes the hud icon to be less festive #3",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Assets/Funerals/funeral_icon.png",
+			
+			"ToArea": {"X": 353, "Y": 421, "Width": 12, "Height": 8 },
+		},
+		
+		{
+			"LogName": "Changes the hud icon to be less festive #4",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Assets/Funerals/funeral_icon.png",
+			
+			"ToArea": {"X": 365, "Y": 421, "Width": 12, "Height": 8 },
+		},
+		
+		{
+			"LogName": "Changes the hud icon to be less festive #5",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Assets/Funerals/funeral_icon.png",
+			
+			"ToArea": {"X": 377, "Y": 421, "Width": 12, "Height": 8 },
+		},
+		
+		{
+			"LogName": "Changes the hud icon to be less festive #6",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Assets/Funerals/funeral_icon.png",
+			
+			"ToArea": {"X": 389, "Y": 421, "Width": 12, "Height": 8 },
+		},
+		
+		{
+			"LogName": "Changes the hud icon to be less festive #7",
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Assets/Funerals/funeral_icon.png",
+			
+			"ToArea": {"X": 401, "Y": 421, "Width": 12, "Height": 8 },
+		},
+	]
+}

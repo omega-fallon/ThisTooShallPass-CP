@@ -1,0 +1,209 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Clint",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Clint",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Clint",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest_geode.png",
+			"ToArea": { "X": 0, "Y": 192, "Width": 64, "Height": 144 },
+		},
+		
+		{
+			"LogName": "Make Clint invisible",
+			"Action": "EditData",
+			"Target": "Data/Events/Blacksmith, Data/Events/Farmhouse, Data/Events/Farm, Data/Events/IslandFarmhouse, Data/Events/IslandFarm",
+			
+			"Entries": {
+				"12491103": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/end invisible Clint",
+			},
+		},
+		
+		{
+			"LogName": "Add manifest",
+			"Action": "EditMap",
+			"Target": "Maps/Blacksmith",
+			"FromFile": "Assets/Wizard/Sprites/Manifest.tmx",
+			"ToArea": {"X": 3, "Y": 12, "Width": 1, "Height": 2},
+			"PatchMode": "Overlay",
+		},
+		
+		{
+            "LogName": "Relayering countertop",
+			"Action": "EditMap",
+            "Target": "Maps/Blacksmith",
+            "MapTiles": [
+                {
+                    "Position": { "X": 3, "Y": 13 },
+                    "Layer": "Front1",
+					"SetTileSheet": "1",
+                    "SetIndex": "918"
+                }
+            ]
+        },
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Clint": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Clint": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "Magnus"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Clint": "All",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Clint": true,
+			}
+		},
+		
+		{
+            "LogName": "Manifest Map Sprite Offset",
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			
+			"When": {
+				"HasMod |contains=Yagisan.NPCMapLocationsForNPCs": true,
+			},
+			
+            "Entries": {
+                "Clint": {
+                    "MarkerCropOffset": 0
+                }
+            }
+        },
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Entries": {
+				"Phone_Clint_Open": "Greetings. The blacksmithery is open 24 hours a day. *click*",
+				"Phone_Clint_Open_Rare": "Greetings. The blacksmithery is open 24 hours a day. *click*",
+				"Phone_Clint_Closed": "You've reached the blacksmithery inbox. We're open 24 hours a day, so hearing this message is an issue. Goodbye. *beep*",
+				"Phone_Clint_Festival": "Greetings. The blacksmithery is closed today. *beep*",
+				"Phone_Clint_Working_OneDay": "Yes? Indeed, I am working on it. It shall be ready in a day. *sparkle* *sparkle* *click*",
+				"Phone_Clint_Working": "Yes? Indeed, I am working on it. It shall be ready in a few days. *click*",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"ShopMenu.cs.11469": "Plenty of ore here, summoned from the depths.",
+				"ShopMenu.cs.11470": "We have many lumps of raw metal for sale. Enjoy.",
+				"ShopMenu.cs.11471": "Have any metal to sell?",
+				"ShopMenu.cs.11474": "I'm able to upgrade your tools... for a cost of money, metal, and a few days without being able to use them, that is.",
+				"Tool.cs.14317": "Very well. I'll begin my work soon. It should be ready in a few days.",
+				
+				"MapPage.cs.11082": "Open 24/7",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"Blacksmith.2": "You rifle through the personal effects. There's a stack of blacksmith aprons, some magazines, an old sword, and a nice picture of a mother. They're caked in mold.",
+				"Blacksmith.3": "You rifle through the personal effects. There's a stack of blacksmith aprons, some magazines, an old sword, and a nice picture of a mother. They're caked in mold.",
+				"Blacksmith.7": "A quality anvil, made from an iridium alloy. It's cracked and dusty... Magnus must not use it.",
+				"Blacksmith.8": "A quality anvil, made from an iridium alloy. It's cracked and dusty... Magnus must not use it.",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/UI",
+			
+			"Entries": {
+				"GeodeMenu_Description_NotEnoughMoney": "The price is 25g per geode...\n\nIt appears that you can't afford that right now.",
+				"GeodeMenu_Description": "Just place your geodes on the anvil and I shall open them.\n\nThe price is 25g per geode.",
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Blacksmith",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 4, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door"
+                    }
+                }
+            ],
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"Clint": null,
+				"ClintCooking": null,
+				"ClintReward": null,
+				"ClintReward2": null,
+				"winter_17_1": null,
+				"winter_6_1": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			
+			"Entries": {
+				"Clint": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			
+			"Entries": {
+				"Clint_NoInventorySpace": "Your tool is ready, but it appears you are quite encumbered.#$b#Relieve yourself of some weight. I think we could all benefit from that.",
+				"Clint_StillWorking": "Patience, evergreen one. I am still working on your {0}. It won't be ready today.",
+				
+				"Mines_PlayerKilled_Clint": "...I found you unconscious in the mines. These manifests are not made for so strenuous of a task as dragging you back up here.#$b#Be a little more careful next time, farmer.$s",
+			}
+		}
+	]
+}

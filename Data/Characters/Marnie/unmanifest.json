@@ -1,0 +1,120 @@
+{
+	"Changes": [
+	
+		// Jas subs(TITUTES)
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Characters/Jas/jas_sub_marnie.json",
+		
+			"When": {
+				"JasSubMarnie": true,
+			},
+		},
+	
+		// Wizard sub
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Characters/Wizard/wizard_sub_marnie.json",
+		
+			"When": {
+				"WizardSubMarnie": true,
+			},
+		},
+		
+		// General
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Marnie",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Marnie",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Marnie": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Marnie": "All",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Marnie": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"AnimalShop.6": "You rummage through the dresser. It's mostly long dresses, but there's a pair of brown suspenders in here as well. The buttons have fallen off, though.",
+				"AnimalShop.7": "You dig around in the private drawer. Opening it up lets out a gust of an unpleasant smell.",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"Game1.cs.2634": "near the ranch.",
+				"MapPage.cs.11068": "The Ranch",
+			},
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/AnimaShop",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 15, "Y": 12 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door"
+                    }
+                }
+            ],
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"Marnie": null,
+				"MarnieCooking": null,
+				"fall_3_1": null,
+			}
+		},
+		
+		// Secrets
+		
+		{
+			"Action": "EditImage",
+			"Target": "TileSheets/SecretNotesImages",
+			"FromFile": "Assets/Marnie/Note_erased.png",
+			"PatchMode": "Overlay",
+		},
+	]
+}

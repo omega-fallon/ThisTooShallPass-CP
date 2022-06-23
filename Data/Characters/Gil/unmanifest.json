@@ -1,0 +1,59 @@
+{
+	"Changes": [
+		{
+			"LogName": "Replaces Gil's rocking chair with a shrine",
+			"Action": "EditImage",
+			"Target": "Maps/townInterior",
+			
+			"FromFile": "Assets/Gil/Sprites/EmptyChair.png",
+			"ToArea": { "X": 176, "Y": 624, "Width": 64, "Height": 64 },
+			"PatchMode": "Replace",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/MovieTheater_TileSheet, Maps/MovieTheaterJoja_TileSheet, Maps/MovieTheaterJoja_TileSheet_international",
+			"FromFile": "Assets/Gil/Sprites/EmptyChair_Theater.png",
+			"ToArea": { "X": 224, "Y": 208, "Width": 32, "Height": 48 },
+			"PatchMode": "Replace",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Gil",
+			
+			"Entries": {
+				"Snoring": "%The chair, being a chair, does not respond to you.",
+				"ComeBackLater": "%The chair creaks. You have nothing to show it."
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			
+			"Entries": {
+				"Gil_Telephone": "%The chair, being a chair, does not respond. However, upon closer inspection, you notice something. Etched onto the side with a knife is a number... it looks like a phone number. You make sure to remember this.",
+				"AdventureGuild_KillList_Footer": "\n  -See Gil's shrine to claim your rewards.",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"MovieTheater_Gil": "{{i18n:Omori.TTSP}}",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"Stats.cs.5129": "Monster Slayer Goal Complete! See Gil's shrine for your reward.",
+			},
+		},
+	]
+}

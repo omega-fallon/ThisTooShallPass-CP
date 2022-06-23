@@ -1,0 +1,17 @@
+{
+	"Changes": [
+		{
+			"LogName": "ManorHouse Events - Emily dead",
+			"Target": "Data/Events/ManorHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"Entries": {
+				"2123243/e 2111194": null,
+			}
+		},
+	]
+}

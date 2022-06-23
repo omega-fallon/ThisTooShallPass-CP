@@ -1,0 +1,100 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Leah, Portraits/Leah",
+			"FromFile": "Assets/error_spritesheet.png",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Leah, Characters/Dialogue/MarriageDialogueLeah",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Leah",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Leah": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Leah": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "ERROR"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Leah": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Leah": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"ElliottHouse.1": "It's a painting. It could've used a few more strokes.",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"MapPage.cs.11070": "Forest Cottage",
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Forest, Maps/Forest-FlowerFestival, Maps/Forest-IceFestival",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 104, "Y": 32 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "LockedDoorWarp 7 9 LeahHouse 600 2600"
+                    }
+                }
+            ],
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"afterArtShow": null,
+			}
+		}
+	]
+}

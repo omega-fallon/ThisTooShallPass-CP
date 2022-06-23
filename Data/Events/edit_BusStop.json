@@ -1,0 +1,31 @@
+{
+	"Changes": [
+		{
+			"LogName": "BusStop Events - Sam dead",
+			"Target": "Data/Events/BusStop",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+			
+			"Entries": {
+				 "4081148/e 47/t 1600 1900": null,
+			}
+		},
+		
+		{
+			"LogName": "BusStop Events - Shane dead",
+			"Target": "Data/Events/BusStop",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Shane": true,
+			},
+			
+			"Entries": {
+				 "9581348/e 2128292/t 1600 1800": null,
+			}
+		},
+	]
+}

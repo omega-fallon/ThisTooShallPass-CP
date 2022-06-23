@@ -1,0 +1,24 @@
+{
+	"Changes": [
+		{
+			"LogName": "LeahHouse Events - Leah dead",
+			"Target": "Data/Events/LeahHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Leah": true,
+			},
+			
+			"Entries": {
+				"50/f Leah 500/p Leah": null,
+				"internet": null,
+				"creepySexualPass": null,
+				"51/f Leah 1000/p Leah": null,
+				"584059/f Leah 2000/p Leah/n LeahInternet": null,
+				"angry": null,
+				"internet2": null,
+				"artShowSuggest": null,
+			}
+		},
+	]
+}

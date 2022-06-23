@@ -1,0 +1,23 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Kent",
+			"FromFile": "Assets/Kent/Portraits/FullGrey.png",
+			
+			"When": {
+				"HasFile:{{FromFile}}": true,
+			}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Kent",
+			"FromFile": "Assets/Kent/Sprites/FullGrey.png",
+			
+			"When": {
+				"HasFile:{{FromFile}}": true,
+			}
+		},
+	]
+}

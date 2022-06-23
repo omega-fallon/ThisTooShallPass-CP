@@ -1,0 +1,27 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/temporary_sprites_1",
+			"FromFile": "Assets/Boatman/Sprites/Erased.png",
+			"ToArea": { "X": 89, "Y": 164, "Width": 54, "Height": 23 },
+			"PatchMode": "Replace",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/night_market_tilesheet_objects",
+			"FromFile": "Assets/Boatman/Sprites/Erased_2.png",
+			"ToArea": { "X": 0, "Y": 272, "Width": 96, "Height": 32 },
+			"PatchMode": "Replace",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/night_market_tilesheet_objects",
+			"FromFile": "Assets/Boatman/Sprites/Erased_3.png",
+			"ToArea": { "X": 311, "Y": 106, "Width":16, "Height": 22 },
+			"PatchMode": "Replace",
+		},
+	]
+}

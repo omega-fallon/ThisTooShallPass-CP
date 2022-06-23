@@ -1,0 +1,37 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Harvey": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "Maru"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+
+			"Entries": {
+				"Event.cs.1068": "Nurse Maru charged me {0}g for the hospital visit. ",
+				"Event.cs.1070": "I have no money, but Maru was obligated to save my life free of charge. ",
+				
+				"MapPage.cs.11076": "The Clinic",	
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"passedOut3_Billed": "@,^Someone dropped you off at the clinic last night. You were passed out from exhaustion!^You've got to take better care of yourself and go to bed at a reasonable hour.^I've billed you {0}g to cover your medical expenses.^^-Maru[#]From Maru, at the Clinic",
+				"passedOut3_NotBilled": "@,^Someone dropped you off at the clinic last night. You were passed out from exhaustion!^You've got to take better care of yourself and go to bed at a reasonable hour.^Although you had no money, I provided your medical care free of charge.^^-Maru[#]Maru' Free Medical Service",
+			}
+		},
+	]
+}

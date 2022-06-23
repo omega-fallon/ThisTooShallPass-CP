@@ -1,0 +1,41 @@
+{
+	"Changes": [
+		// Normal
+	
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Marnie",
+			"FromFile": "Assets/Marnie/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Marnie",
+			"FromFile": "Assets/Marnie/Sprites/FullGrey.png",
+		},
+		
+		// Beach
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Marnie_beach",
+			"FromFile": "Assets/Marnie/Portraits/FullGrey_beach.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Marnie_beach",
+			"FromFile": "Assets/Marnie/Sprites/FullGrey_beach.png",
+		},
+		
+		// Misc sprites
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/Cursors",
+			"FromFile": "Assets/Marnie/Sprites/FullGrey_Cursors.png",
+			
+			"PatchMode": "Overlay",
+		},
+	]
+}

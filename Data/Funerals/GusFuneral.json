@@ -1,0 +1,34 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/{{season}}{{day}}",
+			
+			"Entries": {
+				"Alex": "Jeez... it feels just way too soon, doesn't it? It's not like he died young, but it's still sad... he was a really cheerful guy...$s#$b#And this, well... it's a weirdly cheerful funeral. I think me and the boys should enjoy the food, for his sake.$n"
+				"Clint": "...I kind of feel bad, knowing that the main reason I went to the saloon was just to see Emily.$s#$b#It's like I was looking right past him. That's a terrible way to treat a person...$s#$b#I'm not sure what to think. But, judging by how he's set up his funeral, I think he'd want me to forget about all of that, and just enjoy the day.#$b#...Well, I can certainly try.",
+				"Demetrius": "Hey, @. Good to see you here. This is... certainly a strange funeral, hmm?#$b#But, I like it. It's charming.$h",
+				"Elliott": "You know... 'bartender' doesn't sound very fancy, but it's a truly admirable position.#$b#He was a provider. He brought us together day after day. Gave us good laughs, warm food, warmer smiles... mmm, yes, I think something like that would be a fitting epitaph.",
+				"Emily": "Oh, @! I'm so glad you could make it.#$b#All of this stuff was Gus' idea. And he asked me, specifically, to organize it. I have to say... I'm honored.#$b#I've always believed that funerals should be more about celebrating life than mourning death... so please, enjoy yourself. It's what he wanted.$h",
+				"Harvey": "I was never much of a bar-goer. Not much for a guy like me to enjoy in a place designed for socializing.#$b#Even still, to me, Gus made the whole room light up.$h",
+				"Jas": "Heh... there's Vincy, sucking up food like a vacuum cleaner.#$b#Usually I'd give him a shove for doing something like that at a serious event... but hey, if Gus wants it, Vincent can be as much of a dork as he wants.$h",
+				"Jodi": "Oh... this is sweet, isn't it? I... feel odd for smiling, but I can't help it.",
+				"Kent": "I've been to my fair share of funerals... that's just a fact of life, going through the war.#$b#This, though... it's a nice change of pace.$h",
+				"Leah": "...There's pumpkin ale. He usually only brings that out for Spirit's Eve, but he...#$b#He knew it was my favorite, didn't he?$s#$b#...Oh Yoba, this is such a silly thing to cry over but... *sniffle*... that's really thoughtful of him.$s",
+				"Lewis": "Hey there, @... it's good that you came.#$b#As I'm sure you can see, this isn't your typical funeral. In his will, Gus was very specific about that.#$b#This is meant to be a day of celebration, not mourning. One where we enjoy one last meal from our faithful bartender.$h",
+				"Linus": "Gus offered me food, sometimes. I always refused, though.$s#$b#Eventually, we came to a bit of an understanding. Though he'd still offer, every now and then we would exchange recipes and cooking techniques.#$b#There was a lot to learn, considering how different our lifestyles were.#$b#...I hope there's plenty more for me to learn moving forward, too.$h",
+				"Marnie": "Poor Gus... it's like a light went out in the sky.$s#$b#He left behind a good legacy, though. Lots of good memories... so I say we toast in his honor.#$b#One last round of drinks, on the house.$h",
+				"Maru": "Hey, @. It, uhh... feels kind of weird eating a barbeque cheeseburger at a funeral, doesn't it?#$b#It definitely does remind me of him, though. Like I can see his face smiling at me.$h",
+				"Pam": "Heh... lots of food, a merry atmosphere... yup, this is Gus, alright.#$b#It's non-traditional... but I couldn't imagine it any other way.$h",
+				"Penny": "Don't get it wrong, my mom isn't just here for the food. She and Gus were really close.#$b#I didn't know him too well, but he made my mother happy, so that has to count for something.",
+				"Pierre": "I kicked myself earlier... when I got the news that Gus died, my first thoughts went to thinking about how my profits would tank without him buying my produce.$s#$b#I don't do as much self-reflection as I should, because right then and there, I was completely disgusted with myself.$s#$b#...I'll have to think on the matter for a bit. Focus more on the important stuff. With Gus gone, it reminds me how I might now have too much time left myself.#$b#So... let's have a drink in his honor... and for the future. For all of our futures.$h",
+				"Robin": "Never thought I'd call a funeral cute, but... this one definitely is.$h#$b#Gus was a great man. I'm glad we're celebrating his life the way he wanted us to.",
+				"Sam": "Apparently a feast is what Gus wanted for this day. He always catered all the festivals, so I guess it makes sense.#$b#I gotta say... I've never been to a funeral like this, and it's kind of... admirable.#$b#It's way too early to think about my own mortality, but I think I'd like something like this. Maybe with music instead of food.$h",
+				"Sebastian": "Never knew Gus all that well, but he was a good guy. Didn't mind me and Sam getting rowdy at the pool table.#$b#I think the world would be a better place if there were more people like him. He had a sort of relaxed attitude towards life.",
+				"Shane": "Jeez... Gus is gone. He was such a staple of the town, it kind of doesn't feel real.$s#$b#The bar's gonna feel a whole lonelier, now.",
+				"Vincent": "Mmm... Gus, you kind, kind man.#$b#Oh, hey there, @. I was just enjoying the food. For once, I can stuff my face and nobody gets to complain.#$b#I'm being respectful to Gus' wishes, after all!$h",
+				"Willy": "Aye... a good man, he was.#$b#I might know how to catch any fish of any size, but making a meal out of it? Another thing entirely...#$b#A thing he was excellent at, might I say.$h",
+			},
+		}
+	]
+}

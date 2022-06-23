@@ -1,0 +1,27 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Abigail",
+			"FromFile": "Assets/Abigail/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Abigail",
+			"FromFile": "Assets/Abigail/Sprites/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Abigail_beach",
+			"FromFile": "Assets/Abigail/Portraits/FullGrey_beach.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Abigail_beach",
+			"FromFile": "Assets/Abigail/Sprites/FullGrey_beach.png",
+		},
+	]
+}

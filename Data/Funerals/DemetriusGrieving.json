@@ -1,0 +1,35 @@
+{
+	"Changes": [		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Funerals/Robin_depressed.json",
+			
+			"When": {
+				"Dead |contains=Robin": false,
+			}
+		},
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Funerals/Maru_depressed.json",
+			
+			"When": {
+				"Dead |contains=Maru": false,
+			}
+		},
+		
+		// Specific to when Demetrius dies
+		
+		{
+			"LogName": "StringsFromCSFiles",
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			"Entries": {
+				"ItemDeliveryQuest.cs.13580": "Need {0} for an... unfinished project.    -Maru",
+				"ItemDeliveryQuest.cs.13583": "I need {0} to finish up one of my Dad's old projects... it's the only thing that might work.       -Maru",
+				"ItemDeliveryQuest.cs.13585": "Oh, that's great. Now I can finish this up for him...$n#$b#Thanks, {0}.$h",
+				"ItemDeliveryQuest.cs.13587": "Oh... that's the final piece, then, {0}.#$b#Thank you. This means so much to me.$h",
+			}
+		},
+	]
+}

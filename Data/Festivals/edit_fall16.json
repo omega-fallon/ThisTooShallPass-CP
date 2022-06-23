@@ -1,0 +1,883 @@
+{
+	"Changes": [
+	
+		// Removal of NPCs from the map //
+		// The way that NPCs are spawned in is within the .tmx file itself, so we have to edit that. Thankfully, we don't have to make a hundred .tmx files with single changes. //
+		
+		// Abigail
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 65 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Alex
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Alex": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 28, "Y": 68 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Caroline
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Caroline": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 32, "Y": 58 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Clint
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Clint": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 38, "Y": 79 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				
+				// Remove Clint's fair setup
+				
+				{
+					"Position": { "X": 35, "Y": 77 },
+					"Layer": "Front",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 36, "Y": 77 },
+					"Layer": "Front",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 36, "Y": 77 },
+					"Layer": "Front",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 35, "Y": 78 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 36, "Y": 78 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 37, "Y": 78 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 35, "Y": 79 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 36, "Y": 79 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 37, "Y": 79 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 35, "Y": 80 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 36, "Y": 80 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				
+				{
+					"Position": { "X": 37, "Y": 80 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Demetrius
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 30, "Y": 76 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Elliott
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 30, "Y": 34 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Emily
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 26, "Y": 77 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Evelyn
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 22, "Y": 33 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// George
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=George": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 23, "Y": 33 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Gus
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 25, "Y": 34 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				
+				// Adds the manifest
+				
+				{
+					"Position": { "X": 29, "Y": 31 },
+					"Layer": "Set-Up",
+					"SetTileSheet": "characters",
+					"SetIndex": 38,
+				},
+			]
+		},
+		
+		// Haley
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Haley": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 27, "Y": 69 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Harvey
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 63, "Y": 69 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Jas
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Jas": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 59, "Y": 69 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Jodi
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 22, "Y": 79 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Kent
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Kent": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 21, "Y": 79 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Leah
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Leah": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 33, "Y": 80 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Leo
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Leo": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 18, "Y": 77 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Lewis CANNOT be removed, as he is far too integral to all festivals' function. Instead we let Lewis spawn but have him take on the appearance and name of Magnus.
+		
+		// Linus
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Linus": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 69, "Y": 72 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Marlon
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Marlon, MarlonFay": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 35, "Y": 77 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Marnie
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Marnie, Lewis": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 42, "Y": 60 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Maru
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 35, "Y": 33 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Pam
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 21, "Y": 71 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Penny
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Penny": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 37, "Y": 70 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Pierre
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 33, "Y": 59 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Robin
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 32, "Y": 79 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Sam
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 50, "Y": 78 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Sebastian
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Sebastian": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 49, "Y": 79 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Shane
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Shane": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 57, "Y": 72 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Vincent
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Vincent": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 61, "Y": 70 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Willy
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 46, "Y": 58 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Wizard
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+				"Dead |contains=Marnie": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 42, "Y": 86 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Dialogue edits //
+		
+		// Robin
+		
+		{
+			"LogName": "Stardew Valley Fair - Robin dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"Entries": {
+				"Leah_spouse": "Robin taught me all of her techniques, but I'm still not quite at her level! Maybe someday...",
+				"Leah": "I always admired Robin's carpentry skills. I use a lot of the same techniques in my own line of work. Hopefully someday I can be as good as her...",
+			}
+		},
+		
+		// Robin, not Leah
+		
+		{
+			"LogName": "Stardew Valley Fair - Robin dead, Leah alive - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+				"Dead |contains=Leah": false,
+			},
+			
+			"Entries": {
+				"Demetrius": "Leah is really working hard on that thing... I'm glad somebody in this town is keeping up the art of carpentry.",
+			}
+		},
+		
+		// Robin and Leah
+		
+		{
+			"LogName": "Stardew Valley Fair - Robin dead, Leah dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+				"Dead |contains=Leah": true,
+			},
+			
+			"Entries": {
+				"Demetrius": "...Hmm? Sorry, I was just deep in thought. Do you think it would be a good idea for me to set up a display?#$b#I'm not sure if what I have to show off would interest anyone other than me, though.$s",
+			}
+		},
+		
+		// Sam
+		
+		{
+			"LogName": "Stardew Valley Fair - Sam dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+			
+			"Entries": {
+				"Sebastian_spouse": "Hey, @. I'm just catching my breath. Too many people around... not comfortable for me.#$b#You go ahead and have some fun, though. I'll join in a bit.",
+			}
+		},
+		
+		// Sebastian
+		
+		{
+			"LogName": "Stardew Valley Fair - Sebastian dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"When": {
+				"Dead |contains=Sebastian": true,
+			},
+			
+			"Entries": {
+				"Sam_spouse": "Are you having fun at the festival, babe?",
+			}
+		},
+		
+		// Pierre
+		
+		{
+			"LogName": "Stardew Valley Fair - Pierre dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			},
+			
+			"Entries": {
+				"Caroline": "I've done my best to gather our best produce for display. I'm not as good at it as my husband was, but I think I did well.#$e#Hey, best of luck to you if you enter!",
+			}
+		},
+		
+		// Pierre, not Caroline
+		
+		{
+			"LogName": "Stardew Valley Fair - Pierre dead, Caroline alive - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+				"Dead |contains=Caroline": false,
+			},
+			
+			"Entries": {
+				"Marnie": "I tried my best, but my display is pretty weak compared to Caroline's.$s#$e#Well, maybe the judges will give me bonus points for the massive cheese wheel.",
+			}
+		},
+		
+		// Pierre and Caroline
+		
+		{
+			"LogName": "Stardew Valley Fair - Pierre dead, Caroline dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+				"Dead |contains=Caroline": true,
+			},
+			
+			"Entries": {
+				"Marnie": "I tried my best, but I still feel I could've done better...$s#$e#Well, maybe the judges will give me bonus points for the massive cheese wheel.",
+			}
+		},
+		
+		// Gus
+		
+		{
+			"LogName": "Stardew Valley Fair - Gus dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			},
+			
+			"Entries": {
+				"Evelyn": "I just realized, after all this time... these are survival burgers. They're already vegan! Aha...",
+				"Elliott": "I tried to get Magnus to tell me Gus' old sauce recipe, but he won't budge.",
+				"Harvey": "And just a few steps over there, Magnus is grilling up a batch of pork ribs... Yikes.$s#$e#I've got some soul-searching to do...$11",
+				"Gus": "Greetings, @. Yes, usually, I don't tend to bring my manifests to festivals for anything other than the old General Store stands, but... this festival would not be complete without some baby back ribs.#$b#Manifest... festivals... manifestivals? Is that anything?",
+			}
+		},
+
+		// Lewis substitutions //
+
+		// Marnie dialogue
+		
+		{
+			"LogName": "Stardew Valley Fair - Marnie Substitute dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"When": {
+				"MarnieSubLewis": true,
+			},
+			
+			"Entries": {
+				"Lewis": "Hey there, @! I hope you're ready... this is our most important festival of the whole year!#$b#If you'd like to participate by setting up a grange display, I've left an empty stand for you. Just let me know after you've set everything up so we can get to the judging.",
+			}
+		},
+		
+		// Wizard dialogue
+		
+		{
+			"LogName": "Stardew Valley Fair - Wizard Substitute dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"When": {
+				"WizardSubLewis": true,
+			},
+			
+			"Entries": {
+				"Lewis": "Welcome, @, to the 'Stardew Valley Fair'. I trust my set-up is an adequate replica.#$b#If you wish to participate by having a grange display, you may take the empty stand. When you say it is ready, I will begin the judging.",
+			}
+		},
+		
+		// Either
+		
+		{
+			"LogName": "Stardew Valley Fair - Lewis Substitute dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"Entries": {
+				"Jodi": "He doesn't look very happy... I guess {{LewisSubF}} had to cut costs with a budget clown this year.",
+				"Gus": "Eat as much as you like! It's all free today... compliments of {{LewisSubF}}.$h#$e#Oh! Make sure to dribble some of my secret sauce on there.",
+			}
+		}
+	]
+}

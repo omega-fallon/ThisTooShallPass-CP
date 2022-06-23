@@ -1,0 +1,59 @@
+{
+	"Changes": [
+		{
+			"LogName": "Leo becomes teen",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+
+			"Fields": {		
+				"Leo": {
+					"0": "teen",
+				}
+			}
+		},
+	
+		{
+			"LogName": "Leo 18 dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leo",
+			
+			"Entries": {
+				"Tue": "It's nice staying in the jungle when the sun gets really bright.#$e#We can hide out here, and nothing will find us... I like it.$h",
+			}
+		},
+		
+		{
+			"LogName": "Leo 18 mainland dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/LeoMainland",
+			
+			"Entries": {
+				"Tue": "Miss Penny taught me everything I know about the modern world. She's always been really nice to me...",
+				"Wed": "Between Linus and Miss Penny, I've learned everything there is to learn. I'm very grateful for their help.#$e#Mayor Lewis told me he's proud to have me living here... it feels nice to be appreciated.$h",
+				"Fri8": "It was difficult getting used to cooked fish at first, but now I have a serious craving for shrimp scampi.",
+				"Sat": "Maybe some day, I'll visit Zuzu City...$u#$b#I think... someday I'll get the courage to do it!$h",
+				"Sat10_inlaw_Jas": "I saw Jas the other day, walking through town. She's always been a very radiant person, but she looks even happier ever since she got married.$h",
+				
+				"engageB": "...@, I... %spouse wouldn't like this...$s",
+				
+				"GiftReactionCategory_-8": "...Ah... I'm sorry, @, I really don't have any use for this.$s",
+                "GiftReactionCategory_-22": "For fishing? Why would you need this to fish...?$s",
+                "GiftReactionCategory_-24": "Ah... I prefer to make my own furniture, @.$s"
+			}
+		},
+		
+		{
+			"LogName": "Leo 18 mainland dialogue — Penny dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/LeoMainland",
+			
+			"When": {
+				"Dead |contains=Penny": true,
+			},
+			
+			"Entries": {
+				"Tue": "Miss Penny taught me everything I know about the modern world. She was always really nice to me...",
+			}
+		},
+	]
+}

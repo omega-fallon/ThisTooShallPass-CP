@@ -1,0 +1,202 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Gus",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Gus",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+		},
+		
+		{
+			"LogName": "Make Gus invisible",
+			"Action": "EditData",
+			"Target": "Data/Events/Saloon, Data/Events/Farmhouse, Data/Events/Farm, Data/Events/IslandFarmhouse, Data/Events/IslandFarm",
+			
+			"Entries": {
+				"12491110": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/end invisible Gus",
+			},
+		},
+		
+		{
+			"LogName": "Add manifest",
+			"Action": "EditMap",
+			"Target": "Maps/Saloon",
+			"FromFile": "Assets/Wizard/Sprites/Manifest.tmx",
+			"ToArea": {"X": 10, "Y": 17, "Width": 1, "Height": 2},
+			"PatchMode": "Overlay",
+		},
+		
+		{
+            "LogName": "Relayering countertop",
+			"Action": "EditMap",
+            "Target": "Maps/Saloon",
+            "MapTiles": [
+                {
+                    "Position": { "X": 10, "Y": 18 },
+                    "Layer": "Front1",
+					"SetTileSheet": "1",
+                    "SetIndex": "919"
+                }
+            ]
+        },
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Gus",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Gus",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Gus": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Gus": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "Magnus"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Gus": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Gus": true
+			}
+		},
+		
+		{
+            "LogName": "Manifest Map Sprite Offset",
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			
+			"When": {
+				"HasMod |contains=Yagisan.NPCMapLocationsForNPCs": true,
+			},
+			
+            "Entries": {
+                "Gus": {
+                    "MarkerCropOffset": 0
+                }
+            }
+        },
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/SpeechBubbles",
+			
+			"Entries": {
+				"Saloon_Gus_Greeting": "Come inside...",
+				"Saloon_Gus_Summer": "We have cold drinks.",
+				"Saloon_Gus_NotSummer": "What do you desire?",
+				"Saloon_Gus_Snowing1": "Hot coffee is available.",
+				"Saloon_Gus_NotSnowing1": "Partake in a hot meal.",
+				"Saloon_Gus_Raining": "We have hot drinks.",
+				"Saloon_Gus_NotRaining": "A drink, yes?",
+				"Saloon_Gus_Snowing2": "The cold will consume you. Take shelter.",
+				"Saloon_Gus_NotSnowing2": "Welcome.",
+				"Saloon_Gus_RareGreeting": "You need a drink, {0}.",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Entries": {
+				"Phone_Gus_Open": "Hello. Today's special is: '{0}'. The Saloon is open currently. *click*",
+				"Phone_Gus_Open_Rare": "The saloon is open. Today's special is: '{0}'. Goodbye. *click*",
+				"Phone_Gus_Closed": "Hello, yes, this is Magnus. The Saloon currently closed, and the special is '{0}'. *beep*",
+				"Phone_Gus_Festival": "Hello, yes, this is Magnus. The Saloon is closed for the day. *beep*",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			
+			"Entries": {
+				"Saloon_MoneyBox": "Apologies. Something has gone wrong with my manifest.\n\n-Magnus",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"ShopMenu.cs.11513": "Food and drink aplenty here.",
+				"ShopMenu.cs.11514": "Welcome to the Stardrop Saloon. What do you desire?",
+				
+				"MapPage.cs.11084": "Open 24/7",
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Saloon",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 20, "Y": 9 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door"
+                    }
+                }
+            ],
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"Gus": null,
+				"GusCooking": null,
+				"fall_6_2": null,
+				"gusGiantOmelet": null,
+				"winter_19_2": null,
+				"winter_26_1": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			
+			"Entries": {
+				"Gus": null,
+			}
+		}
+	]
+}

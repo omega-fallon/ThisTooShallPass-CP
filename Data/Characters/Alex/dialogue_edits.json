@@ -1,0 +1,109 @@
+{
+	"Changes": [
+		{
+			"LogName": "Alex — Evelyn dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Alex",
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+			},
+			
+			"Entries": {
+				"Fri4": "Hey, @. I'm glad you stopped by.#e#I'm having myself a nice drink in honor of my Grandma. She was really great, wasn't she?#$e#Now Grandpa, on the other hand...#$e#Just kidding.$h",
+				"fall_Mon": "My Grandma always told me I should spend more time studying.#$e#I was like, '...Grams, don't fret. I'm turning pro!'$h#$e#Studying is for nerds, anyway.",
+				"fall_Mon4": "My Grandma always told me I should spend more time studying.#$e#Maybe she was right...$s",
+			}
+		},
+		
+		{
+			"LogName": "Alex — Maru sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Alex",
+			
+			"When": {
+				"MaruSubHarvey": true,
+			},
+			
+			"Entries": {
+				"summer_16.001": "Yeah, yeah... I'm good. Just tape it up, okay?",
+			}
+		},
+		
+		{
+			"LogName": "Alex — Wizard sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Alex",
+			
+			"When": {
+				"WizardSubHarvey": true,
+			},
+			
+			"Entries": {
+				"summer_16.001": "Yeah, yeah... I'm good, Mag. Just tape it up, okay?",
+			}
+		},
+		
+		{
+			"LogName": "Alex — Grandparents dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Alex",
+			
+			"When": {
+				"Dead |contains=Evelyn, George": true,
+			},
+			
+			"Entries": {
+				"marriage_Mon.000": "I'm going to hang out here all day. Not like I have much else to do...",
+			}
+		},
+		
+		{
+			"LogName": "Alex — Evelyn alive, George dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueAlex",
+			
+			"When": {
+				"Dead |contains=Evelyn": false,
+				"Dead |contains=George": true,
+			},
+			
+			"Entries": {
+				"funReturn_Alex": "I had a good day. I like to go see Granny whenever I can... someone's gotta keep her company, y'know?",
+				"fall_26": "I hope Granny is doing okay.#$b#She probably is; unlike Grandpa, she actually turns on the furnace when it gets cold.$h",
+			}
+		},
+		
+		{
+			"LogName": "Alex — Evelyn dead, George alive",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueAlex",
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+				"Dead |contains=George": false,
+			},
+			
+			"Entries": {
+				"funReturn_Alex": "I had a good day. I like to go see Grandpa whenever I can... someone's gotta keep him company, y'know?",
+				"fall_26": "I hope Grandpa is doing okay. he's too cheap to turn on the furnace until the last minute.",
+			}
+		},
+		
+		{
+			"LogName": "Alex — Evelyn dead, George dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueAlex",
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+				"Dead |contains=George": true,
+			},
+			
+			"Entries": {
+				"funReturn_Alex": "I had a good day. I like to go visit that old house whenever I can...#$b#It doesn't feel right to leave it without anyone living in it, y'know?",
+				"fall_26": "I hope my old house is doing okay.#$b#I know it's kind of silly to worry about the feelings of a building, but it's an important place to me.",
+			}
+		},
+	]
+}

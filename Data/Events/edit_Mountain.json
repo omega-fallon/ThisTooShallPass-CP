@@ -1,0 +1,119 @@
+{
+	"Changes": [
+		{
+			"LogName": "Mountain Events - Abigail dead",
+			"Target": "Data/Events/Mountain",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			},
+			
+			"Entries": {
+				"2/f Abigail 1000/w rainy/t 1200 1900/z winter": null,
+			}
+		},
+		
+		{
+			"LogName": "Mountain Events - Maru dead",
+			"Target": "Data/Events/Mountain",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			},
+			
+			"Entries": {
+				"8/f Maru 1500/w sunny/t 2100 2340": null,
+				"BadAnswer": null,
+				"5183338/e 3917666/O Maru/w sunny/t 2200 2500": null,
+			}
+		},
+		
+		{
+			"LogName": "Mountain Events - Robin dead",
+			"Target": "Data/Events/Mountain",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"Entries": {
+				"371652/f Linus 2000/w sunny/t 600 1700/a 12 26": null,
+			}
+		},
+		
+		{
+			"LogName": "Mountain Events - Linus dead",
+			"Target": "Data/Events/Mountain",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Linus": true,
+			},
+			
+			"Entries": {
+				"26/f Linus 1000/w sunny/t 2000 2400": null,
+				"371652/f Linus 2000/w sunny/t 600 1700/a 12 26": null,
+				"linusWell": null,
+				 "8357109/w sunny/t 600 1900/n linusTrashCleanup": null,
+			}
+		},
+		
+		{
+			"LogName": "Mountain Events - Leo/Penny/Linus dead",
+			"Target": "Data/Events/Mountain",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Leo, Penny, Linus": true,
+			},
+			
+			"Entries": {
+				"8959199/w sunny/t 600 1900/e 6497428/f Leo 2250/F": null,
+			}
+		},
+		
+		{
+			"LogName": "Mountain Events - Sebastian dead",
+			"Target": "Data/Events/Mountain",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Sebastian": true,
+			},
+			
+			"Entries": {
+				"384883/f Sebastian 1000/t 1100 1700": null,
+				"384882/f Sebastian 2500/t 2000 2400": null,
+				"9333219/O Sebastian/f Sebastian 3500/w rainy/t 600 1900": null,
+			}
+		},
+		
+		{
+			"LogName": "Mountain Events - Willy dead",
+			"Target": "Data/Events/Mountain",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			},
+			
+			"Fields": {
+				"404798/Hn ccFishTank": {
+					"11": "speak Willy \"Greetings, @.\"",
+					"14": "speak Willy \"They certainly did what they promised. The boulder is completely gone...\"",
+					"18": "speak Willy \"This stream is flowing from deep within the heart of the mountain.\"",
+					"29": "speak Willy \"...Hmm? How curious... what is that?\"",
+					"35": "speak Willy \"Oh my! That just might be... yes, ore blessed with the magic of the mountain!$h\"",
+					"41": "speak Willy \"Of course, I should've expected this... such powerful energies under such great pressure...\"",
+					"45": "speak Willy \"This is most fortunate. Do you know what this means, now?\"",
+					"49": "speak Willy \"Gold panning, evergreen one!$h#$b#I'm sure you're excited. Please, let me just...\"",
+					"52": "speak Willy \"...Yes, it's in here somewhere. Willy had a copper pan for just this thing... he'd want you to have it.\"",
+					"68": "speak Willy \"There we are... it's yours now. If you ever see magical-looking glistening in the water, use that pan and you'll surely find good results.\"",
+				}
+			}
+		},
+	]
+}

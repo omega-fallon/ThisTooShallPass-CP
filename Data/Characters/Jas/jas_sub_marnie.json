@@ -1,0 +1,135 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Marnie",
+			"FromFile": "Assets/Jas/Portraits/Adult.png",
+			
+			"When": {
+				"HasFile:{{FromFile}}": true,
+			}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Marnie",
+			"FromFile": "Assets/Jas/Sprites/Adult.png",
+			
+			"When": {
+				"HasFile:{{FromFile}}": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Marnie": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "Jas"
+				}
+			}
+		},
+		
+		{
+			"LogName": "Marnie call",
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Entries": {
+				"Phone_Marnie_Open": "Hello? Oh, hi @! Yes, the ranch is open until 4:00 PM today. Hope to see you soon! *click*",
+				"Phone_Marnie_Open_Rare": "Hah... Heyyy! Yup, I'm open right now. *bahhh*. That sound? Oh, it's one of my goats. Please come by if you need anything! *click* $4",
+				"Phone_Marnie_Closed": "Hello, you've reached the ranch! Our business hours are from 9AM to 4PM. Please come visit me then. *beep*",
+				"Phone_Marnie_ClosedDay": "Hello, you've reached the ranch. The shop is closed today. Sorry!",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			
+			"Entries": {
+				"AnimalShop_MoneyBox": "I'm visiting the island today. If you need to buy anything, just leave the money in this box!^     -Jas",
+				"AnimalShop_Marnie_Absent": "Closed for the day.\n\n-Jas",
+				"AnimalShop_GoUpFront": "Umm... @, don't you think you should buy from in *front* of the counter?$4",
+				"AnimalShop_NotTended": "Come back when Jas is tending the shop.",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"Duck": "Dear @,^You've proven your ability to raise chickens, so I'm now selling ducks at the ranch!       ^   -Jas[#]Ducks For Sale!",
+				"Goats": "Dear @,^We've got goats available for purchase at the animal shop. You've done well so far!       ^   -Jas[#]Goats For Sale!",
+				"Pigs": "Dear @,^You've come a long way since you first arrived. As a result, I've decided to start selling pigs at my shop. These pigs are trained at finding gourmet truffles!       ^   -Jas[#]Pigs For Sale!",
+				"Rabbits": "Dear @,^I now have rabbits in the animal shop! They will provide you with fluffy wool ...and more!       ^   -Jas[#]Rabbits For Sale!",
+				"Sheep": "Dear @,^You've proven your ability to raise cows, so I'm now selling sheep at my shop!       ^   -Jas[#]Sheep For Sale!",
+				"marnieAutoGrabber": "@,^I've got a new item in stock... It's called the \"Auto-Grabber\".^^This thing can milk your cows and goats, shear your sheep, gather eggs, and pluck your wooly rabbits... all on its own!^^It's considered a 'luxury item', so I'm charging 25,000g.^^    -Jas[#]Auto-Grabber Notice",
+			}
+		},
+		
+		// Content Code
+		
+		{
+            "Action": "EditMap",
+            "Target": "Maps/AnimalShop",
+						
+            "MapTiles": [
+                {
+                    "Position": { "X": 12, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "OmegaFallon.ThisTooShallPassCP/JasShop",
+                    }
+                },
+				{
+                    "Position": { "X": 13, "Y": 15 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "OmegaFallon.ThisTooShallPassCP/JasShop",
+                    }
+                },
+            ]
+        },
+		
+		{
+            "Action": "EditData",
+            "Target": "spacechase0.ContentCode/Action",
+            "Entries": {
+                "OmegaFallon.ThisTooShallPassCP/JasShop": "
+					Character Jas = Game1.getCharacterFromName( `Jas` );
+					
+					if ( Jas.currentLocation.Name == `AnimalShop` && Jas.getTileLocation() == new Vector2( 12, 14 ) && Game1.player.getTileY() > Jas.getTileY())
+					{
+						Response[] options = new Response[3]
+						{
+							new StardewValley.Response(`Supplies`, Game1.content.LoadString(`Strings\\\\Locations:AnimalShop_Marnie_Supplies`)),
+							new StardewValley.Response(`Purchase`, Game1.content.LoadString(`Strings\\\\Locations:AnimalShop_Marnie_Animals`)),
+							new StardewValley.Response(`Leave`, Game1.content.LoadString(`Strings\\\\Locations:AnimalShop_Marnie_Leave`))
+						};
+						Game1.currentLocation.createQuestionDialogue(``, options, `Jas`);
+					}		
+					else if ( Jas.currentLocation.Name != `AnimalShop` && Game1.IsVisitingIslandToday( `Jas` ) )
+					{
+						Game1.drawObjectDialogue(Game1.content.LoadString(`Strings\\\\Locations:AnimalShop_MoneyBox`));
+						Game1.afterDialogues = delegate
+						{
+							Game1.activeClickableMenu = new StardewValley.Menus.ShopMenu(Utility.getAnimalShopStock());
+						};
+					}
+					else if ( Jas.currentLocation.Name == `AnimalShop` && Jas.getTileLocation() == new Vector2( 12, 14 ) && Game1.player.getTileY() <= Jas.getTileY())
+					{
+						Game1.drawDialogue(Game1.getCharacterFromName(`Jas`), Game1.parseText(Game1.content.LoadString(`Strings\\\\Locations:AnimalShop_GoUpFront`)));
+					}
+					else
+					{
+						Game1.drawObjectDialogue(Game1.content.LoadString(`Strings\\\\Locations:AnimalShop_NotTended`));
+					}
+                "
+            }
+        }
+	]
+}

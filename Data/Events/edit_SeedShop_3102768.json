@@ -1,0 +1,105 @@
+{
+	"Changes": [
+		{
+			"LogName": "SeedShop Events - 3102768 (Caroline substitutes)",
+			"Target": "Data/Events/SeedShop",
+			"Action": "EditData",
+			
+			"When": {
+				"CarolineSubPierre": true,
+			},
+			
+			"Fields": {
+				"3102768/j 15/H": {
+					"11": "speak Pierre \"Oh, hey! Need anything, farmer?\"",
+					"30": "jump Pierre 4",
+					"31": "textAboveHead Pierre \"...Yoba.\"",
+					"63": "speak Pierre \"Insulting my husband after he's dead... what a monster!$a\"",
+					"69": "speak Morris \"It must be so difficult for you... to lose your pitiful husband, and then to lose all of your customers!#$b#Ah, but is it really a surprise? Pierre barely knew how to run a business, but you? You're somehow even worse.#$b#Whether it's you or him, Joja Corporation is clearly the superior choice.$h#$b#Soon the whole town will realize that.\"",
+					"81": "end dialogue Caroline \"...So, @... do you have any nightshade growing on your farm?$a#$b#...No, I'd definitely get caught if I did that. Oh well...$s\"",
+				}
+			}
+		},
+		
+		// Magnus substitutes
+	
+		{
+			"LogName": "SeedShop Events - 3102768 (Wizard substitutes)",
+			"Target": "Data/Events/SeedShop",
+			"Action": "EditData",
+			
+			"When": {
+				"WizardSubPierre": true,
+			},
+			
+			"Fields": {
+				"3102768/j 15/H": {
+					"11": "speak Pierre \"Greetings, @. How might I assist you?\"",
+					"30": "jump Pierre 4",
+					"31": "textAboveHead Pierre \"...Ugh.\"",
+					"63": "speak Pierre \"Defiling the honor of a dead man... despicable.$s\"",
+					"69": "speak Morris \"Well, look at that. They're all gone.#$b#But can you blame them? This shop is run by a ghost for Yoba's sake!$h#$b#This store is as dead as the man who once ran it. Soon the whole town will realize that.\"",
+					"81": "end dialogue Pierre \"Some people have no reverence for the dead...$s\"",
+				}
+			}
+		},
+		
+		// Erasing other NPCs
+		
+		{
+			"LogName": "SeedShop Events - 3102768 Gus dead",
+			"Target": "Characters/Gus",
+			"FromFile": "Assets/blank_sprites.png",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+				"LocationName": "SeedShop",
+			},
+		},
+		
+		{
+			"LogName": "SeedShop Events - 3102768 Marnie dead",
+			"Target": "Characters/Marnie",
+			"FromFile": "Assets/blank_sprites.png",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"Dead |contains=Marnie": true,
+				"LocationName": "SeedShop",
+			},
+		},
+		
+		{
+			"LogName": "SeedShop Events - 3102768 Jodi dead",
+			"Target": "Characters/Jodi",
+			"FromFile": "Assets/blank_sprites.png",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+				"LocationName": "SeedShop",
+			},
+		},
+		
+		{
+			"LogName": "SeedShop Events - 3102768 Demetrius dead",
+			"Target": "Characters/Demetrius",
+			"FromFile": "Assets/blank_sprites.png",
+			"Action": "EditImage",
+			"PatchMode": "Replace",
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+				"LocationName": "SeedShop",
+			},
+		},
+	]
+}

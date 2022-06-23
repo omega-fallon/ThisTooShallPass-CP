@@ -1,0 +1,131 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Linus, Portraits/Linus",
+			"FromFile": "Assets/error_spritesheet.png",
+		},
+	
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Linus",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "Mines",
+			}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Linus",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+			
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "Mines",
+			}
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Linus",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Linus",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Linus": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Linus": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "ERROR"
+				}
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Abigail": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "ERROR"
+				}
+			},
+
+			"Update": "OnLocationChange",
+			
+			"When": {
+				"LocationName": "Mines",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Linus": "All"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Linus": true
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"Linus": null,
+				"LinusCooking": null,
+				"fall_8_1": null,
+				"linusTrashCleanup": null,
+				"passedOut2": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			
+			"Entries": {
+				"Linus": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			
+			"Entries": {
+				 "Mines_PlayerKilled_Linus": "...I found you unconscious in the mines. You're lucky one of my manifests happened to pass by.#$b#Be a little more careful next time, farmer.$s",
+			}
+		}
+	]
+}

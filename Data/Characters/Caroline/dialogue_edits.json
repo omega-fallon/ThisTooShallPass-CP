@@ -1,0 +1,91 @@
+{
+	"Changes": [
+		{
+			"LogName": "Caroline — Pierre dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			},
+			
+			"Entries": {
+				"Mon8": "#$1 Caroline23#When we first moved to Pelican Town I would take secret walks to the Wizard's tower. I... wish I would've told Pierre what I did before he passed.#$e#Abigail was born about a year after we moved to Pelican Town. I wonder if she'll ever experience life outside the valley?",
+				"Thu": "#$1 Caroline1#Mmm... I guess I'm cooking dinner for myself, tonight.#$e#Hmmm... what am I going to make for dinner tonight?#$e#Maybe I'll just get take-out from the Saloon.",
+				"Sat6": "#$1 Caroline12#When we first moved here, I took a while to settle down... I wasn't ready for the domestic life.#$e#Pierre was a bit traditional... but he was a good man. He was ambitious, but he always put his family first. I do truly miss him...$s",
+			}
+		},
+		
+		{
+			"LogName": "Caroline — Willy dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Caroline",
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			},
+			
+			"Entries": {
+				"Resort_Entering": "I was so hungry on the ride over, I started digging through Willy's stuff to find some food.#$b#He had some fish jerky... and I'm still chewing on it.",
+			}
+		},
+		
+		{
+			"LogName": "Caroline — Maru sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Caroline",
+			
+			"When": {
+				"MaruSubHarvey": true,
+			},
+			
+			"Entries": {
+				"fall_25.002": "Excuse me, I have to say some things to Nurse Maru in private...$u",
+				"fall_25.001": "You're here for a checkup too? What happened?",
+			}
+		},
+		
+		{
+			"LogName": "Caroline — Wizard sub Harvey",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Caroline",
+			
+			"When": {
+				"WizardSubHarvey": true,
+			},
+			
+			"Entries": {
+				"fall_25.002": "Excuse me, I have to say some things to Magnus in private...$u",
+				"fall_25.001": "You're here for a checkup too? What happened?",
+			}
+		},
+		
+		{
+			"LogName": "Caroline — Jodi dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Caroline",
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+			},
+			
+			"Entries": {
+				"Tue.001": "Whew... gotta stay in shape. Trust me, @, when you get older, you'll know how important this is!",
+			}
+		},
+		
+		{
+			"LogName": "Caroline — Pierre dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Caroline",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			},
+			
+			"Entries": {
+				"winter_16.000": "I'm getting all my holiday shopping done tonight! Let me know if you see Abigail coming..."
+			}
+		},
+	]
+}

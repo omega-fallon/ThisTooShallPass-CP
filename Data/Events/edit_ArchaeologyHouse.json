@@ -1,0 +1,19 @@
+{
+	"Changes": [
+		{
+			"LogName": "ArchaeologyHouse Events - Elliott dead",
+			"Target": "Data/Events/HaleyHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			},
+			
+			"Entries": {
+				"1848481/f Elliott 2000/t 1300 1900/n elliottReading": null,
+				"mysteryBook": null,
+				"romanceBook": null,
+			}
+		},
+	]
+}

@@ -1,0 +1,363 @@
+{
+	"Changes": [
+	
+		// Sprite changes
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Characters/aging_sprites.json",
+		},
+	
+		// Minor characters //
+		
+		// Blondie
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"Town-Fair.5": "Tourist: Alright, we honest with me, did you think he's my son? I swear, we get that all the time. It's alright, he's just my very short husband.",
+				"MovieTheater_Mother": "Woman: Simon, don't you want something healthy? The doctor said you... *sigh* okay...",
+				"MovieTheater_Mother2": "Woman: How about some apple slices, darling? Your stomach condition will... *sigh*... okay, nevermind...",
+				"MovieTheater_Child": "Simon: Ma, let's get some candy! *slurp*",
+				"MovieTheater_Child2": "Simon: Ma! Buy me some chocolate popcorn! *slurp*",
+			},
+			
+			"When": {
+				"query: {{BlondieAge}} >= 70": true
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"Bus.cs.7131": "Lady: We just got back from Zuzu City... wasn't it fun, Simon?",
+				"Bus.cs.7132": "Simon: N'yeahhh, pretty good.",
+				"Bus.cs.7133": "Lady: Don't mind him. He's shy around strangers.",
+			},
+			
+			"When": {
+				"query: {{BlondieAge}} >= 70": true
+			},
+		},
+	
+		// Main characters //
+	
+		// Jas
+		
+		{
+			"LogName": "Jas 13 changes",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Jas/Jas-13.json",
+			
+			"When": {
+				"query: {{JasAge}} >= 13": true,
+				"Dead |contains=Jas": false,
+			}
+		},
+		
+		{
+			"LogName": "Jas 18 changes",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Jas/Jas-18.json",
+			
+			"When": {
+				"query: {{JasAge}} >= 18": true,
+				"Dead |contains=Jas": false,
+			}
+		},
+		
+		{
+			"LogName": "Jas 20 changes",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Jas/Jas-20.json",
+			
+			"When": {
+				"query: {{JasAge}} >= 20": true,
+				"Dead |contains=Jas": false,
+			}
+		},
+		
+		{
+			"LogName": "Jas romance changes",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Jas/romance.json",
+			
+			"When": {
+				"query: {{JasAge}} >= 20": true,
+				"EnableBecomeDateable": true,
+				"Dead |contains=Jas": false,
+			}
+		},
+		
+		// Leo
+		
+		{
+			"LogName": "Leo 13 changes",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Leo/Leo-13.json",
+			
+			"When": {
+				"query: {{LeoAge}} >= 13": true,
+				"HasFlag: anyPlayer|contains=willyBoatFixed": true,
+				"Dead |contains=Leo": false,
+			}
+		},
+		
+		{
+			"LogName": "Leo 18 changes",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Leo/Leo-18.json",
+			
+			"When": {
+				"query: {{LeoAge}} >= 18": true,
+				"HasFlag: anyPlayer|contains=willyBoatFixed": true,
+				"Dead |contains=Leo": false,
+			}
+		},
+		
+		{
+			"LogName": "Leo 20 changes",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Leo/Leo-20.json",
+			
+			"When": {
+				"query: {{LeoAge}} >= 20": true,
+				"HasFlag: anyPlayer|contains=willyBoatFixed": true,
+				"Dead |contains=Leo": false,
+			}
+		},
+		
+		{
+			"LogName": "Leo romance changes",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Leo/romance.json",
+			
+			"When": {
+				"query: {{LeoAge}} >= 20": true,
+				"HasFlag: anyPlayer|contains=willyBoatFixed": true,
+				"EnableBecomeDateable": true,
+				"Dead |contains=Leo": false,
+			}
+		},
+	
+		// Vincent
+		
+		{
+			"LogName": "Vincent 13 changes",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Vincent/Vincent-13.json",
+			
+			"When": {
+				"query: {{VincentAge}} >= 13": true,
+				"Dead |contains=Vincent": false,
+			}
+		},
+		
+		{
+			"LogName": "Vincent 18 changes",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Vincent/Vincent-18.json",
+			
+			"When": {
+				"query: {{VincentAge}} >= 18": true,
+				"Dead |contains=Vincent": false,
+			}
+		},
+		
+		{
+			"LogName": "Vincent 20 changes",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Vincent/Vincent-20.json",
+			
+			"When": {
+				"query: {{VincentAge}} >= 20": true,
+				"Dead |contains=Vincent": false,
+			}
+		},
+		
+		{
+			"LogName": "Vincent romance changes",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Vincent/romance.json",
+			
+			"When": {
+				"query: {{VincentAge}} >= 20": true,
+				"EnableBecomeDateable": true,
+				"Dead |contains=Vincent": false,
+			}
+		},
+		
+		// Turns kids to adults
+		
+		{
+			"LogName": "Jas becomes adult",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"When": {
+				"query: {{JasAge}} >= 29": true
+			},
+			
+			"Fields": {		
+				"Jas": {
+					"0": "adult",
+				}
+			}
+		},
+		
+		{
+			"LogName": "Leo becomes adult",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"When": {
+				"query: {{LeoAge}} >= 29": true
+			},
+			
+			"Fields": {		
+				"Leo": {
+					"0": "adult",
+				}
+			}
+		},
+		
+		{
+			"LogName": "Vincent becomes adult",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"When": {
+				"query: {{VincentAge}} >= 29": true
+			},
+			
+			"Fields": {		
+				"Vincent": {
+					"0": "adult",
+				}
+			}
+		},
+		
+		// Turns teens to adults
+		
+		{
+			"LogName": "Abigail becomes adult",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"When": {
+				"query: {{AbigailAge}} >= 29": true
+			},
+			
+			"Fields": {		
+				"Abigail": {
+					"0": "adult",
+				}
+			}
+		},
+		
+		{
+			"LogName": "Maru becomes adult",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"When": {
+				"query: {{MaruAge}} >= 29": true
+			},
+			
+			"Fields": {		
+				"Maru": {
+					"0": "adult",
+				}
+			}
+		},
+		
+		{
+			"LogName": "Penny becomes adult",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"When": {
+				"query: {{PennyAge}} >= 29": true
+			},
+			
+			"Fields": {		
+				"Penny": {
+					"0": "adult",
+				}
+			}
+		},
+		
+		{
+			"LogName": "Sam becomes adult",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"When": {
+				"query: {{SamAge}} >= 29": true
+			},
+			
+			"Fields": {		
+				"Sam": {
+					"0": "adult",
+				}
+			}
+		},
+		
+		{
+			"LogName": "Sebastian becomes adult",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"When": {
+				"query: {{SebastianAge}} >= 29": true
+			},
+			
+			"Fields": {		
+				"Sebastian": {
+					"0": "adult",
+				}
+			}
+		},
+		
+		// Former kids' shared marriage dialogue (I NEED A BETTER WAY OF SAYING THIS)
+		
+		{
+			"LogName": "New marriage dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueJas, Characters/Dialogue/MarriageDialogueLeo, Characters/Dialogue/MarriageDialogueVincent, Characters/Dialogue/Jas, Characters/Dialogue/Leo, Characters/Dialogue/Vincent",
+			
+			"When": {
+				"EnableBecomeDateable": true,
+				"query: ({{JasAge}} >= 20) OR ({{LeoAge}} >= 20) OR ({{VincentAge}} >= 20)": true,
+			},
+			
+			"Entries": {
+				"Bad_1": "*sigh*... Maybe I shouldn't've married someone so much older than me...$s",
+				"Bad_5": "You used to be romantic... what happened?$s#$e#What, you still think I'm a kid or something? Don't baby me!$a",
+				"Good_0": "I honestly never would've thought we'd actually get *married*... life's full of surprises!$l",
+				"Good_1": "Can I be honest? I think I always had a crush on you.$l",
+				"breakUp": "Oh... I... see. No, it makes sense, we... it probably wasn't right for us to ever be together, was it? You knew me when I was a kid...$s",
+			}	
+		},
+		
+		// Bundle easter egg
+		
+		{
+			"LogName": "Bundle name",
+			"Action": "EditData",
+			"Target": "Strings/BundleNames",
+			
+			"When": {
+				"JasVince18": true,
+			},
+			
+			"Entries": {
+				"Children's": "The Bundle Formerly Known as the Children's",
+			}
+		}
+	]
+}

@@ -1,0 +1,252 @@
+{
+	"Changes": [
+		{
+			"LogName": "Farm Events - Abigail dead",
+			"Target": "Data/Events/Farm",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			},
+			
+			"Entries": {
+				"5/e 3/v Abigail/t 600 800": null,
+			}
+		},
+		
+		{
+			"LogName": "Farm Events - Sam dead",
+			"Target": "Data/Events/Farm",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+			
+			"Entries": {
+				"47/f Sam 2000/t 600 800/e 44": null,
+			}
+		},
+		
+		{
+			"LogName": "Farm Events - Leah dead",
+			"Target": "Data/Events/Farm",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Leah": true,
+			},
+			
+			"Entries": {
+				"55/f Leah 2000/t 600 800/z winter/n LeahArtShowSuggestion": null,
+				"992253/t 600 1130/f Leah 1500/w sunny": null,
+				"3911124/f Leah 3500/O Leah/t 500 820/w sunny/z winter/d Sun": null,
+			}
+		},
+		
+		{
+			"LogName": "Farm Events - Kent dead",
+			"Target": "Data/Events/Farm",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Kent": true,
+			},
+			
+			"Entries": {
+				"63/y 2/t 600 1800/H": null,
+			}
+		},
+		
+		{
+			"LogName": "Farm Events - Clint dead",
+			"Target": "Data/Events/Farm",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Clint": true,
+			},
+			
+			"Entries": {
+				"992553/t 600 1130/n copperFound": "stopMusic/100 100/farmer 100 100 3/speak Wizard \"Linum continuum manebit.$7\"/addCraftingRecipe Furnace",
+			}
+		},
+		
+		{
+			"LogName": "Farm Events - Evelyn dead",
+			"Target": "Data/Events/Farm",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+			},
+			
+			"Entries": {
+				"900553/t 600 1130/Hn ccPantry/A cc_Greenhouse/w sunny": "stopMusic/100 100/farmer 100 100 3/speak Wizard \"Linum continuum manebit.$7\"/addCraftingRecipe Garden Pot/awardFestivalPrize pot",
+			}
+		},
+		
+		{
+			"LogName": "Farm Events - Demetrius dead",
+			"Target": "Data/Events/Farm",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+			},
+			
+			"Entries": {
+				"65/m 25000/t 600 1200/H": "stopMusic/100 100/farmer 100 100 3/speak Wizard \"Linum continuum manebit.$7\"/cave",
+			}
+		},
+		
+		{
+			"LogName": "Farm Events - Marlon dead",
+			"Target": "Data/Events/Farm",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Marlon, MarlonFay": true,
+			},
+			
+			"Entries": {
+				"690006/n slimeHutchBuilt/H": "stopMusic/100 100/farmer 100 100 3/speak Wizard \"Linum continuum manebit.$7\"/awardFestivalPrize slimeEgg",
+			}
+		},
+		
+		{
+			"LogName": "Farm Events - Gunther dead",
+			"Target": "Data/Events/Farm",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Gunther, GuntherSilva": true,
+			},
+			
+			"Fields": {
+				"66/e 295672/t 600 700/H": {
+					"7": "speak Gunther \"Greetings, @.#$b#My apologies if I've woken you too early...$s#$b#Ah, in any case, I wanted to stop by and thank you for all the donations to the Museum. Gunther would be very happy.$h#$b#What's more, I've just received a letter from the office of the regional secretary of artifacts... the Museum is being honored with the coveted 'golden shovel' award for its significant contributions to the field.#$b#You've done quite well, @. Quite well.$h#$b#I suppose I should let you get back to your work...\"",
+					"13": "speak Gunther \"Ah! I nearly forgot.#$b#I have a gift for you... it's an old key that was once in Gunther's possession. It might seem a bit dull, but I can assure you, it has great use.$h\"",
+				}
+			}
+		},
+		
+		{
+			"LogName": "Farm Events - Marnie dead",
+			"Target": "Data/Events/Farm",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Marnie": true,
+			},
+			
+			"Entries": {
+				"1590166/m 1000/t 600 930/d Mon Tue Thu Sat Sun/w sunny/h cat/H": "stopMusic/100 100/farmer 100 100 3/speak Wizard \"Linum continuum manebit.$7\"/catQuestion",
+				"897405/m 1000/t 600 930/d Mon Tue Thu Sat Sun/w sunny/h dog/H": "stopMusic/100 100/farmer 100 100 3/speak Wizard \"Linum continuum manebit.$7\"/catQuestion",
+				"91/f Marnie 750/t 600 930": null,
+			}
+		},
+		
+		{
+			"LogName": "Farm Events - Jodi dead",
+			"Target": "Data/Events/Farm",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+			},
+			
+			"Entries": {
+				"93/f Jodi 1000/t 600 930/d Tue Wed Thu Fri Sat Sun": null,
+			}
+		},
+		
+		{
+			"LogName": "Farm Events - Pierre dead",
+			"Target": "Data/Events/Farm",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			},
+			
+			"Entries": {
+				"102/z spring/z summer/z fall/d Mon Tue Wed Thu Fri Sat/y 1/H": null,
+			}
+		},
+		
+		{
+			"LogName": "Farm Events - Shane dead",
+			"Target": "Data/Events/Farm",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Shane": true,
+			},
+			
+			"Entries": {
+				"2118991/e 3910975/t 600 800": null,
+				"2128292/e 3900074/t 600 630/f Shane 2500/D Shane": null,
+			}
+		},
+		
+		{
+			"LogName": "Farm Events - Alex dead",
+			"Target": "Data/Events/Farm",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Alex": true,
+			},
+			
+			"Entries": {
+				"3917587/f Alex 3500/O Alex/t 500 820/M 5000/d Sun/y 2": null,
+				"giveAlexMoney": null,
+			}
+		},
+		
+		{
+			"LogName": "Farm Events - Emily dead",
+			"Target": "Data/Events/Farm",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"Entries": {
+				"3917600/f Emily 3500/O Emily/t 500 820": null,
+				"992559/t 600 1130/n clothFound/o Emily/w sunny": "null",
+				"992559/t 600 1130/n clothFound/O Emily/w sunny": "null",
+			}
+		},
+		
+		{
+			"LogName": "Farm Events - Elliott dead",
+			"Target": "Data/Events/Farm",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			},
+			
+			"Entries": {
+				"3912125/f Elliott 3500/O Elliott/t 500 1500/p Elliott/U 8": null,
+			}
+		},
+		
+		{
+			"LogName": "Farm Events - Gus dead",
+			"Target": "Data/Events/Farm",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			},
+			
+			"Entries": {
+				"980558/t 600 1130/w sunny/f Gus 1250": "stopMusic/100 100/farmer 100 100 3/speak Wizard \"Linum continuum manebit.$7\"/awardFestivalPrize jukebox/addCraftingRecipe Mini-Jukebox",
+			}
+		},
+	]
+}

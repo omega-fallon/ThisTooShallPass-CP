@@ -1,0 +1,132 @@
+{
+	"Changes": [
+		
+		// General
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Dialogue/Pam",
+			"FromFile": "Data/blank_dialogue.json",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Entries": {
+				"Pam": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Pam": "All",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/AntiSocialNPCs",
+			"Entries": {
+				"Pam": true,
+			}
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Trailer_big",
+			
+			"MapTiles": [
+                {
+                    "Position": { "X": 20, "Y": 21 },
+                    "Layer": "Buildings",
+                    "SetProperties": {
+                        "Action": "Door"
+                    }
+                }
+            ],
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"Pam": null,
+				"PamCooking": null,
+				"fall_19_2": null,
+				"pamNewChannel": null,
+				"summer_14_1": null,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpecialOrders",
+			
+			"Entries": {
+				"Pam": null,
+			}
+		},
+		
+		// Wizard sub Pam (If bus is unlocked)
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Characters/Wizard/wizard_sub_pam.json",
+			
+			"When": {
+				"WizardSubPam": true,
+			}
+		},
+		
+		// Otherwise
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Pam, Portraits/Pam",
+			"FromFile": "Assets/error_spritesheet.png",
+			
+			"When": {
+				"WizardSubPam": false,
+			}
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Characters/Schedules/Pam",
+			"FromFile": "Data/storage_schedule.json",
+			
+			"When": {
+				"WizardSubPam": false,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Pam": {
+					"10": "Custom_TTSP_Storage 4 5",
+					"11": "ERROR"
+				}
+			},
+			
+			"When": {
+				"WizardSubPam": false,
+			}
+		},
+		
+		// Fishing sprites
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Pam",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest_fishing_sprites_down.png",
+			"ToArea": {"X": 0, "Y": 128, "Width": 64, "Height": 64},			
+		},
+	]
+}

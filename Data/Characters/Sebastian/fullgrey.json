@@ -1,0 +1,27 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian",
+			"FromFile": "Assets/Sebastian/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Sebastian",
+			"FromFile": "Assets/Sebastian/Sprites/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Sebastian_beach",
+			"FromFile": "Assets/Sebastian/Portraits/FullGrey_beach.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Sebastian_beach",
+			"FromFile": "Assets/Sebastian/Sprites/FullGrey_beach.png",
+		},
+	]
+}

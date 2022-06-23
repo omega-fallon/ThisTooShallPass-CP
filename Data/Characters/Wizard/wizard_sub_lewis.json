@@ -1,0 +1,97 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Lewis",
+			"FromFile": "Assets/Wizard/Portraits/Wizard.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Lewis",
+			"FromFile": "Assets/Wizard/Sprites/Wizard.png",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Lewis": {
+					"11": "Magnus",
+				}
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"Event.cs.1521": "$q -1 null#Shall I begin the hunt?#$r -1 0 yes#Yes, let's start.#$r -1 0 no#Not yet.",
+				"Event.cs.1524": "$q -1 null#Shall I commence the dance?#$r -1 0 yes#Yes, let's start.#$r -1 0 no#Not yet.",
+				"Event.cs.1527": "$q -1 null#Shall we sample the soup? The governor is quite eager.#$r -1 0 yes#Yes, let's start.#$r -1 0 no#Not yet.",
+				"Event.cs.1531": "$q -1 null#Shall I launch the boat now?#$r -1 0 yes#Yes.#$r -1 0 no#Not yet.",
+				"Event.cs.1535": "$q -1 null#Have you finished setting up your grange display?#$r -1 0 yes#Yes.#$r -1 0 no#Not yet.",
+				"Event.cs.1548": "$q -1 null#Have you made your preparations?#$r -1 0 yes#Yes.#$r -1 0 no#Not yet.",
+
+				"Event.cs.1723": "Congratulations, @. You have won 1st place with a rating of {0}.#$b#Your prize is 1000 star tokens. Spend them wisely.$h#$b#And do remember to clean out your grange display box.",
+				"Event.cs.1726": "Well, that's nothing to sneeze at. You've won 2nd place with a rating of {0}.#$b#Your prize is 500 star tokens. Spend them wisely.$h#$b#And do remember to clean out your grange display box.",
+				"Event.cs.1729": "Hello, @. It appears you've won 3rd place with a rating of {0}.#$b#Your prize is 200 star tokens. Spend them wisely.$h#$b#And do remember to clean out your grange display box.",
+				"Event.cs.1730": "...You. What, pray tell, are you playing at? Are you somehow not aware that our time here is...$4#$b#Oh, for the stars' sake, you won't listen. Take 750 star tokens and be on your way.$3#$b#Go clean out your display and, if you truly want to, return that item to me so I may place it when it belongs.$3",
+				"Event.cs.1732": "Hello, @. You placed 4th with a score of {0}.#$b#Your reward for participating is 50 star tokens. There's always next year.$h#$b#Ah, and do remember to clean out your grange display box.",
+				
+				"Utility.cs.5367": "@'s arrival brought a great many things to this town... a much-needed new perspective, a sense of wonder and inexperience, and, if I may say so myself, a sense of magic.#$b#This town shall become more than it was before, if only for a short time.$h#$b#It is my great honor on this day {0} of {1}, to unite @ and %spouse in the bonds of marriage.",
+				"Utility.cs.5367": "@'s arrival brought a great many things to this town... a much-needed new perspective, a sense of wonder and inexperience, and, if I may say so myself, a sense of magic.#$b#This town shall become more than it was before, if only for a short time.$h#$b#It is my great honor on this day {0} of {1}, to unite @ and %spouse in the bonds of marriage.",
+				"Utility.cs.5370": "Here we are... the moment of truth.",
+				"Utility.cs.5371": "@... %spouse... #$b# As the protector of Pelican Town, I now pronounce you eternal lovers.$h",
+				"Utility.cs.5373": "@... %spouse... #$b# As the protector of Pelican Town, I now pronounce you eternal lovers.$h",
+				"Utility.cs.5375": "@... %spouse... #$b# As the protector of Pelican Town, I now pronounce you eternal lovers.$h",
+				"Utility.cs.5377": "@... %spouse... #$b# As the protector of Pelican Town, I now pronounce you eternal lovers.$h",
+				"Utility.cs.5379": "You may kiss.",
+				
+				"MapPage.cs.11085": "Hungry.",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"SeaAmulet": "@,^There is something I wish to tell you. A piece of advice that I will give you, because I see something within you. If there comes a day that you want to ask for someone's hand in marriage, you'll need to give them a 'Mermaid's Pendant'. Though it may seem odd to your city sensibilities, everyone in Pelican Town understands the significance of the amulet. It's an ancient tradition in this region. Best of luck. ^   -M. Rasmodius[#]About Mermaid's Pendants",
+				"ccBulletinThankYou": "Hello @,^Everyone around town has been talking about your 'great generosity' as of late.^Reportedly, packages have been appearing in people's houses containing items they posted about years ago on the community center bulletin, and the packages are all addressed from your farm.^I'm well aware of the true circumstances, but there is no harm in allowing them to believe you achieved this alone. After all, despite your being assisted, you put in a great deal of work. Well done. ^   -M. Rasmodius[#]Bulletin Board Thank-you",
+				
+				"fall_15": "Greetings @,^A reminder that the Stardew Valley Fair is happening tomorrow.^Don't forget to bring your 9 items for the grange display.^Remember, the fair starts at 9AM in the town square.^   -M. Rasmodius[#]Stardew Valley Fair Reminder",
+				"fall_26": "Greetings @,^Notice a chill in the air? It could just be the approach of winter...^Or it could be the tingle of a dark specter, here to help us celebrate tomorrow's festival... the Spirit's Eve.^Come to town at 10 PM if you'd like to participate.^  -M. Rasmodius[#]Spirit's Eve Notice",
+				"fall_9": "Greetings @,^One week from today, we are holding the Stardew Valley Fair in the town square.^It is the biggest event of the year, drawing people from all across the country to our humble town.^If you'd like, you can set up a grange display for the event. Bring up to 9 items that best showcase your talents. You'll be judged on the quality and diversity of your display.^The fair starts at 9 AM.^   -M. Rasmodius[#]Stardew Valley Fair Notice",
+				"foundLostTools": "Greetings @,^Someone dropped your tools into the lost and found bin last night.^^Stop by the mayor's office to pick them up. ^^  -M. Rasmodius[#]Lost Tools",
+				"hero_update": "@,^The time has arrived for the quarterly Stardew Hero rankings. I've enclosed them in a separate envelope. Good luck this season.  ^   -M. Rasmodius[#]Stardew Hero Rankings",
+				"lewisStatue": "@,^^In the future, I'd appreciate it very much if you refrained from defiling Lewis' memory by placing such a thing on display in town.^^I'm quite disappointed in your irreverence for the dead.^^Take this money and never speak of this to anyone.%item money 750 751 %%[#]Magnus' Angry Letter",
+				"quest10": "@,^I have seen that you've been of great assistance to the people of this town. Everyone seems really thankful. I'm awarding you this month's \"Best Neighbor\" award (with a small cash prize). Keep up the good work. ^   -M. Rasmodius%item money 500 501 %%[#]Best Neighbor",
+				"quest100": "@,^It is my pleasure to announce that you've been chosen as \"Neighbor of the year\". That comes with a 10,000g prize... congratulations, bright one. Everyone in town wants to say 'thanks' for all you've done. ^   -M. Rasmodius%item money 10000 10001 %%[#]Neighbor Of The Year",
+				"quest35": "Greetings @,^You've been such a help around town since you moved here... everyone keeps telling me all the wonderful things you've done for them! Please accept this thank-you prize. ^   -M. Rasmodius%item money 2500 2501 %%[#]Thank-you From Magnus",
+				"spring_12": "Greetings @,^Tomorrow we're holding the Egg Festival in the town square. ^^You should arrive between 9 AM and 2 PM if you'd like to attend.^  -M. Rasmodius[#]Egg Festival Notice",
+				"spring_23": "Greetings @,^Tomorrow the townsfolk are getting together for the Flower Dance.^^If you can find a partner, you might even want to participate in the dance yourself.^There's a little clearing beyond the forest west of town where we hold the dance. Arrive between 9 AM and 2 PM if you're interested.^  -M. Rasmodius[#]Flower Dance Notice",
+				"summer_10": "Greetings @,^Tomorrow we're all gathering at the beach for the annual Pelican Town Luau.^^The highlight of the event is the communal potluck. Make sure you bring something good to contribute!^The governor is attending the event, so make sure you're on your best behavior.^Come to the beach sometime between 9 AM and 2 PM.^   -M. Rasmodius[#]Luau Notice",
+				"taxPassed": "Greetings @,^the shipping tax passed. As of today, a 3% tax will be deducted from all your shipping profits. The reduced fee for public services is also in effect. See you soon. ^   -M. Rasmodius[#]Tax Approved",
+				"taxRejected": "Greetings @,^the shipping tax was rejected. Your shipping profits will remain as they are. Fees for public services will remain the same as well. See you soon. ^   -M. Rasmodius[#]Tax Rejected",
+				"winter_18": "Greetings @,^I would like to give you some information about an upcoming event: the Feast of the Winter Star. It's a time for the community to come together and think back on all the good fortune they have had this year.^A favorite tradition is the \"secret gift exchange\", where everyone in town is randomly assigned to someone else. On the day of the festival, everyone brings a gift for their secret friend and surprise them with something special.^This year, your secret friend is:^    %secretsanta ^Keep it a secret. The feast will take place on the 25th from 10AM to 2PM at the town square. See you then. ^   -M. Rasmodius[#]Secret Gift-Giver",
+				"winter_24": "Greetings @,^Tomorrow is the Feast of the Winter Star.^Did you get a gift for your 'secret friend'... %secretsanta?^The feast starts at 9 AM in the town square. See you then. ^   -M. Rasmodius[#]Feast Of The Winter Star Reminder",
+				"winter_7": "Greetings @,^Tomorrow we're all gathering in front of the ranch for the Festival of Ice.^^It's a celebration of winter... there'll be snowmen, ice sculptures, and an ice fishing competition.^Arrive between 9 AM and 2 PM if you'd like to participate.^  -M. Rasmodius[#]Festival Of Ice Notice",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			
+			"Entries": {
+				"SummitEvent_Intro_Lewis": "My... what a gorgeous view.",
+				"SummitEvent_Dialogue1_Lewis": "You know, @, I've watched over this town for quite some time.#$b#So many people have come and gone. So many have died. So much hardship and torment, so much happiness and splendor.",
+				"SummitEvent_Dialogue2_Lewis": "And yet, there has been nothing I've seen quite as peculiar as %farm Farm blossoming so flamboyantly under your care.$h#$b#It is against all odds, against all reason. You are special, @. Special in a way even your Grandfather was not.#$b#It seems as though you have truly left your magical touch upon these lands.",
+				"SummitEvent_Outro_Lewis": "You might not realize it, but I care a lot about this town, @.#$b#%year years ago, I was deeply concerned about this town, and its future.$s#$b#But with you here, I can convince myself that no matter what, everything will be fine.#$b#No matter what, Stardew Valley shall not end, shall not die. It will continue to live and thrive to the very last...#$b#...all thanks to you.",
+			}
+		},
+	]
+}

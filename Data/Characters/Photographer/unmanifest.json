@@ -1,0 +1,31 @@
+{
+	"Changes": [
+		{
+			"LogName": "Erases Photographer",
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 37, "Y": 66 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 37, "Y": 65 },
+					"Layer": "Front",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"Town-Fair.6": "{{i18n:Omori.TTSP}}",
+			},
+		},
+	]
+}

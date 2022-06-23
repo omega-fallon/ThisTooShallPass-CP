@@ -1,0 +1,61 @@
+{
+	"Changes": [
+		{
+			"LogName": "JoshHouse Events - George dead",
+			"Target": "Data/Events/JoshHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=George": true,
+			},
+			
+			"Entries": {
+				"18/f George 1500/p George": null,
+				"5837189/n georgeGifts": null,
+			}
+		},
+		
+		{
+			"LogName": "JoshHouse Events - Evelyn dead",
+			"Target": "Data/Events/JoshHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+			},
+			
+			"Entries": {
+				"19/f Evelyn 1000/p Evelyn": null,
+			}
+		},
+		
+		{
+			"LogName": "JoshHouse Events - Alex dead",
+			"Target": "Data/Events/JoshHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Alex": true,
+			},
+			
+			"Entries": {
+				"21/f Alex 1250/p Alex": null,
+				"2119820/f Alex 1500/p Alex": null,
+			}
+		},
+		
+		{
+			"LogName": "JoshHouse Events - Harvey or George dead",
+			"Target": "Data/Events/JoshHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Harvey, George": true,
+			},
+			
+			"Entries": {
+				"56/f Harvey 500/p George": null,
+			}
+		},
+	]
+}

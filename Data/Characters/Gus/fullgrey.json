@@ -1,0 +1,15 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Gus",
+			"FromFile": "Assets/Gus/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Gus",
+			"FromFile": "Assets/Gus/Sprites/FullGrey.png",
+		},
+	]
+}

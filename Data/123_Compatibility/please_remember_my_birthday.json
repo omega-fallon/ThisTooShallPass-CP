@@ -1,0 +1,382 @@
+{
+	"Changes": [
+
+		// String changes //
+		// Kent's birthday
+	
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Kent",
+			"When": {
+				"Year |contains=1": false,
+				"Year |contains=2": true
+			},
+			"Entries":  {
+				"spring.004": "Birthdays weren't really important when I was in the army.$0#$b#But I guess that's over now. It's my first birthday since I got back... so I'm gonna enjoy it.$1"
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Kent",
+			"When": {
+				"Year |contains=1": false,
+				"Year |contains=2": false
+			},
+			"Entries":  {
+				"spring.004": "Heh... it's nice to feel appreciated like this. I guess getting old isn't too bad.$h#$b#Who cares that I'm {{KentAge}}? That just means I have to enjoy the birthdays I have left.$1"
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Sam",
+			"When": {
+				"Year |contains=1": "false",
+				"query: {{VincentAge}} >= 18": true
+			},
+			"Entries":  {
+				"spring.004": "Vincent still gets excited for dad's birthday every year. It's really cute, honestly.$1"
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Vincent",
+			"When": {
+				"Year |contains=1": "false",
+				"query: {{VincentAge}} >= 13": true
+			},
+			"Entries":  {
+				"spring.004": "How's the cake, dad? Mind if I taste test it?$1"
+			},
+		},
+		
+		// Lewis' birthday
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Lewis",
+			"Entries":  {
+				"spring.007": "I absolutely couldn't spend my birthday in better company.$1#$b#Being {{LewisAge}} feels pretty good when you put it that way, heh.$h"
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Marnie",
+			"Entries":  {
+				"spring.007": "Happy {{LewisAgeOrdinal}} birthday, Lewis! Here's a toast to many more just like it.$1"
+			},
+		},
+		
+		// 
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Vincent",
+			"Entries":  {
+				"spring.010": "Oh, heck yeah! Pink cake and cranberry candy!$l",
+				"spring.110": "C'mon, Penny, can't we do something more fun than this?$0#$b#Today's my birthday! Loosen up a little!$1"
+			},
+			
+			"When": {
+				"query: {{VincentAge}} >= 13": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Vincent",
+			"Entries":  {
+				"spring.110": "Heh... if Penny were here, she'd probably be bugging me about doing my reading instead of eating cake!$1"
+			},
+			
+			"When": {
+				"Dead |contains=Penny": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Shane",
+			"Entries":  {
+				"spring.020": "Did you help Marnie cook, Jas?$0#$b#Heh... ever thought about becoming a chef? I think you'd be great at it.$1"
+			},
+			
+			"When": {
+				"query: {{JasAge}} >= 13": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Jas",
+			"Entries":  {
+				"summer.004": "Mmm... delicious!$1",
+				"summer.114": "Today's my birthday, Vincent, so you're gonna play with me whether you like it or not.$4"
+			},
+			
+			"When": {
+				"query: {{JasAge}} >= 13": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Jas",
+			"Entries":  {
+				"summer.114": "Heya, Vincy... got a birthday gift for me?$l"
+			},
+			
+			"When": {
+				"query: {{JasAge}} >= 18": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Jas",
+			"Entries":  {
+				"summer.114": "Mmm... I think I'll play with my old dolls today. Vincent would've liked that.$4"
+			},
+			
+			"When": {
+				"Dead |contains=Vincent": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Vincent",
+			"Entries":  {
+				"summer.114": "C'mon, Jas, the water isn't gonna kill ya! Hop in!$1",
+				"summer.115": "Snails like to come out on rainy days...$0#$b#Let's go catch some, Jas! Don't chicken out on me!$1"
+			},
+			
+			"When": {
+				"query: {{VincentAge}} >= 13": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Vincent",
+			"Entries":  {
+				"summer.114": "Heh... just like old times.$1",
+				"summer.115": "Snails like to come out on rainy days...$0#$b#I'll go catch some for Jas.$1"
+			},
+			
+			"When": {
+				"Dead |contains=Jas": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Shane",
+			"Entries":  {
+				"summer.004": "Jas, I have a gift for you.$0#$b#It's a figurine of one of those girls from that anime you like! I can't remember her name... hope you like it, though!$1"
+			},
+			
+			"When": {
+				"query: {{JasAge}} >= 13": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Alex",
+			"Entries":  {
+				"summer.113": "Haley, you should come to my house later.$0#$b#I'm gonna make a batch of my grandma's cookies.$1"
+			},
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Vincent",
+			"Entries":  {
+				"summer.017": "Do you like the pizza, Sam?$0#$b#You'd better! I put a lot of work into it!$1"
+			},
+			
+			"When": {
+				"query: {{VincentAge}} >= 13": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Willy",
+			"Entries":  {
+				"summer.024": "Heh... now *that's* how to catch a good sturgeon, if I do say so myself.$1"
+			},
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Abigail",
+			"Entries":  {
+				"fall.113": "Hey, @.$0#$b#Today's my birthday so Sebastian came to play Journey of the Prairie King with me.$1"
+			},
+			
+			"When": {
+				"Dead |contains=Sam": true,
+				"Dead |contains=Sebastian": false,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Abigail",
+			"Entries":  {
+				"fall.113": "Hey, @.$0#$b#Today's my birthday so Sam came to play Journey of the Prairie King with me.$1"
+			},
+			
+			"When": {
+				"Dead |contains=Sam": false,
+				"Dead |contains=Sebastian": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Abigail",
+			"Entries":  {
+				"fall.113": "Hey, @.$0#$b#Today's my birthday I'm gonna reminisce and play Journey of the Prairie King.$1"
+			},
+			
+			"When": {
+				"Dead |contains=Sam": true,
+				"Dead |contains=Sebastian": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Caroline",
+			"Entries":  {
+				"fall.013": "Abigail, you should have invited Sam to have dinner with us.$0#$b#I made too much spicy eel.$0"
+			},
+			
+			"When": {
+				"Dead |contains=Sam": false,
+				"Dead |contains=Sebastian": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Caroline",
+			"Entries":  {
+				"fall.013": "Abigail, you should have invited Sebastian to have dinner with us.$0#$b#I made too much spicy eel.$0"
+			},
+			
+			"When": {
+				"Dead |contains=Sam": true,
+				"Dead |contains=Sebastian": false,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Caroline",
+			"Entries":  {
+				"fall.013": "Abigail, you should have invited someone else to have dinner with us.$0#$b#I made too much spicy eel.$0"
+			},
+			
+			"When": {
+				"Dead |contains=Sam": true,
+				"Dead |contains=Sebastian": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Marnie",
+			"Entries":  {
+				"fall.118": "I'm going to have dinner with Shane and Jas tonight, but tomorrow I'm going to have a drink at the saloon in Lewis' honor.$1"
+			},
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Jas",
+			"Entries":  {
+				"fall.018": "Don't forget to make a wish, Aunt Marnie. You're never too old for that!$1"
+			},
+			
+			"When": {
+				"query: {{JasAge}} >= 18": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Caroline",
+			"Entries":  {
+				"winter.007": "Oh, Pierre, my sweet summer spangle...",
+				"winter.117": "Hello, @.$0#$b#Just having some tea.$0#$b#Do you want to join?$1"
+			},
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/George",
+			"Entries":  {
+				"winter.020": "Such beautiful flowers... I hope Evelyn can admire them.$1"
+			},
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Alex",
+			"Entries":  {
+				"winter.020": "It's nice to come here and look back on the old times. I'll never forget Evelyn.$1"
+			},
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Leah",
+			"Entries":  {
+				"winter.023": "I'm gonna order the finest wine today. That's what Elliott would've wanted.$0"
+			},
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/schedules/Elliott",
+			"Entries":  {
+				"winter.023": "Hello, @.$0#$b#I'm just having a little celebration in Leah's honor; it's her birthday today. You're welcome to join.$0"
+			},
+		},
+	]
+}

@@ -1,0 +1,920 @@
+{
+	"Changes": [
+	
+		// Removal of NPCs from the map //
+		// The way that NPCs are spawned in is within the .tmx file itself, so we have to edit that. Thankfully, we don't have to make a hundred .tmx files with single changes. //
+		
+		// Abigail
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 20, "Y": 24 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 25, "Y": 18 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Alex
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Alex": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 21, "Y": 17 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 48, "Y": 22 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Caroline
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"query: {{Dead |contains=Caroline}} OR {{CarolineSubPierre}}": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 40, "Y": 12 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Caroline": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 41, "Y": 13 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Clint
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Clint": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 36, "Y": 19 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 42, "Y": 8 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Demetrius
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 21, "Y": 10 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 33, "Y": 6 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Elliott
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=ElliottTrader": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 46, "Y": 11 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 36, "Y": 20 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Emily
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 16, "Y": 9 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 30, "Y": 13 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Evelyn
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 8, "Y": 6 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 47, "Y": 16 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// George
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=George": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 9, "Y": 6 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 46, "Y": 16 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Gus
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 30, "Y": 13 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 32, "Y": 15 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Haley
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Haley": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 20, "Y": 16 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 27, "Y": 11 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Harvey
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 45, "Y": 18 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 49, "Y": 18 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Jas
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Jas": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 14, "Y": 12 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 22, "Y": 23 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Jodi
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 39, "Y": 16 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 39, "Y": 15 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Kent
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Kent": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 38, "Y": 16 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 38, "Y": 15 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Leah
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Leah": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 47, "Y": 12 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 35, "Y": 20 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Leo
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Leo": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 49, "Y": 22 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 28, "Y": 8 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Lewis CANNOT be removed, as he is far too integral to all festivals' function. Instead we let Lewis spawn but have him take on the appearance and name of Marnie or Magnus.
+		
+		// Linus
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Linus": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 50, "Y": 20 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 50, "Y": 20 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Marlon
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Marlon, MarlonFay": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 54, "Y": 7 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 54, "Y": 7 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Marnie
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Marnie, Lewis": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 36, "Y": 11 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 38, "Y": 13 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Maru
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 46, "Y": 19 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 47, "Y": 20 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Pam
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 38, "Y": 10 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 30, "Y": 8 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Penny
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Penny": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 56, "Y": 17 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 54, "Y": 24 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Pierre
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 41, "Y": 14 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"LogName": "Caroline runs the shop",
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"CarolineSubPierre": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 43, "Y": 6 },
+					"Layer": "Set-Up",
+					"SetTilesheet": "characters",
+					"SetIndex": 6,
+				},
+			]
+		},
+		
+		// Robin
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 20, "Y": 10 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 34, "Y": 6 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Sam
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 56, "Y": 16 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 26, "Y": 17 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Sebastian
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Sebastian": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 27, "Y": 18 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 27, "Y": 18 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Shane
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Shane": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 27, "Y": 11 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 44, "Y": 13 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Vincent
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Vincent": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 15, "Y": 12 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 21, "Y": 23 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Willy
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 42, "Y": 36 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 42, "Y": 36 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Wizard
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Luau",
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+				"Dead |contains=Marnie": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 10, "Y": 39 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 1, "Y": 1 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Dialogue edits //
+		
+		// Vincent
+		
+		{
+			"LogName": "Luau - Vincent dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"When": {
+				"Dead |contains=Vincent": true,
+			},
+			
+			"Entries": {
+				"Jas": "It's less fun dancing alone...$s",
+			}
+		},
+		
+		// Jas
+		
+		{
+			"LogName": "Luau - Jas dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"When": {
+				"Dead |contains=Jas": true,
+			},
+			
+			"Entries": {
+				"Vincent": "...Huh? Sorry, I kind of zoned out. I'm... reminiscing.$s",
+			}
+		},
+		
+		// Lewis substitutions //
+
+		// Marnie dialogue
+		
+		{
+			"LogName": "Luau - Marnie Substitutes - mainEvent",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+				"Dead |contains=Marnie": false,
+			},
+			
+			"Fields": {
+				"mainEvent": {
+					"23": "speak Lewis \"Alright, everyone! It's time for the potluck ceremony.#$b#I have faith that you all put your highest-quality ingredients in the pot this year. Let's not disappoint the governor!\""
+					"27": "speak Lewis \"Well... governor? Care to take a sip?\"",
+				}
+			}
+		},
+		
+		{
+			"LogName": "Luau - Marnie Substitutes - governorReaction0",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+				"Dead |contains=Marnie": false,
+			},
+			
+			"Fields": {
+				"governorReaction0": {
+					"19": "speak Lewis \"Oh dear... Whoever put that foul ingredient in the soup made the governor pass out! What a shame...$4\""
+				}
+			}
+		},
+		
+		{
+			"LogName": "Luau - Marnie Substitutes - governorReaction6",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+				"Dead |contains=Marnie": false,
+			},
+			
+			"Fields": {
+				"governorReaction6": {
+					"43": "speak Lewis \"H-how dare you all! It's bad enough to riffle through a dead man's belongings, but you went and ruined the festival the soup everyone worked so hard on... you've ruined all of it!$4#$b#You've embarrassed me, you've sickened the governor... and you've sickened me, too, come to think of it! All the hard work everyone put in, gone to waste. I've never been more ashamed of this community... get out. All of you.$4\""
+				}
+			}
+		},
+				
+		{
+			"LogName": "Luau - Marnie Substitute dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+				"Dead |contains=Marnie": false,
+			},
+			
+			"Entries": {
+				"Lewis": "Welcome to the Luau, @! Let's all stay on our best behavior... the governor's here for his annual visit.#$b#If you brought something for the potluck, make sure you add it to the soup cauldron. Everyone should participate.$h",
+			}
+		},
+		
+		// Wizard dialogue
+		
+		{
+			"LogName": "Luau - Wizard Substitutes - governorReaction6",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+				"Dead |contains=Marnie": true,
+			},
+			
+			"Fields": {
+				"governorReaction6": {
+					"13": "textAboveHead Lewis \"Why...?\""
+					"43": "speak Lewis \"...We only get so many festivals, you know. I know they can get stale, year after year, but they are still a limited resource.$s#$b#If this is truly what you wish to do, then... I suppose I'll just wait until next year. Go home, everyone.$s\""
+				}
+			}
+		},
+		
+		{
+			"LogName": "Luau - Wizard Substitute dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"When": {
+				"Dead |contains=Lewis": true,
+				"Dead |contains=Marnie": true,
+			},
+			
+			"Entries": {
+				"Lewis": "Keep your wits about you, @; the governor has arrived for his annual visit.#$b#If you brought something for the potluck, toss it into the soup cauldron.#$b#And before you ask, no, it's not a potion-making cauldron. I have a different one at home for doing that.$a",
+			}
+		},
+	]
+}

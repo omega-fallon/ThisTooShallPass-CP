@@ -1,0 +1,18 @@
+{
+	"Changes": [
+		{
+			"LogName": "Pierre — Caroline dead",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Pierre",
+			
+			"When": {
+				"Dead |contains=Caroline": true,
+			},
+			
+			"Entries": {
+				"winter_Wed": "#$1 pierreDin#I'm going to try to relax tonight... I'll cook myself dinner and have a bottle of Stardew Red to drown things out.$s#$e#Finally, a day of relaxation.",
+				"Thu8": "#$1 pierre2#Does Abigail look anything like me? Sometimes... I wonder if I'm really the father. I guess with Caroline gone, I'll never know.$s#$e#I hate having to cook dinner... but I don't have any choice.",
+			}
+		},
+	]
+}

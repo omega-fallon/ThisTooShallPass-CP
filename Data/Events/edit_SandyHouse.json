@@ -1,0 +1,17 @@
+{
+	"Changes": [
+		{
+			"LogName": "SandyHouse Events - Sandy dead",
+			"Target": "Data/Events/SandyHouse",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Sandy": true,
+			},
+			
+			"Entries": {
+				"67/m 10": "none/4 5/farmer 4 9 0 Sandy 2 5 2/skippable/move farmer 0 -2 0/pause 1000/speak Sandy \"I'm sorry, @.$s\"/move Sandy 2 0 2/move Sandy 0 1 2/speak Sandy \"You never got the chance to meet her, or even know her name. That is tragic beyond measure. I... I am sorry.$s\"/move Sandy 0 -1 0/move Sandy -2 0 2/end dialogue Sandy \"Please, come visit anyways. Pay honor to her memory.\""
+			}
+		}
+	]
+}

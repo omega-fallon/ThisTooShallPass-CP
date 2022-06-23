@@ -1,0 +1,365 @@
+{
+	"Changes": [
+		{
+			"LogName": "Vincent becomes teen",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {		
+				"Vincent": {
+					"0": "teen",
+				}
+			}
+		},
+	
+		{
+			"LogName": "Vincent 18 dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			
+			"Entries": {
+				"Resort_Entering": "Man, I wish I could captain a boat...",
+				"reject_869": "Hey, nice find!#$b#I dunno why, but I kinda feel like someone else should have it. Thanks anyways, though!",
+				"Mon": "Sam is really cool... who wouldn't want to be like him?#$e#He gets all the girls, too. Lucky guy.",
+				"Tue6": "Hey, you wanna hear a secret, @?$u#$b#Alright. So... I've got a crush on Penny. I know, I know, it's weird.#$e#Just don't tell her, okay?$u",
+				"Thu2": "I dunno why, but farm life seems pretty interesting to me.#$b#I guess I'm still a kid at heart, because all I can think about now is getting covered in mud, heheh.$h",
+				"Sat": "Sometimes I'll go to the library and read with Penny, like we used to.#$b#Now *I'm* the one picking the books, heheh.$h",
+				"Sun10": "Hey, @!#$e#Hey... guess what? You're rad.#$b#Okay, that's all. Later.$h",
+				
+				"rejectNPCA": "I... don't think that's going to go over well...$s",
+				"rejectNPCB": "...Leave me alone.$a",
+				"refusal_no_heartsA": "Aren't you supposed to do that with someone you know?$3",
+				"refusal_no_heartsB": "Married?!$3#$b#I don't even know who you are!$a",
+				"engageA": "What're you playing at, farmer?$2",
+				"engageB": "You're horrible...$2",
+				"marriedA": "So you're a cheater, huh... it's always the people you least expect.$2",
+				"marriedB": "You want me to tell %spouse about this?$a",
+			}
+		},
+		
+		{
+			"LogName": "Vincent 18 dialogue - schedule strings",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Vincent",
+			
+			"Entries": {
+				"winter_16.000": "You think I could ever be a boat captain? I think it could work.$h",
+				"spring_11.001": "I probably picked up a lot of diseases, rolling around in the mud when I was a kid...#$b#Those are all gone now, right?$h",
+				"spring_11.002": "You know, I used to really hate coming here. Now it's fine.",
+				"spring_11.000": "Oh, yeah. Today's my clinic visit. Well, it's gotta get done, right?"
+			}
+		},
+		
+		{
+			"LogName": "Vincent correction",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Vincent",
+			
+			"Entries": {
+				"Tue6": "Hey, @, you wanna hear an embarrassing secret?$u#$b#Heh... alright, I had a crush on Penny when I was a kid.#$e#I know, I know, it's stupid. I figured you'd find it funny, though.$u",
+			},
+			
+			"When": {
+				"Spouse": "Penny",
+			}
+		},
+		
+		{
+			"LogName": "Vincent 18 dialogue - Egg Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			
+			"Entries": {
+				"Vincent": "When does the egg hunt start? I'm itching to win.$h",
+				"Vincent_y2": "I'm gonna get so many eggs this year... dang, now I'm hungry for some scrambled eggs. And bacon, too. I should've eaten more for breakfast, heh...",
+			}
+		},
+		
+		{
+			"LogName": "Vincent 18 dialogue - Flower Dance",
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			
+			"Entries": {
+				"Vincent": "I'm the flower queen, and nobody can stop me!$h",
+			}
+		},
+		
+		{
+			"LogName": "Vincent 18 dialogue - Luau",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			
+			"Entries": {
+				"Vincent": "Heh... fine, alright, Jas! I'll dance with you.$h",
+			}
+		},
+		
+		{
+			"LogName": "Vincent 18 dialogue - Dance of the Moonlight Jellies",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			
+			"Entries": {
+				"Vincent": "Is it bad that I kinda wanna swim with them? They'd probably sting me, but it'd also be really cool!",
+			}
+		},
+		
+		{
+			"LogName": "Vincent 18 dialogue - Stardew Valley Fair",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			
+			"Entries": {
+				"Vincent": "One of these years, I'm gonna climb up on one of these cows and just wreck everything.$h#$b#Eh... maybe not wreck everything, but I'd still like to ride it!",
+			}
+		},
+		
+		{
+			"LogName": "Vincent 18 dialogue - Spirit's Eve",
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			
+			"Entries": {
+				"Vincent": "Alright, alright... just don't make fun of me if I jump, okay, Jas?$h",
+			}
+		},
+		
+		{
+			"LogName": "Vincent 18 dialogue - Ice Festival",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			
+			"Entries": {
+				"Vincent": "Hey, @, you fish, right? Have you ever tried just doing it with your bare hands?$h",
+			}
+		},
+		
+		{
+			"LogName": "Vincent 18 dialogue - Feast of the Winter Star",
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			
+			"Entries": {
+				"Vincent": "Oof... this spiked eggnog is really hitting me... but it's so good!",
+			}
+		},
+		
+		{
+			"LogName": "Vincent 13 dialogue - Movie Reactions",
+			"Action": "EditData",
+			"Target": "Data/MovieReactions",
+			
+			"Entries": {
+				"Vincent": {
+					"NPCName": "Vincent",
+					"Reactions": [
+						// Jas is present
+												
+						{
+							"Tag": "romance",
+							"Response": "like",
+							"Whitelist": ["Jas"],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "Hey... is it just me, or is Jas giving me a side-eye?"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"(Jas is looking over to Vincent.)\"",
+									"Text": "...Huh? What're you looking at, @?"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "That was a cute movie.$h#$b#Jas seemed kind of distracted, though. Weird."
+								}
+							},
+							"ID": "reaction_0"
+						},
+						
+						{
+							"Tag": "horror",
+							"Response": "love",
+							"Whitelist": ["Jas"],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "Oh, hey, Jas is here! Alright, well now I *have* to brave it out!$h"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"(Vincent keeps it together and looks at Jas.)\"",
+									"Text": "Y-yup! Not scared at all, Jas!$h"
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "Phew...! Glad that's over with... if I let her know I was scared, she'd never stop teasing me about it."
+								}
+							},
+							"ID": "reaction_1"
+						},
+						
+						{
+							"Tag": "*",
+							"Response": "love",
+							"Whitelist": ["Jas"],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "Oh, hey, Jas is here! Well, I'm sure this'll be fun no matter what, then!$h"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"(Jas and Vincent are watching intently!)\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "That was really nice. Thanks, @!"
+								}
+							},
+							"ID": "reaction_2"
+						},
+						
+						// Other
+						
+						{
+							"Tag": "horror",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_0"
+						},
+						{
+							"Tag": "documentary",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_1"
+						},
+						{
+							"Tag": "classic",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_2"
+						},
+						{
+							"Tag": "romance",
+							"Response": "dislike",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_3"
+						},
+						{
+							"Tag": "*",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": null,
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "spring_movie_1",
+							"Response": "love",
+							"Whitelist": [],
+							"SpecialResponses": {
+							"BeforeMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+									"Text": "Heh... a nature documentary? %year years ago I never would've thought I'd like something like this.$h"
+								},
+							"DuringMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+									"Text": "Man, I've *gotta* go see that in person.$h"
+								},
+							"AfterMovie": {
+								"ResponsePoint": null,
+								"Script": "",
+									"Text": "Thanks, @! That was fun... but I'm sure exploring the woods together would be even better!$h"
+								}
+							},
+							"ID": "reaction_4"
+						},
+						{
+							"Tag": "love",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "Ooh, nice! This one looks great! Let's go get some snacks... you *know* I want something sweet.$h"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "message \"Vincent is having a great time!\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "That was great! Let's go see another movie together sometime!$h"
+								}
+							},
+							"ID": "reaction_5"
+						},
+						{
+							"Tag": "horror",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "...Spooky. I've never been great with stuff like this, but I'll try my best."
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/message \"Vincent is a little bit nervous, but seems to be enjoying himself.\"",
+									"Text": "I'm just glad Jas isn't here... she'd never let me hear the end of it if I got scared."
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "Heh... that was fun. It's nice to get outside of your comfort zone sometimes.$h"
+								}
+							},
+							"ID": "reaction_6"
+						},
+						{
+							"Tag": "dislike",
+							"Response": "like",
+							"Whitelist": [],
+							"SpecialResponses": {
+								"BeforeMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "Uhh... are you sure?$s"
+								},
+								"DuringMovie": {
+									"ResponsePoint": null,
+									"Script": "/shake Vincent 250/pause 500/shake Vincent 250/pause 500/emote Vincent 28/message \"Vincent is fidgeting in his seat.\"",
+									"Text": ""
+								},
+								"AfterMovie": {
+									"ResponsePoint": null,
+									"Script": "",
+									"Text": "Mmm... sorry, @, I didn't really like that one.$s"
+								}
+							},
+							"ID": "reaction_7"
+						}
+					]
+				}
+			}
+		}
+	]
+}

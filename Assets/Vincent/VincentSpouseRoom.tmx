@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="6" height="9" tilewidth="16" tileheight="16" infinite="0" nextlayerid="10" nextobjectid="9">
+ <properties>
+  <property name="DayTiles" value="Front 1 0 256 Front 1 1 288 Back 1 3 507 Back 1 4 539"/>
+  <property name="NightTiles" value="Front 1 0 1253 Front 1 1 1285 Back 1 3 604 Back 1 4 635"/>
+ </properties>
+ <tileset firstgid="1" name="indoor" tilewidth="16" tileheight="16" tilecount="2176" columns="32">
+  <image source="townInterior" width="512" height="1088"/>
+ </tileset>
+ <tileset firstgid="2177" name="p" tilewidth="16" tileheight="16" tilecount="36" columns="4">
+  <image source="paths" width="64" height="144"/>
+ </tileset>
+ <layer id="1" name="Back" width="6" height="9">
+  <data encoding="csv">
+430,430,430,430,430,430,
+430,430,430,430,430,430,
+430,430,430,430,430,430,
+605,508,605,605,605,605,
+636,540,636,604,604,604,
+604,604,637,636,636,636,
+636,636,636,604,604,604,
+604,604,604,636,636,636,
+636,636,636,604,604,604
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+75,75,75,75,75,75,
+107,107,107,107,107,107,
+0,0,2147484031,2147484030,0,0,
+0,0,0,0,0,1229,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,652,
+0,453,0,0,651,496
+</data>
+ </layer>
+ <layer id="4" name="Front" width="6" height="9">
+  <data encoding="csv">
+0,257,0,307,0,1345,
+0,289,0,0,1844,1845,
+0,0,2147483999,2147483998,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,577,0,0,0,464,
+0,0,0,0,0,496
+</data>
+ </layer>
+ <layer id="9" name="Front1" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,816,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Paths" width="6" height="9">
+  <data encoding="csv">
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0,
+0,0,0,0,0,0
+</data>
+ </layer>
+ <objectgroup id="6" name="Buildings">
+  <object id="3" name="TileData" x="80" y="64" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Farmhouse.VinceBox&quot;"/>
+   </properties>
+  </object>
+  <object id="4" name="TileData" x="80" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Farmhouse.VinceTrash&quot;"/>
+   </properties>
+  </object>
+  <object id="5" name="TileData" x="64" y="128" width="16" height="16">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </object>
+  <object id="6" name="TileData" x="80" y="112" width="16" height="16">
+   <properties>
+    <property name="Passable" value="T"/>
+   </properties>
+  </object>
+  <object id="7" name="TileData" x="64" y="16" width="16" height="32">
+   <properties>
+    <property name="Action" value="Message &quot;Farmhouse.VinceConsole&quot;"/>
+   </properties>
+  </object>
+  <object id="8" name="TileData" x="16" y="128" width="16" height="16">
+   <properties>
+    <property name="Action" value="Message &quot;Farmhouse.VinceGlobe&quot;"/>
+   </properties>
+  </object>
+ </objectgroup>
+</map>

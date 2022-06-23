@@ -1,0 +1,70 @@
+{
+	"Changes": [
+		{
+			"LogName": "Evelyn grieving dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Evelyn",
+			
+			"Entries": {
+				"GeorgeFuneral": "{{i18n:PoliteGrievingDefault.TTSP}}",
+				"GeorgeGrieving": "...The television is still on in the living room, but nobody is watching is.$s#$b#I don't have the heart to turn it off.$s",
+				
+				"ExtraDialogue_LostItemQuest_DefaultThankYou": "{{i18n:PoliteBrighten.TTSP}}",
+				"ExtraDialogue_Town_DumpsterDiveComment_Adult": "{{i18n:GrievingWhatAreYouDoing.TTSP}}",
+				
+				"NPC.cs.4274": "{{i18n:PoliteBirthdayGiftGrieving.TTSP}}$h",
+				"NPC.cs.4275": "{{i18n:PoliteBirthdayGiftGrieving.TTSP}}$h",
+				"NPC.cs.4276": "{{i18n:PoliteBirthdayGiftGrieving.TTSP}}$h",
+				"NPC.cs.4277": "{{i18n:PoliteBirthdayGiftGrieving.TTSP}}$h",
+				"NPC.cs.4279": "{{i18n:BirthdayGiftGrieving.TTSP}}$s/{{i18n:BirthdayGiftGrieving.TTSP}}$s",
+				"NPC.cs.4280": "{{i18n:PoliteBirthdayGiftGrieving2.TTSP}}$n",
+				"NPC.cs.4281": "{{i18n:PoliteBirthdayGiftGrieving.TTSP}}$h/{{i18n:PoliteBirthdayGiftGrieving.TTSP}}$h",
+				
+				"NPC.cs.4293": "{{i18n:GrievingWhy.TTSP}}",
+				"NPC.cs.4294": "{{i18n:GrievingWorse.TTSP}}",
+				
+				"Characters_MovieInvite_InvitedBySomeoneElse": "{{i18n:GrievingMovie.TTSP}}",
+				"Characters_MovieInvite_AlreadySeen": "{{i18n:GrievingMovie.TTSP}}",
+				"Characters_MovieInvite_Invited": "{{i18n:GrievingMovie.TTSP}}",
+				"Characters_MovieInvite_Invited_Rude": "{{i18n:GrievingMovie.TTSP}}",
+				"Characters_MovieInvite_Invited_Child": "{{i18n:GrievingMovie.TTSP}}",
+				"Characters_MovieInvite_Reject_Child": "{{i18n:GrievingMovie.TTSP}}",
+				"Characters_MovieInvite_Reject": "{{i18n:GrievingMovie.TTSP}}",
+			}
+		},
+		
+		{
+			"LogName": "Evelyn grieving dialogue - gifts received",
+			"Action": "EditData",
+			"Target": "Data/NPCGiftTastes",
+			
+			"Fields": {
+				"Evelyn": {
+					"0": "{{i18n:PoliteGrievingGiftLove.TTSP}}",
+					"2": "{{i18n:GrievingGiftLike.TTSP}}",
+					"4": "...$s",
+					"6": "...$s",
+					"8": "...$s",
+				}
+			}
+		},
+		
+		{
+			"LogName": "Evelyn exclusions while grieving",
+			"Action": "EditData",
+			"Target": "Data/CustomNPCExclusions",
+			"Entries": {
+				"Evelyn": "WinterStar ItemDelivery IslandVisit ShopDialog MovieInvite"
+			}
+		},
+		
+		{
+			"LogName": "Evelyn refuse ticket dialogue",
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			"Entries": {
+				"MovieInvite_CantInvite_Evelyn": "{{i18n:GrievingMovie.TTSP}}",
+			}
+		}
+	]
+}

@@ -1,0 +1,688 @@
+{
+	"Format": "1.27.0",
+	
+	"AliasTokenNames": {
+		
+		// Current age //
+		
+		"AbigailAge": "OmegaFallon.ThisTooShallPassCS/AbigailAge",
+		"AlexAge": "OmegaFallon.ThisTooShallPassCS/AlexAge",
+		"BirdieAge": "OmegaFallon.ThisTooShallPassCS/BirdieAge",
+		"BlondieAge": "OmegaFallon.ThisTooShallPassCS/BlondieAge",
+		"BoatmanAge": "OmegaFallon.ThisTooShallPassCS/BoatmanAge",
+		"CarolineAge": "OmegaFallon.ThisTooShallPassCS/CarolineAge",
+		"ClarieAge": "OmegaFallon.ThisTooShallPassCS/ClarieAge",
+		"ClintAge": "OmegaFallon.ThisTooShallPassCS/ClintAge",
+		"DemetriusAge": "OmegaFallon.ThisTooShallPassCS/DemetriusAge",
+		"DesertTraderAge": "OmegaFallon.ThisTooShallPassCS/DesertTraderAge",
+		"ElliottAge": "OmegaFallon.ThisTooShallPassCS/ElliottAge",
+		"EmilyAge": "OmegaFallon.ThisTooShallPassCS/EmilyAge",
+		"EvelynAge": "OmegaFallon.ThisTooShallPassCS/EvelynAge",
+		"GeorgeAge": "OmegaFallon.ThisTooShallPassCS/GeorgeAge",
+		"GilAge": "OmegaFallon.ThisTooShallPassCS/GilAge",
+		"GovernorAge": "OmegaFallon.ThisTooShallPassCS/GovernorAge",
+		"GuntherAge": "OmegaFallon.ThisTooShallPassCS/GuntherAge",
+		"GusAge": "OmegaFallon.ThisTooShallPassCS/GusAge",
+		"HaleyAge": "OmegaFallon.ThisTooShallPassCS/HaleyAge",
+		"HarveyAge": "OmegaFallon.ThisTooShallPassCS/HarveyAge",
+		"JasAge": "OmegaFallon.ThisTooShallPassCS/JasAge",
+		"JodiAge": "OmegaFallon.ThisTooShallPassCS/JodiAge",
+		"KentAge": "OmegaFallon.ThisTooShallPassCS/KentAge",
+		"LeahAge": "OmegaFallon.ThisTooShallPassCS/LeahAge",
+		"LeoAge": "OmegaFallon.ThisTooShallPassCS/LeoAge",
+		"LewisAge": "OmegaFallon.ThisTooShallPassCS/LewisAge",
+		"LinusAge": "OmegaFallon.ThisTooShallPassCS/LinusAge",
+		"LupiniAge": "OmegaFallon.ThisTooShallPassCS/LupiniAge",
+		"MarlonAge": "OmegaFallon.ThisTooShallPassCS/MarlonAge",
+		"MarnieAge": "OmegaFallon.ThisTooShallPassCS/MarnieAge",
+		"MaruAge": "OmegaFallon.ThisTooShallPassCS/MaruAge",
+		"MorrisAge": "OmegaFallon.ThisTooShallPassCS/MorrisAge",
+		"PamAge": "OmegaFallon.ThisTooShallPassCS/PamAge",
+		"ParentsAge": "OmegaFallon.ThisTooShallPassCS/ParentsAge",
+		"PennyAge": "OmegaFallon.ThisTooShallPassCS/PennyAge",
+		"PhotographerAge": "OmegaFallon.ThisTooShallPassCS/PhotographerAge",
+		"PierreAge": "OmegaFallon.ThisTooShallPassCS/PierreAge",
+		"RobinAge": "OmegaFallon.ThisTooShallPassCS/RobinAge",
+		"SamAge": "OmegaFallon.ThisTooShallPassCS/SamAge",
+		"SandyAge": "OmegaFallon.ThisTooShallPassCS/SandyAge",
+		"SebastianAge": "OmegaFallon.ThisTooShallPassCS/SebastianAge",
+		"ShaneAge": "OmegaFallon.ThisTooShallPassCS/ShaneAge",
+		"SnailAge": "OmegaFallon.ThisTooShallPassCS/SnailAge",
+		"SubmarineCaptainAge": "OmegaFallon.ThisTooShallPassCS/SubmarineCaptainAge",
+		"VincentAge": "OmegaFallon.ThisTooShallPassCS/VincentAge",
+		"WeathermanGingerAge": "OmegaFallon.ThisTooShallPassCS/WeathermanGingerAge",
+		"WillyAge": "OmegaFallon.ThisTooShallPassCS/WillyAge",
+		
+		// Single name
+		
+		"WhoDiedToday": "OmegaFallon.ThisTooShallPassCS/WhoDiedToday",
+		"WhoseFuneralLeadup": "OmegaFallon.ThisTooShallPassCS/WhoseFuneralLeadup",
+		"WhoseFuneralToday": "OmegaFallon.ThisTooShallPassCS/WhoseFuneralToday",
+		"WhoseGrieving": "OmegaFallon.ThisTooShallPassCS/WhoseGrieving",
+		
+		"EnableDeath": "OmegaFallon.ThisTooShallPassCS/EnableDeath",
+		"EnableBecomeDateable": "OmegaFallon.ThisTooShallPassCS/EnableBecomeDateable",
+		"AllDead": "OmegaFallon.ThisTooShallPassCS/AllDead",
+		
+		// Lists
+		
+		"Dead": "OmegaFallon.ThisTooShallPassCS/Dead",
+    },
+	
+	"RepeatEvents": [
+		12491001,
+	],
+	
+	"DynamicTokens": [
+		// general stuff
+	
+		{
+			"Name": "EYear",
+			"Value": "{{query: {{Year}} - 1}}"
+		},
+		
+		// Season offset. Defined such that SeasonOffset + Day is the day it currently is in the year
+		
+		{
+			"Name": "SeasonOffset",
+			"Value": "0",
+			"When": {
+				"Season": "spring",
+			}
+		},
+		
+		{
+			"Name": "SeasonOffset",
+			"Value": "28",
+			"When": {
+				"Season": "summer",
+			}
+		},
+		
+		{
+			"Name": "SeasonOffset",
+			"Value": "56",
+			"When": {
+				"Season": "fall",
+			}
+		},
+		
+		{
+			"Name": "SeasonOffset",
+			"Value": "84",
+			"When": {
+				"Season": "winter",
+			}
+		},
+		
+		{
+			"Name": "DayOfYear",
+			"Value": "{{query: {{SeasonOffset}} + {{Day}}}}",
+		},
+		
+		{
+			"name": "DaysOverall",
+			"Value": "{{query: {{DayOfYear}} + ({{EYear}} * 28 * 4)}}",
+		},
+		
+		// Anyone ___
+		
+		{
+			"Name": "AnyoneDeparted",
+			"Value": "{{query: {{EnableDeath}} AND {{HasValue:{{WhoDiedToday}}}}}}",
+		},
+		
+		{
+			"Name": "AnyoneFuneralLeadup",
+			"Value": "{{query: {{EnableDeath}} AND {{HasValue:{{WhoseFuneralLeadup}}}}}}",
+		},
+		
+		{
+			"Name": "AnyoneFuneral",
+			"Value": "{{query: {{EnableDeath}} AND {{HasValue:{{WhoseFuneralToday}}}}}}",
+		},
+		
+		{
+			"Name": "AnyoneGrieving",
+			"Value": "{{query: {{EnableDeath}} AND {{HasValue:{{WhoseGrieving}}}}}}",
+		},
+				
+		// Confusion mitigation //
+		// Pierre sub
+		
+		{
+			"Name": "CarolineSubPierre",
+			"Value": "{{query: {{Dead |contains=Pierre}} AND NOT {{Dead |contains=Caroline}}}}",
+		},
+		
+		{
+			"Name": "WizardSubPierre",
+			"Value": "{{query: {{Dead |contains=Pierre}} AND {{Dead |contains=Caroline}}}}",
+		},
+		
+		// Lewis sub
+		{
+			"Name": "MarnieSubLewis",
+			"Value": "{{query: {{Dead |contains=Lewis}} AND NOT {{Dead |contains=Marnie}}}}",
+		},
+		
+		{
+			"Name": "WizardSubLewis",
+			"Value": "{{query: {{Dead |contains=Lewis}} AND {{Dead |contains=Marnie}}}}",
+		},
+		
+		// Marnie sub
+		
+		{
+			"Name": "JasSubMarnie",
+			"Value": "{{query: {{Dead |contains=Marnie}} AND NOT {{Dead |contains=Jas}} AND ({{JasAge}} >= 18)}}",
+		},
+		
+		{
+			"Name": "WizardSubMarnie",
+			"Value": "{{query: {{Dead |contains=Marnie}} AND NOT {{JasSubMarnie}}}}",
+		},
+		
+		// Harvey sub
+		
+		{
+			"Name": "MaruSubHarvey",
+			"Value": "{{query: {{Dead |contains=Harvey}} AND NOT {{Dead |contains=Maru}}}}",
+		},
+		
+		{
+			"Name": "WizardSubHarvey",
+			"Value": "{{query: {{Dead |contains=Harvey}} AND {{Dead |contains=Maru}}}}",
+		},
+		
+		// Pam sub
+
+		{
+			"Name": "WizardSubPam",
+			"Value": "{{query: {{HasFlag: anyPlayer |contains=ccVault}} AND {{Dead |contains=Pam}}}}",
+		},
+		
+		// Is wizard present
+		
+		{
+			"Name": "WizardPresent",
+			"Value": "{{query: {{WizardSubLewis}} OR {{WizardSubPierre}} OR {{WizardSubMarnie}} OR {{WizardSubHarvey}} OR {{Dead |contains=Clint, Gunther, Gus, Robin, Willy, Marlon, Sandy}}}}",
+		},
+		
+		{
+			"Name": "JasVince13",
+			"Value": "{{query: NOT {{Dead |contains=Jas, Vincent}} AND ({{JasAge}} > 13 OR {{VincentAge}} > 13)}}",
+		},
+		
+		{
+			"Name": "JasVince18",
+			"Value": "{{query: NOT {{Dead |contains=Jas, Vincent}} AND ({{JasAge}} > 18 OR {{VincentAge}} > 18)}}",
+		},
+		
+		// Ordinals (I fucking hate the English language) //
+		{
+			"Name": "LewisAgeOrdinal",
+			"Value": "{{LewisAge}}{{i18n:OrdinalGen.TTSP}}",
+		},
+		
+		{
+			"Name": "LewisAgeOrdinal",
+			"Value": "{{LewisAge}}{{i18n:Ordinal1.TTSP}}",
+			"When": {
+				"query: ({{LewisAge}} % 10) = 1": true,
+			}
+		},
+		
+		{
+			"Name": "LewisAgeOrdinal",
+			"Value": "{{LewisAge}}{{i18n:Ordinal2.TTSP}}",
+			"When": {
+				"query: ({{LewisAge}} % 10) = 2": true,
+			}
+		},
+		
+		{
+			"Name": "LewisAgeOrdinal",
+			"Value": "{{LewisAge}}{{i18n:Ordinal3.TTSP}}",
+			"When": {
+				"query: ({{LewisAge}} % 10) = 3": true,
+			}
+		},
+		
+		// Marnie substitution
+		
+		// Who is substituting for Marnie
+		{
+			"Name": "MarnieSub",
+			"Value": "Marnie",
+			
+			"When": {
+				"Dead |contains=Marnie": false,
+			}
+		},
+		
+		{
+			"Name": "MarnieSub",
+			"Value": "Jas",
+			
+			"When": {
+				"JasSubMarnie": true,
+			}
+		},
+		
+		{
+			"Name": "MarnieSub",
+			"Value": "Magnus",
+			
+			"When": {
+				"WizardSubMarnie": true,
+			}
+		},
+		
+		// Lewis substitution strings //
+		
+		// Who is substituting for Lewis, as a full title.
+		{
+			"Name": "LewisSubF",
+			"Value": "Mayor Lewis",
+			
+			"When": {
+				"Dead |contains=Lewis": false,
+			}
+		},
+		
+		{
+			"Name": "LewisSubF",
+			"Value": "Mayor Marnie",
+			
+			"When": {
+				"MarnieSubLewis": true,
+			}
+		},
+		
+		{
+			"Name": "LewisSubF",
+			"Value": "Magnus",
+			
+			"When": {
+				"WizardSubLewis": true,
+			}
+		},
+		
+		// Who is substituting for Lewis, just the name.
+		{
+			"Name": "LewisSubS",
+			"Value": "Lewis",
+			
+			"When": {
+				"Dead |contains=Lewis": false,
+			}
+		},
+		
+		{
+			"Name": "LewisSubS",
+			"Value": "Marnie",
+			
+			"When": {
+				"MarnieSubLewis": true,
+			}
+		},
+		
+		{
+			"Name": "LewisSubS",
+			"Value": "Magnus",
+			
+			"When": {
+				"WizardSubLewis": true,
+			}
+		},
+		
+		// Who is substituting for Lewis, as they would sign a letter.
+		{
+			"Name": "LewisSubL",
+			"Value": "Lewis",
+			
+			"When": {
+				"Dead |contains=Lewis": false,
+			}
+		},
+		
+		{
+			"Name": "LewisSubL",
+			"Value": "Marnie",
+			
+			"When": {
+				"MarnieSubLewis": true,
+			}
+		},
+		
+		{
+			"Name": "LewisSubL",
+			"Value": "M. Rasmodius",
+			
+			"When": {
+				"WizardSubLewis": true,
+			}
+		},
+		
+		// Different pronouns for the person filling in for Lewis
+		
+		{
+			"Name": "LewisSubMale",
+			"Value": "{{query: NOT {{Dead |contains=Lewis}} OR {{WizardSubLewis}}}}",
+		},
+		
+		{
+			"Name": "LewisSubject",
+			"Value": "he",
+			
+			"When": {
+				"LewisSubMale": true,
+			}
+		},
+		
+		{
+			"Name": "LewisSubject",
+			"Value": "she",
+			
+			"When": {
+				"MarnieSubLewis": true,
+			}
+		},
+		
+		{
+			"Name": "LewisObject",
+			"Value": "him",
+			
+			"When": {
+				"LewisSubMale": true,
+			}
+		},
+		
+		{
+			"Name": "LewisObject",
+			"Value": "her",
+			
+			"When": {
+				"MarnieSubLewis": true,
+			}
+		},
+		
+		{
+			"Name": "LewisDeter",
+			"Value": "his",
+			
+			"When": {
+				"LewisSubMale": true,
+			}
+		},
+		
+		{
+			"Name": "LewisDeter",
+			"Value": "her",
+			
+			"When": {
+				"MarnieSubLewis": true,
+			}
+		},
+		
+		{
+			"Name": "LewisIndPos",
+			"Value": "his",
+			
+			"When": {
+				"LewisSubMale": true,
+			}
+		},
+		
+		{
+			"Name": "LewisIndPos",
+			"Value": "hers",
+			
+			"When": {
+				"MarnieSubLewis": true,
+			}
+		},
+		
+		{
+			"Name": "LewisRef",
+			"Value": "himself",
+			
+			"When": {
+				"LewisSubMale": true,
+			}
+		},
+		
+		{
+			"Name": "LewisRef",
+			"Value": "herself",
+			
+			"When": {
+				"MarnieSubLewis": true,
+			}
+		},
+		
+		{
+			"Name": "LewisAff",
+			"Value": "guy",
+			
+			"When": {
+				"LewisSubMale": true,
+			}
+		},
+		
+		{
+			"Name": "LewisAff",
+			"Value": "gal",
+			
+			"When": {
+				"MarnieSubLewis": true,
+			}
+		},
+	],
+	
+	"CustomLocations": [
+		{
+			"Name": "Custom_TTSP_Storage",
+			"FromMapFile": "Assets/VillagerStorage.tmx"
+		},
+		
+		{
+			"Name": "Custom_TTSP_Graveyard",
+			"FromMapFile": "Assets/Funerals/Graveyard.tmx"
+		},
+		
+		{
+			"Name": "Custom_JasRoomTest",
+			"FromMapFile": "Assets/Jas/JasSpouseRoom.tmx"
+		},
+		
+		{
+			"Name": "Custom_LeoRoomTest",
+			"FromMapFile": "Assets/Leo/LeoSpouseRoom.tmx"
+		},
+		
+		{
+			"Name": "Custom_VincentRoomTest",
+			"FromMapFile": "Assets/Vincent/VincentSpouseRoom.tmx"
+		},
+	],
+	
+	"Changes": [
+		// For each of these we test if Year is greater than 0. Doing this makes it so that all of this code only triggers once you've actually loaded up a save file, cutting down on unnecessary code triggering. //
+		
+		// Considering the Wizard's role in this mod's story, I find this an important enough change.
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Characters/Wizard/magnus_goodwizard.json",
+			
+			"When": {
+				"query: {{Year}} > 0": true,
+			}
+		},
+		
+		// New strings (dunno where else to put this)
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/new_strings.json",
+			
+			"When": {
+				"query: {{Year}} > 0": true,
+			}
+		},
+		
+		// Properly sets up the storage room with the map
+		
+		{
+            "LogName": "Manifest Map Sprite Offset",
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/Locations",
+			
+			"When": {
+				"HasMod |contains=Yagisan.NPCMapLocationsForNPCs": true,
+			},
+			
+            "Entries": {
+				"Custom_TTSP_Storage": {
+					"MapVectors": [
+						{
+							"MapX": 0,
+							"MapY": 0
+						}
+					],
+					"MapTooltip": {
+						"X": 1,
+						"Y": 1,
+						"Width": 1,
+						"Height": 1,
+						"PrimaryText": "ERROR"
+					}
+				}
+			}
+        },
+	
+		// Ages characters.
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Characters/aging.json",
+			
+			"When": {
+				"query: {{Year}} > 0": true,
+				"AllDead": false,
+			}
+		},
+				
+		// Kills characters.
+	
+		{
+			"Action": "Include",
+			"FromFile": "Data/Characters/unmanifest.json",
+			
+			"When": {
+				"query: {{Year}} > 0": true,
+			}
+		},
+		
+		// Dialogue edits
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Characters/dialogue_edits.json",
+			
+			"When": {
+				"query: {{Year}} > 0": true,
+			}
+		},
+		
+		// Edit houses/exterior doors
+		
+		{
+			"LogName": "Edit houses & exterior doors",
+			"Action": "Include",
+			"FromFile": "Data/Characters/edit_houses.json",
+			
+			"When": {
+				"query: {{Year}} > 0": true
+			}
+		},
+		
+		// Edit interior doors
+		
+		{
+			"LogName": "Edit interior doors",
+			"Action": "Include",
+			"FromFile": "Data/Characters/edit_doors.json",
+			
+			"When": {
+				"query: {{Year}} > 0": true,
+				"EnableDeath": true,
+				
+			}
+		},
+		
+		// Edits events
+		
+		{
+			"LogName": "Edit events",
+			"Action": "Include",
+			"FromFile": "Data/Events/edit_events.json",
+			
+			"When": {
+				"query: {{Year}} > 0": true,
+			}
+		},
+		
+		// Edits festivals
+		
+		{
+			"LogName": "Edit festivals",
+			"Action": "Include",
+			"FromFile": "Data/Festivals/edit_festivals.json",
+			
+			"When": {
+				"AnyoneFuneral": false,
+			}
+		},
+		
+		// ???
+		
+		{
+			"LogName": "???",
+			"Action": "Include",
+			"FromFile": "Data/creepy.json",
+			
+			"When": {
+				"EnableDeath": true,
+			}
+		},
+		
+		// Compatibility
+		
+		{
+			"LogName": "Compatibility patches",
+			"Action": "Include",
+			"FromFile": "Data/123_Compatibility/compatibility.json",
+			
+			"When": {
+				"query: {{Year}} > 0": true,
+			}
+		},
+		
+		// Funerals. These go here so grieving & funeral dialogue overwrites! //
+		
+		{
+			"LogName": "Funerals",
+			"Action": "Include",
+			"FromFile": "Data/Funerals/funerals.json",
+			
+			"When": {
+				"EnableDeath": true,
+				"query: {{Year}} > 0": true,
+				"AllDead": false,
+			}
+		},
+	]
+}

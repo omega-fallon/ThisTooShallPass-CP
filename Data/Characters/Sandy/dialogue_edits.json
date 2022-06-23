@@ -1,0 +1,22 @@
+{
+	"Changes": [
+		{
+			"LogName": "Sandy — Emily dead",
+			"Action": "EditData",
+			"Target": "Strings/Schedules/Sandy",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+		
+			"Entries": {
+				"Sandy_Birthday_Greeting": null,
+				"Sandy_Birthday_Hangout": null,
+				"Sandy_Birthday_Lake": null,
+				"Sandy_Birthday_Bones": null,
+				"Sandy_Birthday_Camel": null,
+				"Sandy_Birthday_Bye": null,
+			}
+		},
+	]
+}

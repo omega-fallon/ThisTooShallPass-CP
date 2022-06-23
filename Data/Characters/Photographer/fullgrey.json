@@ -1,0 +1,11 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "Assets/Photographer/Sprites/FullGrey_Festival.png",
+			"ToArea": { "X": 352, "Y": 128, "Width": 16, "Height": 32 },
+			"PatchMode": "Replace",
+		},
+	]
+}

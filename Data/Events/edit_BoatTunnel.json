@@ -1,0 +1,25 @@
+{
+	"Changes": [
+		{
+			"LogName": "BoatTunnel Events - Willy dead",
+			"Target": "Data/Events/BoatTunnel",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			},
+						
+			"Fields": {
+				 "9348571/Hl willyBoatFixed": {
+					"19": "speak Willy \"A sad sight, isn't it?\"",
+					"21": "speak Willy \"It was his father's boat. A very old, very steadfast vessel.#$b#Now, however... it floats as well as a corpse.$s\"",
+					"24": "speak Willy \"I'd repair it myself, but I simply haven't the time or resources to devote to this...#$b#As important as this is to us, there are yet more important things for me to tend to. It's quite unfortunate.\"",
+					"26": "speak Willy \"200 pieces of hardwood would be enough to patch the hull.#$b#Of course, the ticket machine is broken as well, and the iridium anchor needs reforging.\"",
+					"29": "speak Willy \"With the right materials, this heirloom may sail again, straight forth to the Fern Islands.\"",
+					"32": "speak Willy \"A volcanic archipelago of mystic, mysterious tropics. Not even I know all of its secrets, and not for lack of investigation.\"",
+					"34": "quickQuestion #I'd like to help#Nah, I'll pass...(break)emote Willy 32\\speak Willy \"Mmm... I had a feeling you would respond as such. How fortunate.$h\"\\speak Willy \"The door shall remain unlocked for you... come drop off the materials whenever you can.\"(break)emote Willy 28\\speak Willy \"Very well, suit yourself...$s#$b#If you have a change of heart, you can always come back and assist. I'll leave the door unlocked.\"",
+				 }
+			}
+		},
+	]
+}

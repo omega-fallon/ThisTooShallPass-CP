@@ -1,0 +1,1815 @@
+{
+	"Changes": [
+		// Sam //
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Hearts:Sam": "4, 5",
+				"Dead |contains=Penny": true,
+			},
+			"Entries": {
+				"Sam": "Usually I'd ask Penny to dance, but... well, can't do that anymore...$s#$b#I guess it's time to look for greener pastures, huh?"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Hearts:Sam": "4, 5",
+				"Dead |contains=Penny": true,
+			},
+			"Entries": {
+				"Sam": "...Hey, you look nice today.$l#$b#What? No! I just mean that in a friendly way!$u"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Relationship:Sam": "Engaged",
+				"Dead |contains=Sebastian": true,
+			},
+			"Entries": {
+				"Sam_spouse": "Mmm... sorry, can I be honest? I miss Sebastian. I wanted him to be my best man at our wedding.$s#$e#Sorry for bringing the mood down. This is a cool fair... Sebastian would've wanted me to enjoy it with my soon-to-be!$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Relationship:Sam": "Married",
+				"Dead |contains=Gus": true,
+			},
+				"Entries": {
+				"Sam_spouse": "Magnus has started up the barbecue.#$b#I can smell it...$u#$b#Let's go eat!$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Hearts:Sam": "4, 5",
+				"Dead |contains=Sebastian": true,
+			},
+			"Entries": {
+				"Sam": "Hey, @. I'm thinking about starting a snowball fight.#$b#If I can just get the drop on someone... people always seem to see me coming.$7#$b#Hey, wanna help?$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Hearts:Sam": "4, 5",
+				"Dead |contains=Penny": true,
+			},
+			"Entries": {
+				"Sam": "Is someone looking at me right now?$7#$b#No, I'm just... seeing things.$s#$b#...Umm... this sound weird, but I swear it's related. How's my hair?$n"
+			}
+		},
+		
+		// Maru //
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Hearts:Maru": "2, 3",
+				"Dead |contains=Abigail": true,
+			},
+			"Entries": {
+				"Maru": "Hi @! Are you going to participate in the egg hunt? I am!#$b#I've never won, but it's still lots of fun.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Hearts:Maru": "6, 7, 8, 9, 10",
+				"Dead |contains=Penny": true,
+			},
+			"Entries": {
+				"Maru": "Penny was really good with kids, but to be honest, I've never been like that.#$b#I think I could learn, though. I'm sure Vincent would like my robots.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Relationship:Maru": "Dating",
+				"Dead |contains=Penny": true,
+			},
+			"Entries": {
+				"Maru": "Oh, hey, @! Don't mind me, just looking after the kids.#$b#Well, 'kids', more like it. They're grown up, now.#$b#Time flies, huh? Maybe that isn't a bad thing.$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Hearts:Maru": "4, 5",
+				"Dead |contains=Harvey": true,
+			},
+			"Entries": {
+				"Maru": "In the past, a couple people have asked me to dance. I usually say yes, but not really because I want to.#$b#I guess I just like being nice... but maybe to a fault? I dunno.$s"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Relationship:Maru": "Married",
+				"Dead |contains=Sam, Penny": true,
+			},
+			"Entries": {
+				"Maru": "Do you ever think about how the people who dance together are more likely to end up together?$u#$b#I guess in that way, destiny exists! Weird.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Hearts:Maru": "2, 3",
+				"Dead |contains=Sebastian, Sam": true,
+			},
+			"Entries": {
+				"Maru": "Honestly, I probably wouldn't trust that soup. You never know what people might put in it.#$b#Sebastian and Sam would always try to ruin it...$u"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Hearts:Maru": "6, 7, 8, 9, 10",
+				"Dead |contains=Demetrius, Robin": true,
+			},
+			"Entries": {
+				"Maru": "I've never been much for the Flower Dance, but something small like this is more my style.$h#$b#Maybe that's weird, but hey, dancing is pretty weird in general.$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Relationship:Maru": "Dating",
+				"Dead |contains=Linus": true,
+			},
+			"Entries": {
+				"Maru": "I'm sure I could invent something that would turn the spit, so nobody would have to stand there and do it all day.$u#$b#But I think the manual aspect really adds to the vibe! At the very least, it takes good...$n#$b#Mmmmm...$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Relationship:Maru": "Engaged",
+				"Dead |contains=Harvey": true,
+			},
+			"Entries": {
+				"Maru_spouse": "Don't mind me, I'm just thinking about the wedding!$h#$b#It seems like everyone else I've talked to is excited for us, too.$6"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Relationship:Maru": "Divorced",
+				"Dead |contains=Harvey": true,
+			},
+			"Entries": {
+				"Maru": "I wish Harvey was still alive so he could write me a doctor's note to excuse me from talking to you ever again.$a"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Language": "en",
+				"Hearts:Maru": "2, 3",
+				"Dead |contains=Demetrius": true
+			},
+			"Entries": {
+				"Maru": "This is one of my favorite things! The jellies are just fascinating to watch.$l#$b#Dad and I did a lot of research about their habits, but so much about these creatures is still a mystery!$6"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Language": "en",
+				"Relationship:Maru": "Engaged",
+				"Dead |contains=Demetrius": true,
+			},
+			"Entries": {
+				"Maru": "One of the upsides of getting married is that I can get out of my old house!$h#$b#Don't get me wrong, I love the place and all the memories in it, but...$n#$b#It just feels... empty, you know?$8"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Language": "en",
+				"Relationship:Maru": "Married",
+				"Dead |contains=Demetrius, Robin": true,
+			},
+			"Entries": {
+				"Maru": "It might sound kind of weird, but I've really missed spending time with my Mom and Dad, all three of us, here...$s#$e#I guess you always miss what you don't have, huh?"
+			}
+        },
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Language": "en",
+				"Hearts:Maru": "6, 7, 8, 9, 10",
+				"Dead |contains=Sebastian": true,
+			},
+			"Entries": {
+				"Maru": "Oh, boy, Maru, here we are again. Lost in the Halloween maze...$8#$b#Oh!$9#$b#Oh, @, you scared me! Don't tell anyone I got lost again, okay? People will just make fun of me...$s"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Hearts:Maru": "4, 5",
+				"Dead |contains=Leah": true,
+			},
+			"Entries": {
+				"Maru": "Don't judge me, I'm not an artist like Leah was!#$b#...But I'm pretty proud of this little guy!$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Hearts:Maru": "4, 5",
+				"Dead |contains=Demetrius": true,
+				"Dead |contains=Robin": true,
+			},
+			"Entries": {
+				"Maru": "I'm more more scientific than spiritual, but I still really enjoy these holiday celebrations!"
+			}
+        },
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Hearts:Maru": "6, 7, 8, 9, 10",
+				"Dead |contains=Demetrius": true,
+				"Dead |contains=Robin": true,
+			},
+			"Entries": {
+				"Maru": "Winter Star is such a lovely time. It brings people together... it makes old enemies peaceful for a day.$h#$b#Hey, I almost forgot, I got you this!$h[243 400 725]"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Relationship:Maru": "Dating",
+				"Dead |contains=Demetrius": true,
+				"Dead |contains=Robin": true,
+			},
+			"Entries": {
+				"Maru": "You can sit at this table, if you want, @!$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Relationship:Maru": "Engaged",
+				"Dead |contains=Demetrius": true,
+				"Dead |contains=Robin": true,
+			},
+			"Entries": {
+				"Maru_spouse": "I'm thankful for a lot of things...#$b#Including you!$h"
+			}
+		},
+		
+		// Harvey //
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Hearts:Harvey": "4, 5",
+				"Dead |contains=Maru": true,
+			},
+			"Entries": {
+				"Harvey": "I'm not a big fan of crowds like this...$s#$b#I'd rather watch the festivities from my apartment window, but I dragged myself out.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Relationship:Harvey": "Engaged",
+				"Dead |contains=Evelyn": true,
+			},
+			"Entries": {
+				"Harvey_spouse": "Honey, did you try the strawberry shortcake?$h#$e#*gasp* I just realized I still have to get a cake for the wedding!$8"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Hearts:Harvey": "4, 5",
+				"Dead |contains=Maru": true,
+			},
+			"Entries": {
+				"Harvey": "I-I was thinking about asking someone to be my dance partner today...#$b#Do you think that work out? I think most people just see me as a doctor and nothing more...$s"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Hearts:Harvey": "6, 7, 8, 9, 10",
+			},
+			"Entries": {
+				"Harvey": "I'm not very good at carnival games, but I like the petting zoo.#$b#{{MarnieSub}} does a great job keeping these animals healthy!$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Relationship:Harvey": "Engaged",
+				"Dead |contains=Gus": true,
+			},
+			"Entries": {
+				"Harvey": "I got hungry, and now I'm thinking about our wedding feast.$h#$b#I want it to be a beautiful, white wedding. I hope it snows!$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Relationship:Harvey": "Divorced",
+				"Dead |contains=Gus": true,
+			},
+			"Entries": {
+				"Harvey": "%Harvey is trying to light a fire and pretending not to notice you."
+			}
+		},
+		
+		// Sebastian
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Hearts:Sebastian": "2, 3",
+				"Dead |contains=Abigail": true,
+			},
+			"Entries": {
+				"Sebastian": "It was bad enough having Abigail win the hunt every year, and now, for some reason, Magnus still keeps around a clone of her.#$b#Clone? Hologram? I really don't know what his manifestos actually *are*."
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Hearts:Sebastian": "2, 3",
+				"Dead |contains=Abigail": false,
+			},
+			"Entries": {
+				"Sebastian": "Abby always wins the egg hunt.#$b#I honestly don't know why {{LewisSubS}} still lets her compete."
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Hearts:Sebastian": "4, 5",
+				"Dead |contains=Sam": true,
+			},
+			"Entries": {
+				"Sebastian": "One time I put a bunch of extra eggs in Sam's basket when no one was looking.#$b#The only time Abby's ever lost.$h#$b#I kept that one from him to his grave; he thought he beat her fair and square... that's just a white lie, isn't it?$7"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Hearts:Sebastian": "6, 7, 8, 9, 10",
+				"Dead |contains=Abigail": true,
+			},
+			"Entries": {
+				"Sebastian": "I wish I didn't have to do this stupid dance...$a"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Hearts:Sebastian": "6, 7, 8, 9, 10",
+				"Dead |contains=Sam": true,
+			},
+			"Entries": {
+				"Sebastian": "I'm headed to the hot springs later tonight for swimmies and bevs. You wanna come?$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Relationship:Sebastian": "Engaged",
+				"Dead |contains=Sam": true,
+			},
+			"Entries": {
+				"Sebastian_spouse": "I hope the weather is a bit less hot when we get married.#$b#People like to imagine clear blue skies, but what's wrong with a cloudy day?$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Language": "en",
+				"Hearts:Sebastian": "6, 7, 8, 9, 10",
+				"Dead |contains=Sam": true,
+			},
+			"Entries": {
+				"Sebastian": "I was just thinking about jumping into the water...$7#$b#Should I do it?$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Language": "en",
+				"Relationship:Sebastian": "Married",
+				"Dead |contains=Abigail, Sam": true,
+			},
+			"Entries": {
+				"Sebastian": "Hey there, @. Just reminiscing over here.#$b#It feels weird to think that I'm married, now. Everything's the same, but...different.$n"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Hearts:Sebastian": "4, 5",
+				"Dead |contains=Sam": true,
+			},
+			"Entries": {
+				"Sebastian": "Think I'm gonna head home early.#$b#You wanna come over and hang out?$7"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Hearts:Sebastian": "6, 7, 8, 9, 10",
+				"Dead |contains=Sam": true,
+			},
+			"Entries": {
+				"Sebastian": "Hey, wanna head up to the barbecue area? I'm hungry...$7"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Language": "en",
+				"Hearts:Sebastian": "2, 3",
+				"Dead |contains=Abigail": true,
+			},
+			"Entries": {
+				"Sebastian": "I guess I kinda get why Abby always talked about going into the mines...$7"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Language": "en",
+				"Hearts:Sebastian": "6, 7, 8, 9, 10",
+				"Dead |contains=Sam": true,
+			},
+			"Entries": {
+				"Sebastian": "...I should probably go, now. Not much point to the festival without Sam.#$b#...I guess I do have you here. Maybe I'll stay.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Hearts:Sebastian": "6, 7, 8, 9, 10",
+				"Dead |contains=Sam": true,
+			},
+			"Entries": {
+				"Sebastian": "You're the only person in this town who doesn't make me wanna drive my motorcycle off a cliff.$7"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Hearts:Sebastian": "2, 3",
+				"Dead |contains=Demetrius, Robin": true,
+			},
+			"Entries": {
+				"Sebastian": "My family's always been a mess, but now, there isn't really much of a 'family' to speak of, is there?$s"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Hearts:Sebastian": "4, 5",
+				"Dead |contains=Robin": true,
+			},
+			"Entries": {
+				"Sebastian": "It's times like these that I really miss my Mom the most.$s#$b#She was kind of annoying, but she was always really sweet.$7"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Relationship:Sebastian": "Engaged",
+				"Dead |contains=Demetrius, Robin": true,
+			},
+			"Entries": {
+				"Sebastian_spouse": "I've never been big on community or family or any of the stuff this festival is about...#$b#But I'm excited that we'll soon be our own family.$l"
+			}
+		},
+		
+		// Leah //
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Relationship:Leah": "Engaged",
+				"Dead |contains=ElliottTrader": true,
+			},
+			"Entries": {
+				"Leah_spouse": "Don't mind me, I'm planning the details for the wedding. We have to scope out the location, right?$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Relationship:Leah": "Engaged",
+			},
+			"Entries": {
+				"Leah": "I'd love to have our wedding out here in the woods.#$b#Imagine - bare feet and flowers in our hair, saying our vows in nature.$l#$b#I'll talk to {{LewisSubF}} about it!$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Hearts:Leah": "4, 5",
+				"Dead |contains=ElliottTrader": true,
+			},
+			"Entries": {
+				"Leah": "To be honest, I prefer to have the beach to myself.#$b#I come here to visit Elliott's cabin quite often. He was a good friend of mine.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Hearts:Leah": "6, 7, 8, 9, 10",
+				"Dead |contains=ElliottTrader": true,
+			},
+			"Entries": {
+				"Leah": "You look nice today... if you don't mind me saying so.$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Relationship:Leah": "Divorced",
+				"Dead |contains=ElliottTrader": true,
+			},
+			"Entries": {
+				"Leah": "%Leah ignores you and looks at the ocean instead."
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Hearts:Leah": "2, 3",
+				"Dead |contains=Robin": true,
+			},
+			"Entries": {
+				"Leah": "I really find woodwork to be so fascinating!#$b#Robin was an expert carver, but what I do is a bit more free-form and a lot less mathematical!$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Language": "en",
+				"Hearts:Leah": "4, 5",
+				"Dead |contains=ElliottTrader": true,
+			},
+			"Entries": {
+				"Leah": "Lovely night, huh? The sights, the sounds...#$b#Pretty good... *hic*$l"
+			}
+		},
+		
+		// Alex //
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Hearts:Alex": "4, 5",
+				"Dead |contains=Evelyn": true,
+			},
+			"Entries": {
+				"Alex": "Yeah, this festival's kinda lame if you're not a kid, but people work really hard to put it together, so be nice about it."
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Relationship:Alex": "Dating",
+				"Dead |contains=Evelyn": true,
+			},
+			"Entries": {
+				"Alex": "Hey, babe.$l#$b#I made some awesome deviled eggs. You should try 'em.$n#$b#They're Granny's recipe.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Hearts:Alex": "2, 3",
+				"Dead |contains=Haley": true,
+			},
+			"Entries": {
+				"Alex": "Everyone looks better when they're dancing, don't you think?$h#$b#Nah, I'm not gonna ask anyone. Someone'll ask me.$n"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Hearts:Alex": "4, 5",
+				"Dead |contains=Haley": true,
+			},
+			"Entries": {
+				"Alex": "I don't really care about this stupid dance.#$b#But Haley always did, and she was my Queen.$l#$b#Well, it was like an on-and-off thing...$9#$b#Off, right now.$s"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Hearts:Alex": "4, 5",
+				"Dead |contains=Haley": true,
+			},
+			"Entries": {
+				"Alex": "Not right now, dude. I'm about to make my move on that soup.#$b#Yeah, I changed my mind on eating it, it looks *really* good.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Relationship:Alex": "Divorced",
+				"Dead |contains=Haley": true,
+			},
+			"Entries": {
+				"Alex": "%Alex is very pointedly eating and ignoring you."
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Hearts:Alex": "2, 3",
+				"Dead |contains=Gus": true,
+			},
+			"Entries": {
+				"Alex": "Mmmm, Magnus' burgers sure smell good.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Hearts:Alex": "4, 5",
+				"Dead |contains=Haley": true,
+			},
+			"Entries": {
+				"Alex": "I'm gonna tear into a bacon cheeseburger and nobody can stop me.$h#$b#Don't even try! I might bite your hand on accident.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Hearts:Alex": "6, 7, 8, 9, 10",
+				"Dead |contains=Haley": true,
+			},
+			"Entries": {
+				"Alex": "For some reason, I decided to go to the fortune teller's tent, and that old witch told me failure was in my future!$a#$b#You know what? I don't believe in that mumbo-jumbo, anyway. Nothing's getting in the way of my gridball career!$n"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Relationship:Alex": "Divorced",
+				"Dead |contains=Haley": true,
+			},
+			"Entries": {
+				"Alex": "Excuse me, I'm counting my tokens.$a"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Language": "en",
+				"Hearts:Alex": "6, 7, 8, 9, 10",
+				"Dead |contains=Harvey": true,
+			},
+			"Entries": {
+				"Alex": "Hey, @. Did you see that weird TV?#$b#Kinda reminds me of... Grandpa's.$s"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Hearts:Alex": "4, 5",
+				"Dead |contains=Haley": true,
+			},
+			"Entries": {
+				"Alex": "I dunno if this sounds weird, but I think people look, like, twice as cute when they're bundled up in a winter coat.#$b#Too bad there aren't any cute girls in winter coats around here.$9"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Relationship:Alex": "Engaged",
+				"Dead |contains=Evelyn": true,
+				"Dead |contains=George": false,
+			},
+			"Entries": {
+				"Alex_spouse": "It might sound weird, but I'm really happy that Grandpa will be able to come to my wedding.#$b#It's something I've thought about a lot.$9#$b#It's weird when the only family you have are... probably not gonna be around for that much longer. Especially now that Granny died...$s#$b#I'm glad I'll have you by my side through everything life throws at me.$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Relationship:Alex": "Engaged",
+				"Dead |contains=Evelyn": false,
+				"Dead |contains=George": true,
+			},
+			"Entries": {
+				"Alex_spouse": "It might sound weird, but I'm really happy that Granny will be able to come to my wedding.#$b#It's something I've thought about a lot.$9#$b#It's weird when the only family you have are... probably not gonna be around for that much longer. Especially now that Grandpa died...$s#$b#I'm glad I'll have you by my side through everything life throws at me.$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Relationship:Alex": "Engaged",
+				"Dead |contains=Evelyn": true,
+				"Dead |contains=George": true,
+			},
+			"Entries": {
+				"Alex_spouse": "It might sound weird, but I'm kinda sad Grandma and Grandpa won't be able to come to my wedding.$s#$b#It's something I've thought about a lot.$9#$b#It's weird, the only family I had were... not around for all that long...$s#$b#I guess that just makes me even more glad that I'll have you by my side through everything life throws at me.$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Hearts:Alex": "4, 5",
+				"Dead |contains=Evelyn, George": true,
+			},
+			"Entries": {
+				"Alex": "It gets kinda sad around the holidays at my place...$9#$b#Like something's always missing...$s#$b#Oh well, at least there are presents, right?$n"
+			}
+		},
+		
+		// Abigail //
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Hearts:Abigail": "4, 5",
+				"Dead |contains=Sam": false,
+			},
+			"Entries": {
+				"Abigail": "{{Uppercase:{{LewisSubF}}}}, SAM IS LOOKING AROUND FOR EGGS ALREADY!!$7#$b#We may be besties, but don't you try to cheat me out of my victory, Sammy boy.$a"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Hearts:Abigail": "4, 5",
+				"Dead |contains=Sam": true,
+			},
+			"Entries": {
+				"Abigail": "Hey... wait a minute, did I just catch you looking around for eggs?!$7#$b#Mmm... no, I might just be paranoid.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Hearts:Abigail": "4, 5",
+				"Dead |contains=Caroline, Pierre": true,
+			},
+			"Entries": {
+				"Abigail": "Ugh... well, here I am again. I really don't like this festival, but I feel some kind of obligation to be here.$s"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Hearts:Abigail": "6, 7, 8, 9, 10",
+				"Dead |contains=Sebastian": true,
+			},
+			"Entries": {
+				"Abigail": "Sometimes I feel like people only ask me to dance because they feel sorry for me...$s#$b#Ugh, this is so LAME.$u#$b#Hey, would you dance with me?$6"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Hearts:Abigail": "4, 5",
+				"Dead |contains=Pierre": true,
+			},
+			"Entries": {
+				"Abigail": "I'm not really big on crowds...$6#$b#...Sorry. Don't mean to bring you down with my 'anti-social, woe-is-me attitude'.$n#$b#That's what my dad always called it...$s"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Relationship:Abigail": "Engaged",
+				"Dead |contains=Caroline": true,
+			},
+			"Entries": {
+				"Abigail_spouse": "I'm going shopping for The Dress later.#$b#I don't really care about specifics, but it's important to do it right when it comes to wedding stuff.$h#$b#I'm sure our wedding will be as great as you are.$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Hearts:Abigail": "6, 7, 8, 9, 10",
+				"CarolineSubPierre": true,
+			},
+			"Entries": {
+				"Abigail": "...I'm glad my mom isn't as much of a poser as my dad was.#$n#He would always pretend the produce people sold him was stuff he grew himself.$a"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Hearts:Abigail": "6, 7, 8, 9, 10",
+				"WizardSubPierre": true,
+			},
+			"Entries": {
+				"Abigail": "Guess there's one less grange display this year, huh? One less real one, at least.$9"
+			}
+		},
+		
+		// Penny
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Hearts:Penny": "2, 3",
+				"Dead |contains=Abigail": true,
+			},
+			"Entries": {
+				"Penny": "Oh hi! I was hoping to see you here!#$b#The egg hunt has been a tradition around here for a long time and I'm glad you wanted to participate.$n#$b#I usually root for the younger ones, but it would be nice if you won too.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Relationship:Penny": "Engaged",
+				"Dead |contains=Maru": true,
+			},
+			"Entries": {
+				"Penny_spouse": "What do you think about Jas being my bridesmaid?#$b#I agree, she's been a very nice girl. It'll be wonderful for her to be part of our big day!$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Relationship:Penny": "Divorced",
+				"JasVince18": true,
+			},
+			"Entries": {
+				"Penny": "Please, stay away from me. I don't want to start crying in front of them.$s"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Hearts:Penny": "2, 3",
+				"Dead |contains=Sam": true,
+			},
+			"Entries": {
+				"Penny": "Hello, @!#$b#Sam and I... when we were younger we used to go and collect shells and touch the anemones.$l#$e#I miss those days...$u"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Hearts:Penny": "6, 7, 8, 9, 10",
+				"Dead |contains=Sam": true,
+			},
+			"Entries": {
+				"Penny": "Hi, @. I was just poking around in the sand, looking for some good seashells.#$b#They make very nice decorations.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Language": "en",
+				"Hearts:Penny": "6, 7, 8, 9, 10",
+				"Dead |contains=Sam": true,
+			},
+			"Entries": {
+				"Penny": "You've got... kind of a glow about you tonight, don't you? Did you get a tan this summer...?#$b#What? Don't look at me like that!$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Language": "en",
+				"Hearts:Penny": "6, 7, 8, 9, 10",
+				"Dead |contains=Maru": true,
+			},
+			"Entries": {
+				"Penny": "I was on a familiar path, but I seem to have lost my way... I can't quite remember how to get back.$u#$b#Are we supposed to go inside this haunted house...?$u"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Hearts:Penny": "4, 5",
+				"JasVince18": true,
+			},
+			"Entries": {
+				"Penny": "It's so cold out here, but I didn't wanted to miss the chance to play in the snow with the young ones!#$b#You're always welcome to make a snowman with us if you are not participating in the fishing contest.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Relationship:Penny": "Dating",
+				"Dead |contains=Pam": true,
+			},
+			"Entries": {
+				"Penny": "Don't tell anyone, but I'll be rooting for you to win the ice fishing competition!$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Relationship:Penny": "Engaged",
+				"Dead |contains=Emily": true,
+			},
+			"Entries": {
+				"Penny_spouse": "I'm working with Emily's old sewing equipment to make a beautiful gown with nice, warm, long sleeves.#$b#Oh, I know I shouldn't be telling you about it, but I'm just so excited!$h#$b#It's going to be such a beautiful wedding. I hope it snows on the day!$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Hearts:Penny": "4, 5",
+				"Dead |contains=Pam": true,
+			},
+			"Entries": {
+				"Penny": "You know... despite her flaws, I know my mom always meant well. I'm going to celebrate in her honor.#$b#Yeah... that's what this festival is all about, isn't it? I love my Mom, and I love the Winter Star!$h"
+			}
+		},
+		
+		// Elliott
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Hearts:Elliott": "6, 7, 8, 9, 10",
+				"Dead |contains=Leah": true,
+			},
+			"Entries": {
+				"Elliott": "Hello, @. I was thinking of asking someone to dance with me today.#$b#Just... it might be fun to give it a try, yes...?$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Language": "en",
+				"Hearts:Elliott": "6, 7, 8, 9, 10",
+				"Dead |contains=Leah": true,
+			},
+			"Entries": {
+				"Elliott": "Hello, @!#$b#Beautiful night for a celebration, isn't it? I've always loved this part of summer.#$b#The magic of the Moonlight Jellies, the feeling of change in the air...$h#$b#I'll be going back to my cabin afterward for a glass of wine. You're more than welcome to join me!$n"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Hearts:Elliott": "2, 3",
+				"Dead |contains=Gus": true,
+			},
+			"Entries": {
+				"Elliott": "Hello, @! Have you tried Magnus' barbecue, yet?#$b#I think I'm in love...$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Hearts:Elliott": "6, 7, 8, 9, 10",
+				"Dead |contains=Leah": true,
+			},
+			"Entries": {
+				"Elliott": "I'm on my way to the fortune teller.#$b#I've heard a lot about it, such a mysterious thing...$7#$b#I'm eager to see what the future holds!$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Language": "en",
+				"Hearts:Elliott": "4, 5",
+				"Dead |contains=Marnie": true,
+			},
+			"Entries": {
+				"Elliott": "I'm afraid Leah and I have had a bit too much of the pumpkin ale, tonight.$l#$b#I shall do my part and make sure Leah gets home safely...$n#$b#As for me... The beach isn't too long a walk.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Language": "en",
+				"Hearts:Elliott": "4, 5",
+				"Dead |contains=Leah": true,
+			},
+			"Entries": {
+				"Elliott": "I'm afraid I have had a bit too much of the pumpkin ale, tonight.$l#$b#Luckily... the beach isn't too long a walk.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Hearts:Elliott": "2, 3",
+				"Dead |contains=Leah": true,
+			},
+			"Entries": {
+				"Elliott": "I was just watching the young ones make their snowmen.#$b#It's very entertaining, seeing their wholesome whimsy, and to see the way the snow sparkles in the soft winter sunlight.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Hearts:Elliott": "4, 5",
+				"Dead |contains=Willy": true,
+			},
+			"Entries": {
+				"Elliott": "Will you be fishing today, @? I'm afraid we'll be competitors, then!#$b#Best of luck to us both; if Magnus' manifest is anything like Willy, it will not be easy.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Hearts:Elliott": "2, 3",
+				"Dead |contains=Gus": true,
+				"Dead |contains=Harvey": false,
+			},
+			"Entries": {
+				"Elliott": "I think it might've been wiser to hold this feast inside the saloon.$h#$b#Ah, well. Harvey's mulled wine is keeping me nice and toasty!$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Hearts:Elliott": "2, 3",
+				"Dead |contains=Gus": false,
+				"Dead |contains=Harvey": true,
+			},
+			"Entries": {
+				"Elliott": "I think it might've been wiser to hold this feast inside Gus' saloon.$h#$b#Ah, well. This mulled wine is keeping me nice and toasty!$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Hearts:Elliott": "2, 3",
+				"Dead |contains=Gus": true,
+				"Dead |contains=Harvey": true,
+			},
+			"Entries": {
+				"Elliott": "I think it might've been wiser to hold this feast inside the saloon.$h#$b#Ah, well. This mulled wine is keeping me nice and toasty!$h"
+			}
+		},
+		
+		// Haley //
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Hearts:Haley": "4, 5",
+				"Dead |contains=Emily": true,
+			},
+			"Entries": {
+				"Haley": "Hi, @. Are you hunting for eggs this year?#$b#I helped paint some of them.$n#$b#It was messy, but fun!$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Hearts:Haley": "6, 7, 8, 9, 10",
+				"Dead |contains=Alex": true,
+			},
+			"Entries": {
+				"Haley": "I hear that eating a lot of eggs will make you strong.$l#$b#Do you eat eggs?$n"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Relationship:Haley": "Engaged",
+				"Dead |contains=Alex": true,
+			},
+			"Entries": {
+				"Haley_spouse": "Hi sweetie! I was just thinking about how beautiful our wedding is gonna be!$n#$b#Maybe that's a little boring, but I don't really care!#$h#I'm just so excited!$11"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Hearts:Haley": "6, 7, 8, 9, 10",
+				"Dead |contains=Alex": true,
+			},
+			"Entries": {
+				"Haley": "It's really great still being the Flower Queen after all this time. I'm undefeated!$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Relationship:Haley": "Engaged",
+				"Dead |contains=Emily": true,
+			},
+			"Entries": {
+				"Haley": "Jas is making me the most beautiful dress for our wedding!$n#$b#Wait until you see!$h#$b#Now, dance with me, my love. Soon you'll be my Flower King.$l^Now, dance with me, my love. Soon you'll be MY Flower Queen.$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Hearts:Haley": "2, 3",
+				"Dead |contains=Alex": true,
+			},
+			"Entries": {
+				"Haley": "Wow, isn't it such a beautiful day for a party?$h#$b#I think I look really cute today. What do you think?$n"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Relationship:Haley": "Engaged",
+				"Dead |contains=Emily": true,
+			},
+			"Entries": {
+				"Haley_spouse": "Look how the sun sparkles on the water out there.$l#$b#I don't really believe in all that woo-woo like my sister did...$7#$b#...but it feels like a good omen!$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Relationship:Haley": "Divorced",
+				"Dead |contains=Alex": true,
+			},
+			"Entries": {
+				"Haley": "%Haley appears to be very involved in looking directly at the ocean, and not at you."
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Language": "en",
+				"Hearts:Haley": "2, 3",
+				"Dead |contains=Alex": true,
+			},
+			"Entries": {
+				"Haley": "I don't mean to be rude, but, um...$8#$b#I'm kind of... having a moment to myself.$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Hearts:Haley": "6, 7, 8, 9, 10",
+				"Dead |contains=Emily": true,
+			},
+			"Entries": {
+				"Haley": "That fortune teller reminds me of my sister... she was weird, but I miss her dorkiness.$s#$b#We argued a lot, but, to be honest, she was pretty nice to me most of the time.$u#$b#I don't really get it...$7"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Language": "en",
+				"Relationship:Haley": "Dating",
+				"Dead |contains=Emily": true,
+			},
+			"Entries": {
+				"Haley": "Oh, I'm so glad you're here. Have you seen any weird shadowy figures?#$b#I saw something like that... I think someone's trying to scare me...$s#$b#C-can I just hold on to you for a little bit?$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Hearts:Haley": "2, 3",
+				"Dead |contains=Evelyn": true,
+			},
+			"Entries": {
+				"Haley": "Happy Winter Star, @!$h#$b#Isn't the tree just beautiful?$n"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Hearts:Haley": "2, 3",
+				"Dead |contains=Evelyn": true,
+				"WizardPresent": true,
+			},
+			"Entries": {
+				"Haley": "Happy Winter Star, @!$h#$b#Didn't Magnus do such a beautiful job with the tree?$n"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Hearts:Haley": "4, 5",
+				"Dead |contains=Alex": true,
+			},
+			"Entries": {
+				"Haley": "Hmm? You're wondering who I got for Secret Santa?#$b#I can't tell you that, silly!$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Relationship:Haley": "Engaged",
+				"Dead |contains=Emily": true,
+			},
+			"Entries": {
+				"Haley_spouse": "I'm grateful for these fabulous new winter boots!#$b#And for you, of course.$h"
+			}
+		},
+		
+		// Emily //
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Hearts:Emily": "6, 7, 8, 9, 10",
+				"Dead |contains=Jodi": true,
+			},
+			"Entries": {
+				"Emily": "Mmm... I don't eat eggs, but that egg salad looks delicious!$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Relationship:Emily": "Dating",
+				"Dead |contains=Sandy": true,
+			},
+			"Entries": {
+				"Emily": "I wish Sandy would've come out of her Oasis and join in on the fun sometime. She was never a big fan of crowds, though.#$b#Who knows? Maybe she's here, right now, joining us in spirit.$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Hearts:Emily": "2, 3",
+			},
+			"Entries": {
+				"Emily": "What do you think of the Flower Dance costumes? Personally, I'd make a couple changes here and there to bring the festival into the modern age...#$b#But you know how {{LewisSubF}} is about {{LewisDeter}} traditions!$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Hearts:Emily": "4, 5",
+				"Dead |contains=Shane": true,
+			},
+			"Entries": {
+				"Emily": "Shane and I always danced together.#$b#Don't ask me why, but we were put together for these things since we were kids!$h#$b#He kind of always hated it... I'm sure he wouldn't mind if I danced with you from now on.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Relationship:Emily": "Dating",
+				"Dead |contains=Haley": true,
+			},
+			"Entries": {
+				"Emily": "Haley was always Flower Queen, ever since we were teenagers. It was a big point of pride for her.#$b#I guess now Vincent holds that title! He deserves it.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Language": "en",
+				"Hearts:Emily": "2, 3",
+				"Dead |contains=Clint": true,
+			},
+			"Entries": {
+				"Emily": "Oh hi, @!#$b#I was just thinking about how beautiful the ocean looks at night. Don't you agree?$u#$b#Feel free to join me here, if you like!$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Language": "en",
+				"Hearts:Emily": "4, 5",
+				"Dead |contains=Demetrius": true,
+			},
+			"Entries": {
+				"Emily": "The moon is nice and bright tonight!#$b#I feel like there's something magical about the Moonlight Jellies.$u"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Language": "en",
+				"Hearts:Emily": "6, 7, 8, 9, 10",
+				"Dead |contains=Clint": true,
+			},
+			"Entries": {
+				"Emily": "Clint and I would always watch the Jellies together... he was always kind of somber.$s#$b#With him, it was like one day he was like my best friend, and the next he's withdrawn. I never really understood him.$u"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Language": "en",
+				"Hearts:Emily": "6, 7, 8, 9, 10",
+				"Dead |contains=Gus": true,
+			},
+			"Entries": {
+				"Emily": "It's fun to do something at night other than working at the Saloon.$h#$b#Don't get me wrong, I do love my job!$n#$b#I'm just happy I get to spend time with my friends outside of work, too!$n#$b#Don't forget to try the pumpkin ale - it's Gus' old recipe!$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Hearts:Emily": "4, 5",
+				"Dead |contains=Clint": true,
+			},
+			"Entries": {
+				"Emily": "Hey, @! Wanna help me build a snowman?$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter8",
+			"When": {
+				"Language": "en",
+				"Hearts:Emily": "6, 7, 8, 9, 10",
+				"Dead |contains=Shane": true,
+			},
+			"Entries": {
+				"Emily": "You might not guess it, but Shane and I were actually pretty good friends.#$b#He went through a lot of hardship... it was a shame to see him go.$s#$b#But, he was a good guy. I'm sure wherever he is right now, he's enjoying a tall mug of beer.$u"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Hearts:Emily": "4, 5",
+				"Dead |contains=Haley": true,
+			},
+			"Entries": {
+				"Emily": "I don't often say it, but I wish my parents were here...$u#$b#I never blamed them for wanting to travel and have adventures!$n#$b#But it's hard for me, especially around the holidays, like... I never really knew them.$s"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/winter25",
+			"When": {
+				"Language": "en",
+				"Relationship:Emily": "Engaged",
+				"Dead |contains=Haley": true,
+			},
+			"Entries": {
+				"Emily": "I'm so pleased that we're going to be a family soon!$h#$b#If we ever have kids, I want them to enjoy this festival as much as I do.$l"
+			}
+		},
+		
+		// Shane //
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Hearts:Shane": "6, 7, 8, 9, 10",
+				"Dead |contains=Marnie": true,
+			},
+			"Entries": {
+				"Shane": "I helped Jas color eggs last night, and this morning she made a special egg fest breakfast.#$b#I kinda like this holiday.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring13",
+			"When": {
+				"Language": "en",
+				"Relationship:Shane": "Engaged",
+				"Dead |contains=Marnie": true,
+			},
+			"Entries": {
+				"Shane": "Look how excited Jas is!$l#$b#I'm pretty happy, y'know?$6#$b#You're great with the chickens, Jas loves you... I can't believe I'm saying it, but I'm looking forward to life.$h#$b#Especially our life together.$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Hearts:Shane": "2, 3",
+				"Dead |contains=Pam": true,
+			},
+			"Entries": {
+				"Shane": "Hey, pal. I'll be honest... I'm not looking forward to this stupid dance at all.$s#$b#Wish there was some booze around here. I should check the punch, sometimes it gets spiked...$n"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/spring24",
+			"When": {
+				"Language": "en",
+				"Hearts:Shane": "4, 5",
+				"Dead |contains=Emily": true,
+			},
+			"Entries": {
+				"Shane": "I don't know why I have to do this dumb dance with all these dumb kids.$a#$b#I guess it's good that someone's enjoying it, though. This village would suck a lot more if everyone was as mopey as me.$n"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer11",
+			"When": {
+				"Language": "en",
+				"Hearts:Shane": "6, 7, 8, 9, 10",
+				"Dead |contains=Gus": true,
+			},
+			"Entries": {
+				"Shane": "It's way too hot out here. Why are all these dumb festivals outdoors?$a#$b#We could just easily be eating soup at the saloon...$u#$b#Oh well, at least there's food.$n"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer28",
+			"When": {
+				"Language": "en",
+				"Hearts:Shane": "6, 7, 8, 9, 10",
+			},
+			"Entries": {
+				"Shane": "Hey, did you see that? I think I saw one...!$6#$b#Hey {{LewisSubS}}, launch that lantern already!!$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall16",
+			"When": {
+				"Language": "en",
+				"Hearts:Shane": "2, 3",
+				"JasVince18": true,
+			},
+			"Entries": {
+				"Shane": "Chickens can be surprisingly friendly once they get to know you.#$b#If you approach them gently, they'll let you pet them.$6#$b#Jas has always been good, but Vincent is... still a little aggressive in his approach.$h"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Language": "en",
+				"Hearts:Shane": "6, 7, 8, 9, 10",
+				"Dead |contains=Gus": true,
+			},
+			"Entries": {
+				"Shane": "Magnus brought pepper poppers, and they are SPICY!$10#$b#I think I'm in love... not with Magnus. Just the food.$l"
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Festivals/fall27",
+			"When": {
+				"Language": "en",
+				"Relationship:Shane": "Engaged",
+				"Dead |contains=Gus": true,
+			},
+			"Entries": {
+				"Shane": "We gotta serve some pumpkin ale at the wedding, babe! Everyone loves it!$hAnd I want everyone to have a good time.$l"
+			}
+		},
+	]
+}

@@ -1,0 +1,471 @@
+{
+	"Changes": [
+
+		// Abigail
+	
+		{
+			"LogName": "Aging Abigail (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/abigail/fullgrey.json",
+			
+			"When": {
+				"query: {{AbigailAge}} >= 70": true,
+				"Dead |contains=Abigail": false
+			},
+		},
+		
+		// Alex
+	
+		{
+			"LogName": "Aging Alex (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/alex/fullgrey.json",
+			
+			"When": {
+				"query: {{AlexAge}} >= 70": true,
+				"Dead |contains=Alex": false
+			},
+		},
+		
+		// Blondie
+	
+		{
+			"LogName": "Aging Blondie (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Blondie/fullgrey.json",
+			
+			"When": {
+				"query: {{BlondieAge}} >= 70": true,
+				"Dead |contains=Blondie": false
+			},
+		},
+		
+		// Boatman
+	
+		{
+			"LogName": "Aging Boatman (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Boatman/fullgrey.json",
+			
+			"When": {
+				"query: {{BoatmanAge}} >= 70": true,
+				"Dead |contains=Boatman": false
+			},
+		},
+		
+		// Caroline
+	
+		{
+			"LogName": "Aging Caroline (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/caroline/fullgrey.json",
+			
+			"When": {
+				"query: {{CarolineAge}} >= 70": true,
+				"Dead |contains=Caroline": false
+			},
+		},
+		
+		// Claire
+	
+		{
+			"LogName": "Aging Claire (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/claire/fullgrey.json",
+			
+			"When": {
+				"query: {{ClaireAge}} >= 70": true,
+				"Dead |contains=Claire": false
+			},
+		},
+
+		// Clint
+	
+		{
+			"LogName": "Aging Clint (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/clint/fullgrey.json",
+			
+			"When": {
+				"query: {{ClintAge}} >= 70": true,
+				"Dead |contains=Clint": false
+			},
+		},
+		
+		// Demetrius
+	
+		{
+			"LogName": "Aging Demetrius (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/demetrius/fullgrey.json",
+			
+			"When": {
+				"query: {{DemetriusAge}} >= 70": true,
+				"Dead |contains=Demetrius": false
+			},
+		},
+		
+		// Elliott
+	
+		{
+			"LogName": "Aging Elliott (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/elliott/fullgrey.json",
+			
+			"When": {
+				"query: {{ElliottAge}} >= 70": true,
+				"Dead |contains=ElliottTrader": false
+			},
+		},
+		
+		// Emily
+	
+		{
+			"LogName": "Aging Emily (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/emily/fullgrey.json",
+			
+			"When": {
+				"query: {{EmilyAge}} >= 70": true,
+				"Dead |contains=Emily": false
+			},
+		},
+		
+		// Governor
+	
+		{
+			"LogName": "Aging Governor (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/governor/fullgrey.json",
+			
+			"When": {
+				"query: {{GovernorAge}} >= 70": true,
+				"Dead |contains=Governor": false
+			},
+		},
+		
+		// Gunther
+	
+		{
+			"LogName": "Aging Gunther (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/gunther/fullgrey.json",
+			
+			"When": {
+				"query: {{GuntherAge}} >= 70": true,
+				"Dead |contains=Gunther, GuntherSilva": false
+			},
+		},
+		
+		// Gus
+	
+		{
+			"LogName": "Aging Gus (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/gus/fullgrey.json",
+			
+			"When": {
+				"query: {{GusAge}} >= 70": true,
+				"Dead |contains=Gus": false
+			},
+		},
+		
+		// Haley
+	
+		{
+			"LogName": "Aging Haley (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/haley/fullgrey.json",
+			
+			"When": {
+				"query: {{HaleyAge}} >= 70": true,
+				"Dead |contains=Haley": false
+			},
+		},
+		
+		// Harvey
+	
+		{
+			"LogName": "Aging Harvey (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/harvey/fullgrey.json",
+			
+			"When": {
+				"query: {{HarveyAge}} >= 70": true,
+				"Dead |contains=Harvey": false
+			},
+		},
+		
+		// Jas
+		
+		{
+			"LogName": "Aging Jas (Teen)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/jas/teen.json",
+			
+			"When": {
+				"query: {{JasAge}} >= 13": true,
+				"Dead |contains=Jas": false
+			},
+		},
+		
+		// Jodi
+	
+		{
+			"LogName": "Aging Jodi (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/jodi/fullgrey.json",
+			
+			"When": {
+				"query: {{JodiAge}} >= 70": true,
+				"Dead |contains=Jodi": false
+			},
+		},
+		
+		// Kent
+	
+		{
+			"LogName": "Aging Kent (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/kent/fullgrey.json",
+			
+			"When": {
+				"query: {{KentAge}} >= 70": true,
+				"Dead |contains=Kent": false
+			},
+		},
+
+		// Leah
+	
+		{
+			"LogName": "Aging Leah (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/leah/fullgrey.json",
+			
+			"When": {
+				"query: {{LeahAge}} >= 70": true,
+				"Dead |contains=Leah": false
+			},
+		},
+		
+		// Leo
+		
+		{
+			"LogName": "Aging Leo (Teen)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/leo/teen.json",
+			
+			"When": {
+				"query: {{LeoAge}} >= 13": true,
+				"Dead |contains=Leo": false
+			},
+		},
+		
+		// Lupini
+	
+		{
+			"LogName": "Aging Lupini (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Lupini/fullgrey.json",
+			
+			"When": {
+				"query: {{LupiniAge}} >= 70": true,
+				"Dead |contains=Lupini": false
+			},
+		},
+		
+		// Marnie
+	
+		{
+			"LogName": "Aging Marnie (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/marnie/fullgrey.json",
+			
+			"When": {
+				"query: {{MarnieAge}} >= 70": true,
+				"Dead |contains=Marnie": false
+			},
+		},
+		
+		// Maru
+	
+		{
+			"LogName": "Aging Maru (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/maru/fullgrey.json",
+			
+			"When": {
+				"query: {{MaruAge}} >= 70": true,
+				"Dead |contains=Maru": false
+			},
+		},
+		
+		// Morris
+	
+		{
+			"LogName": "Aging Morris (Greying)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/morris/greying.json",
+			
+			"When": {
+				"query: {{MorrisAge}} >= 60": true,
+				"query: {{MorrisAge}} >= 70": false,
+				"Dead |contains=Morris, MorrisTod": false
+			},
+		},
+		
+		{
+			"LogName": "Aging Morris (Full grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/morris/fullgrey.json",
+			
+			"When": {
+				"query: {{MorrisAge}} >= 70": true,
+				"Dead |contains=Morris, MorrisTod": false
+			},
+		},
+		
+		// Pam
+	
+		{
+			"LogName": "Aging Pam (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/pam/fullgrey.json",
+			
+			"When": {
+				"query: {{PamAge}} >= 70": true,
+				"Dead |contains=Pam": false
+			},
+		},
+		
+		// Penny
+	
+		{
+			"LogName": "Aging Penny (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/penny/fullgrey.json",
+			
+			"When": {
+				"query: {{PennyAge}} >= 70": true,
+				"Dead |contains=Penny": false
+			},
+		},
+		
+		// Photographer
+	
+		{
+			"LogName": "Aging Photographer (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Photographer/fullgrey.json",
+			
+			"When": {
+				"query: {{PhotographerAge}} >= 70": true,
+				"Dead |contains=Photographer": false
+			},
+		},
+		
+		// Pierre
+	
+		{
+			"LogName": "Aging Pierre (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/pierre/fullgrey.json",
+			
+			"When": {
+				"query: {{PierreAge}} >= 70": true,
+				"Dead |contains=Pierre": false
+			},
+		},
+		
+		// Robin
+	
+		{
+			"LogName": "Aging Robin (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/robin/fullgrey.json",
+			
+			"When": {
+				"query: {{RobinAge}} >= 70": true,
+				"Dead |contains=Robin": false
+			},
+		},
+		
+		// Sam
+	
+		{
+			"LogName": "Aging Sam (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/sam/fullgrey.json",
+			
+			"When": {
+				"query: {{SamAge}} >= 70": true,
+				"Dead |contains=Sam": false
+			},
+		},
+		
+		// Sandy
+	
+		{
+			"LogName": "Aging Sandy (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/sandy/fullgrey.json",
+			
+			"When": {
+				"query: {{SandyAge}} >= 70": true,
+				"Dead |contains=Sandy": false
+			},
+		},
+		
+		// Sebastian
+	
+		{
+			"LogName": "Aging Sebastian (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/sebastian/fullgrey.json",
+			
+			"When": {
+				"query: {{SebastianAge}} >= 70": true,
+				"Dead |contains=Sebastian": false
+			},
+		},
+		
+		// Shane
+	
+		{
+			"LogName": "Aging Shane (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/shane/fullgrey.json",
+			
+			"When": {
+				"query: {{ShaneAge}} >= 70": true,
+				"Dead |contains=Shane": false
+			},
+		},
+	
+		// Vincent
+		
+		{
+			"LogName": "Aging Vincent (Teen)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/vincent/teen.json",
+			
+			"When": {
+				"query: {{VincentAge}} >= 13": true,
+				"Dead |contains=Vincent": false
+			},
+		},
+		
+		// Weatherman Ginger
+	
+		{
+			"LogName": "Aging Weatherman Ginger (Full Grey)",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Weatherman_Ginger/fullgrey.json",
+			
+			"When": {
+				"query: {{WeathermanGingerAge}} >= 70": true,
+				"Dead |contains=WeathermanGinger": false
+			},
+		},
+	]
+}

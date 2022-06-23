@@ -1,0 +1,111 @@
+{
+	"Changes": [
+		{
+			"LogName": "Jas becomes dateable",
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {		
+				"Jas": {
+					"5": "datable",
+				}
+			}
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Maps/JasSpouseRoom",
+			"FromFile": "Assets/Jas/JasSpouseRoom.tmx",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpouseRooms",
+			"Entries": {
+				"Jas": "JasSpouseRoom/0"
+			}
+		},
+		
+		{
+			"Action": "Load",
+			"Target": "Maps/JasSpousePatio",
+			"FromFile": "Assets/Jas/JasSpousePatio.tmx"
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/SpousePatios",
+			"Entries": {
+				"Jas": "JasSpousePatio/0",
+			}
+		},
+	
+		{
+			"LogName": "Jas load marriage dialogue",
+			"Action": "Load",
+			"Target": "Characters/Dialogue/MarriageDialogueJas",
+			"FromFile": "Data/blank.json",
+		},
+		
+		{
+			"LogName": "Jas marriage dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/MarriageDialogueJas",
+			
+			"Entries": {
+				"Rainy_Day_Jas": "Heh... the rain reminds me of when Vincent would drag me outside to go catch snails. It always kind of annoyed me back then, but looking back on it, it was really cute.$h",
+				"Neutral_2": "Taking a break? Aunt Marnie always said it's important not to overwork yourself.",
+				"spring_Jas": "I love spring. With all the flowers blooming, it's the prettiest season of the year.$h",
+			}
+		},
+		
+		{
+			"LogName": "Jas romance dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+			
+			"Entries": {
+				"danceRejection": "Aww... thanks, but I've got my eyes set on someone else.",
+				"divorced": "Ugh... what do you want?! Heartbreaker...$a",
+				"dumped_Girls": "Get lost, you floozy!$a",
+				"secondChance_Girls": "*sigh*... I guess maybe you didn't really mean to hurt me. I think I can forgive you.$s",
+				
+				"give_flowersA": "Oh! Oh my gosh, wait... can we... can we even do that? Is that okay?$u#$b#I mean... you knew me when I was a kid, but...$s#$b#I'm {{JasAge}}, I...$u#$b#You know what? Screw it! I'm old enough to make my own decisions! Yes, absolutely! Let's date!$l",
+				"give_flowersB": "Eep! Y-you... oh!$u#$b#Me? But... isn't that kind of weird?$s#$b#I... I would really love to date you! I... I think we can make it work!$l",
+				"give_pendant": "...!$u#$b#Oh... oh my gosh!! Yes, yes yes yes! I've been waiting for this for so long!$l#$b#This is going to be great... oh, I'm so excited!$h",
+				"refusal_botherA": "@, I said no...$s",
+				"refusal_botherB": "Please stop...$s",
+				"refusal_knownA": "Oh!#$b#Umm... I'm sorry, I don't think that's a good idea.$3",
+				"refusal_knownB": "...You're nice, farmer, but this is too much.$3",
+				"refusal_no_heartsA": "...What are you playing at?$3",
+				"refusal_no_heartsB": "We don't even know each other!$3",
+				"rejectNPCA": "I'm... sorry, I'm just not interested.$s",
+				"rejectNPCB": "...Maybe we could get to know each other better?$s",
+				"reject_four_heartA": "...!$8#$b#Oh... my heart is pounding...$4#$b#...I'm... not ready. I'm sorry.$s",
+				"reject_four_heartB": "Oh... I...$s#$b#I think we should just be friends.$s",
+				"reject_two_heartA": "...I think that's a bit too much too fast, don't you?$s",
+				"reject_two_heartB": "Maybe we can get to know each other better...",
+				"stardrop_gift": "My dear, you've always been so nice to me.$4#$b#I thought that this stardrop would be a nice way to show my affection and gratitude.$1#$b#Thank you. For everything.$l",
+			}
+		},
+		
+		{
+			"LogName": "Jas romance dialogue - dating or engaged",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Jas",
+			
+			"When": {
+				"Relationship:Jas": "Engaged, Married",
+			},
+			
+			"Entries": {
+				"give_flowersA": "Aww... @, you always know how to make me smile.$h",
+				"give_flowersB": "...They're so beautiful. Just like you!$l",
+				"engageA": "Hehe... darling, I already said yes!$h",
+				"engageB": "Soon enough I'll have a whole collection of these things.$h",
+				"marriedA": "Hehe... darling, I already said yes!$h",
+				"marriedB": "Soon enough I'll have a whole collection of these things.$h",
+			}
+		}
+	]
+}

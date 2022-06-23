@@ -1,0 +1,30 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Maps/submarine_tilesheet",
+			"FromFile": "Assets/Submarine Captain/Sprites/Erased_1.png",
+			"ToArea": { "X": 0, "Y": 127, "Width": 32, "Height": 34 },
+			"PatchMode": "Replace",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/submarine_tilesheet",
+			"FromFile": "Assets/Submarine Captain/Sprites/Erased_2.png",
+			"ToArea": { "X": 192, "Y": 288, "Width": 64, "Height": 16 },
+			"PatchMode": "Replace",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			
+			"Entries": {
+				"Submarine_SubmergeQuestion": "Greetings. Care to take a deep-sea fishing trip? It costs 1,000g.",
+				"Submarine_AscendQuestion": "Ready to return to the surface, evergreen one?",
+				"Submarine_Done": "We have returned. Thank you for your patronage.",
+			},
+		},
+	]
+}

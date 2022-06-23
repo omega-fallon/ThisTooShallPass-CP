@@ -1,0 +1,151 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Pierre",
+			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Pierre",
+			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
+		},
+		
+		{
+			"LogName": "Make Pierre invisible",
+			"Action": "EditData",
+			"Target": "Data/Events/SeedShop, Data/Events/Farmhouse, Data/Events/Farm, Data/Events/IslandFarmhouse, Data/Events/IslandFarm",
+			
+			"Entries": {
+				"12491126": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/end invisible Pierre",
+			},
+		},
+		
+		{
+			"LogName": "Add manifest",
+			"Action": "EditMap",
+			"Target": "Maps/SeedShop",
+			"FromFile": "Assets/Wizard/Sprites/Manifest.tmx",
+			"ToArea": {"X": 4, "Y": 16, "Width": 1, "Height": 2},
+			"PatchMode": "Overlay",
+		},
+		
+		{
+            "LogName": "Relayering countertop",
+			"Action": "EditMap",
+            "Target": "Maps/SeedShop",
+            "MapTiles": [
+                {
+                    "Position": { "X": 4, "Y": 17 },
+                    "Layer": "Front1",
+					"SetTileSheet": "1",
+                    "SetIndex": "980"
+                }
+            ]
+        },
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Willy": {
+					"10": "SeedShop 4 17",
+					"11": "Magnus"
+				}
+			}
+		},
+
+		{
+            "LogName": "Manifest Map Sprite Offset",
+            "Action": "EditData",
+            "Target": "Mods/Bouhm.NPCMapLocations/NPCs",
+			
+			"When": {
+				"HasMod |contains=Yagisan.NPCMapLocationsForNPCs": true,
+			},
+			
+            "Entries": {
+                "Pierre": {
+                    "MarkerCropOffset": 0
+                }
+            }
+        },
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/SpeechBubbles",
+			
+			"Entries": {
+				"SeedShop_Pierre_Winter": "The store is well-heated, for your comfort.",
+				"SeedShop_Pierre_NotWinter": "Welcome to the General Store.",
+				"SeedShop_Pierre_Summer": "Summer seeds available.",
+				"SeedShop_Pierre_NotSummer": "Seeds for sale.",
+				"SeedShop_Pierre_Greeting1": "Greetings.",
+				"SeedShop_Pierre_Greeting2": "Greetings, farmer {0}.",
+				"SeedShop_Pierre_Raining": "Today is a good day.",
+				"SeedShop_Pierre_NotRaining": "Welcome.",
+				"SeedShop_Pierre_RareGreeting": "*sigh*... oh, hello."
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Entries": {
+				"Phone_Ring_Pierre": "{{i18n:ButNobodyCame.TTSP}}",
+				"Phone_Pierre_Open": "The seed shop is open 24 hours a day. Goodbye. *click*$4",
+				"Phone_Pierre_Open_Rare": "The seed shop is open 24 hours a day. Goodbye. *click*$4",
+				"Phone_Pierre_Closed": "Thank you for calling the General Store. It is closed at the moment, despite being open 24 hours a day. I do not understand what has happened. *beep*",
+				"Phone_Pierre_Festival": "Thank you for calling the General Store. It is closed today in observance of the festival. *beep*",
+				
+				"PierreStockListDialogue": "Ah, yes, there's that old thing!$h#$b#This stocklist evaded both Pierre and Caroline in their lives... and unfortunately, for a long time, I as well.$n#$b#It's odd, there's no reason why that should be the case. I have near-infinite perception...#$b#Well, regardless, these order codes shall be quite useful. I'll now be able to sell you seeds from all year-round.$h#$b#Hmm? Why don't I just magic them into existence? Oh, @, I can't just make things from nothing.",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/Locations",
+			
+			"Entries": {
+				"SeedShop_MoneyBox": "Apologies. Something has gone wrong with my manifest.\n\n-Magnus",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {				
+				"ShopMenu.cs.11485": "Quality goods for sale.",
+				"ShopMenu.cs.11486": "Looking to purchase?",
+				"ShopMenu.cs.11487": "Have anything to sell?",
+				"ShopMenu.cs.11488": "Welcome. ",
+				"ShopMenu.cs.11492": "Interested?",
+			},
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/Festivals",
+			"FromFile": "Assets/Pierre/Pierre_manifest_grange.png",
+			
+			"ToArea": {"X": 386, "Y": 55, "Width": 48, "Height": 57}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"Bouquet": "@,^I have seen that you're starting to get close with some of the townspeople. If you wish to show someone that you're romantically interested, you must give them a flower bouquet. It is an old tradition, here. The General Store will be selling from now on. If you want to start a family someday, this is the first step. ^   -M. Rasmodius[#]About Bouquets",
+				"fertilizers": "Greetings @,^I hope you are feeling settled in your new home. I am writing to let you know that the General Store is now selling fertilizers. They are highly useful, and I recommend you buy in bulk.  ^   -M. Rasmodius[#]Fertilizers",
+				"fertilizers2": "Dear @,^The General Store is now selling higher quality fertilizers, as well as new crop selections. See you soon. ^   -M. Rasmodius[#]High Quality Fertilizers",
+				"pierreBackpack": "If your storage space feels lacking, you may be interested in paying a visit to the General Store.^ It has recently begun selling an affordable size-24 backpack.^ See you soon.[#]Backpacks From the General Store",
+				"pierreHours": "The General Store is now open 7 days a week.[#]The General Store's Extended Hours",
+			}
+		},
+	]
+}

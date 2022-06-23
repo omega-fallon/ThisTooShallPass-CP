@@ -1,0 +1,18 @@
+{
+	"Changes": [
+		{
+			"LogName": "Railroad Events - Harvey dead",
+			"Target": "Data/Events/Railroad",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+			
+			"Entries": {
+				"528052/f Harvey 2500/t 900 1700/n harveyBalloon": null,
+				"afraid": null,
+			}
+		},
+	]
+}

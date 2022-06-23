@@ -1,0 +1,269 @@
+{
+	"Changes": [
+		{
+			"LogName": "Abigail dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Abigail/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Abigail": false,
+			}
+		},
+		
+		{
+			"LogName": "Alex dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Alex/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Alex": false,
+			}
+		},
+		
+		{
+			"LogName": "Caroline dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Caroline/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Caroline": false,
+			}
+		},
+		
+		{
+			"LogName": "Clint dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Clint/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Clint": false,
+			}
+		},
+		
+		{
+			"LogName": "Demetrius dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Demetrius/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Demetrius": false,
+			}
+		},
+		
+		{
+			"LogName": "Elliott dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Elliott/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=ElliottTrader": false,
+			}
+		},
+		
+		{
+			"LogName": "Emily dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Emily/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Emily": false,
+			}
+		},
+		
+		{
+			"LogName": "Evelyn dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Evelyn/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Evelyn": false,
+			}
+		},
+		
+		{
+			"LogName": "George dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/George/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=George": false,
+			}
+		},
+		
+		{
+			"LogName": "Gus dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Gus/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Gus": false,
+			}
+		},
+		
+		{
+			"LogName": "Haley dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Haley/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Haley": false,
+			}
+		},
+		
+		{
+			"LogName": "Harvey dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Harvey/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Harvey": false,
+			}
+		},
+		
+		{
+			"LogName": "Jodi dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Jodi/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Jodi": false,
+			}
+		},
+		
+		{
+			"LogName": "Kent dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Kent/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Kent": false,
+			}
+		},
+		
+		{
+			"LogName": "Leah dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Leah/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Leah": false,
+			}
+		},
+		
+		{
+			"LogName": "Marlon dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Marlon/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Marlon, MarlonFay": false,
+			}
+		},
+		
+		{
+			"LogName": "Marnie dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Marnie/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Marnie": false,
+			}
+		},
+		
+		{
+			"LogName": "Maru dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Maru/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Maru": false,
+			}
+		},
+		
+		{
+			"LogName": "Pam dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Pam/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Pam": false,
+			}
+		},
+		
+		{
+			"LogName": "Penny dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Penny/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Penny": false,
+			}
+		},
+		
+		{
+			"LogName": "Pierre dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Pierre/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Pierre": false,
+			}
+		},
+		
+		{
+			"LogName": "Robin dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Robin/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Robin": false,
+			}
+		},
+		
+		{
+			"LogName": "Sam dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Sam/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Sam": false,
+			}
+		},
+		
+		{
+			"LogName": "Sandy dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Sandy/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Sandy": false,
+			}
+		},
+		
+		{
+			"LogName": "Sebastian dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Sebastian/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Sebastian": false,
+			}
+		},
+		
+		{
+			"LogName": "Shane dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Shane/dialogue_edits.json",
+			
+			"When": {
+				"Dead |contains=Shane": false,
+			}
+		},
+		
+		{
+			"LogName": "Wizard dialogue edits",
+			"Action": "Include",
+			"FromFile": "Data/Characters/Wizard/dialogue_edits.json",
+		},
+	]
+}

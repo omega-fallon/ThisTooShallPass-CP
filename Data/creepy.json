@@ -1,0 +1,37 @@
+{
+	"Changes": [
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"JojaMart.13": "Blood.#...#...sausage.",
+			},
+			
+			"When": {
+				"query: {{Year}} >= 13": true,
+			},
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/birds",
+			"FromFile": "Assets/birds.png",
+			
+			"When": {
+				"query: {{Year}} >= 23": true,
+			},
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "LooseSprites/emojis",
+			"FromFile": "Assets/smiles.png",
+			"PatchMode": "Overlay",
+			
+			"When": {
+				"query: {{Year}} >= 13": true,
+			},
+		}
+	]
+}

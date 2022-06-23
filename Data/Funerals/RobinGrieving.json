@@ -1,0 +1,30 @@
+{
+	"Changes": [
+		{
+			"Action": "Include",
+			"FromFile": "Data/Funerals/Demetrius_depressed.json",
+			
+			"When": {
+				"Dead |contains=Demetrius": false,
+			}
+		},
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Funerals/Maru_depressed.json",
+			
+			"When": {
+				"Dead |contains=Maru": false,
+			}
+		},
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Funerals/Sebastian_depressed.json",
+			
+			"When": {
+				"Dead |contains=Sebastian": false,
+			}
+		},
+	]
+}

@@ -1,0 +1,23 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Vincent",
+			"FromFile": "Assets/Vincent/Portraits/Teen.png",
+			
+			"When": {
+				"HasFile:{{FromFile}}": true,
+			}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Vincent",
+			"FromFile": "Assets/Vincent/Sprites/Teen.png",
+			
+			"When": {
+				"HasFile:{{FromFile}}": true,
+			}
+		},
+	]
+}

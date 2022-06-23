@@ -1,0 +1,23 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/ParrotBoy",
+			"FromFile": "Assets/Leo/Portraits/Teen.png",
+			
+			"When": {
+				"HasFile:{{FromFile}}": true,
+			}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/ParrotBoy",
+			"FromFile": "Assets/Leo/Sprites/Teen.png",
+			
+			"When": {
+				"HasFile:{{FromFile}}": true,
+			}
+		},
+	]
+}

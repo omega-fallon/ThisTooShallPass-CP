@@ -1,0 +1,75 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Lewis",
+			"FromFile": "Assets/Marnie/Portraits/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Lewis",
+			"FromFile": "Assets/Marnie/Sprites/FullGrey.png",
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/NPCDispositions",
+			
+			"Fields": {
+				"Lewis": {
+					"11": "Marnie",
+				}
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromCSFiles",
+			
+			"Entries": {
+				"Event.cs.1730": "You!!! What are you playing at?! You... how dare you insult him like that, *embarrass* him like that, you...!$4#$b#Yoba above, I can't stand for this. Take 750 star tokens and keep your mouth shut.$3#$b#Now go clean up your box and take those where they belong. You monster.$3",
+			},
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/Mail",
+			
+			"Entries": {
+				"SeaAmulet": "@,^I'm going to give you this advice because I like you and I want you to stay in Pelican Town. If there comes a day that you want to ask for someone's hand in marriage, you'll need to give them a 'Mermaid's Pendant'. Don't worry, everyone in Pelican Town understands the significance of the amulet. It's an ancient tradition in this region. Good luck! ^   -Marnie[#]About Mermaid's Pendants",
+				"ccBulletinThankYou": "Dear @,^Everyone around town has been talking about your great generosity lately!^Apparently, packages have been appearing in people's houses containing items they posted about years ago on the community center bulletin! And the packages are all addressed from your farm!^Thanks for going out of your way to do something like that... all of us in town are delighted! ^   -Mayor Marnie[#]Bulletin Board Thank-you",
+				
+				"fall_15": "Dear @,^I just want to remind you that the Stardew Valley Fair is happening tomorrow.^Don't forget to bring your 9 items for the grange display.^Remember, the fair starts at 9AM in the town square. See you there!^   -Mayor Marnie[#]Stardew Valley Fair Reminder",
+				"fall_26": "Dear @,^Notice a chill in the air? It could just be the approach of winter...^Or it could be the tingle of a dark specter, here to help us celebrate tomorrow's festival... the Spirit's Eve.^Come to town at 10 PM if you'd like to participate.^  -Mayor Marnie[#]Spirit's Eve Notice",
+				"fall_9": "Dear @,^One week from today, we are holding the Stardew Valley Fair in the town square!^It's the biggest event of the year, drawing people from all across the country to our humble town.^If you'd like, you can set up a grange display for the event. Just bring up to 9 items that best showcase your talents. You'll be judged on the quality and diversity of your display.^The fair starts at 9 AM... don't miss it!^   -Mayor Marnie[#]Stardew Valley Fair Notice",
+				"foundLostTools": "Dear @,^Someone dropped your tools into the lost and found bin last night.^^Stop by the mayor's office to pick them up. ^^  -Mayor Marnie[#]Lost Tools",
+				"hero_update": "@,^It's time for the quarterly Stardew Hero rankings! I've enclosed them in a separate envelope. Good luck this season!  ^   -Mayor Marnie[#]Stardew Hero Rankings",
+				"lewisStatue": "@,^^In the future, I'd appreciate it very much if you refrained from placing DEFILING Lewis' memory by placing such a thing on display in town!^^I'm very displeased!^^Take this money and never speak of this to anyone.%item money 750 751 %%[#]Marnie's Angry Letter",
+				"quest10": "@,^I've heard you've been giving some people a hand around town! Everyone seems really thankful. I'm awarding you this month's \"Best Neighbor\" award (with a small cash prize). Keep it up! ^   -Mayor Marnie%item money 500 501 %%[#]Best Neighbor",
+				"quest100": "@,^I am pleased to announce that you've been chosen as \"Neighbor of the year\"! That comes with a 10,000g prize! Congratulations! Everyone in town wants to say 'thanks' for all you've done. ^   -Mayor Marnie%item money 10000 10001 %%[#]Neighbor Of The Year",
+				"quest35": "Dear @,^You've been such a help around town since you moved here... everyone keeps telling me all the wonderful things you've done for them! Please accept this thank-you prize. ^   -Mayor Marnie%item money 2500 2501 %%[#]Thank-you From Marnie",
+				"spring_12": "Dear @,^Tomorrow we're holding the Egg Festival in the town square. ^^You should arrive between 9 AM and 2 PM if you'd like to attend.^You wouldn't want to miss the annual egg hunt!^  -Mayor Marnie[#]Egg Festival Notice",
+				"spring_23": "Dear @,^Tomorrow we're all getting together for the Flower Dance.^^If you can find a partner, you might even want to participate in the dance yourself!^There's a little clearing beyond the forest west of town where we hold the dance. Arrive between 9 AM and 2 PM if you're interested.^  -Mayor Marnie[#]Flower Dance Notice",
+				"summer_10": "Dear @,^Tomorrow we're all gathering at the beach for the annual Pelican Town Luau.^^The highlight of the event is the communal potluck. Make sure you bring something good to contribute!^The governor himself is attending the event, so make sure you're on your best behavior.^Come to the beach sometime between 9 AM and 2 PM.^   -Mayor Marnie[#]Luau Notice",
+				"taxPassed": "Dear @,^the shipping tax passed. As of today, a 3% tax will be deducted from all your shipping profits. The reduced fee for public services is also in effect. See you soon! ^   -Mayor Marnie[#]Tax Approved",
+				"taxRejected": "Dear @,^the shipping tax was rejected. Your shipping profits will remain as they are. Fees for public services will remain the same as well. See you soon. ^   -Mayor Marnie[#]Tax Rejected",
+				"winter_18": "Dear @,^I would like to give you some information about an upcoming event: the Feast of the Winter Star. It's a time for the community to come together and think back on all the good fortune we've had this year.^A favorite tradition is the \"secret gift exchange\", where everyone in town is randomly assigned to someone else. On the day of the festival, everyone brings a gift for their secret friend and surprise them with something special!^This year, your secret friend is:^    %secretsanta ^Don't tell anyone! The feast will take place on the 25th from 10AM to 2PM at the town square. See you then! ^   -Mayor Marnie[#]Secret Gift-Giver",
+				"winter_24": "Dear @,^Tomorrow is the Feast of the Winter Star.^Did you get a gift for your 'secret friend'... %secretsanta?^The feast starts at 9 AM in the town square. See you then! ^   -Mayor Marnie[#]Feast Of The Winter Star Reminder",
+				"winter_7": "Dear @,^Tomorrow we're all gathering in front of Marnie's house for the Festival of Ice.^^It's a celebration of winter... there'll be snowmen, ice sculptures, and an ice fishing competition!^Arrive between 9 AM and 2 PM if you'd like to participate.^  -Mayor Marnie[#]Festival Of Ice Notice",
+			}
+		},
+		
+		{
+			"Action": "EditData",
+			"Target": "Data/ExtraDialogue",
+			
+			"Entries": {
+				"SummitEvent_Intro_Lewis": "Wow... Look at that view.",
+				"SummitEvent_Dialogue1_Lewis": "You know, @... I've only been mayor for a short while.#$b#People have come and gone. Even Lewis left us. We've lived through times of hardship, and times of plenty.",
+				"SummitEvent_Dialogue2_Lewis": "But I have to say, through all I've seen, nothing has made me as proud as seeing %farm Farm blossom under your care.$h#$b#You've taken the farm beyond anything your Grandfather could've imagined.#$b#And in that journey, you're completely changed the valley.",
+				"SummitEvent_Outro_Lewis": "You might not realize it, but I care a lot about this town, @.#$b#%year years ago, Lewis was deeply worried about the future of the valley.$s#$b#But now, I'm certain that his spirit is completely at ease.#$b#Who knew a humble farmer moving to town would change everything?$h#$b#...Thank you.",
+			}
+		},
+	]
+}

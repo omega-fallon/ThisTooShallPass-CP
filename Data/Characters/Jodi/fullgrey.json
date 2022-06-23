@@ -1,0 +1,43 @@
+{
+	"Changes": [
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Jodi",
+			"FromFile": "Assets/Jodi/Portraits/FullGrey.png",
+			
+			"When": {
+				"HasFile:{{FromFile}}": true,
+			}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Jodi",
+			"FromFile": "Assets/Jodi/Sprites/FullGrey.png",
+			
+			"When": {
+				"HasFile:{{FromFile}}": true,
+			}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Portraits/Jodi_beach",
+			"FromFile": "Assets/Jodi/Portraits/FullGrey_beach.png",
+			
+			"When": {
+				"HasFile:{{FromFile}}": true,
+			}
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Characters/Jodi_beach",
+			"FromFile": "Assets/Jodi/Sprites/FullGrey_beach.png",
+			
+			"When": {
+				"HasFile:{{FromFile}}": true,
+			}
+		},
+	]
+}

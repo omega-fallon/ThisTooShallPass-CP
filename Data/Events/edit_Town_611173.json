@@ -1,0 +1,158 @@
+{
+	"Changes": [
+		{
+			"LogName": "Town Events - Robin dead",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"Fields": {
+				"611173/Hn pamHouseUpgrade/o Penny": {
+					"6": "speak Robin \"Ah... greetings, @. You've arrived at a good time. Is the final product to your liking?\"",
+					"11": "speak Robin \"I feel quite certain about it...#$b#I do believe it is my finest construction yet!$h\"",
+					"14": "speak Robin \"Attempting to not only imitate mundane folk-style carpentry, but specifically Robin's talents... it was no easy feat, I'll say that much.\"",
+					"16": "speak Robin \"Ah, but I guess that matters little, yes? The final product, yes, that is what matters, and it is beautiful.$h\"",
+					"18": "speak Robin \"So, with that said... I suppose it's time for the reveal. First, I must ask...\"",
+					"19": "question fork0 \"Shall I tell them you paid for this?#Yes, please.#No, I'd rather remain anonymous.\"",
+					"22": "speak Robin \"Very well. Stay right here, I'll be only a moment.\"",
+					"31": "speak Robin \"...Greetings... might I just say, you have a lovely house.$4\"",
+					"41": "speak Robin \"Ah, I cannot take all the credit. This was another person's idea... and they paid for everything as well.\"",
+					"55": "speak Robin \"I'm afraid I can't say... they insisted on remaining anonymous.$5\"",
+					
+				},
+				
+				"choseToBeKnown": {
+					"2": "speak Robin \"Very well... follow me.\"",
+					"12": "speak Robin \"...Greetings... might I just say, you have a lovely house.$4\"",
+					"22": "speak Robin \"Ah, I cannot take all the credit. This was @'s idea... and moreover, he paid all the expenses.^This was @'s idea... and moreover, she paid all the expenses.\"",
+				}
+			}
+		},
+		
+		{
+			"LogName": "Town Events - Robin dead, Pam alive",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+				"Dead |contains=Pam": false,
+			},
+			
+			"Fields": {
+				"611173/Hn pamHouseUpgrade/o Penny": {
+					"34": "speak Pam \"Magnus... I... I dunno what to say...$s#$b#This is a dream come true... it's all I've ever wanted.$s\"",
+				},
+				
+				"choseToBeKnown": {
+					"15": "speak Pam \"Magnus... I... I dunno what to say...$s#$b#This is a dream come true... it's all I've ever wanted.$s\"",
+				},
+			}
+		},
+		
+		{
+			"LogName": "Town Events - Robin dead, Penny alive",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+				"Dead |contains=Penny": false,
+			},
+			
+			"Fields": {
+				"611173/Hn pamHouseUpgrade/o Penny": {
+					"40": "speak Penny \"Magnus, thank you so much...$s\"",
+				},
+				
+				"choseToBeKnown": {
+					"21": "speak Penny \"Magnus, thank you so much...$s\"",
+				},
+			}
+		},
+		
+		{
+			"LogName": "Town Events - Pam dead",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"Fields": {
+				"611173/Hn pamHouseUpgrade/o Penny": {
+					"2": "farmer 66 62 2 Robin 67 66 2 Penny 72 71 0",
+					"28":  "null",
+					"34": "null",
+					"35": "null",
+					"36": "null",
+					"38": "null",
+					"43": "null",
+					"44": "null",
+					"49": "null",
+					"50": "null",
+					"58": "null",
+					"60": "null",
+					"63": "null",
+					"64": "null",
+					"65": "null",
+					"65": "null",
+					"77": "null",
+					"79": "null",
+					"109": "null",
+				},
+				
+				"choseToBeKnown": {
+					"9": "null",
+					"15": "null",
+					"16": "null",
+					"17": "null",
+					"19": "null",
+					"24": "null",
+					"25": "null",
+					"28": "null",
+					"29": "null",
+					"33": "null",
+					"35": "question fork1 \"...#It's a gift... no repayment needed.#All I ask is that you invite me over for dinner sometime!\"",
+					"38": "null",
+					"39": "null",
+					"42": "null",
+					"44": "null",
+					"49": "null",
+					"53": "null",
+					"83": "null",
+				},
+				
+				"itsagift": {
+					"2": "null",
+					"3": "null",
+					"6": "null",
+					"8": "null",
+					"11": "null",
+					"15": "null",
+					"45": "null",
+				},
+			}
+		},
+		
+		{
+			"LogName": "Town Events - Pam & Penny dead",
+			"Target": "Data/Events/Town",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Penny": true,
+				"Dead |contains=Pam": true,
+			},
+			
+			"Entries": {
+				"611173/Hn pamHouseUpgrade/o Penny": null,
+				"611173/Hn pamHouseUpgrade": null,
+			}
+		},
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"Changes": [
+		{
+			"LogName": "IslandWest Events - Willy dead",
+			"Target": "Data/Events/IslandWest",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Leo": true,
+			},
+			
+			"Fields": {
+				"6497423/e 1039573/f Leo 500/w sunny/t 600 1800/Hl leoMoved": {
+					"52": "speak Willy \"What a sad sight...$s\"",
+					"54": "speak Willy \"I was like that, once...$s\"",
+				}
+			}
+		},
+	
+		{
+			"LogName": "IslandWest Events - Leo dead",
+			"Target": "Data/Events/IslandWest",
+			"Action": "EditData",
+			
+			"When": {
+				"Dead |contains=Leo": true,
+			},
+			
+			"Entries": {
+				"6497423/e 1039573/f Leo 500/w sunny/t 600 1800/Hl leoMoved": null,
+			}
+		},
+	]
+}

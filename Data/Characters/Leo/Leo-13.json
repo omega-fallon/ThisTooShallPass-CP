@@ -1,0 +1,41 @@
+{
+	"Changes": [
+		{
+			"LogName": "Leo 13 dialogue",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/Leo",
+			
+			"Entries": {
+				"Tue": "It's nice staying in the jungle when the sun gets really bright.#$e#The sun can't find us beneath the leaves. We'll trick it! Haha...$h",
+			}
+		},
+		
+		{
+			"LogName": "Leo 13 dialogue - Mainland",
+			"Action": "EditData",
+			"Target": "Characters/Dialogue/LeoMainland",
+			
+			"Entries": {
+				// Courtship
+				
+				"birthdayLoveA": "Oh! @, that's my favorite, thank you! I'm so glad you remembered my birthday.$1",
+				"birthdayLoveB": "This is great! It's going right in my nest. Thanks for remembering my birthday!$1",
+				"birthdayLikeA": "Mmm... cute! Thanks for the birthday gift, friend.$1",
+				"birthdayLikeB": "Ooh, pretty! Thanks for the birthday gift.$1",
+				"birthdayDislikeA": "...? Ah... thank you for remembering.$s",
+				"birthdayDislikeB": "...Thanks for remembering.$s",
+				"birthdayNeutralA": "That's a nice present... I'm glad I'm your friend.",
+				"birthdayNeutralB": "Thank you. You're very sweet.",
+				
+				"engageA": "This is a marriage proposal, isn't it...? But, you're already engaged...$s",
+				"engageB": "...@, I... I'm only {{LeoAge}}...$s",
+				"marriedA": "Very pretty... I think %spouse would like that!",
+				"marriedB": "Go on, give it to your betrothed! Isn't that what you're supposed to do?",
+				"refusal_no_heartsA": "A mermaid shell? Right, Miss Penny said that this is for when you want to marry... uhh...$s",
+				"refusal_no_heartsB": "...How about you ask me again in a few years? I'm only {{LeoAge}}...$s",
+				"rejectNPCA": "Ooh, those are pretty! Miss Penny told me that in the Valley, this is a common gift to show affection. Thanks for showing me this!$h",
+				"rejectNPCB": "You should give those to someone you want to date. No need to be nervous!$h",
+			}
+		},
+	]
+}

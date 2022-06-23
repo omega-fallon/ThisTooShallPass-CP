@@ -1,0 +1,56 @@
+{
+	"Changes": [
+		{
+			"LogName": "Erases Blondie",
+			"Action": "EditMap",
+			"Target": "Maps/Town-Fair",
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 28, "Y": 64 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 29, "Y": 64 },
+					"Layer": "Buildings",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 28, "Y": 63 },
+					"Layer": "Front",
+					"Remove": true,
+				},
+			]
+		},
+				
+		{
+			"Action": "EditData",
+			"Target": "Strings/StringsFromMaps",
+			
+			"Entries": {
+				"Town-Fair.5": "{{i18n:Omori.TTSP}}",
+				"MovieTheater_Mother": "{{i18n:Omori.TTSP}}",
+				"MovieTheater_Mother2": "{{i18n:Omori.TTSP}}",
+				"MovieTheater_Child": "{{i18n:Omori.TTSP}}",
+				"MovieTheater_Child2": "{{i18n:Omori.TTSP}}",
+			},
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/MovieTheater_TileSheet, Maps/MovieTheaterJoja_TileSheet, Maps/MovieTheaterJoja_TileSheet_international",
+			"FromFile": "Assets/unmanifest.png",
+			"ToArea": { "X": 176, "Y": 192, "Width": 16, "Height": 32 },
+			"PatchMode": "Replace",
+		},
+		
+		{
+			"Action": "EditImage",
+			"Target": "Maps/MovieTheater_TileSheet, Maps/MovieTheaterJoja_TileSheet, Maps/MovieTheaterJoja_TileSheet_international",
+			"FromFile": "Assets/unmanifest.png",
+			"ToArea": { "X": 192, "Y": 192, "Width": 16, "Height": 32 },
+			"PatchMode": "Replace",
+		},
+	]
+}

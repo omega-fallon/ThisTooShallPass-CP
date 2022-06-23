@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.8" tiledversion="1.8.5" orientation="orthogonal" renderorder="right-down" compressionlevel="0" width="3" height="4" tilewidth="16" tileheight="16" infinite="0" nextlayerid="9" nextobjectid="10">
+ <properties>
+  <property name="DayTiles" value="Front 7 1 225 Front 7 2 469 Front 7 3 501 Front 19 1 256 Front 19 2 288"/>
+  <property name="Doors" value="16 9 1 120"/>
+  <property name="NightTiles" value="Front 7 1 1222 Front 7 2 1219 Front 7 3 1251 Front 19 1 1253 Front 19 2 1285"/>
+  <property name="Warp" value="4 12 Town 58 86 5 12 Town 59 86"/>
+ </properties>
+ <layer id="1" name="Back" width="3" height="4">
+  <data encoding="csv">
+0,0,0,
+0,0,0,
+0,0,0,
+0,0,0
+</data>
+ </layer>
+ <layer id="2" name="Buildings" width="3" height="4">
+  <data encoding="csv">
+0,0,0,
+0,0,0,
+0,0,0,
+0,0,0
+</data>
+ </layer>
+ <layer id="3" name="Front" width="3" height="4">
+  <data encoding="csv">
+0,0,0,
+0,0,0,
+0,0,0,
+0,0,0
+</data>
+ </layer>
+ <layer id="4" name="Paths" width="3" height="4">
+  <data encoding="csv">
+0,0,0,
+0,0,0,
+0,0,0,
+0,0,0
+</data>
+ </layer>
+ <objectgroup id="5" name="Back"/>
+ <objectgroup id="6" name="Buildings">
+  <object id="7" name="TileData" x="16" y="32" width="16" height="16">
+   <properties>
+    <property name="Action" value="Door Caroline"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup id="7" name="Front"/>
+ <objectgroup id="8" name="Paths"/>
+</map>
