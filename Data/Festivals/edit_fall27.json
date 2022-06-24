@@ -693,8 +693,8 @@
 			"Target": "Data/Festivals/fall27",
 			
 			"When": {
-				"query: {{VincentAge}} >= 13": true,
-				"query: {{VincentAge}} >= 18": false,
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 13": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 18": false,
 			},
 			
 			"Entries": {
@@ -708,11 +708,11 @@
 			"Target": "Data/Festivals/fall27",
 			
 			"When": {
-				"query: {{VincentAge}} >= 18": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 18": true,
 			},
 			
 			"Entries": {
-				"Jodi": "Vincent's has his heart set on going into that maze. He's {{VincentAge}} now, so who am I to stop him?",
+				"Jodi": "Vincent's has his heart set on going into that maze. He's {{OmegaFallon.ThisTooShallPassCS/VincentAge}} now, so who am I to stop him?",
 			}
 		},
 	]

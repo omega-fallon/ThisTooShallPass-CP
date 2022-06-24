@@ -225,7 +225,7 @@
 			"Target": "Characters/Dialogue/Abigail",
 			
 			"When": {
-				"query: {{AbigailAge}} >= 29": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/AbigailAge}} >= 29": true,
 			},
 			
 			"Entries": {

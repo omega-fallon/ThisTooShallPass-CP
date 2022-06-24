@@ -70,7 +70,7 @@
 				"dumped_Girls": "Get lost, you floozy!$a",
 				"secondChance_Girls": "*sigh*... I guess maybe you didn't really mean to hurt me. I think I can forgive you.$s",
 				
-				"give_flowersA": "Oh! Oh my gosh, wait... can we... can we even do that? Is that okay?$u#$b#I mean... you knew me when I was a kid, but...$s#$b#I'm {{JasAge}}, I...$u#$b#You know what? Screw it! I'm old enough to make my own decisions! Yes, absolutely! Let's date!$l",
+				"give_flowersA": "Oh! Oh my gosh, wait... can we... can we even do that? Is that okay?$u#$b#I mean... you knew me when I was a kid, but...$s#$b#I'm {{OmegaFallon.ThisTooShallPassCS/JasAge}}, I...$u#$b#You know what? Screw it! I'm old enough to make my own decisions! Yes, absolutely! Let's date!$l",
 				"give_flowersB": "Eep! Y-you... oh!$u#$b#Me? But... isn't that kind of weird?$s#$b#I... I would really love to date you! I... I think we can make it work!$l",
 				"give_pendant": "...!$u#$b#Oh... oh my gosh!! Yes, yes yes yes! I've been waiting for this for so long!$l#$b#This is going to be great... oh, I'm so excited!$h",
 				"refusal_botherA": "@, I said no...$s",

@@ -286,7 +286,7 @@
 								"DuringMovie": {
 									"ResponsePoint": null,
 									"Script": "/message \"Vincent is managing to keep it together... barely.\"",
-									"Text": "Ghh... c'mon, I shouldn't be this scared! I'm {{VincentAge}}!$s"
+									"Text": "Ghh... c'mon, I shouldn't be this scared! I'm {{OmegaFallon.ThisTooShallPassCS/VincentAge}}!$s"
 								},
 								"AfterMovie": {
 									"ResponsePoint": null,

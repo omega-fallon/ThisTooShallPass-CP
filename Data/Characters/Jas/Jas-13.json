@@ -37,7 +37,7 @@
 				"Tue6": "A doll? No, no, dolls are for babies. This is my Aurella Magi Meguka Magica figurine!",
 				"Wed": "...$u#$e#Sorry... sometimes I don't talk much. I get shy.$u",
 				"Wed2": "Hey there. What'cha up to?$u",
-				"Wed4": "Aunt Marnie won't let me go out after 6 o'clock. That's ridiculous, right?!$s#$e#I'm {{JasAge}}, I'm not a baby anymore!",
+				"Wed4": "Aunt Marnie won't let me go out after 6 o'clock. That's ridiculous, right?!$s#$e#I'm {{OmegaFallon.ThisTooShallPassCS/JasAge}}, I'm not a baby anymore!",
 				"Thu": "I shouldn't talk to strangers... but Aunt Marnie and Shane know you, so I guess you're alright.$u",
 				"Thu2": "Miss Penny is teaching me how to write in cursive.$h#$e#She has such pretty handwriting. I guess it makes sense, since she's a pretty lady.",
 				"Fri": "... I don't know you.$u#$e#Wait, do I know you? No, I've seen you around a lot, I have to know you, right?",
@@ -57,7 +57,7 @@
 				"refusal_no_heartsB": "...I'll tell on you!$a",
 				"engageA": "...What?$2",
 				"engageB": "Aunt Marnie told me there are weird people like you out there.$4#$b#She told me I should scream out if you start to scare me.$4",
-				"marriedA": "I'm {{JasAge}}, and you're married. What the heck is wrong with you?$a",
+				"marriedA": "I'm {{OmegaFallon.ThisTooShallPassCS/JasAge}}, and you're married. What the heck is wrong with you?$a",
 				"marriedB": "You think I won't call the police? I will.$3",
 				
 				"birthdayLoveA": "Ooh, I love this! Thanks so much!",

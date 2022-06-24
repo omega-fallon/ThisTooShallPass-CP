@@ -3,56 +3,6 @@
 	
 	"AliasTokenNames": {
 		
-		// Current age //
-		
-		"AbigailAge": "OmegaFallon.ThisTooShallPassCS/AbigailAge",
-		"AlexAge": "OmegaFallon.ThisTooShallPassCS/AlexAge",
-		"BirdieAge": "OmegaFallon.ThisTooShallPassCS/BirdieAge",
-		"BlondieAge": "OmegaFallon.ThisTooShallPassCS/BlondieAge",
-		"BoatmanAge": "OmegaFallon.ThisTooShallPassCS/BoatmanAge",
-		"CarolineAge": "OmegaFallon.ThisTooShallPassCS/CarolineAge",
-		"ClarieAge": "OmegaFallon.ThisTooShallPassCS/ClarieAge",
-		"ClintAge": "OmegaFallon.ThisTooShallPassCS/ClintAge",
-		"DemetriusAge": "OmegaFallon.ThisTooShallPassCS/DemetriusAge",
-		"DesertTraderAge": "OmegaFallon.ThisTooShallPassCS/DesertTraderAge",
-		"ElliottAge": "OmegaFallon.ThisTooShallPassCS/ElliottAge",
-		"EmilyAge": "OmegaFallon.ThisTooShallPassCS/EmilyAge",
-		"EvelynAge": "OmegaFallon.ThisTooShallPassCS/EvelynAge",
-		"GeorgeAge": "OmegaFallon.ThisTooShallPassCS/GeorgeAge",
-		"GilAge": "OmegaFallon.ThisTooShallPassCS/GilAge",
-		"GovernorAge": "OmegaFallon.ThisTooShallPassCS/GovernorAge",
-		"GuntherAge": "OmegaFallon.ThisTooShallPassCS/GuntherAge",
-		"GusAge": "OmegaFallon.ThisTooShallPassCS/GusAge",
-		"HaleyAge": "OmegaFallon.ThisTooShallPassCS/HaleyAge",
-		"HarveyAge": "OmegaFallon.ThisTooShallPassCS/HarveyAge",
-		"JasAge": "OmegaFallon.ThisTooShallPassCS/JasAge",
-		"JodiAge": "OmegaFallon.ThisTooShallPassCS/JodiAge",
-		"KentAge": "OmegaFallon.ThisTooShallPassCS/KentAge",
-		"LeahAge": "OmegaFallon.ThisTooShallPassCS/LeahAge",
-		"LeoAge": "OmegaFallon.ThisTooShallPassCS/LeoAge",
-		"LewisAge": "OmegaFallon.ThisTooShallPassCS/LewisAge",
-		"LinusAge": "OmegaFallon.ThisTooShallPassCS/LinusAge",
-		"LupiniAge": "OmegaFallon.ThisTooShallPassCS/LupiniAge",
-		"MarlonAge": "OmegaFallon.ThisTooShallPassCS/MarlonAge",
-		"MarnieAge": "OmegaFallon.ThisTooShallPassCS/MarnieAge",
-		"MaruAge": "OmegaFallon.ThisTooShallPassCS/MaruAge",
-		"MorrisAge": "OmegaFallon.ThisTooShallPassCS/MorrisAge",
-		"PamAge": "OmegaFallon.ThisTooShallPassCS/PamAge",
-		"ParentsAge": "OmegaFallon.ThisTooShallPassCS/ParentsAge",
-		"PennyAge": "OmegaFallon.ThisTooShallPassCS/PennyAge",
-		"PhotographerAge": "OmegaFallon.ThisTooShallPassCS/PhotographerAge",
-		"PierreAge": "OmegaFallon.ThisTooShallPassCS/PierreAge",
-		"RobinAge": "OmegaFallon.ThisTooShallPassCS/RobinAge",
-		"SamAge": "OmegaFallon.ThisTooShallPassCS/SamAge",
-		"SandyAge": "OmegaFallon.ThisTooShallPassCS/SandyAge",
-		"SebastianAge": "OmegaFallon.ThisTooShallPassCS/SebastianAge",
-		"ShaneAge": "OmegaFallon.ThisTooShallPassCS/ShaneAge",
-		"SnailAge": "OmegaFallon.ThisTooShallPassCS/SnailAge",
-		"SubmarineCaptainAge": "OmegaFallon.ThisTooShallPassCS/SubmarineCaptainAge",
-		"VincentAge": "OmegaFallon.ThisTooShallPassCS/VincentAge",
-		"WeathermanGingerAge": "OmegaFallon.ThisTooShallPassCS/WeathermanGingerAge",
-		"WillyAge": "OmegaFallon.ThisTooShallPassCS/WillyAge",
-		
 		// Single name
 		
 		"WhoDiedToday": "OmegaFallon.ThisTooShallPassCS/WhoDiedToday",
@@ -175,7 +125,7 @@
 		
 		{
 			"Name": "JasSubMarnie",
-			"Value": "{{query: {{Dead |contains=Marnie}} AND NOT {{Dead |contains=Jas}} AND ({{JasAge}} >= 18)}}",
+			"Value": "{{query: {{Dead |contains=Marnie}} AND NOT {{Dead |contains=Jas}} AND ({{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 18)}}",
 		},
 		
 		{
@@ -211,41 +161,41 @@
 		
 		{
 			"Name": "JasVince13",
-			"Value": "{{query: NOT {{Dead |contains=Jas, Vincent}} AND ({{JasAge}} > 13 OR {{VincentAge}} > 13)}}",
+			"Value": "{{query: NOT {{Dead |contains=Jas, Vincent}} AND ({{OmegaFallon.ThisTooShallPassCS/JasAge}} > 13 OR {{OmegaFallon.ThisTooShallPassCS/VincentAge}} > 13)}}",
 		},
 		
 		{
 			"Name": "JasVince18",
-			"Value": "{{query: NOT {{Dead |contains=Jas, Vincent}} AND ({{JasAge}} > 18 OR {{VincentAge}} > 18)}}",
+			"Value": "{{query: NOT {{Dead |contains=Jas, Vincent}} AND ({{OmegaFallon.ThisTooShallPassCS/JasAge}} > 18 OR {{OmegaFallon.ThisTooShallPassCS/VincentAge}} > 18)}}",
 		},
 		
 		// Ordinals (I fucking hate the English language) //
 		{
 			"Name": "LewisAgeOrdinal",
-			"Value": "{{LewisAge}}{{i18n:OrdinalGen.TTSP}}",
+			"Value": "{{OmegaFallon.ThisTooShallPassCS/LewisAge}}{{i18n:OrdinalGen.TTSP}}",
 		},
 		
 		{
 			"Name": "LewisAgeOrdinal",
-			"Value": "{{LewisAge}}{{i18n:Ordinal1.TTSP}}",
+			"Value": "{{OmegaFallon.ThisTooShallPassCS/LewisAge}}{{i18n:Ordinal1.TTSP}}",
 			"When": {
-				"query: ({{LewisAge}} % 10) = 1": true,
+				"query: ({{OmegaFallon.ThisTooShallPassCS/LewisAge}} % 10) = 1": true,
 			}
 		},
 		
 		{
 			"Name": "LewisAgeOrdinal",
-			"Value": "{{LewisAge}}{{i18n:Ordinal2.TTSP}}",
+			"Value": "{{OmegaFallon.ThisTooShallPassCS/LewisAge}}{{i18n:Ordinal2.TTSP}}",
 			"When": {
-				"query: ({{LewisAge}} % 10) = 2": true,
+				"query: ({{OmegaFallon.ThisTooShallPassCS/LewisAge}} % 10) = 2": true,
 			}
 		},
 		
 		{
 			"Name": "LewisAgeOrdinal",
-			"Value": "{{LewisAge}}{{i18n:Ordinal3.TTSP}}",
+			"Value": "{{OmegaFallon.ThisTooShallPassCS/LewisAge}}{{i18n:Ordinal3.TTSP}}",
 			"When": {
-				"query: ({{LewisAge}} % 10) = 3": true,
+				"query: ({{OmegaFallon.ThisTooShallPassCS/LewisAge}} % 10) = 3": true,
 			}
 		},
 		
@@ -257,7 +207,7 @@
 			"Value": "Marnie",
 			
 			"When": {
-				"Dead |contains=Marnie": false,
+				"OmegaFallon.ThisTooShallPassCS/Dead |contains=Marnie": false,
 			}
 		},
 		
@@ -287,7 +237,7 @@
 			"Value": "Mayor Lewis",
 			
 			"When": {
-				"Dead |contains=Lewis": false,
+				"OmegaFallon.ThisTooShallPassCS/Dead |contains=Lewis": false,
 			}
 		},
 		
@@ -315,7 +265,7 @@
 			"Value": "Lewis",
 			
 			"When": {
-				"Dead |contains=Lewis": false,
+				"OmegaFallon.ThisTooShallPassCS/Dead |contains=Lewis": false,
 			}
 		},
 		
@@ -343,7 +293,7 @@
 			"Value": "Lewis",
 			
 			"When": {
-				"Dead |contains=Lewis": false,
+				"OmegaFallon.ThisTooShallPassCS/Dead |contains=Lewis": false,
 			}
 		},
 		

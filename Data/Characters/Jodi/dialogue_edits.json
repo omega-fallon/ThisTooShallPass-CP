@@ -66,7 +66,7 @@
 			"Target": "Strings/Schedules/Jodi",
 			
 			"When": {
-				"query: {{VincentAge}} >= 13": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 13": true,
 			},
 			
 			"Entries": {
@@ -83,7 +83,7 @@
 			"Target": "Characters/Schedules/Jodi",
 			
 			"When": {
-				"query: {{VincentAge}} >= 18": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 18": true,
 			},
 			
 			"Entries": {

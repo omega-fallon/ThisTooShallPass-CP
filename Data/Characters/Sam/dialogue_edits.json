@@ -22,7 +22,7 @@
 			"Target": "Strings/Schedules/Sam",
 			
 			"When": {
-				"query: {{VincentAge}} >= 18": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 18": true,
 			},
 		
 			"Entries": {

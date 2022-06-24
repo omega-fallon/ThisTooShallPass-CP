@@ -62,7 +62,7 @@
 			"Action": "EditData",
 			
 			"When": {
-				"query: {{LeoAge}} >= 13": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/LeoAge}} >= 13": true,
 			},
 			
 			"Fields": {

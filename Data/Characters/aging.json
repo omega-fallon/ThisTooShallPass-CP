@@ -25,13 +25,13 @@
 			},
 			
 			"When": {
-				"query: {{BlondieAge}} >= 70": true
+				"query: {{OmegaFallon.ThisTooShallPassCS/BlondieAge}} >= 70": true
 			},
 		},
 		
 		{
 			"Action": "EditData",
-			"Target": "Strings/StringsFromMaps",
+			"Target": "Strings/StringsFromCSFiles",
 			
 			"Entries": {
 				"Bus.cs.7131": "Lady: We just got back from Zuzu City... wasn't it fun, Simon?",
@@ -40,7 +40,7 @@
 			},
 			
 			"When": {
-				"query: {{BlondieAge}} >= 70": true
+				"query: {{OmegaFallon.ThisTooShallPassCS/BlondieAge}} >= 70": true
 			},
 		},
 	
@@ -54,7 +54,7 @@
 			"FromFile": "Data/Characters/Jas/Jas-13.json",
 			
 			"When": {
-				"query: {{JasAge}} >= 13": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 13": true,
 				"Dead |contains=Jas": false,
 			}
 		},
@@ -65,7 +65,7 @@
 			"FromFile": "Data/Characters/Jas/Jas-18.json",
 			
 			"When": {
-				"query: {{JasAge}} >= 18": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 18": true,
 				"Dead |contains=Jas": false,
 			}
 		},
@@ -76,7 +76,7 @@
 			"FromFile": "Data/Characters/Jas/Jas-20.json",
 			
 			"When": {
-				"query: {{JasAge}} >= 20": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 20": true,
 				"Dead |contains=Jas": false,
 			}
 		},
@@ -87,7 +87,7 @@
 			"FromFile": "Data/Characters/Jas/romance.json",
 			
 			"When": {
-				"query: {{JasAge}} >= 20": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 20": true,
 				"EnableBecomeDateable": true,
 				"Dead |contains=Jas": false,
 			}
@@ -101,7 +101,7 @@
 			"FromFile": "Data/Characters/Leo/Leo-13.json",
 			
 			"When": {
-				"query: {{LeoAge}} >= 13": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/LeoAge}} >= 13": true,
 				"HasFlag: anyPlayer|contains=willyBoatFixed": true,
 				"Dead |contains=Leo": false,
 			}
@@ -113,7 +113,7 @@
 			"FromFile": "Data/Characters/Leo/Leo-18.json",
 			
 			"When": {
-				"query: {{LeoAge}} >= 18": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/LeoAge}} >= 18": true,
 				"HasFlag: anyPlayer|contains=willyBoatFixed": true,
 				"Dead |contains=Leo": false,
 			}
@@ -125,7 +125,7 @@
 			"FromFile": "Data/Characters/Leo/Leo-20.json",
 			
 			"When": {
-				"query: {{LeoAge}} >= 20": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/LeoAge}} >= 20": true,
 				"HasFlag: anyPlayer|contains=willyBoatFixed": true,
 				"Dead |contains=Leo": false,
 			}
@@ -137,7 +137,7 @@
 			"FromFile": "Data/Characters/Leo/romance.json",
 			
 			"When": {
-				"query: {{LeoAge}} >= 20": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/LeoAge}} >= 20": true,
 				"HasFlag: anyPlayer|contains=willyBoatFixed": true,
 				"EnableBecomeDateable": true,
 				"Dead |contains=Leo": false,
@@ -152,7 +152,7 @@
 			"FromFile": "Data/Characters/Vincent/Vincent-13.json",
 			
 			"When": {
-				"query: {{VincentAge}} >= 13": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 13": true,
 				"Dead |contains=Vincent": false,
 			}
 		},
@@ -163,7 +163,7 @@
 			"FromFile": "Data/Characters/Vincent/Vincent-18.json",
 			
 			"When": {
-				"query: {{VincentAge}} >= 18": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 18": true,
 				"Dead |contains=Vincent": false,
 			}
 		},
@@ -174,7 +174,7 @@
 			"FromFile": "Data/Characters/Vincent/Vincent-20.json",
 			
 			"When": {
-				"query: {{VincentAge}} >= 20": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 20": true,
 				"Dead |contains=Vincent": false,
 			}
 		},
@@ -185,7 +185,7 @@
 			"FromFile": "Data/Characters/Vincent/romance.json",
 			
 			"When": {
-				"query: {{VincentAge}} >= 20": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 20": true,
 				"EnableBecomeDateable": true,
 				"Dead |contains=Vincent": false,
 			}
@@ -199,7 +199,7 @@
 			"Target": "Data/NPCDispositions",
 			
 			"When": {
-				"query: {{JasAge}} >= 29": true
+				"query: {{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 29": true
 			},
 			
 			"Fields": {		
@@ -215,7 +215,7 @@
 			"Target": "Data/NPCDispositions",
 			
 			"When": {
-				"query: {{LeoAge}} >= 29": true
+				"query: {{OmegaFallon.ThisTooShallPassCS/LeoAge}} >= 29": true
 			},
 			
 			"Fields": {		
@@ -231,7 +231,7 @@
 			"Target": "Data/NPCDispositions",
 			
 			"When": {
-				"query: {{VincentAge}} >= 29": true
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 29": true
 			},
 			
 			"Fields": {		
@@ -249,7 +249,7 @@
 			"Target": "Data/NPCDispositions",
 			
 			"When": {
-				"query: {{AbigailAge}} >= 29": true
+				"query: {{OmegaFallon.ThisTooShallPassCS/AbigailAge}} >= 29": true
 			},
 			
 			"Fields": {		
@@ -265,7 +265,7 @@
 			"Target": "Data/NPCDispositions",
 			
 			"When": {
-				"query: {{MaruAge}} >= 29": true
+				"query: {{OmegaFallon.ThisTooShallPassCS/MaruAge}} >= 29": true
 			},
 			
 			"Fields": {		
@@ -281,7 +281,7 @@
 			"Target": "Data/NPCDispositions",
 			
 			"When": {
-				"query: {{PennyAge}} >= 29": true
+				"query: {{OmegaFallon.ThisTooShallPassCS/PennyAge}} >= 29": true
 			},
 			
 			"Fields": {		
@@ -297,7 +297,7 @@
 			"Target": "Data/NPCDispositions",
 			
 			"When": {
-				"query: {{SamAge}} >= 29": true
+				"query: {{OmegaFallon.ThisTooShallPassCS/SamAge}} >= 29": true
 			},
 			
 			"Fields": {		
@@ -313,7 +313,7 @@
 			"Target": "Data/NPCDispositions",
 			
 			"When": {
-				"query: {{SebastianAge}} >= 29": true
+				"query: {{OmegaFallon.ThisTooShallPassCS/SebastianAge}} >= 29": true
 			},
 			
 			"Fields": {		
@@ -332,7 +332,7 @@
 			
 			"When": {
 				"EnableBecomeDateable": true,
-				"query: ({{JasAge}} >= 20) OR ({{LeoAge}} >= 20) OR ({{VincentAge}} >= 20)": true,
+				"query: ({{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 20) OR ({{OmegaFallon.ThisTooShallPassCS/LeoAge}} >= 20) OR ({{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 20)": true,
 			},
 			
 			"Entries": {

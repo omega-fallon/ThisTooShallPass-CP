@@ -60,7 +60,7 @@
 			"Action": "EditData",
 			
 			"When": {
-				"query: {{JasAge}} >= 13": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 13": true,
 			},
 			
 			"Fields": {
@@ -97,7 +97,7 @@
 			"Action": "EditData",
 			
 			"When": {
-				"query: {{VincentAge}} >= 13": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 13": true,
 			},
 			
 			"Fields": {

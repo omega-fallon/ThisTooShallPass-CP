@@ -9,7 +9,7 @@
 			"FromFile": "Data/Characters/abigail/fullgrey.json",
 			
 			"When": {
-				"query: {{AbigailAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/AbigailAge}} >= 70": true,
 				"Dead |contains=Abigail": false
 			},
 		},
@@ -22,7 +22,7 @@
 			"FromFile": "Data/Characters/alex/fullgrey.json",
 			
 			"When": {
-				"query: {{AlexAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/AlexAge}} >= 70": true,
 				"Dead |contains=Alex": false
 			},
 		},
@@ -35,7 +35,7 @@
 			"FromFile": "Data/Characters/Blondie/fullgrey.json",
 			
 			"When": {
-				"query: {{BlondieAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/BlondieAge}} >= 70": true,
 				"Dead |contains=Blondie": false
 			},
 		},
@@ -48,7 +48,7 @@
 			"FromFile": "Data/Characters/Boatman/fullgrey.json",
 			
 			"When": {
-				"query: {{BoatmanAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/BoatmanAge}} >= 70": true,
 				"Dead |contains=Boatman": false
 			},
 		},
@@ -61,7 +61,7 @@
 			"FromFile": "Data/Characters/caroline/fullgrey.json",
 			
 			"When": {
-				"query: {{CarolineAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/CarolineAge}} >= 70": true,
 				"Dead |contains=Caroline": false
 			},
 		},
@@ -74,7 +74,7 @@
 			"FromFile": "Data/Characters/claire/fullgrey.json",
 			
 			"When": {
-				"query: {{ClaireAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/ClaireAge}} >= 70": true,
 				"Dead |contains=Claire": false
 			},
 		},
@@ -87,7 +87,7 @@
 			"FromFile": "Data/Characters/clint/fullgrey.json",
 			
 			"When": {
-				"query: {{ClintAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/ClintAge}} >= 70": true,
 				"Dead |contains=Clint": false
 			},
 		},
@@ -100,7 +100,7 @@
 			"FromFile": "Data/Characters/demetrius/fullgrey.json",
 			
 			"When": {
-				"query: {{DemetriusAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/DemetriusAge}} >= 70": true,
 				"Dead |contains=Demetrius": false
 			},
 		},
@@ -113,7 +113,7 @@
 			"FromFile": "Data/Characters/elliott/fullgrey.json",
 			
 			"When": {
-				"query: {{ElliottAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/ElliottAge}} >= 70": true,
 				"Dead |contains=ElliottTrader": false
 			},
 		},
@@ -126,7 +126,7 @@
 			"FromFile": "Data/Characters/emily/fullgrey.json",
 			
 			"When": {
-				"query: {{EmilyAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/EmilyAge}} >= 70": true,
 				"Dead |contains=Emily": false
 			},
 		},
@@ -139,7 +139,7 @@
 			"FromFile": "Data/Characters/governor/fullgrey.json",
 			
 			"When": {
-				"query: {{GovernorAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/GovernorAge}} >= 70": true,
 				"Dead |contains=Governor": false
 			},
 		},
@@ -152,7 +152,7 @@
 			"FromFile": "Data/Characters/gunther/fullgrey.json",
 			
 			"When": {
-				"query: {{GuntherAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/GuntherAge}} >= 70": true,
 				"Dead |contains=Gunther, GuntherSilva": false
 			},
 		},
@@ -165,7 +165,7 @@
 			"FromFile": "Data/Characters/gus/fullgrey.json",
 			
 			"When": {
-				"query: {{GusAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/GusAge}} >= 70": true,
 				"Dead |contains=Gus": false
 			},
 		},
@@ -178,7 +178,7 @@
 			"FromFile": "Data/Characters/haley/fullgrey.json",
 			
 			"When": {
-				"query: {{HaleyAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/HaleyAge}} >= 70": true,
 				"Dead |contains=Haley": false
 			},
 		},
@@ -191,7 +191,7 @@
 			"FromFile": "Data/Characters/harvey/fullgrey.json",
 			
 			"When": {
-				"query: {{HarveyAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/HarveyAge}} >= 70": true,
 				"Dead |contains=Harvey": false
 			},
 		},
@@ -204,7 +204,7 @@
 			"FromFile": "Data/Characters/jas/teen.json",
 			
 			"When": {
-				"query: {{JasAge}} >= 13": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 13": true,
 				"Dead |contains=Jas": false
 			},
 		},
@@ -217,7 +217,7 @@
 			"FromFile": "Data/Characters/jodi/fullgrey.json",
 			
 			"When": {
-				"query: {{JodiAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/JodiAge}} >= 70": true,
 				"Dead |contains=Jodi": false
 			},
 		},
@@ -230,7 +230,7 @@
 			"FromFile": "Data/Characters/kent/fullgrey.json",
 			
 			"When": {
-				"query: {{KentAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/KentAge}} >= 70": true,
 				"Dead |contains=Kent": false
 			},
 		},
@@ -243,7 +243,7 @@
 			"FromFile": "Data/Characters/leah/fullgrey.json",
 			
 			"When": {
-				"query: {{LeahAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/LeahAge}} >= 70": true,
 				"Dead |contains=Leah": false
 			},
 		},
@@ -256,7 +256,7 @@
 			"FromFile": "Data/Characters/leo/teen.json",
 			
 			"When": {
-				"query: {{LeoAge}} >= 13": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/LeoAge}} >= 13": true,
 				"Dead |contains=Leo": false
 			},
 		},
@@ -269,7 +269,7 @@
 			"FromFile": "Data/Characters/Lupini/fullgrey.json",
 			
 			"When": {
-				"query: {{LupiniAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/LupiniAge}} >= 70": true,
 				"Dead |contains=Lupini": false
 			},
 		},
@@ -282,7 +282,7 @@
 			"FromFile": "Data/Characters/marnie/fullgrey.json",
 			
 			"When": {
-				"query: {{MarnieAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/MarnieAge}} >= 70": true,
 				"Dead |contains=Marnie": false
 			},
 		},
@@ -295,7 +295,7 @@
 			"FromFile": "Data/Characters/maru/fullgrey.json",
 			
 			"When": {
-				"query: {{MaruAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/MaruAge}} >= 70": true,
 				"Dead |contains=Maru": false
 			},
 		},
@@ -308,8 +308,8 @@
 			"FromFile": "Data/Characters/morris/greying.json",
 			
 			"When": {
-				"query: {{MorrisAge}} >= 60": true,
-				"query: {{MorrisAge}} >= 70": false,
+				"query: {{OmegaFallon.ThisTooShallPassCS/MorrisAge}} >= 60": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/MorrisAge}} >= 70": false,
 				"Dead |contains=Morris, MorrisTod": false
 			},
 		},
@@ -320,7 +320,7 @@
 			"FromFile": "Data/Characters/morris/fullgrey.json",
 			
 			"When": {
-				"query: {{MorrisAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/MorrisAge}} >= 70": true,
 				"Dead |contains=Morris, MorrisTod": false
 			},
 		},
@@ -333,7 +333,7 @@
 			"FromFile": "Data/Characters/pam/fullgrey.json",
 			
 			"When": {
-				"query: {{PamAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/PamAge}} >= 70": true,
 				"Dead |contains=Pam": false
 			},
 		},
@@ -346,7 +346,7 @@
 			"FromFile": "Data/Characters/penny/fullgrey.json",
 			
 			"When": {
-				"query: {{PennyAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/PennyAge}} >= 70": true,
 				"Dead |contains=Penny": false
 			},
 		},
@@ -359,7 +359,7 @@
 			"FromFile": "Data/Characters/Photographer/fullgrey.json",
 			
 			"When": {
-				"query: {{PhotographerAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/PhotographerAge}} >= 70": true,
 				"Dead |contains=Photographer": false
 			},
 		},
@@ -372,7 +372,7 @@
 			"FromFile": "Data/Characters/pierre/fullgrey.json",
 			
 			"When": {
-				"query: {{PierreAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/PierreAge}} >= 70": true,
 				"Dead |contains=Pierre": false
 			},
 		},
@@ -385,7 +385,7 @@
 			"FromFile": "Data/Characters/robin/fullgrey.json",
 			
 			"When": {
-				"query: {{RobinAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/RobinAge}} >= 70": true,
 				"Dead |contains=Robin": false
 			},
 		},
@@ -398,7 +398,7 @@
 			"FromFile": "Data/Characters/sam/fullgrey.json",
 			
 			"When": {
-				"query: {{SamAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/SamAge}} >= 70": true,
 				"Dead |contains=Sam": false
 			},
 		},
@@ -411,7 +411,7 @@
 			"FromFile": "Data/Characters/sandy/fullgrey.json",
 			
 			"When": {
-				"query: {{SandyAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/SandyAge}} >= 70": true,
 				"Dead |contains=Sandy": false
 			},
 		},
@@ -424,7 +424,7 @@
 			"FromFile": "Data/Characters/sebastian/fullgrey.json",
 			
 			"When": {
-				"query: {{SebastianAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/SebastianAge}} >= 70": true,
 				"Dead |contains=Sebastian": false
 			},
 		},
@@ -437,7 +437,7 @@
 			"FromFile": "Data/Characters/shane/fullgrey.json",
 			
 			"When": {
-				"query: {{ShaneAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/ShaneAge}} >= 70": true,
 				"Dead |contains=Shane": false
 			},
 		},
@@ -450,7 +450,7 @@
 			"FromFile": "Data/Characters/vincent/teen.json",
 			
 			"When": {
-				"query: {{VincentAge}} >= 13": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 13": true,
 				"Dead |contains=Vincent": false
 			},
 		},
@@ -463,7 +463,7 @@
 			"FromFile": "Data/Characters/Weatherman_Ginger/fullgrey.json",
 			
 			"When": {
-				"query: {{WeathermanGingerAge}} >= 70": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/WeathermanGingerAge}} >= 70": true,
 				"Dead |contains=WeathermanGinger": false
 			},
 		},

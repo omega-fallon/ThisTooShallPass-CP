@@ -885,7 +885,7 @@
 			"FromFile": "Assets/CoolSnowman.png",
 			
 			"When": {
-				"query: ({{VincentAge}} >= 18) AND NOT {{Dead |contains=Vincent}}": true,
+				"query: ({{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 18) AND NOT {{Dead |contains=Vincent}}": true,
 			},
 			
 			"ToArea": {"X": 96, "Y": 400, "Width": 16, "Height": 32}
@@ -896,7 +896,7 @@
 			"Target": "Data/Festivals/winter8",
 			
 			"When": {
-				"query: ({{VincentAge}} >= 18) AND NOT {{Dead |contains=Vincent}}": true,
+				"query: ({{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 18) AND NOT {{Dead |contains=Vincent}}": true,
 			},
 			
 			"Entries": {

@@ -24,7 +24,7 @@
 				"Year |contains=2": false
 			},
 			"Entries":  {
-				"spring.004": "Heh... it's nice to feel appreciated like this. I guess getting old isn't too bad.$h#$b#Who cares that I'm {{KentAge}}? That just means I have to enjoy the birthdays I have left.$1"
+				"spring.004": "Heh... it's nice to feel appreciated like this. I guess getting old isn't too bad.$h#$b#Who cares that I'm {{OmegaFallon.ThisTooShallPassCS/KentAge}}? That just means I have to enjoy the birthdays I have left.$1"
 			},
 		},
 		
@@ -33,7 +33,7 @@
 			"Target": "Strings/schedules/Sam",
 			"When": {
 				"Year |contains=1": "false",
-				"query: {{VincentAge}} >= 18": true
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 18": true
 			},
 			"Entries":  {
 				"spring.004": "Vincent still gets excited for dad's birthday every year. It's really cute, honestly.$1"
@@ -45,7 +45,7 @@
 			"Target": "Strings/schedules/Vincent",
 			"When": {
 				"Year |contains=1": "false",
-				"query: {{VincentAge}} >= 13": true
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 13": true
 			},
 			"Entries":  {
 				"spring.004": "How's the cake, dad? Mind if I taste test it?$1"
@@ -58,7 +58,7 @@
 			"Action": "EditData",
 			"Target": "Strings/schedules/Lewis",
 			"Entries":  {
-				"spring.007": "I absolutely couldn't spend my birthday in better company.$1#$b#Being {{LewisAge}} feels pretty good when you put it that way, heh.$h"
+				"spring.007": "I absolutely couldn't spend my birthday in better company.$1#$b#Being {{OmegaFallon.ThisTooShallPassCS/LewisAge}} feels pretty good when you put it that way, heh.$h"
 			},
 		},
 		
@@ -81,7 +81,7 @@
 			},
 			
 			"When": {
-				"query: {{VincentAge}} >= 13": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 13": true,
 			}
 		},
 		
@@ -105,7 +105,7 @@
 			},
 			
 			"When": {
-				"query: {{JasAge}} >= 13": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 13": true,
 			}
 		},
 		
@@ -118,7 +118,7 @@
 			},
 			
 			"When": {
-				"query: {{JasAge}} >= 13": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 13": true,
 			}
 		},
 		
@@ -130,7 +130,7 @@
 			},
 			
 			"When": {
-				"query: {{JasAge}} >= 18": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 18": true,
 			}
 		},
 		
@@ -155,7 +155,7 @@
 			},
 			
 			"When": {
-				"query: {{VincentAge}} >= 13": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 13": true,
 			}
 		},
 		
@@ -180,7 +180,7 @@
 			},
 			
 			"When": {
-				"query: {{JasAge}} >= 13": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 13": true,
 			}
 		},
 		
@@ -204,7 +204,7 @@
 			},
 			
 			"When": {
-				"query: {{VincentAge}} >= 13": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 13": true,
 			}
 		},
 		
@@ -318,7 +318,7 @@
 			},
 			
 			"When": {
-				"query: {{JasAge}} >= 18": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 18": true,
 			}
 		},
 		

@@ -36,7 +36,7 @@
 			"Target": "Strings/Schedules/Marnie",
 			
 			"When": {
-				"query: {{JasAge}} >= 13": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 13": true,
 			},
 		
 			"Entries": {
@@ -50,7 +50,7 @@
 			"Target": "Characters/Schedules/Marnie",
 			
 			"When": {
-				"query: {{JasAge}} >= 18": true,
+				"query: {{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 18": true,
 			},
 		
 			"Entries": {
