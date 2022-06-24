@@ -518,11 +518,6 @@
 		{
 			"Action": "Include",
 			"FromFile": "Data/Characters/aging.json",
-			
-			"When": {
-				"query: {{Year}} > 0": true,
-				"AllDead": false,
-			}
 		},
 				
 		// Kills characters.
@@ -530,10 +525,6 @@
 		{
 			"Action": "Include",
 			"FromFile": "Data/Characters/unmanifest.json",
-			
-			"When": {
-				"query: {{Year}} > 0": true,
-			}
 		},
 		
 		// Dialogue edits
@@ -541,10 +532,6 @@
 		{
 			"Action": "Include",
 			"FromFile": "Data/Characters/dialogue_edits.json",
-			
-			"When": {
-				"query: {{Year}} > 0": true,
-			}
 		},
 		
 		// Edit houses/exterior doors
@@ -553,10 +540,6 @@
 			"LogName": "Edit houses & exterior doors",
 			"Action": "Include",
 			"FromFile": "Data/Characters/edit_houses.json",
-			
-			"When": {
-				"query: {{Year}} > 0": true
-			}
 		},
 		
 		// Edit interior doors
@@ -565,12 +548,6 @@
 			"LogName": "Edit interior doors",
 			"Action": "Include",
 			"FromFile": "Data/Characters/edit_doors.json",
-			
-			"When": {
-				"query: {{Year}} > 0": true,
-				"EnableDeath": true,
-				
-			}
 		},
 		
 		// Edits events
@@ -579,10 +556,6 @@
 			"LogName": "Edit events",
 			"Action": "Include",
 			"FromFile": "Data/Events/edit_events.json",
-			
-			"When": {
-				"query: {{Year}} > 0": true,
-			}
 		},
 		
 		// Edits festivals
@@ -591,10 +564,6 @@
 			"LogName": "Edit festivals",
 			"Action": "Include",
 			"FromFile": "Data/Festivals/edit_festivals.json",
-			
-			"When": {
-				"AnyoneFuneral": false,
-			}
 		},
 		
 		// ???
@@ -603,10 +572,6 @@
 			"LogName": "???",
 			"Action": "Include",
 			"FromFile": "Data/creepy.json",
-			
-			"When": {
-				"EnableDeath": true,
-			}
 		},
 		
 		// Compatibility
@@ -615,10 +580,6 @@
 			"LogName": "Compatibility patches",
 			"Action": "Include",
 			"FromFile": "Data/123_Compatibility/compatibility.json",
-			
-			"When": {
-				"query: {{Year}} > 0": true,
-			}
 		},
 		
 		// Funerals. These go here so grieving & funeral dialogue overwrites! //
@@ -627,12 +588,6 @@
 			"LogName": "Funerals",
 			"Action": "Include",
 			"FromFile": "Data/Funerals/funerals.json",
-			
-			"When": {
-				"EnableDeath": true,
-				"query: {{Year}} > 0": true,
-				"AllDead": false,
-			}
 		},
 	]
 }
