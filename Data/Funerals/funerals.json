@@ -1,16 +1,66 @@
 {
 	"Changes": [
-		// Actually really proud of myself for the elegance of this code
+		// Adds the graveyard into the world
 		
 		{
-            "LogName": "Graveyard map warp",
+            "LogName": "Graveyard entrance in backwoods",
 			"Action": "EditMap",
-            "Target": "Maps/Forest",
+            "Target": "Maps/Backwoods",
+			"FromFile": "Assets/Funerals/Backwoods_entrance.tmx",
+			"ToArea": {"X": 20, "Y": 0, "Width": 10, "Height": 10}
+        },
+		
+		{
+            "LogName": "Backwoods remove tree",
+			"Action": "EditMap",
+            "Target": "Maps/Backwoods",
 
-            "AddWarps": [
-                "39 2 Custom_TTSP_Graveyard 12 12"
+            "MapTiles": [
+                {
+                    "Position": { "X": 24, "Y": 10 },
+                    "Layer": "Paths",
+                    "Remove": true,
+                }
             ]
         },
+		
+		{
+            "LogName": "Backwoods warp to graveyard",
+			"Action": "EditMap",
+            "Target": "Maps/Backwoods",
+
+            "AddWarps": [
+                "24 0 Custom_TTSP_Graveyard 21 56",
+				"25 0 Custom_TTSP_Graveyard 22 56",
+            ]
+        },
+		
+		{
+            "LogName": "Graveyard warp to backwoods",
+			"Action": "EditMap",
+            "Target": "Maps/Custom_TTSP_Graveyard",
+
+            "AddWarps": [
+                "18 59 Backwoods 24 2",
+				"19 59 Backwoods 24 2",
+				"20 59 Backwoods 24 2",
+				"21 59 Backwoods 24 2",
+				"22 59 Backwoods 25 2",
+				"23 59 Backwoods 25 2",
+				"24 59 Backwoods 25 2",
+				"25 59 Backwoods 25 2",
+            ]
+        },
+		
+		{
+            "LogName": "Graveyard on map",
+			"Action": "EditImage",
+            "Target": "LooseSprites/Map",
+			"FromFile": "Assets/Funerals/map_overlay_{{season}}.png",
+			"PatchMode": "Overlay",
+		},
+		
+		// Actually really proud of myself for the elegance of this code
 		
 		{
 			"LogName": "Adding death announcement event",

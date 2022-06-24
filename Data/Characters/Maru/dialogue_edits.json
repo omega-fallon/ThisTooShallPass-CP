@@ -12,7 +12,11 @@
 			"Entries": {
 				"Sat": "I had a lot of fun helping Demetrius out in the laboratory... hopefully I can do some fun experiments on my own, now.",
 				"summer_Sun": "I bet you're growing some interesting crops right now.#$b#Dad once told me that a lot of exotic plants grow in the valley this time of year.",
-				 "winter_Thu": "Hey! What's up?#$e#It's a good time to explore the caves.#$e#I would go, but I'm a too busy.",
+				"winter_Thu": "Hey! What's up?#$e#It's a good time to explore the caves.#$e#I would go, but I'm a too busy.",
+				
+				// Courtship
+				
+				"reject_two_heartB": "Uhhhh... I hope these are for my research...$1",
 			}
 		},
 		

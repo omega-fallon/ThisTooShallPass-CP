@@ -20,6 +20,15 @@
 				"NPC.cs.4280": "{{i18n:PoliteBirthdayGiftGrieving2.TTSP}}$n",
 				"NPC.cs.4281": "{{i18n:PoliteBirthdayGiftGrieving.TTSP}}$h/{{i18n:PoliteBirthdayGiftGrieving.TTSP}}$h",
 				
+				"birthdayLoveA": "{{i18n:PoliteBirthdayGiftGrieving.TTSP}}$h",
+				"birthdayLoveB": "{{i18n:PoliteBirthdayGiftGrieving.TTSP}}$h",
+				"birthdayLikeA": "{{i18n:PoliteBirthdayGiftGrieving.TTSP}}$h",
+				"birthdayLikeB": "{{i18n:PoliteBirthdayGiftGrieving.TTSP}}$h",
+				"birthdayDislikeA": "{{i18n:PoliteBirthdayGiftGrieving2.TTSP}}$s",
+				"birthdayDislikeB": "{{i18n:PoliteBirthdayGiftGrieving2.TTSP}}$s",
+				"birthdayNeutralA": "{{i18n:PoliteBirthdayGiftGrieving2.TTSP}}$s",
+				"birthdayNeutralB": "{{i18n:PoliteBirthdayGiftGrieving2.TTSP}}$s",
+				
 				"NPC.cs.4293": "{{i18n:GrievingWhy.TTSP}}",
 				"NPC.cs.4294": "{{i18n:GrievingWorse.TTSP}}",
 				

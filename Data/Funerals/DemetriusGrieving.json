@@ -31,5 +31,15 @@
 				"ItemDeliveryQuest.cs.13587": "Oh... that's the final piece, then, {0}.#$b#Thank you. This means so much to me.$h",
 			}
 		},
+		
+		{
+			"LogName": "Engagement dialogue",
+			"Action": "EditData",
+			"Target": "Data/EngagementDialogue",
+			"Entries": {
+				"Maru0": "I'm really excited.$h#$b#This is going to turn things around for me! I'm going to be your wife. Hehe.$l",
+				"Maru1": "I need to get mentally prepared for being a farmer's wife.#$b#I know Dad would want me to be happy and enjoy life without him... so that's what I'll do!",
+			}
+		},
 	]
 }
