@@ -630,7 +630,7 @@
 			"When": {
 				"Language": "en",
 				"Relationship:Leah": "Engaged",
-				"Dead |contains=ElliottTrader": true,
+				"Dead |contains=Elliott": true,
 			},
 			"Entries": {
 				"Leah_spouse": "Don't mind me, I'm planning the details for the wedding. We have to scope out the location, right?$h"
@@ -655,7 +655,7 @@
 			"When": {
 				"Language": "en",
 				"Hearts:Leah": "4, 5",
-				"Dead |contains=ElliottTrader": true,
+				"Dead |contains=Elliott": true,
 			},
 			"Entries": {
 				"Leah": "To be honest, I prefer to have the beach to myself.#$b#I come here to visit Elliott's cabin quite often. He was a good friend of mine.$h"
@@ -668,7 +668,7 @@
 			"When": {
 				"Language": "en",
 				"Hearts:Leah": "6, 7, 8, 9, 10",
-				"Dead |contains=ElliottTrader": true,
+				"Dead |contains=Elliott": true,
 			},
 			"Entries": {
 				"Leah": "You look nice today... if you don't mind me saying so.$l"
@@ -681,7 +681,7 @@
 			"When": {
 				"Language": "en",
 				"Relationship:Leah": "Divorced",
-				"Dead |contains=ElliottTrader": true,
+				"Dead |contains=Elliott": true,
 			},
 			"Entries": {
 				"Leah": "%Leah ignores you and looks at the ocean instead."
@@ -707,7 +707,7 @@
 			"When": {
 				"Language": "en",
 				"Hearts:Leah": "4, 5",
-				"Dead |contains=ElliottTrader": true,
+				"Dead |contains=Elliott": true,
 			},
 			"Entries": {
 				"Leah": "Lovely night, huh? The sights, the sounds...#$b#Pretty good... *hic*$l"

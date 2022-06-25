@@ -18,6 +18,8 @@
 			
 			"Fields": {
 				"Pierre": {
+					"5": "not-dateable",
+					"7": "Other",
 					"10": "Custom_TTSP_Storage 4 5",
 					"11": "Caroline"
 				}
@@ -69,6 +71,8 @@
 			"Target": "Strings/Characters",
 			
 			"Entries": {
+				"Phone_GeneralStore_Name": "Caroline",
+				
 				"Phone_Ring_Pierre": "{{i18n:ButNobodyCame.TTSP}}",
 				"Phone_Pierre_Open": "Hello, you've reached the General Store! Oh, @! Yes, we're open until 5pm today. Come pay me a visit! *click*",
 				"Phone_Pierre_Open_Rare": "Abigail! Your guinea pig is loose again! Oh dear, I'm going to have to...$3#$b#Oh! Uh... Hello? Thank you for calling. Y... Yes, we're open until 5PM. Goodbye. *click*$4",

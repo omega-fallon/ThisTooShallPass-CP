@@ -13,16 +13,6 @@
 		},
 		
 		{
-			"LogName": "Make Pierre invisible",
-			"Action": "EditData",
-			"Target": "Data/Events/SeedShop, Data/Events/Farmhouse, Data/Events/Farm, Data/Events/IslandFarmhouse, Data/Events/IslandFarm",
-			
-			"Entries": {
-				"12491126": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/end invisible Pierre",
-			},
-		},
-		
-		{
 			"LogName": "Add manifest",
 			"Action": "EditMap",
 			"Target": "Maps/SeedShop",
@@ -50,7 +40,9 @@
 			"Target": "Data/NPCDispositions",
 			
 			"Fields": {
-				"Willy": {
+				"Pierre": {
+					"5": "not-dateable",
+					"7": "Other",
 					"10": "SeedShop 4 17",
 					"11": "Magnus"
 				}
@@ -95,6 +87,8 @@
 			"Target": "Strings/Characters",
 			
 			"Entries": {
+				"Phone_GeneralStore_Name": "GeneralStore",
+				
 				"Phone_Ring_Pierre": "{{i18n:ButNobodyCame.TTSP}}",
 				"Phone_Pierre_Open": "The seed shop is open 24 hours a day. Goodbye. *click*$4",
 				"Phone_Pierre_Open_Rare": "The seed shop is open 24 hours a day. Goodbye. *click*$4",

@@ -50,7 +50,7 @@
 			"Action": "EditData",
 			
 			"When": {
-				"Dead |contains=ElliottTrader": true,
+				"Dead |contains=Elliott": true,
 			},
 			
 			"Entries": {

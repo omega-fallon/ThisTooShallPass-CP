@@ -20,16 +20,6 @@
 		},
 		
 		{
-			"LogName": "Make Clint invisible",
-			"Action": "EditData",
-			"Target": "Data/Events/Blacksmith, Data/Events/Farmhouse, Data/Events/Farm, Data/Events/IslandFarmhouse, Data/Events/IslandFarm",
-			
-			"Entries": {
-				"12491103": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/end invisible Clint",
-			},
-		},
-		
-		{
 			"LogName": "Add manifest",
 			"Action": "EditMap",
 			"Target": "Maps/Blacksmith",
@@ -67,6 +57,8 @@
 			
 			"Fields": {
 				"Clint": {
+					"5": "not-dateable",
+					"7": "Other",
 					"10": "Custom_TTSP_Storage 4 5",
 					"11": "Magnus"
 				}
@@ -110,6 +102,8 @@
 			"Target": "Strings/Characters",
 			
 			"Entries": {
+				"Phone_Blacksmith_Name": "Blacksmith",
+				
 				"Phone_Clint_Open": "Greetings. The blacksmithery is open 24 hours a day. *click*",
 				"Phone_Clint_Open_Rare": "Greetings. The blacksmithery is open 24 hours a day. *click*",
 				"Phone_Clint_Closed": "You've reached the blacksmithery inbox. We're open 24 hours a day, so hearing this message is an issue. Goodbye. *beep*",

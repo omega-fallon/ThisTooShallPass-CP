@@ -68,7 +68,7 @@
 			"Target": "Data/Events/FarmHouse, Data/Events/Farm, Data/Events/IslandFarmHouse, Data/Events/IslandFarm",
 			
 			"Entries": {
-				"12491001": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/pause 2000/message \"{{WhoDiedToday}} died last night. The funeral is in 3 days.\"/addConversationTopic {{WhoDiedToday}}FuneralUpcoming 3/addConversationTopic {{WhoDiedToday}}Grieving 31/addMailReceived {{WhoDiedToday}}Died/pause 1000/end",
+				"12491001": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/pause 2000/message \"{{OmegaFallon.ThisTooShallPassCS/WhoDiedToday}} died last night. The funeral is in 3 days.\"/addConversationTopic {{OmegaFallon.ThisTooShallPassCS/WhoDiedToday}}FuneralUpcoming 3/addConversationTopic {{OmegaFallon.ThisTooShallPassCS/WhoDiedToday}}Grieving 31/addMailReceived {{OmegaFallon.ThisTooShallPassCS/WhoDiedToday}}Died/pause 1000/end",
 			},
 			
 			"When": {
@@ -79,7 +79,7 @@
 		{
 			"LogName": "NPC-specific grieving data",
 			"Action": "Include",
-			"FromFile": "Data/Funerals/{{WhoseGrieving}}Grieving.json",
+			"FromFile": "Data/Funerals/{{OmegaFallon.ThisTooShallPassCS/WhoseGrieving}}Grieving.json",
 			
 			"When": {
 				"AnyoneGrieving": true,

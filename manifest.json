@@ -58,7 +58,11 @@
 			"UniqueId": "OmegaFallon.PhoneCP",
 			"IsRequired": false,
 		},
-		
+		{
+			"UniqueId": "spacechase0.SurfingFestival",
+			"IsRequired": false,
+		},
+
 		// Required
 		
 		{

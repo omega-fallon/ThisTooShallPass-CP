@@ -27,16 +27,6 @@
 		},
 		
 		{
-			"LogName": "Make Robin invisible",
-			"Action": "EditData",
-			"Target": "Data/Events/ScienceHouse, Data/Events/Farmhouse, Data/Events/Farm, Data/Events/IslandFarmhouse, Data/Events/IslandFarm",
-			
-			"Entries": {
-				"12491127": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/end invisible Robin",
-			},
-		},
-		
-		{
 			"LogName": "Add manifest",
 			"Action": "EditMap",
 			"Target": "Maps/ScienceHouse",
@@ -86,6 +76,8 @@
 			
 			"Fields": {
 				"Robin": {
+					"5": "not-dateable",
+					"7": "Other",
 					"10": "ScienceHouse 8 18",
 					"11": "Magnus"
 				}
@@ -147,6 +139,8 @@
 			"Target": "Strings/Characters",
 			
 			"Entries": {
+				"Phone_Carpenter_Name": "Carpenter",
+				
 				"Phone_Robin_Workout": "Greetings. Yes, unfortunately, the lumberworks are closed. *beep*",
 				"Phone_Robin_Working_OneDay": "Hello. I cannot take your call currently; I am out constructing a building. I will be available tomorrow. *beep*",
 				"Phone_Robin_Working": "Hello. I cannot take your call currently; I am out constructing a building. I will be available in a few days. *beep*",

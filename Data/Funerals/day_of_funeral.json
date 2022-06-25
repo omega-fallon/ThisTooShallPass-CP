@@ -3,15 +3,15 @@
 		{
 			"LogName": "Loading in funeral map base",
 			"Action": "Load",
-			"Target": "Maps/Graveyard-{{WhoseFuneralToday}}Funeral",
+			"Target": "Maps/Graveyard-{{OmegaFallon.ThisTooShallPassCS/WhoseFuneralToday}}Funeral",
 			"FromFile": "Assets/Funerals/Graveyard.tmx",
 		},
 		
 		{
 			"LogName": "Overlaying NPC-specific funeral map",
 			"Action": "EditMap",
-			"Target": "Maps/Graveyard-{{WhoseFuneralToday}}Funeral",
-			"FromFile": "Assets/Funerals/Graveyard-{{WhoseFuneralToday}}Funeral.tmx",
+			"Target": "Maps/Graveyard-{{OmegaFallon.ThisTooShallPassCS/WhoseFuneralToday}}Funeral",
+			"FromFile": "Assets/Funerals/Graveyard-{{OmegaFallon.ThisTooShallPassCS/WhoseFuneralToday}}Funeral.tmx",
 			"PatchMode": "Overlay",
 			
 			"When": {
@@ -25,7 +25,7 @@
 			"Target": "Data/Festivals/FestivalDates",
 			
 			"Entries": {
-				"{{Season}}{{Day}}": "{{WhoseFuneralToday}}'s Funeral",
+				"{{Season}}{{Day}}": "{{OmegaFallon.ThisTooShallPassCS/WhoseFuneralToday}}'s Funeral",
 			},
 		},
 		
@@ -35,7 +35,7 @@
 			"Target": "Data/Festivals/FestivalDates",
 			
 			"Entries": {
-				"{{Season}}{{Day}}": "{{WhoseFuneralToday}}' Funeral",
+				"{{Season}}{{Day}}": "{{OmegaFallon.ThisTooShallPassCS/WhoseFuneralToday}}' Funeral",
 			},
 			
 			"When": {
@@ -56,9 +56,9 @@
 			"Target": "Data/Festivals/{{season}}{{day}}",
 			
 			"Entries": {
-				"name": "{{WhoseFuneralToday}}'s Funeral",
+				"name": "{{OmegaFallon.ThisTooShallPassCS/WhoseFuneralToday}}'s Funeral",
 				"conditions": "Custom_TTSP_Graveyard/900 1400",
-				"set-up": "none/-1000 -1000/farmer 32 32 1/changeToTemporaryMap Graveyard-{{WhoseFuneralToday}}Funeral/loadActors Set-Up/playerControl iceFestival",
+				"set-up": "none/-1000 -1000/farmer 32 32 1/changeToTemporaryMap Graveyard-{{OmegaFallon.ThisTooShallPassCS/WhoseFuneralToday}}Funeral/loadActors Set-Up/playerControl iceFestival",
 				"Lewis": "Ah... hello, @. I'm very glad you've decided to attend.#$b#We're just about ready to begin the ceremony. I'll wait for everyone to take their seat.",
 				"Wizard": "'Tis a solemn day, to lose yet another. It is unfortunate, but... there is only so much magic can do.",
 			},
@@ -70,7 +70,7 @@
 			"Target": "Data/Festivals/{{season}}{{day}}",
 			
 			"Entries": {
-				"name": "{{WhoseFuneralToday}}' Funeral",
+				"name": "{{OmegaFallon.ThisTooShallPassCS/WhoseFuneralToday}}' Funeral",
 			},
 			
 			"When": {
@@ -81,11 +81,11 @@
 		{
 			"LogName": "NPC-specific funeral 'festival' data",
 			"Action": "Include",
-			"FromFile": "Data/Funerals/{{WhoseFuneralToday}}Funeral.json",
+			"FromFile": "Data/Funerals/{{OmegaFallon.ThisTooShallPassCS/WhoseFuneralToday}}Funeral.json",
 			
 			"When": {
 				"HasFile:{{FromFile}}": true,
-				"HasValue:{{WhoseFuneralToday}}": true
+				"HasValue:{{OmegaFallon.ThisTooShallPassCS/WhoseFuneralToday}}": true
 			}
 		},
 		

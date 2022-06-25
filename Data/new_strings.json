@@ -1,6 +1,20 @@
 {
 	"Changes": [		
 		{
+			"Action": "EditData",
+			"Target": "Strings/Characters",
+			
+			"Entries": {
+				"Phone_Blacksmith_Name": "Clint",
+				"Phone_Carpenter_Name": "Robin",
+				"Phone_GeneralStore_Name": "Pierre",
+				"Phone_Guild_Name": "Marlon",
+				"Phone_Ranch_Name": "Marnie",
+				"Phone_Saloon_Name": "Gus",
+			}
+		},
+		
+		{
 			"LogName": "Strings from maps",
 			"Action": "EditData",
 			"Target": "Strings/StringsFromMaps",

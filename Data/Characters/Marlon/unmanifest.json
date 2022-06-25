@@ -39,6 +39,8 @@
 			
 			"Fields": {
 				"Marlon": {
+					"5": "not-dateable",
+					"7": "Other",
 					"10": "Custom_TTSP_Storage 4 5",
 					"11": "Magnus"
 				}
@@ -104,6 +106,8 @@
 			"Target": "Strings/Characters",
 			
 			"Entries": {
+				"Phone_Guild_Name": "Adventure Guild",
+				
 				"Phone_Marlon_Open": "Yes, this is Magnus... you've lost something in the mines? Very well. I can summon it back... for a price.",
 				"Phone_Marlon_AlreadyRecovering": "Hello. Yes, my sprites are searching the mines as we speak. No cause for alarm. *click*",
 				"Phone_Marlon_NoDeathItems": "I don't seem to have any indication that you've lost anything. If you ever do need my services, I'll still be here. *click*"

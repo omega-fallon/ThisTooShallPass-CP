@@ -56,7 +56,7 @@
 			"FromFile": "Data/Characters/Elliott/dialogue_edits.json",
 			
 			"When": {
-				"Dead |contains=ElliottTrader": false,
+				"Dead |contains=Elliott": false,
 			}
 		},
 		

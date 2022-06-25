@@ -1,28 +1,6 @@
 {
 	"Changes": [
 		
-		// Caroline subs (god I hope she does)
-		
-		{
-			"Action": "Include",
-			"FromFile": "Data/Characters/Caroline/caroline_sub_pierre.json",
-		
-			"When": {
-				"CarolineSubPierre": true,
-			},
-		},
-		
-		// Wizard subs
-		
-		{
-			"Action": "Include",
-			"FromFile": "Data/Characters/Wizard/wizard_sub_pierre.json",
-		
-			"When": {
-				"WizardSubPierre": true,
-			},
-		},
-		
 		// General
 		
 		{
@@ -162,6 +140,28 @@
 				"PurchasedItem_Elliott": "I saw that there was some fresh {2} in the general store the other day! Marvelous. It smelled just perfect... and firm, too!",
 				"PurchasedItem_Leah": "The other day I bought {1} {2} at the general store. It was perfect on a bed of greens and a dash of my 'special' vinaigrette.",
 			}
-		}
+		},
+		
+		// Caroline subs (god I hope she does)
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Characters/Caroline/caroline_sub_pierre.json",
+		
+			"When": {
+				"CarolineSubPierre": true,
+			},
+		},
+		
+		// Wizard subs
+		
+		{
+			"Action": "Include",
+			"FromFile": "Data/Characters/Wizard/wizard_sub_pierre.json",
+		
+			"When": {
+				"WizardSubPierre": true,
+			},
+		},
 	]
 }

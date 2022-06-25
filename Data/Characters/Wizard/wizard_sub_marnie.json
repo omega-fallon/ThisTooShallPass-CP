@@ -13,16 +13,6 @@
 		},
 		
 		{
-			"LogName": "Make Marnie invisible",
-			"Action": "EditData",
-			"Target": "Data/Events/AnimalShop, Data/Events/Farmhouse, Data/Events/Farm, Data/Events/IslandFarmhouse, Data/Events/IslandFarm",
-			
-			"Entries": {
-				"12491122": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/end invisible Marnie",
-			},
-		},
-		
-		{
 			"LogName": "Add manifest",
 			"Action": "EditMap",
 			"Target": "Maps/AnimalShop",
@@ -51,6 +41,8 @@
 			
 			"Fields": {
 				"Marnie": {
+					"5": "not-dateable",
+					"7": "Other",
 					"10": "AnimalShop 12 14",
 					"11": "Magnus"
 				}
@@ -103,6 +95,8 @@
 			"Target": "Strings/Characters",
 			
 			"Entries": {
+				"Phone_Ranch_Name": "Ranch",
+				
 				"Phone_Marnie_Open": "Greetings. Yes, the ranch is open 24 hours a day. I'll be there. *click*",
 				"Phone_Marnie_Open_Rare": "...Bothersome little things. One of the goats got out. Oh well. *click* $4",
 				"Phone_Marnie_Closed": "You've reached the inbox of the ranch. We are open 24 hours a day. Visit any time, if you wish. *beep*",

@@ -26,6 +26,8 @@
 			
 			"Fields": {
 				"Marnie": {
+					"5": "not-dateable",
+					"7": "Other",
 					"10": "Custom_TTSP_Storage 4 5",
 					"11": "Jas"
 				}
@@ -38,6 +40,8 @@
 			"Target": "Strings/Characters",
 			
 			"Entries": {
+				"Phone_Ranch_Name": "Jas",
+				
 				"Phone_Marnie_Open": "Hello? Oh, hi @! Yes, the ranch is open until 4:00 PM today. Hope to see you soon! *click*",
 				"Phone_Marnie_Open_Rare": "Hah... Heyyy! Yup, I'm open right now. *bahhh*. That sound? Oh, it's one of my goats. Please come by if you need anything! *click* $4",
 				"Phone_Marnie_Closed": "Hello, you've reached the ranch! Our business hours are from 9AM to 4PM. Please come visit me then. *beep*",

@@ -195,7 +195,7 @@
 			"Target": "Maps/Town-EggFestival",
 			
 			"When": {
-				"Dead |contains=ElliottTrader": true,
+				"Dead |contains=Elliott": true,
 			},
 			
 			"MapTiles": [
@@ -1034,8 +1034,7 @@
 			"Target": "Maps/Town-EggFestival",
 			
 			"When": {
-				"Dead |contains=Lewis": true,
-				"Dead |contains=Marnie": true,
+				"WizardSubLewis": true,
 			},
 			
 			"MapTiles": [

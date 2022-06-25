@@ -14,8 +14,6 @@ jasvinceleo compat with "spouses visit/in/whatever" mods
 
 patios for Leo, Vincent
 
-test how the game works with everyone being dead
-
 review events
 
 finish the pam house event rewrites
@@ -24,15 +22,21 @@ funerals
 grieving data
 build funeral map
 
-fix manifest Pam map aptch
+fix manifest Pam map patch
 
 go to dreamscape with emily dead
+
+// phone
+
+change phone names
+make shops open 24/7 for the phone
 
 // compatibility
 
 Cave of Memories
 please remember my birthday
 canon friendly
+surfing festival
 
 // schedules
 

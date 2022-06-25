@@ -1,0 +1,1074 @@
+{
+	"Changes": [
+	
+		// Removal of NPCs from the map //
+		// The way that NPCs are spawned in is within the .tmx file itself, so we have to edit that. Thankfully, we don't have to make a hundred .tmx files with single changes. //
+		
+		// Abigail
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 20, "Y": 24 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 4, "Y": 60 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 25, "Y": 18 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Alex
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Alex": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 39, "Y": 22 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 4, "Y": 57 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 48, "Y": 22 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Caroline
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"query: {{Dead |contains=Caroline}} OR {{CarolineSubPierre}}": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 49, "Y": 15 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Caroline": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 145, "Y": 57 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 41, "Y": 13 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Clint
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Clint": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 35, "Y": 12 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 145, "Y": 50 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 42, "Y": 8 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Demetrius
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Demetrius": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 21, "Y": 10 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 4, "Y": 51 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 33, "Y": 6 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Elliott
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Elliott": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 46, "Y": 11 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 145, "Y": 63 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 36, "Y": 20 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Emily
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 27, "Y": 12 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 15, "Y": 46 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 30, "Y": 13 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Evelyn
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Evelyn": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 8, "Y": 6 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 145, "Y": 66 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 47, "Y": 16 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// George
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=George": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 9, "Y": 6 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 146, "Y": 65 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 47, "Y": 15 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Gus
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Gus": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 30, "Y": 13 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 145, "Y": 68 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 32, "Y": 15 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Haley
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Haley": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 40, "Y": 23 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 145, "Y": 52 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 27, "Y": 11 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Harvey
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 46, "Y": 16 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 16, "Y": 46 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 49, "Y": 18 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Jas
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Jas": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 14, "Y": 11 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 145, "Y": 61 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 22, "Y": 23 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Jodi
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Jodi": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 38, "Y": 16 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 4, "Y": 63 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 39, "Y": 15 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Kent
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Kent": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 38, "Y": 16 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 4, "Y": 62 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 38, "Y": 15 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Leah
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Leah": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 47, "Y": 12 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 145, "Y": 53 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 35, "Y": 20 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Lewis CANNOT be removed, as he is far too integral to all festivals' function. Instead we let Lewis spawn but have him take on the appearance and name of Marnie or Magnus.
+		
+		// Linus
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Linus": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 42, "Y": 7 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 1, "Y": 1 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 50, "Y": 20 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Marlon
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Marlon, MarlonFay": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 54, "Y": 7 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 1, "Y": 1 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 54, "Y": 7 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Marnie
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Marnie, Lewis": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 28, "Y": 10 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 146, "Y": 61 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 41, "Y": 11 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Maru
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Maru": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 44, "Y": 16 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 18, "Y": 46 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 47, "Y": 20 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Pam
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Pam": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 34, "Y": 11 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 4, "Y": 55 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 29, "Y": 9 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Penny
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Penny": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 56, "Y": 17 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 4, "Y": 54 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 54, "Y": 24 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Pierre
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Pierre": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 145, "Y": 56 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 41, "Y": 14 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		{
+			"LogName": "Caroline runs the shop",
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"CarolineSubPierre": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 53, "Y": 14 },
+					"Layer": "Set-Up",
+					"SetTilesheet": "characters",
+					"SetIndex": 6,
+				},
+			]
+		},
+		
+		// Robin
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 20, "Y": 10 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 4, "Y": 50 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 34, "Y": 6 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Sam
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 56, "Y": 16 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 4, "Y": 58 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 26, "Y": 17 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Sebastian
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Sebastian": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 22, "Y": 24 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 4, "Y": 59 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 27, "Y": 18 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Shane
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Shane": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 27, "Y": 11 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 17, "Y": 46 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 44, "Y": 13 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Vincent
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Vincent": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 15, "Y": 11 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 145, "Y": 60 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 21, "Y": 23 },
+					"Layer": "PostEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Willy
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"Dead |contains=Willy": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 43, "Y": 36 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 1, "Y": 1 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Wizard
+		
+		{
+			"Action": "EditMap",
+			"Target": "Maps/Beach-Surfing",
+			
+			"When": {
+				"WizardSubLewis": true,
+			},
+			
+			"MapTiles": [
+				{
+					"Position": { "X": 10, "Y": 37 },
+					"Layer": "Set-Up",
+					"Remove": true,
+				},
+				{
+					"Position": { "X": 147, "Y": 69 },
+					"Layer": "MainEvent",
+					"Remove": true,
+				},
+			]
+		},
+		
+		// Dialogue edits //
+		
+		{
+			"LogName": "Surfing Festival - Substitute dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer5",
+			
+			"Entries": {
+				"Robin": "{{LewisSubS}} asked me to make some surfboards since they were too expensive to import.",
+			}
+		},
+				
+		{
+			"LogName": "Surfing Festival - Emily dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer5",
+			
+			"When": {
+				"Dead |contains=Emily": true,
+			},
+			
+			"Entries": {
+				"Haley_spouse": "I'm happy to stay on land and watch everyone surf. I like exciting things, but this would be a bit much for me.",
+				"Haley": "Emily always said I should try out surfing, but I don't want my hair getting ruined.#$b#A swim cap? No! That would look horrible.$a",
+			}
+		},
+		
+		{
+			"LogName": "Surfing Festival - Abigail dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer5",
+			
+			"When": {
+				"Dead |contains=Abigail": true,
+			},
+			
+			"Entries": {
+				"Sebastian_spouse": "What do you think is under the water? I saw a post about a sea creature living underneath. Do you think that's true?",
+			}
+		},
+		
+		{
+			"LogName": "Surfing Festival - Vincent adult - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer5",
+			
+			"When": {
+				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 18": true,
+			},
+			
+			"Entries": {
+				"Sam_spouse": "I wanted to participate, but I don't want to set a bad example for Vincent.#$b#That said... if someday he wants to learn to surf... I could teach him.$h",
+				"Jodi": "I managed to talk the boys out of surfing this year.#$b#Sam's a natural because of his skateboarding, but I don't want him hurting himself on a rock or getting caught up in a net.#$b#Vincent? Mmm... maybe.",
+				"Kent": "I'd be fine with my kids participating. They need to experience more positive things in their lives.",
+				"Vincent": "Sam said I can't go surfing.$s#$b#Like he can tell me what to do... I'm {{OmegaFallon.ThisTooShallPassCS/VincentAge}} for Yoba's sake.$a",
+			}
+		},
+		
+		{
+			"LogName": "Surfing Festival - Sam dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer5",
+			
+			"When": {
+				"Dead |contains=Sam": true,
+			},
+			
+			"Entries": {
+				"Alex_spouse": "You don't have to worry about me. I'm not interested unless there's some *real* competition...#$b#Excluding you, obviously. I wouldn't want to break your heart, heheh.",
+			}
+		},
+		
+		{
+			"LogName": "Surfing Festival - Alex dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer5",
+			
+			"When": {
+				"Dead |contains=Alex": true,
+			},
+			
+			"Entries": {
+				"Sam": "Ehh... honestly, I just want to relax. I had the perfect excuse too.",
+			}
+		},
+		
+		{
+			"LogName": "Surfing Festival - Haley dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer5",
+			
+			"When": {
+				"Dead |contains=Haley": true,
+			},
+			
+			"Entries": {
+				"Emily_spouse": "It's very good to try new things. City life is one thing, but where in the city could you ride some waves?",
+				"Emily": "I always love doing this. It's so invigorating!$h#$b#I hope you join in. Best of luck if you do!",
+			}
+		},
+		
+		{
+			"LogName": "Surfing Festival - Harvey dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer5",
+			
+			"When": {
+				"Dead |contains=Harvey": true,
+			},
+			
+			"Entries": {
+				"Maru": "Mmm, I'm a little nervous about the surfing competition, but maybe it won't be *too* bad.",
+			}
+		},
+		
+		{
+			"LogName": "Surfing Festival - Robin dead - dialogue",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer5",
+			
+			"When": {
+				"Dead |contains=Robin": true,
+			},
+			
+			"Entries": {
+				"Pierre": "Take a look at all the surfboards Magnus made. I'm honored to sell such fine craftsmanship.",
+			}
+		},
+		
+		// Lewis substitutions //
+
+		// Marnie dialogue
+		
+		{
+			"LogName": "Surfing Festival - Marnie Substitutes",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer5",
+			
+			"When": {
+				"MarnieSubLewis": true,
+			},
+			
+			"Fields": {
+				"mainEvent": {
+					"9": "speak Lewis \"Ready...\"",
+					"10": "speak Lewis \"Steady...$h\"",
+					"11": "speak Lewis \"Go!$h\"",
+				},
+				
+				"afterSurfingRace": {
+					"12": "speak Lewis \"Congratulations!\"",
+				}
+			}
+		},
+		
+		// Wizard dialogue
+		
+		{
+			"LogName": "Surfing Festival - Wizard Substitutes",
+			"Action": "EditData",
+			"Target": "Data/Festivals/summer5",
+			
+			"When": {
+				"WizardSubLewis": true,
+			},
+			
+			"Fields": {
+				"mainEvent": {
+					"9": "speak Lewis \"Ready...\"",
+					"10": "speak Lewis \"Steady...$h\"",
+					"11": "speak Lewis \"Commence!$h\"",
+				},
+				
+				"afterSurfingRace": {
+					"12": "speak Lewis \"Congratulations.\"",
+				}
+			}
+		},
+	]
+}

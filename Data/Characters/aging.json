@@ -88,7 +88,7 @@
 			
 			"When": {
 				"query: {{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 20": true,
-				"EnableBecomeDateable": true,
+				"OmegaFallon.ThisTooShallPassCS/EnableBecomeDateable": true,
 				"Dead |contains=Jas": false,
 			}
 		},
@@ -139,7 +139,7 @@
 			"When": {
 				"query: {{OmegaFallon.ThisTooShallPassCS/LeoAge}} >= 20": true,
 				"HasFlag: anyPlayer|contains=willyBoatFixed": true,
-				"EnableBecomeDateable": true,
+				"OmegaFallon.ThisTooShallPassCS/EnableBecomeDateable": true,
 				"Dead |contains=Leo": false,
 			}
 		},
@@ -186,7 +186,7 @@
 			
 			"When": {
 				"query: {{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 20": true,
-				"EnableBecomeDateable": true,
+				"OmegaFallon.ThisTooShallPassCS/EnableBecomeDateable": true,
 				"Dead |contains=Vincent": false,
 			}
 		},
@@ -331,7 +331,7 @@
 			"Target": "Characters/Dialogue/MarriageDialogueJas, Characters/Dialogue/MarriageDialogueLeo, Characters/Dialogue/MarriageDialogueVincent, Characters/Dialogue/Jas, Characters/Dialogue/Leo, Characters/Dialogue/Vincent",
 			
 			"When": {
-				"EnableBecomeDateable": true,
+				"OmegaFallon.ThisTooShallPassCS/EnableBecomeDateable": true,
 				"query: ({{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 20) OR ({{OmegaFallon.ThisTooShallPassCS/LeoAge}} >= 20) OR ({{OmegaFallon.ThisTooShallPassCS/VincentAge}} >= 20)": true,
 			},
 			

@@ -39,6 +39,8 @@
 			
 			"Fields": {
 				"Maru": {
+					"5": "not-dateable",
+					"7": "Other",
 					"10": "Custom_TTSP_Storage 4 5",
 					"11": "ERROR"
 				}

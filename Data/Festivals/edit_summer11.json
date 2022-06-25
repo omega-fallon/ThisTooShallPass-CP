@@ -143,7 +143,7 @@
 			"Target": "Maps/Beach-Luau",
 			
 			"When": {
-				"Dead |contains=ElliottTrader": true,
+				"Dead |contains=Elliott": true,
 			},
 			
 			"MapTiles": [
@@ -759,8 +759,7 @@
 			"Target": "Maps/Beach-Luau",
 			
 			"When": {
-				"Dead |contains=Lewis": true,
-				"Dead |contains=Marnie": true,
+				"WizardSubLewis": true,
 			},
 			
 			"MapTiles": [
@@ -821,46 +820,19 @@
 			"Target": "Data/Festivals/summer11",
 			
 			"When": {
-				"Dead |contains=Lewis": true,
-				"Dead |contains=Marnie": false,
+				"MarnieSubLewis": true,
 			},
 			
 			"Fields": {
 				"mainEvent": {
 					"23": "speak Lewis \"Alright, everyone! It's time for the potluck ceremony.#$b#I have faith that you all put your highest-quality ingredients in the pot this year. Let's not disappoint the governor!\""
 					"27": "speak Lewis \"Well... governor? Care to take a sip?\"",
-				}
-			}
-		},
-		
-		{
-			"LogName": "Luau - Marnie Substitutes - governorReaction0",
-			"Action": "EditData",
-			"Target": "Data/Festivals/summer11",
-			
-			"When": {
-				"Dead |contains=Lewis": true,
-				"Dead |contains=Marnie": false,
-			},
-			
-			"Fields": {
+				},
+
 				"governorReaction0": {
 					"19": "speak Lewis \"Oh dear... Whoever put that foul ingredient in the soup made the governor pass out! What a shame...$4\""
-				}
-			}
-		},
-		
-		{
-			"LogName": "Luau - Marnie Substitutes - governorReaction6",
-			"Action": "EditData",
-			"Target": "Data/Festivals/summer11",
-			
-			"When": {
-				"Dead |contains=Lewis": true,
-				"Dead |contains=Marnie": false,
-			},
-			
-			"Fields": {
+				},
+				
 				"governorReaction6": {
 					"43": "speak Lewis \"H-how dare you all! It's bad enough to riffle through a dead man's belongings, but you went and ruined the festival the soup everyone worked so hard on... you've ruined all of it!$4#$b#You've embarrassed me, you've sickened the governor... and you've sickened me, too, come to think of it! All the hard work everyone put in, gone to waste. I've never been more ashamed of this community... get out. All of you.$4\""
 				}
@@ -873,8 +845,7 @@
 			"Target": "Data/Festivals/summer11",
 			
 			"When": {
-				"Dead |contains=Lewis": true,
-				"Dead |contains=Marnie": false,
+				"MarnieSubLewis": true,
 			},
 			
 			"Entries": {
@@ -890,8 +861,7 @@
 			"Target": "Data/Festivals/summer11",
 			
 			"When": {
-				"Dead |contains=Lewis": true,
-				"Dead |contains=Marnie": true,
+				"WizardSubLewis": true,
 			},
 			
 			"Fields": {
@@ -908,8 +878,7 @@
 			"Target": "Data/Festivals/summer11",
 			
 			"When": {
-				"Dead |contains=Lewis": true,
-				"Dead |contains=Marnie": true,
+				"WizardSubLewis": true,
 			},
 			
 			"Entries": {

@@ -13,16 +13,6 @@
 		},
 		
 		{
-			"LogName": "Make Sandy invisible",
-			"Action": "EditData",
-			"Target": "Data/Events/SandyHouse, Data/Events/Farmhouse, Data/Events/Farm, Data/Events/IslandFarmhouse, Data/Events/IslandFarm",
-			
-			"Entries": {
-				"12491129": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/end invisible Sandy",
-			},
-		},
-		
-		{
 			"LogName": "Add manifest",
 			"Action": "EditMap",
 			"Target": "Maps/SandyHouse",
@@ -72,6 +62,8 @@
 			
 			"Fields": {
 				"Sandy": {
+					"5": "not-dateable",
+					"7": "Other",
 					"10": "SandyHouse 2 5",
 					"11": "Magnus"
 				}

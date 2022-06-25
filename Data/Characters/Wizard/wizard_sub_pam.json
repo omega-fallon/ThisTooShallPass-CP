@@ -20,16 +20,6 @@
 		},
 		
 		{
-			"LogName": "Make Pam invisible",
-			"Action": "EditData",
-			"Target": "Data/Events/BusStop, Data/Events/Farmhouse, Data/Events/Farm, Data/Events/IslandFarmhouse, Data/Events/IslandFarm",
-			
-			"Entries": {
-				"12491124": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/end invisible Pam",
-			},
-		},
-		
-		{
 			"LogName": "Add manifest",
 			"Action": "EditMap",
 			"Target": "Maps/BusStop",
@@ -59,7 +49,9 @@
 			"Target": "Data/NPCDispositions",
 			
 			"Fields": {
-				"Willy": {
+				"Pam": {
+					"5": "not-dateable",
+					"7": "Other",
 					"10": "BusStop 11 10",
 					"11": "Magnus"
 				}

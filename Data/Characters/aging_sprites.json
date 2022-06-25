@@ -114,7 +114,7 @@
 			
 			"When": {
 				"query: {{OmegaFallon.ThisTooShallPassCS/ElliottAge}} >= 70": true,
-				"Dead |contains=ElliottTrader": false
+				"Dead |contains=Elliott": false
 			},
 		},
 		

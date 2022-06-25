@@ -20,16 +20,6 @@
 		},
 		
 		{
-			"LogName": "Make Willy invisible",
-			"Action": "EditData",
-			"Target": "Data/Events/FishShop, Data/Events/Farmhouse, Data/Events/Farm, Data/Events/IslandFarmhouse, Data/Events/IslandFarm",
-			
-			"Entries": {
-				"12491133": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/end invisible Willy",
-			},
-		},
-		
-		{
 			"LogName": "Add manifest",
 			"Action": "EditMap",
 			"Target": "Maps/FishShop",
@@ -79,6 +69,8 @@
 			
 			"Fields": {
 				"Willy": {
+					"5": "not-dateable",
+					"7": "Other",
 					"10": "FishShop 5 4",
 					"11": "Magnus"
 				}

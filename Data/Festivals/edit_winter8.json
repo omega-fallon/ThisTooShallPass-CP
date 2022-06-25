@@ -132,7 +132,7 @@
 			"Target": "Maps/Forest-IceFestival",
 			
 			"When": {
-				"Dead |contains=ElliottTrader": true,
+				"Dead |contains=Elliott": true,
 			},
 			
 			"MapTiles": [
@@ -150,7 +150,7 @@
 			"FromFile": "Assets/Wizard/Portraits/Wizard_manifest.png",
 			
 			"When": {
-				"Dead |contains=ElliottTrader": true,
+				"Dead |contains=Elliott": true,
 			},
 		},
 		
@@ -160,7 +160,7 @@
 			"FromFile": "Assets/Wizard/Sprites/Wizard_manifest.png",
 			
 			"When": {
-				"Dead |contains=ElliottTrader": true,
+				"Dead |contains=Elliott": true,
 			},
 		},
 		
@@ -175,7 +175,7 @@
 			},
 			
 			"When": {
-				"Dead |contains=ElliottTrader": true,
+				"Dead |contains=Elliott": true,
 			},
 		},
 		
@@ -186,7 +186,7 @@
 			"ToArea": {"X": 0, "Y": 320, "Width": 64, "Height": 32},
 			
 			"When": {
-				"Dead |contains=ElliottTrader": true,
+				"Dead |contains=Elliott": true,
 			},
 		},
 		
@@ -199,7 +199,7 @@
 			},
 			
 			"When": {
-				"Dead |contains=ElliottTrader": true,
+				"Dead |contains=Elliott": true,
 			}
 		},
 		
@@ -839,8 +839,7 @@
 			"Target": "Maps/Forest-IceFestival",
 			
 			"When": {
-				"Dead |contains=Lewis": true,
-				"Dead |contains=Marnie": true,
+				"WizardSubLewis": true,
 			},
 			
 			"MapTiles": [

@@ -13,16 +13,6 @@
 		},
 		
 		{
-			"LogName": "Make Harvey invisible",
-			"Action": "EditData",
-			"Target": "Data/Events/Hospital, Data/Events/Farmhouse, Data/Events/Farm, Data/Events/IslandFarmhouse, Data/Events/IslandFarm",
-			
-			"Entries": {
-				"12491112": "none/-2000 -1000/farmer 13 23 2/broadcastEvent/end invisible Harvey",
-			},
-		},
-		
-		{
 			"LogName": "Add manifest",
 			"Action": "EditMap",
 			"Target": "Maps/Hospital",
@@ -67,6 +57,8 @@
 			
 			"Fields": {
 				"Harvey": {
+					"5": "not-dateable",
+					"7": "Other",
 					"10": "Hospital 6 5",
 					"11": "Magnus"
 				}

@@ -2,20 +2,6 @@
 	"Format": "1.27.0",
 	
 	"AliasTokenNames": {
-		
-		// Single name
-		
-		"WhoDiedToday": "OmegaFallon.ThisTooShallPassCS/WhoDiedToday",
-		"WhoseFuneralLeadup": "OmegaFallon.ThisTooShallPassCS/WhoseFuneralLeadup",
-		"WhoseFuneralToday": "OmegaFallon.ThisTooShallPassCS/WhoseFuneralToday",
-		"WhoseGrieving": "OmegaFallon.ThisTooShallPassCS/WhoseGrieving",
-		
-		"EnableDeath": "OmegaFallon.ThisTooShallPassCS/EnableDeath",
-		"EnableBecomeDateable": "OmegaFallon.ThisTooShallPassCS/EnableBecomeDateable",
-		"AllDead": "OmegaFallon.ThisTooShallPassCS/AllDead",
-		
-		// Lists
-		
 		"Dead": "OmegaFallon.ThisTooShallPassCS/Dead",
     },
 	
@@ -79,22 +65,22 @@
 		
 		{
 			"Name": "AnyoneDeparted",
-			"Value": "{{query: {{EnableDeath}} AND {{HasValue:{{WhoDiedToday}}}}}}",
+			"Value": "{{query: {{OmegaFallon.ThisTooShallPassCS/EnableDeath}} AND {{HasValue:{{OmegaFallon.ThisTooShallPassCS/WhoDiedToday}}}}}}",
 		},
 		
 		{
 			"Name": "AnyoneFuneralLeadup",
-			"Value": "{{query: {{EnableDeath}} AND {{HasValue:{{WhoseFuneralLeadup}}}}}}",
+			"Value": "{{query: {{OmegaFallon.ThisTooShallPassCS/EnableDeath}} AND {{HasValue:{{OmegaFallon.ThisTooShallPassCS/WhoseFuneralLeadup}}}}}}",
 		},
 		
 		{
 			"Name": "AnyoneFuneral",
-			"Value": "{{query: {{EnableDeath}} AND {{HasValue:{{WhoseFuneralToday}}}}}}",
+			"Value": "{{query: {{OmegaFallon.ThisTooShallPassCS/EnableDeath}} AND {{HasValue:{{OmegaFallon.ThisTooShallPassCS/WhoseFuneralToday}}}}}}",
 		},
 		
 		{
 			"Name": "AnyoneGrieving",
-			"Value": "{{query: {{EnableDeath}} AND {{HasValue:{{WhoseGrieving}}}}}}",
+			"Value": "{{query: {{OmegaFallon.ThisTooShallPassCS/EnableDeath}} AND {{HasValue:{{OmegaFallon.ThisTooShallPassCS/WhoseGrieving}}}}}}",
 		},
 				
 		// Confusion mitigation //
@@ -102,71 +88,71 @@
 		
 		{
 			"Name": "CarolineSubPierre",
-			"Value": "{{query: {{Dead |contains=Pierre}} AND NOT {{Dead |contains=Caroline}}}}",
+			"Value": "{{query: {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Pierre}} AND NOT {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Caroline}}}}",
 		},
 		
 		{
 			"Name": "WizardSubPierre",
-			"Value": "{{query: {{Dead |contains=Pierre}} AND {{Dead |contains=Caroline}}}}",
+			"Value": "{{query: {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Pierre}} AND {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Caroline}}}}",
 		},
 		
 		// Lewis sub
 		{
 			"Name": "MarnieSubLewis",
-			"Value": "{{query: {{Dead |contains=Lewis}} AND NOT {{Dead |contains=Marnie}}}}",
+			"Value": "{{query: {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Lewis}} AND NOT {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Marnie}}}}",
 		},
 		
 		{
 			"Name": "WizardSubLewis",
-			"Value": "{{query: {{Dead |contains=Lewis}} AND {{Dead |contains=Marnie}}}}",
+			"Value": "{{query: {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Lewis}} AND {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Marnie}}}}",
 		},
 		
 		// Marnie sub
 		
 		{
 			"Name": "JasSubMarnie",
-			"Value": "{{query: {{Dead |contains=Marnie}} AND NOT {{Dead |contains=Jas}} AND ({{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 18)}}",
+			"Value": "{{query: {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Marnie}} AND NOT {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Jas}} AND ({{OmegaFallon.ThisTooShallPassCS/JasAge}} >= 18)}}",
 		},
 		
 		{
 			"Name": "WizardSubMarnie",
-			"Value": "{{query: {{Dead |contains=Marnie}} AND NOT {{JasSubMarnie}}}}",
+			"Value": "{{query: {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Marnie}} AND NOT {{JasSubMarnie}}}}",
 		},
 		
 		// Harvey sub
 		
 		{
 			"Name": "MaruSubHarvey",
-			"Value": "{{query: {{Dead |contains=Harvey}} AND NOT {{Dead |contains=Maru}}}}",
+			"Value": "{{query: {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Harvey}} AND NOT {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Maru}}}}",
 		},
 		
 		{
 			"Name": "WizardSubHarvey",
-			"Value": "{{query: {{Dead |contains=Harvey}} AND {{Dead |contains=Maru}}}}",
+			"Value": "{{query: {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Harvey}} AND {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Maru}}}}",
 		},
 		
 		// Pam sub
 
 		{
 			"Name": "WizardSubPam",
-			"Value": "{{query: {{HasFlag: anyPlayer |contains=ccVault}} AND {{Dead |contains=Pam}}}}",
+			"Value": "{{query: {{HasFlag: anyPlayer |contains=ccVault}} AND {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Pam}}}}",
 		},
 		
 		// Is wizard present
 		
 		{
 			"Name": "WizardPresent",
-			"Value": "{{query: {{WizardSubLewis}} OR {{WizardSubPierre}} OR {{WizardSubMarnie}} OR {{WizardSubHarvey}} OR {{Dead |contains=Clint, Gunther, Gus, Robin, Willy, Marlon, Sandy}}}}",
+			"Value": "{{query: {{WizardSubLewis}} OR {{WizardSubPierre}} OR {{WizardSubMarnie}} OR {{WizardSubHarvey}} OR {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Clint, Gunther, Gus, Robin, Willy, Marlon, Sandy}}}}",
 		},
 		
 		{
 			"Name": "JasVince13",
-			"Value": "{{query: NOT {{Dead |contains=Jas, Vincent}} AND ({{OmegaFallon.ThisTooShallPassCS/JasAge}} > 13 OR {{OmegaFallon.ThisTooShallPassCS/VincentAge}} > 13)}}",
+			"Value": "{{query: NOT {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Jas, Vincent}} AND ({{OmegaFallon.ThisTooShallPassCS/JasAge}} > 13 OR {{OmegaFallon.ThisTooShallPassCS/VincentAge}} > 13)}}",
 		},
 		
 		{
 			"Name": "JasVince18",
-			"Value": "{{query: NOT {{Dead |contains=Jas, Vincent}} AND ({{OmegaFallon.ThisTooShallPassCS/JasAge}} > 18 OR {{OmegaFallon.ThisTooShallPassCS/VincentAge}} > 18)}}",
+			"Value": "{{query: NOT {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Jas, Vincent}} AND ({{OmegaFallon.ThisTooShallPassCS/JasAge}} > 18 OR {{OmegaFallon.ThisTooShallPassCS/VincentAge}} > 18)}}",
 		},
 		
 		// Ordinals (I fucking hate the English language) //
@@ -319,7 +305,7 @@
 		
 		{
 			"Name": "LewisSubMale",
-			"Value": "{{query: NOT {{Dead |contains=Lewis}} OR {{WizardSubLewis}}}}",
+			"Value": "{{query: NOT {{OmegaFallon.ThisTooShallPassCS/Dead |contains=Lewis}} OR {{WizardSubLewis}}}}",
 		},
 		
 		{
@@ -466,10 +452,6 @@
 		{
 			"Action": "Include",
 			"FromFile": "Data/Characters/Wizard/magnus_goodwizard.json",
-			
-			"When": {
-				"query: {{Year}} > 0": true,
-			}
 		},
 		
 		// New strings (dunno where else to put this)
@@ -477,10 +459,6 @@
 		{
 			"Action": "Include",
 			"FromFile": "Data/new_strings.json",
-			
-			"When": {
-				"query: {{Year}} > 0": true,
-			}
 		},
 		
 		// Properly sets up the storage room with the map
@@ -564,6 +542,10 @@
 			"LogName": "Edit festivals",
 			"Action": "Include",
 			"FromFile": "Data/Festivals/edit_festivals.json",
+			
+			"When": {
+				"AnyoneFuneral": false,
+			}
 		},
 		
 		// ???
